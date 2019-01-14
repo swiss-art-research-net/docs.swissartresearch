@@ -22,8 +22,8 @@ nav:
       - Temporal: pattern/temporal.md
 #     - Conceptual: pattern/conceptual.md
       - Physical: pattern/physical.md  
-#    - Ontology Extension:
-#      - Extension: onto/extension.md
+    - Ontology Extension:
+      - Extension: schema.md
 
 theme:
   name: 'material'
