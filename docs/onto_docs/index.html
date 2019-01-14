@@ -1,0 +1,145 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset='UTF-8'/>
+        <title>CIDOC-CRM SARI Extension</title>
+         <meta http-equiv='content-language' content='en'>
+         <meta http-equiv='Content-Type'     content='text/html; charset=UTF-8'>
+         <meta http-equiv='X-UA-Compatible'  content='ie=edge'/>
+         <meta name='author'                 content='Nicola Carboni'>
+         <meta name='viewport'               content='width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+
+         <meta property='og:description'      content='Swiss Art Research Infrastracture extension for CIDOC-CRM'>
+         <!-- <meta property='og:image'            content=''> -->
+         <!-- <meta property='og:image:alt'        content=''> -->
+         <!-- <meta property='og:video'            content=''> -->
+         <meta property='og:locale'           content='en_US'>
+         <!-- <meta property='og:locale:alternate' content=''> -->
+         <meta property='og:site_name'        content='CIDOC-CRM SARI Extension'>
+         <meta property='og:title'            content='CIDOC-CRM SARI Extension'>
+         <meta property='og:type'             content='website'>
+         <meta property='og:url'              content='http://w3id.org/sari'>
+
+ </script>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="head">
+        	<h1>Swiss Art Research Infrastracture CIDOC-CRM Extension</h1>
+        	<dl>
+                <dt>IRI</dt>
+                <dd>http://w3id.org/sari</dd>
+                <dt>Current version</dt>
+                <dd>1.0</dd>
+                <dt>Imported ontologies</dt>
+                <dd>CIDOC-CRM: <a href="http://www.cidoc-crm.org/cidoc-crm/">http://www.cidoc-crm.org/cidoc-crm/</a></dd>
+        		<dt>Author</dt>
+        		<dd><a href="#">George Bruseker</a> (<a href="https://www.forth.gr">Foundation for Research & Technology</a>), <a href="http://www.nicolacarboni.com">Nicola Carboni</a> (<a href="http://uzh.ch">University of Zurich)</a></dd>
+        	</dl>
+        	<div class="copyright">
+        		<p>This work is distributed under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</p>
+        	</div>
+        </div>	
+        
+        <hr />
+<div id="Abstract">
+<h2 id="abstract">Abstract</h2>
+<p>This document presents an extension of CIDOC-CRM develop within the Swiss Art Research Infrastracture (SARI) project to support propositions about persons and their social relations.</p>
+<p><strong>Namespace:</strong> The namespace for SARI terms is <span class="repeated" style="font-family: courier;">
+        http://w3id.org/sari#</span> </p> 
+<p><strong>Prefix:</strong> The suggested prefix for SARI is <span class="repeated" style="font-family: courier;">
+        sari</span> </p>
+<p><strong>RDFS:</strong> an RDFS version of the ontology is available on <a href="https://ontology.swissartresearch.net/sari/sari.rdf">this link</a></p>
+
+</div>
+       <div id="toc">
+        <h2 id="abstract">Table of Content</h2>
+        <ul>
+<li><a href="#introduction">Introduction</a>
+<li><a href="#graphicaloverview">Graphical Overview</a>
+
+<ul>
+</ul></li>
+<li><a href="#classes">Classes</a>
+<ul>
+<li><a href="#SRPC3_in_family_relation">SRPC3 in family relation</a></li>
+</ul></li>
+<li><a href="#properties">Properties</a>
+<ul>
+<li><a href="#SRP1_used_language">SRP1 used language (was language used by)</a></li>
+<li><a href="#SRP2_had_occupation">SRP2 had occupation (was occupation of)</a></li>
+<li><a href="#SRP3_in_family_relation">SRP3 in family relation (in family relation)</a></li>
+<li><a href="#SRP3.1_had_relation_type">SRP3.1 had relation type (was relation type of)</a></li>
+</ul></li>
+</ul>
+</div>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>This document presents an extension of CIDOC-CRM. It is developed within the Reference Entity Model project of the Swiss Art Reseach Infrastracture and targeted to sustain propositions about persons and their social relations which do not have yet a correspondance within the CRM.</p>
+
+<h2 id="graphicaloverview">Graphical Overview</h2>
+
+<br/>
+<img src="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/e2b2c4ac-0bc8-4856-ae4e-0b9c52318539.png" alt="" /><br/>
+<br/>
+
+
+<h2 id="classes">Classes</h2>
+
+<h3 id="SRPC3_in_family_relation">SRPC3 in family relation</h3>
+
+
+<p>The class SRPC3 materializes the SRP3 relation as a class. It does so to enable an n-ary construct used to indicate the nature of the relationship that holds between the instance of E21 person designated as its domain and the instance of E21 Person designated as its range. ie: if E55 instantiated as Father then the semantic interpretation of this is E21(a) ‘has father’ E21(b), the relation is not symmetric.</p>
+
+<h5 id="proprieties">Proprieties</h5>
+
+<ul>
+<li><a href="#SRP3.1_had_relation_type">SRP3.1 had relation type (was relation type of)</a>: E55 Type</li>
+</ul>
+
+
+
+<!-- PROPERTIES -->
+
+
+<h2 id="properties">Properties</h2>
+
+<h3 id="SRP1_used_language">SRP1 used language (was language used by)</h3>
+
+<p>Domain: E21 Person<br/>
+Range: E56 Language<br/>
+Subproperty: P75 possesses (is possessed by) </p>
+
+<p>This property identifies former or current instances of E56 Language known by an E39 Actor.</p>
+
+<h3 id="SRP2_had_occupation">SRP2 had occupation (was occupation of)</h3>
+
+<p>Domain: E21 Person<br/>
+Range: E55 Type<br/>
+Subproperty: P2 has type (is type of)</p>
+
+<p>This field is used to indicate occupations/general roles that an E39 Actor has played in its life; This documentation is at the level of a general characteristic and is not the documentation of particular periods in which occupations/roles were undertaken.</p>
+
+<h3 id="SRP3_in_family_relation">SRP3 in family relation</h3>
+
+<p>Domain: E21 Person<br/>
+Range: E21 Person<br/>
+
+<p>The property is used to document the existence of a family relation between two individuals.</p>
+
+
+<h3 id="SRP3.1_had_relation_type">SRP3.1 had relation type</h3>
+
+<p>Domain: <a href="#SRC1_had_family_relation">SRC1 had family relation</a><br/>
+Range: E55 Type<br/>
+
+<p>The property documents the type of family relation exists between two individuals.</p>
+
+
+
+    </div>
+
+        <p class="endnote"></p>
+    </body>
+</html>
