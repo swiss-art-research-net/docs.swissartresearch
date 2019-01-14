@@ -179,11 +179,11 @@ The attribution of names and types to persons is a basic human activity. A chief
 
 <table>
   <tr>
+   <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
     <th>CRM Entity: E21 Person</th>
-  </tr>
-  <tr>
+  </tr>  <tr>
     <td>Identifier Attribution</td>
     <td>Identifier</td>
     <td>This field is used to indicate an identifier attributed to the documented person.</td>
@@ -198,7 +198,7 @@ The attribution of names and types to persons is a basic human activity. A chief
   <tr>
     <td>Identifier Attribution</td>
     <td>Identifier Provider</td>
-    <td>This field is used to indicate the provider of the identifier attributed to the documented person.</td>
+    <td>This field is used to indicate the provider of the identifier attributed to the documented person</td>
     <td>->P1->E42[1]->P37i->E15->P14->E39</td>
   </tr>
   <tr>
@@ -270,11 +270,11 @@ Of essential importance in identifying and tracking individuals is also their bi
 
 <table>
   <tr>
+   <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
     <th>CRM Entity: E21 Person</th>
-  </tr>
-  <tr>
+  </tr>  <tr>
     <td>Birth</td>
     <td>Birth Place</td>
     <td>This field is used to indicate the place of birth of the documented person.</td>
@@ -323,11 +323,11 @@ A large area of documentation and potential disambiguation around the person rel
 
 <table>
   <tr>
+   <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
     <th>CRM Entity: E21 Person</th>
-  </tr>
-  <tr>
+  </tr>  <tr>
     <td>n/a</td>
     <td>Father</td>
     <td>This field is used to indicate the biological father of the documented person.</td>
@@ -394,11 +394,11 @@ This information category at present is lightly populated, but refers to a disti
 
 <table>
   <tr>
+   <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
     <th>CRM Entity: E21 Person</th>
-  </tr>
-  <tr>
+  </tr>  <tr>
     <td>n/a</td>
     <td>Languages</td>
     <td>This field is used to indicate language(s) known by the documented person.</td>
@@ -415,11 +415,11 @@ This category brings together the various actions in which the documented person
 
 <table>
   <tr>
+   <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
     <th>CRM Entity: E21 Person</th>
-  </tr>
-  <tr>
+  </tr>  <tr>
     <td>n/a</td>
     <td>Floruit</td>
     <td>This field is used to indicate the period of greatest activity/flourishing of the documented individual.</td>
@@ -461,11 +461,11 @@ This information category unites referential information about the documented pe
 
 <table>
   <tr>
+   <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
     <th>CRM Entity: E21 Person</th>
-  </tr>
-  <tr>
+  </tr>  <tr>
     <td>n/a</td>
     <td>Image</td>
     <td>This field is used to indicate a digital image which is representative of the documented person.</td>
