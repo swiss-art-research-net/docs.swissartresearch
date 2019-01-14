@@ -43,7 +43,7 @@ The decision on which fields to represent was based on a survey of significant, 
     <td>SIK-ISEA</td>
   </tr>
   <tr>
-    <td>LOCMarc21</td>
+    <td>MARC 21</td>
     <td>Marc 21 - Bibliography Heading Fields</td>
     <td>http://www.loc.gov/marc/</td>
     <td>http://www.loc.gov/marc/bibliographic/</td>
@@ -137,7 +137,39 @@ The fields used to describe a person can be functionally grouped according to hi
 </table>
 
 
-An overview of all the groups of the entity described here is available in the image below. Click to enlarge it.
+### Formalisation and instructions
+
+Each individual information category is represented here both in the form of table and in the form of a semantic graph model. The graph presents an overview of the  semantic model formed by the suggested descriptors, while the table provides for each individual descriptor, both an explanatory description of its intended function and a mapping of this intended function to a CIDOC-CRM path expression. 
+
+The mappings present in the table, for readability purpose, use only the class and property identifiers of CIDOC-CRM adopting the formalism of: 
+
+* Classes: E+ID
+
+* Properties: P+ID 
+
+Moreover, when it is necessary to make explicit that the same node is referenced across descriptors in a semantic path variable [*n*] (where *n* is a number) is placed next to a class to indicate its reuse across  mapping constructs. 
+
+For example, the descriptor ‘identifier’ for an instance of person is mapped as:
+
+1. **E21 -> P1 -> E42 [1]**
+
+The descriptor for the provider of this identifier, ‘Identifier Provider’ refers back semantically to the ‘Identifier’ descriptor (qua appellation), hence in the semantic mapping the particular individual node is referred back to as the subject of the act of being given as appellation. Expressed in our formalism this becomes: 
+
+2. **E21 -> P1 -> E42 [1]** -> P37 i-> E15 -> P14 -> E39
+
+The variable [1] in the second mapping is provided to signal to the reader that the same node (instance of class E42) is being referred to across two mappings, the first of the identifier as such and the second of its being attributed by some organization.
+
+The classes and properties used in this document belong to the following namespaces using the following prefixes:
+
+rdf: <http://[www.w3.org/1999/02/22-rdf-syntax-ns#](https://workspace.digitale-diathek.net/confluence/display/SARISEM/www.w3.org/1999/02/22-rdf-syntax-ns#)> 
+
+rdfs: <http://[www.w3.org/2000/01/rdf-schema#](https://workspace.digitale-diathek.net/confluence/display/SARISEM/www.w3.org/2000/01/rdf-schema#)> 
+
+crm: <http://[http://www.cidoc-crm.org/cidoc-crm/](http://www.cidoc-crm.org/cidoc-crm/)> 
+
+sari: <http://[w3id.org/sari#](https://workspace.digitale-diathek.net/confluence/display/SARISEM/w3id.org/sari#)> 
+
+The legend for the graphs used in the document can be find at the address [http://docs.swissartresearch.net/graphical/index.html](http://docs.swissartresearch.net/graphical/index.html) . Below a graphical summary of its components.
 
 ![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/ea72c3f1-c946-4f8b-b026-fc59257eb4b6.png){.thumbnail}
 
@@ -152,27 +184,44 @@ The attribution of names and types to persons is a basic human activity. A chief
     <th>CRM Entity: E21 Person</th>
   </tr>
   <tr>
+    <td>Identifier Attribution</td>
     <td>Identifier</td>
     <td>This field is used to indicate an identifier attributed to the documented person.</td>
     <td>->P1->E42[1]</td>
   </tr>
   <tr>
+    <td>Identifier Attribution</td>
     <td>Identifier Type</td>
     <td>This field is used to indicate the type of an identifier attributed to the documented person.</td>
     <td>->P1->E42[1]->P2->E55["Identifier Type"]</td>
   </tr>
   <tr>
+    <td>Identifier Attribution</td>
     <td>Identifier Provider</td>
     <td>This field is used to indicate the provider of the identifier attributed to the documented person.</td>
     <td>->P1->E42[1]->P37i->E15->P14->E39</td>
   </tr>
   <tr>
+    <td>Identifier Attribution</td>
+    <td>Identifier Source</td>
+    <td>This field is used to indicate the source based on which the identifer was attributed to the object.</td>
+    <td>->P1->E42[1]->P37i->E15->p16->E73</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
     <td>Name</td>
     <td>This field is used to indicate the main name attributed to the documented person. No part break down of name is here implied. The full name of an individual is expected here where available.</td>
     <td>->P1->E41[2]
 ->P1->E41[2]->P2->E55['Full Name']</td>
   </tr>
   <tr>
+    <td>n/a</td>
+    <td>Name Language</td>
+    <td>This field is used to indicate the language of the name attributed to the documented entity.</td>
+    <td>->P1->E41[2]->p72->E56</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
     <td>Honorific</td>
     <td>This field is used to indicate titles or honorifics attributed to the documented person.</td>
     <td>->P1->E41[3]
@@ -180,25 +229,30 @@ The attribution of names and types to persons is a basic human activity. A chief
   </tr>
   <tr>
     <td>Alternate Name</td>
+    <td>Alternate Name</td>
     <td>This field is used to indicate additional names under which the documented person is known. This can be linked to the additional name type and earliest and latest date of use of that name.</td>
     <td>->P1->E41[5]</td>
   </tr>
   <tr>
+    <td>Alternate Name</td>
     <td>Alternate Name Type</td>
     <td>This field is used to indicate the type of alternate name that is attributed to the documented person.</td>
     <td>->P1->E41[5]->P2->E55</td>
   </tr>
   <tr>
+    <td>Alternate Name</td>
     <td>Alternate Name Use Period - Earliest</td>
     <td>This field is used to indicate the earliest known date for use of this name for the documented person.</td>
     <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82a->XSD:Date</td>
   </tr>
   <tr>
+    <td>Alternate Name</td>
     <td>Alternate Name Use Period - Latest</td>
     <td>This field is used to indicate the latest known date for use of this name for the documented person.</td>
     <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82b->XSD:Date</td>
   </tr>
   <tr>
+    <td>n/a</td>
     <td>Gender</td>
     <td>This field is used to indicate the gender of the documented person.</td>
     <td>->P2->E55 [e.g. URIs for controlled vocabulary]</td>
@@ -216,7 +270,6 @@ Of essential importance in identifying and tracking individuals is also their bi
 
 <table>
   <tr>
-    <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
     <th>CRM Entity: E21 Person</th>
@@ -270,7 +323,6 @@ A large area of documentation and potential disambiguation around the person rel
 
 <table>
   <tr>
-    <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
     <th>CRM Entity: E21 Person</th>
@@ -291,13 +343,13 @@ A large area of documentation and potential disambiguation around the person rel
     <td>Family Relations</td>
     <td>Relative</td>
     <td>This field is used to indicate another person with whom the documented person has a family relation.</td>
-    <td>->SRP3_had_family_relation->E21</td>
+    <td>->SRP3_in_family_relation->E21</td>
   </tr>
   <tr>
     <td>Family Relations</td>
     <td>Relation Type</td>
     <td>This field is used to indicate the type of familial relation holding between the the other person and the documented person.</td>
-    <td>->SRP3_had_family_relation->SRP3.1_had_family_relation_type->E55"Family Relation Type"</td>
+    <td>->SRP3_in_family_relation->SRP3.1_had_family_relation_type->E55"Family Relation Type"</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -323,13 +375,13 @@ A large area of documentation and potential disambiguation around the person rel
     <td>Associates</td>
     <td>Associate</td>
     <td>This field is used to indicate an associate of the documented person.</td>
-    <td>->P14i->E7->P14i->E21</td>
+    <td>->P11i->E5->P11i->E21</td>
   </tr>
   <tr>
     <td>Associates</td>
     <td>Associate Type</td>
     <td>This field is used to indicate the type of association that the documented person had with his/her associate.</td>
-    <td>->P14i->E7->P2->E55</td>
+    <td>->P11i->E5->P2->E55</td>
   </tr>
 </table>
 
@@ -342,7 +394,6 @@ This information category at present is lightly populated, but refers to a disti
 
 <table>
   <tr>
-    <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
     <th>CRM Entity: E21 Person</th>
@@ -364,7 +415,6 @@ This category brings together the various actions in which the documented person
 
 <table>
   <tr>
-    <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
     <th>CRM Entity: E21 Person</th>
@@ -411,7 +461,6 @@ This information category unites referential information about the documented pe
 
 <table>
   <tr>
-    <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
     <th>CRM Entity: E21 Person</th>
@@ -438,6 +487,6 @@ This information category unites referential information about the documented pe
   </tr>
 </table>
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/6b376bc7-2805-4d5e-9138-668163748b37.png)
 
+![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/6b376bc7-2805-4d5e-9138-668163748b37.png)
 
