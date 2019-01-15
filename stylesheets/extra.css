@@ -11,6 +11,9 @@
 	background-color: #782C22;
 } */
 
+.md-content__inner {
+  margin-left: 3.4em;
+}
 
 .md-footer-nav {
 	background-color: #009cdd;
