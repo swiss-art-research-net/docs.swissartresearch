@@ -39,7 +39,7 @@ theme:
 markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.mark
-  - lightbox
+#  - lightbox
   - markdown.extensions.attr_list
   - pymdownx.superfences
   - pymdownx.details
