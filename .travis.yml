@@ -1,0 +1,22 @@
+env:
+  global:
+    secure: TTlKPlSI0pcyVqCj/zSS3yV6ZzdYZmJE9MUFl7AtLXEXzPiU3gTS2UiHqTfy1Fw6yd7mDDXTVoklHkwyrwShU+VVLp6itMf/1uw3sapRxRMRIdgyWwr+5CR5/4EJUo7KezjiFDWINAEvi+FhsIz9D9d7tqK76o/Hhqfla0pNNLgrk87NI18VjitQ1y75xfOSBtCQDJNOd8WQ9Zcf/4zm45Xt3Vw2n7R+oi6kCVoxQZDVyLMgDqED54GCv3ryuzS5ti1oz7D+uBivKHnSWw/E4gkFCoATnIQJbKBSCmAxl8BXekMUfEM+BJEuJcRbvcPnGjV+p+vDz/rimGZlayHQUcp5Ne+jIHqgBB8joGMUza7fs76UQdZ27g3B9Smu3LJm103GQPgMF7cLmg8fnt7S5Cxaf5GgBj6OPyvtBb8/oxlSMlP39IRWWx8gf4UtxyzE1ZetmGtFyP1Tu6Zm/wL/yNErY+Fk7w1wWrufjEGH1cRX9KkobKY+58f4vqt9VHQ4OFnXnW4esvS1kNRRLfCXbAWK+MOMfROJAk3rdoYyaLwyTLy3KnOlNltiy5cD4yK1S5bGYA9nTYyDaADXBwac+9BlSvQ0YwICfkx7NWF4aN/cXnpws4fodFP5BnFFkXs7MmWx0i6rSd7QV4SbekdIh7l+kDNUnxWa2ZZAekiXs6A=
+
+language: python # Set the build language to Python
+
+branches: master # Set the branch to build from
+
+install:
+    - pip install mkdocs # Install the required dependencies
+    - pip install mkdocs-material
+#    - pip install pymdown-extensions
+#    - pip install pygments
+
+script:
+- git clean -f -d -x
+after_success:
+- git config user.name "Nicola Carboni"
+- git config user.email "nicola@carboni.me"
+- git remote add gh-token "https://${GH_TOKEN}@github.com/swiss-art-research-net/docs.git";
+- git fetch gh-token && git fetch gh-token gh-pages:gh-pages;
+- mkdocs gh-deploy -v --clean --remote-name gh-token;
