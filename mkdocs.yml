@@ -49,7 +49,7 @@ markdown_extensions:
   - meta
   - footnotes
   - admonition
-  - lightbox
+  - markdown-lightbox
   - pymdownx.superfences:
         custom_fences:
           - name: mermaid
