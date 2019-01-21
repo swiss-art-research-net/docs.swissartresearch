@@ -9,9 +9,10 @@ branches: master # Set the branch to build from
 install:
     - pip install mkdocs # Install the required dependencies
     - pip install mkdocs-material
+    - pip install Markdown
     - pip install -e git+https://github.com/AliciaSchep/markdown-lightbox.git#egg=markdown-lightbox
     - pip install pymdown-extensions
-#    - pip install pygments
+    - pip install pygments
 
 script:
   - git clean -f -d -x
