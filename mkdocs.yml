@@ -32,6 +32,7 @@ theme:
   font:
     text: 'Source Sans Pro'
     code: 'IBM Plex Mono'
+  custom_dir: 'theme/'
   palette:
     primary: 'white'
  
