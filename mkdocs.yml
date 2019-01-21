@@ -35,11 +35,9 @@ theme:
   palette:
     primary: 'white'
  
-plugins:
-    - markdown
-    
 markdown_extensions:
   - pymdownx.smartsymbols
+  - markdown
   - pymdownx.mark
   - markdown.extensions.attr_list
   - pymdownx.superfences
