@@ -4,7 +4,7 @@ env:
 
 language: python # Set the build language to Python
 
-branches: master # Set the branch to build from
+# branches: master # Set the branch to build from
 
 install:
     - pip install mkdocs # Install the required dependencies
