@@ -4,7 +4,7 @@ env:
 
 language: python # Set the build language to Python
 
-# branches: master # Set the branch to build from
+branches: master # Set the branch to build from
 
 install:
     - pip install mkdocs # Install the required dependencies
@@ -13,10 +13,10 @@ install:
 #    - pip install pygments
 
 script:
-- git clean -f -d -x
+# - git clean -f -d -x
 after_success:
-- git config user.name "Nicola Carboni"
-- git config user.email "nicola@carboni.me"
+  - git config user.name "Nicola Carboni"
+  - git config user.email "nicola@carboni.me"
 # - git remote add gh-token "https://${GH_TOKEN}@github.com/swiss-art-research-net/docs.git";
 # - git fetch gh-token && git fetch gh-token gh-pages:gh-pages;
-- mkdocs gh-deploy
+  - mkdocs gh-deploy
