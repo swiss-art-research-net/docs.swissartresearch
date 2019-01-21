@@ -1,6 +1,6 @@
 # About
 
-This **website** record and collect the documentation produced within the **S**wiss **A**rt **R**esearch **I**nfrastructure project- **SARI**. The project uses a semantic web infrastructure to record and expose reference resources useful for Digital Art History & Digital Humanities projects. 
+This website record and collect the documentation produced within the **S**wiss **A**rt **R**esearch **I**nfrastructure project- **SARI**. The project uses a semantic web infrastructure to record and expose reference resources useful for Digital Art History & Digital Humanities projects. 
 
 Achieving this objectives meant overcoming common challenges and also creating several documentation resources which are collected into these main categories:
 
