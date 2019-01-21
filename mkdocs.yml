@@ -35,7 +35,9 @@ theme:
   palette:
     primary: 'white'
  
-
+plugins:
+    - markdown
+    
 markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.mark
@@ -49,7 +51,7 @@ markdown_extensions:
   - meta
   - footnotes
   - admonition
-  - markdown-lightbox
+
   - pymdownx.superfences:
         custom_fences:
           - name: mermaid
