@@ -10,7 +10,7 @@ install:
     - pip install mkdocs # Install the required dependencies
     - pip install mkdocs-material
     - pip install -e git+https://github.com/AliciaSchep/markdown-lightbox.git#egg=markdown-lightbox
-#    - pip install pymdown-extensions
+    - pip install pymdown-extensions
 #    - pip install pygments
 
 script:
