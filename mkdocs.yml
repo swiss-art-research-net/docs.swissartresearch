@@ -37,7 +37,6 @@ theme:
  
 
 markdown_extensions:
-  - lightbox
   - pymdownx.smartsymbols
   - pymdownx.mark
   - markdown.extensions.attr_list
@@ -50,6 +49,7 @@ markdown_extensions:
   - meta
   - footnotes
   - admonition
+  - lightbox
   - pymdownx.superfences:
         custom_fences:
           - name: mermaid
