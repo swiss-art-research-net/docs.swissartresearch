@@ -16,6 +16,6 @@ install:
     - python lightgallery-markdown/setup.py install
 #    - pip install -e git+https://github.com/MrLeeh/markdown-lightbox.git#egg=markdown-lightbox
 #    - pip install pygments
-    - git clean -f -d -x
+#    - git clean -f -d -x
     - mkdocs gh-deploy
 
