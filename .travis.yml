@@ -11,18 +11,16 @@ branches: master # Set the branch to build from
 install:
     - pip install mkdocs # Install the required dependencies
     - pip install mkdocs-material
+    - pip install pymdown-extensions
     - git clone https://github.com/g-provost/lightgallery-markdown.git
     - python lightgallery-markdown/setup.py install
-    - mkdocs gh-deploy
 #    - pip install -e git+https://github.com/MrLeeh/markdown-lightbox.git#egg=markdown-lightbox
-#    - pip install pymdown-extensions
 #    - pip install pygments
-
-#script:
-#  - git clean -f -d -x
-# after_success:
-#  - git config user.name "Nicola Carboni"
-#  - git config user.email "nicola@carboni.me"
-#  - git remote add gh-token "https://${GH_TOKEN}@github.com/swiss-art-research-net/docs.git";
-#  - git fetch gh-token && git fetch gh-token gh-pages:gh-pages;
-#  - mkdocs gh-deploy -v --clean --remote-name gh-token;
+script:
+  - git clean -f -d -x
+ after_success:
+  - git config user.name "Nicola Carboni"
+  - git config user.email "nicola@carboni.me"
+  - git remote add gh-token "https://${GH_TOKEN}@github.com/swiss-art-research-net/docs.git";
+  - git fetch gh-token && git fetch gh-token gh-pages:gh-pages;
+  - mkdocs gh-deploy -v --clean --remote-name gh-token;
