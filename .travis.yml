@@ -15,9 +15,9 @@ install:
     - git clone https://github.com/g-provost/lightgallery-markdown.git
     - cd lightgallery-markdown
     - python setup.py install
-    - cd ..
+    - mkdocs build -f ../mkdocs.yml --site-dir doks/
 #    - pip install -e git+https://github.com/MrLeeh/markdown-lightbox.git#egg=markdown-lightbox
 #    - pip install pygments
 #    - git clean -f -d -x
-    - mkdocs build --site-dir doks/
+    
 
