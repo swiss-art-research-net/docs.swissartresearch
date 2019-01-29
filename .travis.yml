@@ -4,7 +4,7 @@ env:
 
 language: python # Set the build language to Python
 
-python: 3.6 # python version
+#python: 3.6 # python version
 
 branches: master # Set the branch to build from
 
@@ -13,7 +13,7 @@ install:
     - pip install mkdocs-material
     - git clone https://github.com/g-provost/lightgallery-markdown.git
     - python lightgallery-markdown/setup.py install
-    - mkdocs build
+    - mkdocs gh-deploy
 #    - pip install -e git+https://github.com/MrLeeh/markdown-lightbox.git#egg=markdown-lightbox
 #    - pip install pymdown-extensions
 #    - pip install pygments
