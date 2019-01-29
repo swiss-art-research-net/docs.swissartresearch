@@ -1,6 +1,6 @@
 env:
   global:
-    secure: TTlKPlSI0pcyVqCj/zSS3yV6ZzdYZmJE9MUFl7AtLXEXzPiU3gTS2UiHqTfy1Fw6yd7mDDXTVoklHkwyrwShU+VVLp6itMf/1uw3sapRxRMRIdgyWwr+5CR5/4EJUo7KezjiFDWINAEvi+FhsIz9D9d7tqK76o/Hhqfla0pNNLgrk87NI18VjitQ1y75xfOSBtCQDJNOd8WQ9Zcf/4zm45Xt3Vw2n7R+oi6kCVoxQZDVyLMgDqED54GCv3ryuzS5ti1oz7D+uBivKHnSWw/E4gkFCoATnIQJbKBSCmAxl8BXekMUfEM+BJEuJcRbvcPnGjV+p+vDz/rimGZlayHQUcp5Ne+jIHqgBB8joGMUza7fs76UQdZ27g3B9Smu3LJm103GQPgMF7cLmg8fnt7S5Cxaf5GgBj6OPyvtBb8/oxlSMlP39IRWWx8gf4UtxyzE1ZetmGtFyP1Tu6Zm/wL/yNErY+Fk7w1wWrufjEGH1cRX9KkobKY+58f4vqt9VHQ4OFnXnW4esvS1kNRRLfCXbAWK+MOMfROJAk3rdoYyaLwyTLy3KnOlNltiy5cD4yK1S5bGYA9nTYyDaADXBwac+9BlSvQ0YwICfkx7NWF4aN/cXnpws4fodFP5BnFFkXs7MmWx0i6rSd7QV4SbekdIh7l+kDNUnxWa2ZZAekiXs6A=
+    secure: Op+Uyva+4SODr2w0PsQCsO17ep4TsgqSgslMJLEu/muC1vfKdsKcPgXSjRqhRe0h+oK6ActSrEFCXm6SAEOOcLYH2EIQjgKu2O4jsrNC4LfclsK+DWS/HlgT55+eRtq2qnCgvFUWs9HvrMuMS+cPzTQP4bV7arrkVr7Td5Ry9ad33pHaQIPDv/y4zFritZ5wAcN6FYz1wf4gBGXL32e+FkxmQCmujhj+WqRHLNn0kYxLrzS9N76LZdnNhXq9oHBJQON4j+qVYGhliTwcYa3Hs3Y/dOv0cWrrDIelCqoUXlDjiz5km527hufRJOWRP2um7QFnY9w8mmSopfQUfnBTn5oLUXzNufNHBSvStk9J730W9tQa+aJCJrXi8avBZkI0V0QRA41DhAw0WSpTsOvZG0wvZBxcX/kQTwotqwMi96LCi8ymAysvAy05W13OsgQlq9T2SfJ7BbMcixtpAeL26DKhtI9qlZ2VZtBhNtjXKar5AOSbASWOVdDwK6Wz0hVgqUvsZUMKD8U0s084ZrfW41YGoOml+fD5+hxhY8qYr6kw+uAWNjNaHzRYgqYWelad8sq/oTJaoBiLKJeQwxgi+k7bfMsT4fXbcCl+xGPRv/6lqaXt1rbiZJ4Ma7DertbbPOnToU7RkS1JGN0HX/KqPHBjvk0b78oZmPDY8r/KHyM=
 
 language: python # Set the build language to Python
 
@@ -16,11 +16,6 @@ install:
     - python lightgallery-markdown/setup.py install
 #    - pip install -e git+https://github.com/MrLeeh/markdown-lightbox.git#egg=markdown-lightbox
 #    - pip install pygments
-script:
-  - git clean -f -d -x
- after_success:
-  - git config user.name "Nicola Carboni"
-  - git config user.email "nicola@carboni.me"
-  - git remote add gh-token "https://${GH_TOKEN}@github.com/swiss-art-research-net/docs.git";
-  - git fetch gh-token && git fetch gh-token gh-pages:gh-pages;
-  - mkdocs gh-deploy -v --clean --remote-name gh-token;
+    - git clean -f -d -x
+    - mkdocs gh-deploy
+
