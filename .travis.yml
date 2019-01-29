@@ -11,10 +11,8 @@ branches: master # Set the branch to build from
 install:
     - pip install mkdocs # Install the required dependencies
     - pip install mkdocs-material
-    - gir clone https://github.com/g-provost/lightgallery-markdown.git
-    - cd lightgallery-markdown/
-    - python setup.py install
-    - cd ..
+    - git clone https://github.com/g-provost/lightgallery-markdown.git
+    - python lightgallery-markdown/setup.py install
 #    - pip install -e git+https://github.com/MrLeeh/markdown-lightbox.git#egg=markdown-lightbox
 #    - pip install pymdown-extensions
 #    - pip install pygments
