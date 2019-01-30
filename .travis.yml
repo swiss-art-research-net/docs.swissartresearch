@@ -12,8 +12,9 @@ install:
     - pip install mkdocs # Install the required dependencies
     - pip install mkdocs-material
     - pip install pymdown-extensions
-    - pip install -e git+https://github.com/MrLeeh/markdown-lightbox.git#egg=markdown-lightbox
-    - mkdocs gh-deploy
+    - git clone https://github.com/MrLeeh/markdown-lightbox.git
+    - sudo pip install markdown-lightbox
+    - mkdocs build
 #    - pip install pygments
 #    - git clean -f -d -x
 
