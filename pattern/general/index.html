@@ -2,7 +2,7 @@
 
 
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
     
@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="SARI documentation">
+        <meta name="description" content="SARI Documentation">
       
       
       
@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.2.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
     
     
       
@@ -42,7 +42,8 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application.572ca0f0.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.11e41852.css">
       
         <link rel="stylesheet" href="../../assets/stylesheets/application-palette.22915126.css">
       
@@ -52,9 +53,14 @@
         <meta name="theme-color" content="">
       
     
+    <link rel="stylesheet" href="../../css/lightgallery.min.css">
+
     
-      <script src="../../assets/javascripts/modernizr.8c900955.js"></script>
     
+      <script src="../../assets/javascripts/modernizr.20ef595d.js"></script>
+    
+    <script src="../../js/lightgallery.min.js"></script>
+
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -66,8 +72,6 @@
     
     
       <link rel="stylesheet" href="../../stylesheets/extra.css">
-    
-      <link rel="stylesheet" href="../../stylesheets/lightbox.css">
     
     
   </head>
@@ -646,13 +650,19 @@ In order to demonstrate the modelling we will use one of example of ".1" propert
       
     </div>
     
-      <script src="../../assets/javascripts/application.b41f3d20.js"></script>
+    
+      <script src="../../assets/javascripts/application.9e1f3b71.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
-        <script src="../../js/lightbox-plus-jquery.min.js"></script>
-      
     
+    <script>
+    var elements = document.getElementsByClassName("lightgallery");
+    for(var i=0; i<elements.length; i++) {
+       lightGallery(elements[i]);
+    }
+    </script>
+
     
       
     

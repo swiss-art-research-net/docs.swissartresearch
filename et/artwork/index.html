@@ -2,7 +2,7 @@
 
 
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
     
@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="SARI documentation">
+        <meta name="description" content="SARI Documentation">
       
       
       
@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.2.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
     
     
       
@@ -42,7 +42,8 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application.572ca0f0.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.11e41852.css">
       
         <link rel="stylesheet" href="../../assets/stylesheets/application-palette.22915126.css">
       
@@ -52,9 +53,14 @@
         <meta name="theme-color" content="">
       
     
+    <link rel="stylesheet" href="../../css/lightgallery.min.css">
+
     
-      <script src="../../assets/javascripts/modernizr.8c900955.js"></script>
     
+      <script src="../../assets/javascripts/modernizr.20ef595d.js"></script>
+    
+    <script src="../../js/lightgallery.min.js"></script>
+
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -66,8 +72,6 @@
     
     
       <link rel="stylesheet" href="../../stylesheets/extra.css">
-    
-      <link rel="stylesheet" href="../../stylesheets/lightbox.css">
     
     
   </head>
@@ -843,7 +847,7 @@
 </table>
 
 <p>The model provides means for tracking identifiers, present and past name use, titles and well known artwork classifiers.</p>
-<p><img alt="" src="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/917e212a-3381-4250-bef7-0c62472fa7e6.png" /></p>
+<p><div class="lightgallery"><a href="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/917e212a-3381-4250-bef7-0c62472fa7e6.png"><img alt="!names and classification" src="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/917e212a-3381-4250-bef7-0c62472fa7e6.png" /></a></div></p>
 <h3 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h3>
 <p>Artworks are the subjects of innumerable descriptions that provide a wide range of information with regards to the aesthetic and historical importance of a work, <em>inter alia</em>. Such descriptions are of use in a scholarly understanding of an artwork and its reception just in case we are able to track the provenance of such elocutions in a systematic fashion. Such an aim drives the need for the tracking of description information as a separate category. The descriptors necessary to this task are documented in the table below.</p>
 <table>
@@ -1332,13 +1336,19 @@ p53->E53[24]->P2->E55"Institutional Location"</td>
       
     </div>
     
-      <script src="../../assets/javascripts/application.b41f3d20.js"></script>
+    
+      <script src="../../assets/javascripts/application.9e1f3b71.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
-        <script src="../../js/lightbox-plus-jquery.min.js"></script>
-      
     
+    <script>
+    var elements = document.getElementsByClassName("lightgallery");
+    for(var i=0; i<elements.length; i++) {
+       lightGallery(elements[i]);
+    }
+    </script>
+
     
       
     
