@@ -16,6 +16,12 @@ install:
     - git clone https://github.com/g-provost/lightgallery-markdown.git
     - cd lightgallery-markdown
     - python setup.py install
-    - mkdocs build -f ../mkdocs.yml --site-dir doks/
-
-
+    - cd ..
+script:
+  - git clean -f -d -x
+after_success:
+  - git config user.name "Nicola Carboni"
+  - git config user.email "nicola@carboni.me"
+  - git remote add gh-token "https://${GH_TOKEN}@github.com/swiss-art-research-net/docs.git";
+  - git fetch gh-token && git fetch gh-token gh-pages:gh-pages;
+  - mkdocs gh-deploy -v --clean --remote-name gh-token;
