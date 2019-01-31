@@ -9,14 +9,13 @@ python: 3.6 # python version
 branches: master # Set the branch to build from
 
 install:
+    - pip install markdown<3.0
+    - pip install pymdown-extensions<6.0
     - pip install mkdocs # Install the required dependencies
     - pip install mkdocs-material
-    - pip install markdown
-    - pip install pymdown-extensions
-    - git clone https://github.com/MrLeeh/markdown-lightbox.git
-    - pip install markdown-lightbox/
-    - mkdocs build
-#    - pip install pygments
-#    - git clean -f -d -x
+    - git clone https://github.com/g-provost/lightgallery-markdown.git
+    - cd lightgallery-markdown
+    - python setup.py install
+    - mkdocs build -f ../mkdocs.yml --site-dir doks/
 
 
