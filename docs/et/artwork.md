@@ -130,7 +130,7 @@ The fields used to describe an artwork can be functionally grouped according to 
 
 An overview of all the groups of the entity described here is available in the image below. Click to enlarge it.
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f912c2d2-a00e-4664-8887-d3faf226d2f6.png){.thumbnail}
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f912c2d2-a00e-4664-8887-d3faf226d2f6.png){.thumbnail}
 
 
 ### Names and Classifications
@@ -265,7 +265,7 @@ Artworks are the subjects of innumerable descriptions that provide a wide range 
 
 These descriptors should be deployed together in order to provide full context to ‘text blobs’ by means of authorship, type of description as well as the time of articulation.
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/edcf837d-9e96-468f-958e-029aa136d7e0.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/edcf837d-9e96-468f-958e-029aa136d7e0.png)
 
 ### Parthood
 
@@ -299,7 +299,7 @@ Artwork may require documentation not just as a whole, but with regards to its p
 </table>
 
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/d4da3113-8960-4232-be02-86e32f9fc122.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/d4da3113-8960-4232-be02-86e32f9fc122.png)
 
 ### Existence
 
@@ -359,7 +359,7 @@ Of essential import in identifying and tracking artwork is information pertainin
 
 The above structure allows for the documentation of time and place of the creation and destruction of an individual artwork. Note that while ontologically speaking the agency of the creator and destroyer in the events of creation and destruction could be documented as part of this information unit, we have instead clustered this data in the Actors Relations category.
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/dfee7e95-8b4a-4b58-ba9d-1a4e55e5c20c.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/dfee7e95-8b4a-4b58-ba9d-1a4e55e5c20c.png)
 
 ### Actor Relations
 
@@ -413,7 +413,7 @@ The connection between artwork and actors provides another important set of desc
 
 These descriptors allow the connection of an artwork to its creator, present owner and holder.
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/8343eb90-3aba-4371-9b93-d53ed42471ca.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/8343eb90-3aba-4371-9b93-d53ed42471ca.png)
 
 ### Substance
 
@@ -466,7 +466,7 @@ The analysis and understanding of an artwork depends also on our knowledge of it
 </table>
 
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/4df428ea-e0c9-46d0-8cb9-5c5be0bc5415.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/4df428ea-e0c9-46d0-8cb9-5c5be0bc5415.png)
 
 ### Representation
 
@@ -488,7 +488,7 @@ This information category at present is lightly populated, but provides the mean
 </table>
 
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/cdaf1d8b-a263-4ec1-877b-b3663bbb86c3.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/cdaf1d8b-a263-4ec1-877b-b3663bbb86c3.png)
 
 ### Events
 
@@ -564,7 +564,7 @@ This information category brings together typical events in which an artwork may
   </tr>
 </table>
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/d519e7e7-2069-416e-9277-f25ff6a6cbeb.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/d519e7e7-2069-416e-9277-f25ff6a6cbeb.png)
 
 ### Location
 
@@ -602,7 +602,7 @@ p53->E53[24]->P2->E55"Institutional Location"</td>
   </tr>
 </table>
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/7f1dcef4-30a8-40db-8fda-1ba4570c7363.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/7f1dcef4-30a8-40db-8fda-1ba4570c7363.png)
 
 ### Rights
 
@@ -635,7 +635,7 @@ The potential use and re-use of an artwork and its derivatives requires respect 
   </tr>
 </table>
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/99552ea4-4c64-47a6-989e-c4d01e998f2b.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/99552ea4-4c64-47a6-989e-c4d01e998f2b.png)
 
 ### Documentation
 
@@ -665,5 +665,5 @@ This information category unites referential information about the documented ar
 </table>
 
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/35ffccdb-95f1-47df-8e99-15f63bd6bdda.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/35ffccdb-95f1-47df-8e99-15f63bd6bdda.png)
 

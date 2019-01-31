@@ -171,7 +171,7 @@ sari: <http://[w3id.org/sari#](https://workspace.digitale-diathek.net/confluence
 
 The legend for the graphs used in the document can be find at the address [http://docs.swissartresearch.net/graphical/index.html](http://docs.swissartresearch.net/graphical/index.html) . Below a graphical summary of its components.
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/ea72c3f1-c946-4f8b-b026-fc59257eb4b6.png){.thumbnail}
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/ea72c3f1-c946-4f8b-b026-fc59257eb4b6.png){.thumbnail}
 
 ### Names and Classifications
 
@@ -262,7 +262,7 @@ The attribution of names and types to persons is a basic human activity. A chief
 
 The model provides means for tracking identifiers, present and past name use, titles and gender.
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/acf58953-c7f4-4356-80ed-ed4f7ddf97e4.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/acf58953-c7f4-4356-80ed-ed4f7ddf97e4.png)
 
 ### Existence
 
@@ -315,7 +315,7 @@ Of essential importance in identifying and tracking individuals is also their bi
 
 The above structure allows for the documentation of time and place of birth and death of an individual person. Note that while ontologically speaking mothers and fathers could be connected to birth information, with regards to information clustering we have placed this information in the social relations category.
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/32fab876-772f-405e-8a86-61af9e4b519d.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/32fab876-772f-405e-8a86-61af9e4b519d.png)
 
 ### Social Relations
 
@@ -386,7 +386,7 @@ A large area of documentation and potential disambiguation around the person rel
 </table>
 
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/c44488f1-8a53-4713-b2e5-b18b51cdf6cb.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/c44488f1-8a53-4713-b2e5-b18b51cdf6cb.png)
 
 ### Knowledge
 
@@ -407,7 +407,7 @@ This information category at present is lightly populated, but refers to a disti
 </table>
 
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/038b8588-600a-4d31-8b18-aafdcd87dc60.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/038b8588-600a-4d31-8b18-aafdcd87dc60.png)
 
 ### Activities
 
@@ -453,7 +453,7 @@ This category brings together the various actions in which the documented person
 </table>
 
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f66c230e-4953-4148-8398-f32168c2dcb9.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f66c230e-4953-4148-8398-f32168c2dcb9.png)
 
 ### Documentation
 
@@ -488,5 +488,5 @@ This information category unites referential information about the documented pe
 </table>
 
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/6b376bc7-2805-4d5e-9138-668163748b37.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/6b376bc7-2805-4d5e-9138-668163748b37.png)
 
