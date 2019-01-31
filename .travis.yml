@@ -9,8 +9,8 @@ python: 3.6 # python version
 branches: master # Set the branch to build from
 
 install:
-    - pip install markdown<3.0
-    - pip install pymdown-extensions<6.0
+    - pip install markdown==2.6.11
+    - pip install pymdown-extensions==5
     - pip install mkdocs # Install the required dependencies
     - pip install mkdocs-material
     - git clone https://github.com/g-provost/lightgallery-markdown.git
