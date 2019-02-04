@@ -54,14 +54,14 @@ Introduction
 This document presents an extension of CIDOC-CRM. It is developed within
 the Reference Entity Model project of the Swiss Art Reseach
 Infrastracture and targeted to sustain propositions about persons and
-their social relations which do not have yet a correspondance within the
+their social relations which do not have yet a correspondence within the
 CRM.
 
 Graphical Overview {#graphicaloverview}
 ------------------
 
 
-![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/e2b2c4ac-0bc8-4856-ae4e-0b9c52318539.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/e2b2c4ac-0bc8-4856-ae4e-0b9c52318539.png)
 
 
 Classes
