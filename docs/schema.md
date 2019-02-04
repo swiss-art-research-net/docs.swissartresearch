@@ -42,14 +42,11 @@ Table of Content {#abstract}
 -   [Introduction](#introduction)
 -   [Graphical Overview](#graphicaloverview)
 -   [Classes](#classes)
-    -   [SRPC3 in family relation](#SRPC3_in_family_relation)
+    -   [SRPC3 in social relation](#SRPC3_in_social_relation)
 -   [Properties](#properties)
     -   [SRP1 used language (was language used by)](#SRP1_used_language)
     -   [SRP2 had occupation (was occupation of)](#SRP2_had_occupation)
-    -   [SRP3 in family relation (in family
-        relation)](#SRP3_in_family_relation)
-    -   [SRP3.1 had relation type (was relation type
-        of)](#SRP3.1_had_relation_type)
+    -   [SRP3.1 relation type (relation type)](#SRP3.1_had_relation_type)
 
 Introduction
 ------------
@@ -70,7 +67,7 @@ Graphical Overview {#graphicaloverview}
 Classes
 -------
 
-### SRPC3 in family relation {#SRPC3_in_family_relation}
+### SRPC3 in social relation {#SRPC3_in_social_relation}
 
 The class SRPC3 materializes the SRP3 relation as a class. It does so to
 enable an n-ary construct used to indicate the nature of the
@@ -81,8 +78,7 @@ is E21(a) 'has father' E21(b), the relation is not symmetric.
 
 ##### Proprieties
 
--   [SRP3.1 had relation type (was relation type
-    of)](#SRP3.1_had_relation_type): E55 Type
+-   [SRP3.1 relation type (relation type)](#SRP3.1_relation_type): E55 Type
 
 Properties
 ----------
@@ -107,17 +103,10 @@ Actor has played in its life; This documentation is at the level of a
 general characteristic and is not the documentation of particular
 periods in which occupations/roles were undertaken.
 
-### SRP3 in family relation {#SRP3_in_family_relation}
 
-Domain: E21 Person  
-Range: E21 Person  
+### SRP3.1 relation type {#SRP3.1_relation_type}
 
-The property is used to document the existence of a family relation
-between two individuals.
-
-### SRP3.1 had relation type {#SRP3.1_had_relation_type}
-
-Domain: [SRC1 had family relation](#SRC1_had_family_relation)  
+Domain: [SRPC3 in social relation](#SRPC3_in_social_relation)  
 Range: E55 Type  
 
 The property documents the type of family relation exists between two
