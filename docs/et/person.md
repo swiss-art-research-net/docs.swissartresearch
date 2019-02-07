@@ -171,7 +171,7 @@ sari: <http://[w3id.org/sari#](https://workspace.digitale-diathek.net/confluence
 
 The legend for the graphs used in the document can be find at the address [http://docs.swissartresearch.net/graphical/index.html](http://docs.swissartresearch.net/graphical/index.html) . Below a graphical summary of its components.
 
-![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/ea72c3f1-c946-4f8b-b026-fc59257eb4b6.png){.thumbnail}
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/315fb819-c32c-4d13-92dd-74dfed959a06.png){.thumbnail}
 
 ### Names and Classifications
 

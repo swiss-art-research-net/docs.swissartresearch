@@ -217,7 +217,7 @@ The attribution of names and types to artwork, as with other entities, is a basi
 
 The model provides means for tracking identifiers, present and past name use, titles and well known artwork classifiers.
 
-![!names and classification](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/917e212a-3381-4250-bef7-0c62472fa7e6.png)
+![!names and classification](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/315fb819-c32c-4d13-92dd-74dfed959a06.png)
 
 ### Description
 
