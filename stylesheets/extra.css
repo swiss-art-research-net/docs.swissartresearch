@@ -331,11 +331,11 @@ padding-left: 1.9rem;
   color: rgba(0, 0, 0, 0.81);
 }
 .md-typeset table:not([class]) th {
-  background-color: rgba(100, 100, 100, 0.73);
-  font-size: 1.45rem;
+  background-color: rgba(136, 136, 136, 0.73);
+  font-size: 1.2em;
 }
 .md-typeset table:not([class]) td {
-  font-size: 1.45rem;
+  font-size: 1.2em;
 }
 
 .md-nav__link {
