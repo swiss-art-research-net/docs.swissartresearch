@@ -185,7 +185,7 @@ The attribution of names and types to things, including institutions, is a basic
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>CRM Entity: E74 Group p2->E55"Institution"</th>
+    <th>E74 Group p2->E55"Institution"</th>
   </tr>
   <tr>
     <td>Identifier Attribution</td>
@@ -284,7 +284,7 @@ Of essential importance in identifying and tracking institutions is to know when
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>CRM Entity: E74 Group p2->E55"Institution"</th>
+    <th>E74 Group p2->E55"Institution"</th>
   </tr>
   <tr>
     <td>Formation</td>
@@ -344,7 +344,7 @@ Institutions often exist in complex internal structuration with both relations o
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>CRM Entity: E74 Group p2->E55"Institution"</th>
+    <th>E74 Group p2->E55"Institution"</th>
   </tr>
   <tr>
     <td>n/a</td>
@@ -374,7 +374,7 @@ A useful area of documentation and potential disambiguation around an institutio
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>CRM Entity: E74 Group p2->E55"Institution"</th>
+    <th>E74 Group p2->E55"Institution"</th>
   </tr>
   <tr>
     <td>n/a</td>
@@ -441,7 +441,7 @@ This category brings together documentary evidence with regards to various typic
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>CRM Entity: E74 Group p2->E55"Institution"</th>
+    <th>E74 Group p2->E55"Institution"</th>
   </tr>
   <tr>
     <td>n/a</td>
@@ -482,7 +482,7 @@ The documentation of location aids in understanding where an institution is seat
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>CRM Entity: E74 Group p2->E55"Institution"</th>
+    <th>E74 Group p2->E55"Institution"</th>
   </tr>
   <tr>
     <td>Location</td>
@@ -522,7 +522,7 @@ This information category unites referential information about the documented in
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>CRM Entity: E74 Group p2->E55"Institution"</th>
+    <th>E74 Group p2->E55"Institution"</th>
   </tr>
   <tr>
     <td>n/a</td>

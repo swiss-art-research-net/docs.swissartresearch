@@ -177,10 +177,10 @@ The attribution of names and types to built work, as with other entities, is a b
 
 <table>
   <tr>
-    <td>Element Field Collection</td>
-    <td>Element name</td>
-    <td>Element Description</td>
-    <td>E22->P2->E55"Built Work"</td>
+    <th>Element Field Collection</th>
+    <th>Element name</th>
+    <th>Element Description</th>
+    <th>E22->P2->E55"Built Work"</th>
   </tr>
   <tr>
     <td>ID Attribution</td>
@@ -289,10 +289,10 @@ Built works are the subjects of innumerable descriptions that provide a wide ran
 
 <table>
   <tr>
-    <td>Element Field Collection</td>
-    <td>Element name</td>
-    <td>Element Description</td>
-    <td>E22->P2->E55"Built Work"</td>
+    <th>Element Field Collection</th>
+    <th>Element name</th>
+    <th>Element Description</th>
+    <th>E22->P2->E55"Built Work"</th>
   </tr>
   <tr>
     <td>Description</td>
@@ -338,10 +338,10 @@ Built works may require documentation not just as a whole, but with regards to t
 
 <table>
   <tr>
-    <td>Element Field Collection</td>
-    <td>Element name</td>
-    <td>Element Description</td>
-    <td>E22->P2->E55"Built Work"</td>
+    <th>Element Field Collection</th>
+    <th>Element name</th>
+    <th>Element Description</th>
+    <th>E22->P2->E55"Built Work"</th>
   </tr>
   <tr>
     <td>n/a</td>
@@ -362,10 +362,10 @@ Of essential importance in identifying and tracking built works is information p
 
 <table>
   <tr>
-    <td>Element Field Collection</td>
-    <td>Element name</td>
-    <td>Element Description</td>
-    <td>E22->P2->E55"Built Work"</td>
+    <th>Element Field Collection</th>
+    <th>Element name</th>
+    <th>Element Description</th>
+    <th>E22->P2->E55"Built Work"</th>
   </tr>
   <tr>
     <td>Production</td>
@@ -432,10 +432,10 @@ The connection between a built work and actors provides another important set of
 
 <table>
   <tr>
-    <td>Element Field Collection</td>
-    <td>Element name</td>
-    <td>Element Description</td>
-    <td>E22->P2->E55"Built Work"</td>
+    <th>Element Field Collection</th>
+    <th>Element name</th>
+    <th>Element Description</th>
+    <th>E22->P2->E55"Built Work"</th>
   </tr>
   <tr>
     <td>n/a</td>
@@ -470,10 +470,10 @@ The analysis and understanding of a built work depends also on our knowledge of 
 
 <table>
   <tr>
-    <td>Element Field Collection</td>
-    <td>Element name</td>
-    <td>Element Description</td>
-    <td>E22->P2->E55"Built Work"</td>
+    <th>Element Field Collection</th>
+    <th>Element name</th>
+    <th>Element Description</th>
+    <th>E22->P2->E55"Built Work"</th>
   </tr>
   <tr>
     <td>n/a</td>
@@ -543,10 +543,10 @@ This information category brings together typical events in which a built work m
 
 <table>
   <tr>
-    <td>Element Field Collection</td>
-    <td>Element name</td>
-    <td>Element Description</td>
-    <td>E22->P2->E55"Built Work"</td>
+    <th>Element Field Collection</th>
+    <th>Element name</th>
+    <th>Element Description</th>
+    <th>E22->P2->E55"Built Work"</th>
   </tr>
   <tr>
     <td>Function</td>
@@ -656,10 +656,10 @@ The documentation of location aids in tracking the present location of individua
 
 <table>
   <tr>
-    <td>Element Field Collection</td>
-    <td>Element name</td>
-    <td>Element Description</td>
-    <td>E22->P2->E55"Built Work"</td>
+    <th>Element Field Collection</th>
+    <th>Element name</th>
+    <th>Element Description</th>
+    <th>E22->P2->E55"Built Work"</th>
   </tr>
   <tr>
     <td>Location</td>
@@ -691,10 +691,10 @@ Characteristic of information gathered relative to built works are various kinds
 
 <table>
   <tr>
-    <td>Element Field Collection</td>
-    <td>Element name</td>
-    <td>Element Description</td>
-    <td>E22->P2->E55"Built Work"</td>
+    <th>Element Field Collection</th>
+    <th>Element name</th>
+    <th>Element Description</th>
+    <th>E22->P2->E55"Built Work"</th>
   </tr>
   <tr>
     <td>Designation Status</td>
@@ -731,10 +731,10 @@ This information category unites referential information about the documented bu
 
 <table>
   <tr>
-    <td>Element Field Collection</td>
-    <td>Element name</td>
-    <td>Element Description</td>
-    <td>E22->P2->E55"Built Work"</td>
+    <th>Element Field Collection</th>
+    <th>Element name</th>
+    <th>Element Description</th>
+    <th>E22->P2->E55"Built Work"</th>
   </tr>
   <tr>
     <td>n/a</td>
