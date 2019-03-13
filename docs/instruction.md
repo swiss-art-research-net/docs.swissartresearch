@@ -30,7 +30,7 @@ crm: <http://[http://www.cidoc-crm.org/cidoc-crm/](http://www.cidoc-crm.org/cido
 
 sari: <http://[w3id.org/sari#](https://workspace.digitale-diathek.net/confluence/display/SARISEM/w3id.org/sari#)> 
 
-The legend for the graphs used in the document can be find at the address [http://docs.swissartresearch.net/graphical/index.html](http://docs.swissartresearch.net/graphical/index.html). Below a graphical summary of its components.
+The legend for the graphs used in the document can be find at the address [http://schema.swissartresearch.net/graphical/index.html](http://schema.swissartresearch.net/graphical/index.html). Below a graphical summary of its components.
 
 
 ![](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/315fb819-c32c-4d13-92dd-74dfed959a06.png)

@@ -18,6 +18,8 @@ nav:
       - Artwork: et/artwork.md
       - Institution: et/institution.md
       - Built Work: et/built_work.md
+#      - Event: et/event.md
+#      - Digital Object: et/do.md
     - Modelling Examples:
       - Instruction: pattern/instruction.md
       - Shared: pattern/general.md
