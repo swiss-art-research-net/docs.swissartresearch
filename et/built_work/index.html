@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.1">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.2">
     
     
       
@@ -302,19 +302,19 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#sources" title="Sources" class="md-nav__link">
+    Sources
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#model-sections-description" title="Model Sections Description" class="md-nav__link">
     Model Sections Description
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#formalisation-and-instructions" title="Formalisation and instructions" class="md-nav__link">
-    Formalisation and instructions
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#names-and-classifications" title="Names and Classifications" class="md-nav__link">
@@ -536,19 +536,19 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#sources" title="Sources" class="md-nav__link">
+    Sources
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#model-sections-description" title="Model Sections Description" class="md-nav__link">
     Model Sections Description
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#formalisation-and-instructions" title="Formalisation and instructions" class="md-nav__link">
-    Formalisation and instructions
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#names-and-classifications" title="Names and Classifications" class="md-nav__link">
@@ -660,8 +660,7 @@
 <p>to be adopted by institutions acting as aggregation hubs in order to create consistent re-expressions of extant reference information in a common CIDOC-CRM based expression.</p>
 </li>
 </ol>
-<h2 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>Sources</p>
+<h2 id="sources">Sources<a class="headerlink" href="#sources" title="Permanent link">&para;</a></h2>
 <p>The decision on which fields to represent was based on a survey of significant, extant data sources of interest to the project. These were:</p>
 <table>
   <tr>
@@ -775,34 +774,6 @@
   </tr>
 </table>
 
-<h3 id="formalisation-and-instructions">Formalisation and instructions<a class="headerlink" href="#formalisation-and-instructions" title="Permanent link">&para;</a></h3>
-<p>Each individual information category is represented here both in the form of table and in the form of a semantic graph model. The graph presents an overview of the  semantic model formed by the suggested descriptors, while the table provides for each individual descriptor, both an explanatory description of its intended function and a mapping of this intended function to a CIDOC-CRM path expression. </p>
-<p>The mappings present in the table, for readability purpose, use only the class and property identifiers of CIDOC-CRM adopting the formalism of: </p>
-<ul>
-<li>
-<p>Classes: E+ID</p>
-</li>
-<li>
-<p>Properties: P+ID </p>
-</li>
-</ul>
-<p>Moreover, when it is necessary to make explicit that the same node is referenced across descriptors in a semantic path variable [<em>n</em>] (where <em>n</em> is a number) is placed next to a class to indicate its reuse across  mapping constructs. </p>
-<p>For example, the descriptor ‘identifier’ for an instance of person is mapped as:</p>
-<ol>
-<li><strong>E21 -&gt; P1 -&gt; E42 [1]</strong></li>
-</ol>
-<p>The descriptor for the provider of this identifier, ‘Identifier Provider’ refers back semantically to the ‘Identifier’ descriptor (qua appellation), hence in the semantic mapping the particular individual node is referred back to as the subject of the act of being given as appellation. Expressed in our formalism this becomes: </p>
-<ol>
-<li><strong>E21 -&gt; P1 -&gt; E42 [1]</strong> -&gt; P37 i-&gt; E15 -&gt; P14 -&gt; E39</li>
-</ol>
-<p>The variable [1] in the second mapping is provided to signal to the reader that the same node (instance of class E42) is being referred to across two mappings, the first of the identifier as such and the second of its being attributed by some organization.</p>
-<p>The prefixes for the classes mentioned in the graph and in the document are the following:</p>
-<p>rdf: <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#">http://<a href="https://workspace.digitale-diathek.net/confluence/display/SARISEM/www.w3.org/1999/02/22-rdf-syntax-ns#">www.w3.org/1999/02/22-rdf-syntax-ns#</a></a> </p>
-<p>rdfs: <a href="http://www.w3.org/2000/01/rdf-schema#">http://<a href="https://workspace.digitale-diathek.net/confluence/display/SARISEM/www.w3.org/2000/01/rdf-schema#">www.w3.org/2000/01/rdf-schema#</a></a> </p>
-<p>crm: <a href="http://http://www.cidoc-crm.org/cidoc-crm/">http://<a href="http://www.cidoc-crm.org/cidoc-crm/">http://www.cidoc-crm.org/cidoc-crm/</a></a> </p>
-<p>sari: <a href="http://w3id.org/sari#">http://<a href="https://workspace.digitale-diathek.net/confluence/display/SARISEM/w3id.org/sari#">w3id.org/sari#</a></a> </p>
-<p>The legend for the graphs used in the document can be find at the address <a href="http://docs.swissartresearch.net/graphical/index.html">http://docs.swissartresearch.net/graphical/index.html</a> . Below a graphical summary of its components.</p>
-<p><div class="lightgallery"><a href="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/315fb819-c32c-4d13-92dd-74dfed959a06.png"><img alt="!" src="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/315fb819-c32c-4d13-92dd-74dfed959a06.png" /></a></div></p>
 <h3 id="names-and-classifications">Names and Classifications<a class="headerlink" href="#names-and-classifications" title="Permanent link">&para;</a></h3>
 <p>The attribution of names and types to built work, as with other entities, is a basic human activity. A chief factor in disambiguating built works lies in understanding the various names and identifiers that have been given to them at different moments in their individual histories. Likewise, additional classifiers of the built work, such as how it is has been formally classified, give important distinguishing characteristics.</p>
 <table>
@@ -1420,7 +1391,7 @@ p53->E53[22]->P1->E41>p2->E55"Address"</td>
     </div>
     
     
-      <script src="../../assets/javascripts/application.b806dc00.js"></script>
+      <script src="../../assets/javascripts/application.d9aa80ab.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
