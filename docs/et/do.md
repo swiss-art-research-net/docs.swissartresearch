@@ -94,44 +94,44 @@ The attribution of identifiers, names and types to digital object, as with other
     <td>n/a</td>
     <td>ID</td>
     <td>This field is used to indicate an identifier attributed to the documented instance of digital object.</td>
-    <td>->P1->E42</td>
+    <td> → P1 → E42</td>
   </tr>
   <tr>
     <td>IDC</td>
     <td>n/a</td>
     <td>Title</td>
     <td>This field is used to indicate the main name attributed to the documented digital object.</td>
-    <td>->P1->E41</td>
+    <td> → P1 → E41</td>
   </tr>
   <tr>
     <td>SI</td>
     <td>n/a</td>
     <td>Format</td>
     <td>This field is used to indicate the file format that has been used in the encoding of the digital object.</td>
-    <td>->p2->E55[1]  
-->p2->E55[1]->p2->E55"Format Type"</td>
+    <td> → p2 → E55[1]  
+ → p2 → E55[1] → p2 → E55"Format Type"</td>
   </tr>
   <tr>
     <td>EP</td>
     <td>n/a</td>
     <td>Type</td>
     <td>This field is used to indicate the formal type of the digital object with regards to its content.</td>
-    <td>->p2->E55</td>
+    <td> → p2 → E55</td>
   </tr>
   <tr>
     <td>SI</td>
     <td>n/a</td>
     <td>Conforms to</td>
     <td>This field is used to indicate a formal standard which was used in the creation of the digital object to which it should in principle conform.</td>
-    <td>->L11i->D7[3]->p32->E29/D1</td>
+    <td> → L11i → D7[3] → p32 → E29/D1</td>
   </tr>
   <tr>
     <td>IDC</td>
     <td>n/a</td>
     <td>Checksum</td>
     <td>This field is use to indicate a checksum for the digital object in order to be able to verify its authenticity.</td>
-    <td>->P1->E42  
-->P1->E42->p2->E55"Checksum"</td>
+    <td> → P1 → E42  
+ → P1 → E42 → p2 → E55"Checksum"</td>
   </tr>
 </table>
 
@@ -157,14 +157,14 @@ Digital objects can be further subdivided into particular digital objects or can
     <td>n/a</td>
     <td>has part</td>
     <td>This field is used to indicate parts of the documented digital object.</td>
-    <td>->p106->D1</td>
+    <td> → p106 → D1</td>
   </tr>
   <tr>
     <td>EP</td>
     <td>n/a</td>
     <td>is part of</td>
     <td>This field is used to indicate that a digital object forms part of a greater digital object.</td>
-    <td>->p106i->D1</td>
+    <td> → p106i → D1</td>
   </tr>
 </table>
 
@@ -188,32 +188,32 @@ Of essential import in identifying and tracking a digital object is its creation
     <td>Creation</td>
     <td>Creation Date - Early</td>
     <td>This field is used to indicate the earliest date for the creation of the documented digital object.</td>
-    <td>->L11i->D7[3]->p4->E52[4]->P81a->xsd:dateTimeTime  
-->L11i->D7[3]->p2->E55"Creation"</td>
+    <td> → L11i → D7[3] → p4 → E52[4] → P81a → xsd:dateTimeTime  
+ → L11i → D7[3] → p2 → E55"Creation"</td>
   </tr>
   <tr>
     <td>EP</td>
     <td>Creation</td>
     <td>Creation Date - Late</td>
     <td>This field is used to indicate the latest date for the creation of the documented digital object.</td>
-    <td>->L11i->D7[3]->p4->E52[4]->P81b->xsd:dateTimeTime  
-->L11i->D7[3]->p2->E55"Creation"</td>
+    <td> → L11i → D7[3] → p4 → E52[4] → P81b → xsd:dateTimeTime  
+ → L11i → D7[3] → p2 → E55"Creation"</td>
   </tr>
   <tr>
     <td>EP</td>
     <td>Modification</td>
     <td>Modification Date - Early</td>
     <td>This field is used to indicate the earliest date for the modification of the documented digital object.</td>
-    <td>->L11i->D7[4]->p4->E52[4]->P81a->xsd:dateTimeTime  
-->L11i->D7[4]->p2->E55"Modification"</td>
+    <td> → L11i → D7[4] → p4 → E52[4] → P81a → xsd:dateTimeTime  
+ → L11i → D7[4] → p2 → E55"Modification"</td>
   </tr>
   <tr>
     <td>EP</td>
     <td>Modification</td>
     <td>Modification Date - Late</td>
     <td>This field is used to indicate the latest date for the modification of the documented digital object.</td>
-    <td>->L11i->D7[4]->p4->E52[4]->P81b->xsd:dateTimeTime  
-->L11i->D7[4]->p2->E55"Modification"</td>
+    <td> → L11i → D7[4] → p4 → E52[4] → P81b → xsd:dateTimeTime  
+ → L11i → D7[4] → p2 → E55"Modification"</td>
   </tr>
 </table>
 
@@ -237,16 +237,16 @@ The connection between digital object and actors provides another important set 
     <td>n/a</td>
     <td>Creator</td>
     <td>This field is used to indicate the creator of the documented digital object.</td>
-    <td>->L11i->D7[3]->p14->E39  
-->L11i->D7[3]->P2->E55"Creation"</td>
+    <td> → L11i → D7[3] → p14 → E39  
+ → L11i → D7[3] → P2 → E55"Creation"</td>
   </tr>
   <tr>
     <td>EP</td>
     <td>n/a</td>
     <td>Last Modifier</td>
     <td>This field is used to indicate the last modifer of the documented digital object.</td>
-    <td>->L11i->D7[4]->p14->E39  
-->L11i->D7[4]->P2->E55"Modification"</td>
+    <td> → L11i → D7[4] → p14 → E39  
+ → L11i → D7[4] → P2 → E55"Modification"</td>
   </tr>
 </table>
 
@@ -271,21 +271,21 @@ The analysis and understanding of a digital object depends also on our knowledge
     <td>Dimension</td>
     <td>Dimension Type</td>
     <td>This field is used to indicate the type of dimension provided for the digital object.</td>
-    <td>->P43->E54[2]->P2->E55</td>
+    <td> → P43 → E54[2] → P2 → E55</td>
   </tr>
   <tr>
     <td>SI</td>
     <td>Dimension</td>
     <td>Dimension Value</td>
     <td>This field is used to indicate the value of the dimension provided for the documented digital object.</td>
-    <td>->P43->E54[2]->P90->xsd:decimal</td>
+    <td> → P43 → E54[2] → P90 → xsd:decimal</td>
   </tr>
   <tr>
     <td>SI</td>
     <td>Dimension</td>
     <td>Dimension Unit</td>
     <td>This field is used to indicate the unit used to express the value of the dimension of the documented digital object.</td>
-    <td>->P43->E54[2]->P91->E58</td>
+    <td> → P43 → E54[2] → P91 → E58</td>
   </tr>
 </table>
 
@@ -311,14 +311,14 @@ This information category  allows the documentation, where possible, of the cont
     <td>n/a</td>
     <td>represents</td>
     <td>This field is used to indicate the subject of representation of the documented digital object. It is meant to capture general subject areas, not particular individual items represented.</td>
-    <td>p129->E55</td>
+    <td>p129 → E55</td>
   </tr>
   <tr>
     <td>IDC</td>
     <td>n/a</td>
     <td>has Content</td>
     <td>This field is used to store the string value of the actual digital content as a blob, where appropriate.</td>
-    <td>rdfs:has_value->Literal</td>
+    <td>rdfs:has_value → Literal</td>
   </tr>
 </table>
 
@@ -342,22 +342,22 @@ The potential use and re-use of a digital object and its derivatives requires re
     <td>Rights</td>
     <td>right holder</td>
     <td>This field is used to indicate the right holder for the documented digital object.</td>
-    <td>p104->E30[25]->P75i->E39</td>
+    <td>p104 → E30[25] → P75i → E39</td>
   </tr>
   <tr>
     <td>SI</td>
     <td>Rights</td>
     <td>right type</td>
     <td>This field is used to indicate the type of right which the right holder holds over the documented digital object.</td>
-    <td>p104->E30[25]->P2->E55</td>
+    <td>p104 → E30[25] → P2 → E55</td>
   </tr>
   <tr>
     <td>SI</td>
     <td>Rights</td>
     <td>right description</td>
     <td>This field is used to provide a free text description of the right which the right holder holds over the documented digital object.</td>
-    <td>->p104->E30[25]->P129i->E73[666]->rdfs:rdf:value->rdf:Literal.  
-->p104->E30[25]->P129i->E73[666]->p72->E56</td>
+    <td> → p104 → E30[25] → P129i → E73[666] → rdfs:rdf:value → rdf:Literal.  
+ → p104 → E30[25] → P129i → E73[666] → p72 → E56</td>
   </tr>
 </table>
 
@@ -382,21 +382,21 @@ The documentation of location with regards to a digital object at the level of d
     <td>n/a</td>
     <td>Locator</td>
     <td>This field is used to indicate a locator identifier indicating a digital access point from which the digital object can be retrieved.</td>
-    <td>p1->E42[4]</td>
+    <td>p1 → E42[4]</td>
   </tr>
   <tr>
     <td>SI</td>
     <td>n/a</td>
     <td>Locator Type</td>
     <td>This field is used to indicate the kind of locator used to described the digital location of the documented digital object.</td>
-    <td>p1->E42[4]->p2->E55</td>
+    <td>p1 → E42[4] → p2 → E55</td>
   </tr>
   <tr>
     <td>SI</td>
     <td>n/a</td>
     <td>Stored on</td>
     <td>This field is used to indicate a physical storage mechanism on which the digital object can be found.</td>
-    <td>L19i->D13</td>
+    <td>L19i → D13</td>
   </tr>
 </table>
 

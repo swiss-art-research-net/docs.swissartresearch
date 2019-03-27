@@ -143,101 +143,101 @@ The attribution of names and types to built work, as with other entities, is a b
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Built Work"</th>
+    <th>E22 → P2 → E55"Built Work"</th>
   </tr>
   <tr>
     <td>ID Attribution</td>
     <td>Identifier</td>
     <td>This field is used to indicate an identifier attributed to the documented built work.</td>
-    <td>->P1->E42[1]</td>
+    <td> → P1 → E42[1]</td>
   </tr>
   <tr>
     <td>ID Attribution</td>
     <td>Identifier Type</td>
     <td>This field is used to indicate the type of an identifier attributed to the documented built work.</td>
-    <td>->P1->E42[1]->P2->E55["Identifier Type"]</td>
+    <td> → P1 → E42[1] → P2 → E55["Identifier Type"]</td>
   </tr>
   <tr>
     <td>ID Attribution</td>
     <td>Identifier Provider</td>
     <td>This field is used to indicate the institution providing the documented built work it's ID.</td>
-    <td>->P1->E42[1]->P37i->E15->P14->E39</td>
+    <td> → P1 → E42[1] → P37i → E15 → P14 → E39</td>
   </tr>
   <tr>
     <td>Identifier Attribution</td>
     <td>Identifier Source</td>
     <td>This field is used to indicate the source based on which the identifier was attributed to the object.</td>
-    <td>->P1->E42[1]->P37i->E15->p16->E73</td>
+    <td> → P1 → E42[1] → P37i → E15 → p16 → E73</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Name</td>
     <td>This field is used to indicate the main name attributed to the documented instance of built work.</td>
-    <td>->P1->E41[2]  
-->P1->E41[2]->P2->E55['preferred terms']</td>
+    <td> → P1 → E41[2]  
+ → P1 → E41[2] → P2 → E55['preferred terms']</td>
   </tr>
   <tr>
     <td></td>
     <td>Name Language</td>
     <td>This field is used to indicate the language of the name attributed to the documented entity.</td>
-    <td>->P1->E41[2]->p72->E56</td>
+    <td> → P1 → E41[2] → p72 → E56</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Type</td>
     <td>This field is used to indicate the formal type of object a documented instance of built work is.</td>
-    <td>->P2->E55[3]  
-->P2->E55[3]->P71->E32</td>
+    <td> → P2 → E55[3]  
+ → P2 → E55[3] → P71 → E32</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternative Name</td>
     <td>This field is used to indicate additional names under which the documented instance of built work is known. This can be linked to the additional name type and earliest and latest date of use of that name.</td>
-    <td>->P1->E41[4]</td>
+    <td> → P1 → E41[4]</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Type</td>
     <td>This field is used to indicate the type of alternate name that is attributed to the documented instance of built work.</td>
-    <td>->P1->E41[4]->P2->E55</td>
+    <td> → P1 → E41[4] → P2 → E55</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Language</td>
     <td>This field is used to indicate the language of the alternate name attributed to the documented built work.</td>
-    <td>->P1->E41[4]->p72->E56</td>
+    <td> → P1 → E41[4] → p72 → E56</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Earliest</td>
     <td>This field is used to indicate the earliest known date for use of an alternate name for the documented instance of built work.</td>
-    <td>->P1->E41[4]->R64i->F52[5]>p4->E52[6]->P82a->xsd:dateTimeTime</td>
+    <td> → P1 → E41[4] → R64i → F52[5]>p4 → E52[6] → P82a → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Latest</td>
     <td>This field is used to indicate the latest known date for use of an alternate name for the documented instance of built work.</td>
-    <td>->P1->E41[4]->R64i->F52[5]>p4->E52[6]->P82b->xsd:dateTimeTime</td>
+    <td> → P1 → E41[4] → R64i → F52[5]>p4 → E52[6] → P82b → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Alternative Name - Used by</td>
     <td>This field is used to indicate the actor by whom the alternate name attributed to the instance of built work is/was used.</td>
-    <td>->R63i->F52[5]->P14->E39</td>
+    <td> → R63i → F52[5] → P14 → E39</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Style</td>
     <td>This field is used to associate the documented instance of built work to a style which it can be classified with or for which it is exemplary.</td>
-    <td>->p2->E55[6]  
-->P2->E55[6]->P2->E55"Style"</td>
+    <td> → p2 → E55[6]  
+ → P2 → E55[6] → P2 → E55"Style"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Style Attributor</td>
     <td>This field is used to associate the documented instance of built work to a style which it can be classified with or for which it is exemplary.</td>
-    <td>->P2->E55[6}->P141i->E17 [77]->p14->E39
-->P140i->E17[77]</td>
+    <td> → P2 → E55[6} → P141i → E17 [77] → p14 → E39
+ → P140i → E17[77]</td>
   </tr>
 </table>
 
@@ -255,39 +255,39 @@ Built works are the subjects of innumerable descriptions that provide a wide ran
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Built Work"</th>
+    <th>E22 → P2 → E55"Built Work"</th>
   </tr>
   <tr>
     <td>Description</td>
     <td>Description</td>
     <td>This field is used to indicate a description of the documented instance of built work.</td>
-    <td>->P129i->E73[9]->rdf:value->rdf:literal   
-->P129i->E73[9]->p2->E55"Description"  
-->P129i->E73[9]->P72->E56</td>
+    <td> → P129i → E73[9] → rdf:value → rdf:literal   
+ → P129i → E73[9] → p2 → E55"Description"  
+ → P129i → E73[9] → P72 → E56</td>
   </tr>
   <tr>
     <td>Description</td>
     <td>Description Type</td>
     <td>This field is used to indicate the type of description given of the documented instance of built work.</td>
-    <td>->P129i->E73[9]->P2->E55</td>
+    <td> → P129i → E73[9] → P2 → E55</td>
   </tr>
   <tr>
     <td>Description</td>
     <td>Description Author</td>
     <td>This field is used to indicate the author of the description given of the documented instance of built work.</td>
-    <td>->P129i->E73[9]->P94i->E65-p14->E39</td>
+    <td> → P129i → E73[9] → P94i → E65-p14 → E39</td>
   </tr>
   <tr>
     <td>Description</td>
     <td>Description Date - Earliest</td>
     <td>This field is used to indicate the earliest date for the creation of the description of the documented instance of built work.</td>
-    <td>->P129i->E73[9]->P94i->E65->P4->E52->P82a->xsd:dateTimeTime</td>
+    <td> → P129i → E73[9] → P94i → E65 → P4 → E52 → P82a → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Description</td>
     <td>Description Date - Latest</td>
     <td>This field is used to indicate the latest date for the creation of the description of the documented instance of built work.</td>
-    <td>->P129i->E73[9]->P94i->E65-p4->E52->P82b->xsd:dateTimeTime</td>
+    <td> → P129i → E73[9] → P94i → E65-p4 → E52 → P82b → xsd:dateTimeTime</td>
   </tr>
 </table>
 
@@ -305,13 +305,13 @@ Built works may require documentation not just as a whole, but with regards to t
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Built Work"</th>
+    <th>E22 → P2 → E55"Built Work"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Parts</td>
     <td>This field is used to indicate parts of the documented instance of built work.</td>
-    <td>->P46->E22</td>
+    <td> → P46 → E22</td>
   </tr>
 </table>
 
@@ -329,59 +329,59 @@ Of essential importance in identifying and tracking built works is information p
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Built Work"</th>
+    <th>E22 → P2 → E55"Built Work"</th>
   </tr>
   <tr>
     <td>Production</td>
     <td>Construction Date - Earliest</td>
     <td>This field is used to indicate the earliest date for the construction of the documented instance of built work.</td>
-    <td>->P108i->E12[10]->p4->E52[111]->P82a->xsd:dateTimeTime  
-->P108i->E12[10]->P2->E55"Construction"</td>
+    <td> → P108i → E12[10] → p4 → E52[111] → P82a → xsd:dateTimeTime  
+ → P108i → E12[10] → P2 → E55"Construction"</td>
   </tr>
   <tr>
     <td>Production</td>
     <td>Construction Date - Latest</td>
     <td>This field is used to indicate the latest date for the construction of the documented instance of built work.</td>
-    <td>->P108i->E12[10]->p4->E52[111]->P82b->xsd:dateTimeTime  
-->P108i->E12[10]->P2->E55"Construction"</td>
+    <td> → P108i → E12[10] → p4 → E52[111] → P82b → xsd:dateTimeTime  
+ → P108i → E12[10] → P2 → E55"Construction"</td>
   </tr>
   <tr>
     <td>Production</td>
     <td>Production Place</td>
     <td>This field is used to indicate the place of the construction of the documented instance of built work.</td>
-    <td>->P108i->E12[10]->P7->E53  
-->P108i->E12[10]->P2->E55"Construction"</td>
+    <td> → P108i → E12[10] → P7 → E53  
+ → P108i → E12[10] → P2 → E55"Construction"</td>
   </tr>
   <tr>
     <td>Destruction</td>
     <td>Destruction Date - Earliest</td>
     <td>This field is used to indicate the earliest date for the destruction of the documented instance of built work.</td>
-    <td>->P13i->E6[11]->p4->E52[112]->P82a->xsd:dateTimeTime</td>
+    <td> → P13i → E6[11] → p4 → E52[112] → P82a → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Destruction</td>
     <td>Destruction Date - Latest</td>
     <td>This field is used to indicate the latest date for the destruction of the documented instance of built work.</td>
-    <td>->P13i->E6[11]->p4->E52[112]->P82b->xsd:dateTimeTime</td>
+    <td> → P13i → E6[11] → p4 → E52[112] → P82b → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Destruction</td>
     <td>Destruction place</td>
     <td>This field is used to indicate the place of the destruction of the documented instance of built work.</td>
-    <td>->P13i->E6[11]->P7->E53</td>
+    <td> → P13i → E6[11] → P7 → E53</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Destruction period</td>
     <td>This field is used to indicate the historical period in which the destruction of the documented instance of built work occured.</td>
-    <td>->P13i->E6[11]->P10->E4</td>
+    <td> → P13i → E6[11] → P10 → E4</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Construction period</td>
     <td>This field is used to indicate the historical period in which the construction of the documented instance of built work occured.</td>
-    <td>->P108i->E12[10]->P10->E4  
-->P108i->E12[10]->P2->E55"Construction"</td>
+    <td> → P108i → E12[10] → P10 → E4  
+ → P108i → E12[10] → P2 → E55"Construction"</td>
   </tr>
 </table>
 
@@ -399,27 +399,27 @@ The connection between a built work and actors provides another important set of
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Built Work"</th>
+    <th>E22 → P2 → E55"Built Work"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Creator</td>
     <td>This field is used to indicate the architect and/or other actors involved in the construction of the documented instance of built work.</td>
-    <td>->P108i->E12[10]->P01->PC14->P02->E21  
-->P108i->E12[10]->P2->E55"Construction"</td>
+    <td> → P108i → E12[10] → P01 → PC14 → P02 → E21  
+ → P108i → E12[10] → P2 → E55"Construction"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Creator Role</td>
     <td>This field is used to indicate the role played by the architect and/or other actors involved in the conctruction of the documented instance of built work.</td>
-    <td>->P108i->E12[10]->P01->PC14->P14.1->E55  
-->P108i->E12[10]->P2->E55"Construction"</td>
+    <td> → P108i → E12[10] → P01 → PC14 → P14.1 → E55  
+ → P108i → E12[10] → P2 → E55"Construction"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Current Owner</td>
     <td>This field is used to indicate the present owner of the documented instance of built work.</td>
-    <td>->P52->E39</td>
+    <td> → P52 → E39</td>
   </tr>
 </table>
 
@@ -437,64 +437,64 @@ The analysis and understanding of a built work depends also on our knowledge of 
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Built Work"</th>
+    <th>E22 → P2 → E55"Built Work"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Creator</td>
     <td>This field is used to indicate the architect and/or other actors involved in the construction of the documented instance of built work.</td>
-    <td>->P108i->E12[10]->P01->PC14->P02->E21  
-->P108i->E12[10]->P2->E55"Construction"</td>
+    <td> → P108i → E12[10] → P01 → PC14 → P02 → E21  
+ → P108i → E12[10] → P2 → E55"Construction"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Creator Role</td>
     <td>This field is used to indicate the role played by the architect and/or other actors involved in the conctruction of the documented instance of built work.</td>
-    <td>->P108i->E12[10]->P01->PC14->P14.1->E55   
-->P108i->E12[10]->P2->E55"Construction"</td>
+    <td> → P108i → E12[10] → P01 → PC14 → P14.1 → E55   
+ → P108i → E12[10] → P2 → E55"Construction"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Current Owner</td>
     <td>This field is used to indicate the present owner of the documented instance of built work.</td>
-    <td>->P52->E39</td>
+    <td> → P52 → E39</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Material</td>
     <td>This field is used to indicate the material of which the documented instance of built work consists.</td>
-    <td>->P45->E57</td>
+    <td> → P45 → E57</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Technique</td>
     <td>This field is used to indicate the technique used in the construction of the documented instance of built work.</td>
-    <td>->P108i->E12[10]->P32->E55   
-->P108i->E12[10]->P2->E55"Construction"</td>
+    <td> → P108i → E12[10] → P32 → E55   
+ → P108i → E12[10] → P2 → E55"Construction"</td>
   </tr>
   <tr>
     <td>Dimension</td>
     <td>Dimension Type</td>
     <td>This field is used to indicate the type of measurement that the dimension of the documented instance of built work is.</td>
-    <td>->P39i->E16[12]->P40->E54[13]->P2->E55</td>
+    <td> → P39i → E16[12] → P40 → E54[13] → P2 → E55</td>
   </tr>
   <tr>
     <td>Dimension</td>
     <td>Dimension Value</td>
     <td>This field is used to indicate the value of the measurement of the documented instance of built work.</td>
-    <td>->P39i->E16[12]->P40->E54[13]->P90->xsd:decimal</td>
+    <td> → P39i → E16[12] → P40 → E54[13] → P90 → xsd:decimal</td>
   </tr>
   <tr>
     <td>Dimension</td>
     <td>Dimension Unit</td>
     <td>This field is used to indicate the unit used to express the value of the measurement of the documented instance of built work.</td>
-    <td>->P39i->E16[12]->P40->E54[13]->P91->E58</td>
+    <td> → P39i → E16[12] → P40 → E54[13] → P91 → E58</td>
   </tr>
   <tr>
     <td>Dimension</td>
     <td>Dimension Taker</td>
     <td>This field is used to indicate the actor who undertook the measurement of the documented instance of built work.</td>
-    <td>->P39i->E16[12]->P40->E54[13]->P14->E39</td>
+    <td> → P39i → E16[12] → P40 → E54[13] → P14 → E39</td>
   </tr>
 </table>
 
@@ -510,104 +510,104 @@ This information category brings together typical events in which a built work m
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Built Work"</th>
+    <th>E22 → P2 → E55"Built Work"</th>
   </tr>
   <tr>
     <td>Function</td>
     <td>Use Period - Start</td>
     <td>This field is used to indicate the start of a kind of period of use for the built work.</td>
-    <td>->P12i->E5[14]->P4->E52[15]->P82a->xsd:dateTimeTime</td>
+    <td> → P12i → E5[14] → P4 → E52[15] → P82a → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Function</td>
     <td>Use Period - End</td>
     <td>This field is used to indicate the end of a period of use for the built work.</td>
-    <td>->P12i->E5[14]->P4->E52[15]->->P82b->xsd:dateTimeTime</td>
+    <td> → P12i → E5[14] → P4 → E52[15] → P82b → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Function</td>
     <td>Use Period - Type</td>
     <td>This field is used to indicate the kind of period of use of the built work.</td>
-    <td>->P12i->E5[14]->P2->E55"Use Period Type"</td>
+    <td> → P12i → E5[14] → P2 → E55"Use Period Type"</td>
   </tr>
   <tr>
     <td>Provenance</td>
     <td>Past Ownership Period Statement - Earliest date of taking of Possession</td>
     <td>This field is used to indicate the earliest date for taking possession of the documented object by some actor.</td>
-    <td>->P24i->E8[16]->P4->E52[17]->P82a->xsd:dateTimeTime</td>
+    <td> → P24i → E8[16] → P4 → E52[17] → P82a → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Provenance</td>
     <td>Past Ownership Period Statement - Latest Date of taking of Possession</td>
     <td>This field is used to indicate the latest date for taking possession of the documented object by some actor.</td>
-    <td>->P24i->E8[16]->P4->E52[17]->P82b->xsd:dateTimeTime</td>
+    <td> → P24i → E8[16] → P4 → E52[17] → P82b → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Provenance</td>
     <td>Past Ownership Period Statement - Actor Obtaining Ownership</td>
     <td>This field is used to indicate the actor taking possession of a documented object at some time.</td>
-    <td>->P24i->E8[16]->P22->E39</td>
+    <td> → P24i → E8[16] → P22 → E39</td>
   </tr>
   <tr>
     <td>Provenance</td>
     <td>Past Ownership Period Statement - Earliest Ceding of Possession</td>
     <td>This field is used to indicate the earliest date for ceding of possession of the documented object by some actor.</td>
-    <td>->P24i->E8[16]->P115i->E8[18]->P4->E52[17]->P82a->xsd:dateTimeTime</td>
+    <td> → P24i → E8[16] → P115i → E8[18] → P4 → E52[17] → P82a → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Provenance</td>
     <td>Past Ownership Period Statement - Latest Ceding of Possession</td>
     <td>This field is used to indicate the latest date for ceding of possession of the documented object by some actor.</td>
-    <td>->P24i->E8[16]->P115i->E8[18]->P4->E52[17]->P82 ->xsd:dateTimeTime</td>
+    <td> → P24i → E8[16] → P115i → E8[18] → P4 → E52[17] → P82 → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Provenance</td>
     <td>Past Ownership Period Statement - Actor Ceding Ownership</td>
     <td>This field is used to indicate the actor ceding possession of a documented object at some time.</td>
-    <td>->P24i->E8[18]->P23->E39</td>
+    <td> → P24i → E8[18] → P23 → E39</td>
   </tr>
   <tr>
     <td>Provenance</td>
     <td>Past Ownership Description</td>
     <td>This field used to provide a free text description related to an ownership period for the documented instance of built work.</td>
-    <td>->P24i->E8[16]->P70i->E31->rdf:value->rdf:literal</td>
+    <td> → P24i → E8[16] → P70i → E31 → rdf:value → rdf:literal</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservation Event - Earliest</td>
     <td>This field is used to indicate the earliest date for a conservation event performed on the documented instance of built work.</td>
-    <td>->P31i->E11[19]->P4->E52[20]->P82a->xsd:dateTimeTime</td>
+    <td> → P31i → E11[19] → P4 → E52[20] → P82a → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservation Event - Latest</td>
     <td>This field is used to indicate the latest date for a conservation event performed on the documented instance of built work.</td>
-    <td>->P31i->E11[19]->P4->E52[20]->P82b->xsd:dateTimeTime</td>
+    <td> → P31i → E11[19] → P4 → E52[20] → P82b → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservation Event - Type</td>
     <td>This field is used to indicate the type of conservation event performed on the documented instance of built work.</td>
-    <td>->P31i->E11[19]->E55</td>
+    <td> → P31i → E11[19] → E55</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservation Event - technique</td>
     <td>This field is used to indicate the technique used in the conservation event performed on the documented instance of built work.</td>
-    <td>->P31i->E11[19]->P32->E55</td>
+    <td> → P31i → E11[19] → P32 → E55</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservator</td>
     <td>This field is used to indicate the actor the carried out the conservation event performed on the documented instance of built work.</td>
-    <td>->P31i->E11[19]->P14->E21</td>
+    <td> → P31i → E11[19] → P14 → E21</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservation Event Description</td>
     <td>This field used to provide a free text description related to the conservation event performed on the documented instance of built work.</td>
-    <td>->P31i->E11[19]->P70i->E31[21]  
-->P31i->E11[19]->P70i->E31[21]->P2->E55"Description"</td>
+    <td> → P31i → E11[19] → P70i → E31[21]  
+ → P31i → E11[19] → P70i → E31[21] → P2 → E55"Description"</td>
   </tr>
 </table>
 
@@ -623,26 +623,26 @@ The documentation of location aids in tracking the present location of individua
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Built Work"</th>
+    <th>E22 → P2 → E55"Built Work"</th>
   </tr>
   <tr>
     <td>Location</td>
     <td>Location - Institution Address</td>
     <td>This field is used to document the address at which the documented instance of built work is located.</td>
-    <td>p53->E53[22]->P1->E41  
-p53->E53[22]->P1->E41>p2->E55"Address"</td>
+    <td>p53 → E53[22] → P1 → E41  
+p53 → E53[22] → P1 → E41>p2 → E55"Address"</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Location - coordinates</td>
     <td>This field is used to indicate the coordinates at which the documented instance of built work is presently located.</td>
-    <td>p53->E53[22]->P168->geo:wktLiteral</td>
+    <td>p53 → E53[22] → P168 → geo:wktLiteral</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Location - Cadastral Reference</td>
     <td></td>
-    <td>p53->E53[22]->P70i->E31->P1->E42</td>
+    <td>p53 → E53[22] → P70i → E31 → P1 → E42</td>
   </tr>
 </table>
 
@@ -658,31 +658,31 @@ Characteristic of information gathered relative to built works are various kinds
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Built Work"</th>
+    <th>E22 → P2 → E55"Built Work"</th>
   </tr>
   <tr>
     <td>Designation Status</td>
     <td>Designation Status Number</td>
     <td>This field is used to indicate the identifier assigned to the designation status attributed to the documented instance of built work.</td>
-    <td>p41i->E17[23]->P141>E42</td>
+    <td>p41i → E17[23] → P141>E42</td>
   </tr>
   <tr>
     <td>Designation Status</td>
     <td>Designation Status Attributor</td>
     <td>This field is used to indicate the attributor of the designtation status of the documented instance of built work.</td>
-    <td>p41i->E17[23]->P14->E39</td>
+    <td>p41i → E17[23] → P14 → E39</td>
   </tr>
   <tr>
     <td>Designation Status</td>
     <td>Designation Status Type</td>
     <td>This field is used to indicate the type of designation status which applies to the documented instance of built work.</td>
-    <td>p41i->E17[23]->P42->E55"Designation Status"</td>
+    <td>p41i → E17[23] → P42 → E55"Designation Status"</td>
   </tr>
   <tr>
     <td>Designation Status</td>
     <td>Designation Status Description</td>
     <td>This field is used to provide a free text description of the designation status which holds over the documented instance of built work.</td>
-    <td>p41i->E17[23]->P129i->E73->rdf:value->rdf:Literal</td>
+    <td>p41i → E17[23] → P129i → E73 → rdf:value → rdf:Literal</td>
   </tr>
 </table>
 
@@ -698,21 +698,21 @@ This information category unites referential information about the documented bu
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Built Work"</th>
+    <th>E22 → P2 → E55"Built Work"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented instance of built work.</td>
-    <td>->P129i->E73->rdf:value->rdf:literal
-->P129i->E73->P2->E55"Citation"
-->P129i->E73->P67->E73 [from Bibliography Entity Type]</td>
+    <td> → P129i → E73 → rdf:value → rdf:literal
+ → P129i → E73 → P2 → E55"Citation"
+ → P129i → E73 → P67 → E73 [from Bibliography Entity Type]</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Image</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented instance of built work.</td>
-    <td>->P138i->E36/D9</td>
+    <td> → P138i → E36/D9</td>
   </tr>
 </table>
 

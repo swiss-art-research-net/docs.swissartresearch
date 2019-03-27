@@ -130,7 +130,7 @@ The fields used to describe an artwork can be functionally grouped according to 
 
 <!--An overview of all the groups of the entity described here is available in the image below. Click to enlarge it.
 
-![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f912c2d2-a00e-4664-8887-d3faf226d2f6.png){.thumbnail} -->
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f912c2d2-a00e-4664-8887-d3faf226d2f6.png){.thumbnail} - → 
 
 
 ### Names and Classifications
@@ -142,75 +142,75 @@ The attribution of names and types to artwork, as with other entities, is a basi
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Artwork"</th>
+    <th>E22 → P2 → E55"Artwork"</th>
   </tr>
   <tr>
     <td>ID Attribution</td>
     <td>Identifier</td>
     <td>This field is used to indicate an identifier attributed to the documented instance of artwork.</td>
-    <td>->P1->E42[1]</td>
+    <td> → P1 → E42[1]</td>
   </tr>
   <tr>
     <td>ID Attribution</td>
     <td>Identifier Type</td>
     <td>This field is used to indicate the type of an identifier attributed to the documented person.</td>
-    <td>->P1->E42[1]->P2->E55["Identifier Type"]</td>
+    <td> → P1 → E42[1] → P2 → E55["Identifier Type"]</td>
   </tr>
   <tr>
     <td>ID Attribution</td>
     <td>Identifier Provider</td>
     <td>This field is used to indicate the institution providing the artwork it's ID.</td>
-    <td>->P1->E42[1]->P37i->E15->P14->E39</td>
+    <td> → P1 → E42[1] → P37i → E15 → P14 → E39</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Title</td>
     <td>This field is used to indicate the main name attributed to the documented artwork.</td>
-    <td>->P1->E41</td>
+    <td> → P1 → E41</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Type</td>
     <td>This field is used to indicate the formal type of object an artwork is.</td>
-    <td>->P2->E55[3]
-->P2->E55[3]->P71->E32</td>
+    <td> → P2 → E55[3]
+ → P2 → E55[3] → P71 → E32</td>
   </tr>
   <tr>
     <td>Alternate Title</td>
     <td>Alternative Title</td>
     <td>This field is used to indicate additional names under which the documented artwork is known. This can be linked to the additional name type and earliest and latest date of use of that name.</td>
-    <td>->P1->E41[4]</td>
+    <td> → P1 → E41[4]</td>
   </tr>
   <tr>
     <td>Alternate Title</td>
     <td>Alternate Title Type</td>
     <td>This field is used to indicate the type of alternate name that is attributed to the documented artwork.</td>
-    <td>->P1->E41[4]->P2->E55</td>
+    <td> → P1 → E41[4] → P2 → E55</td>
   </tr>
   <tr>
     <td>Alternate Title</td>
     <td>Alternate Title Use Period - Earliest</td>
     <td>This field is used to indicate the earliest known date for use of this name for the documented artwork.</td>
-    <td>->P1->E41[4]->R64i->F52[5]->p4->E52[6]->P82a->xsd:dateTime</td>
+    <td> → P1 → E41[4] → R64i → F52[5] → p4 → E52[6] → P82a → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Alternate Title</td>
     <td>Alternate Title Use Period - Latest</td>
     <td>This field is used to indicate the latest known date for use of this name for the documented artwork.</td>
-    <td>->P1->E41[4]->R64i->F52[5]->p4->E52[6]->P82b->xsd:dateTime</td>
+    <td> → P1 → E41[4] → R64i → F52[5] → p4 → E52[6] → P82b → xsd:dateTime</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Alternative Title - Used by</td>
     <td>This field is used to indicate the actor by whom the title attributed to the artwork is/was used.</td>
-    <td>->R63i->F52[5]->P14->E39</td>
+    <td> → R63i → F52[5] → P14 → E39</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Style - Movement</td>
     <td>This field is used to associate the documented artwork to a group of actors that collectively form an artistic movement.</td>
-    <td>->P140i->E13[8]->P141->E74
-->P140i->E13[8]->P2->"p15 is influenced by"</td>
+    <td> → P140i → E13[8] → P141 → E74
+ → P140i → E13[8] → P2 → "p15 is influenced by"</td>
   </tr>
 </table>
 
@@ -228,38 +228,38 @@ Artworks are the subjects of innumerable descriptions that provide a wide range 
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Artwork"</th>
+    <th>E22 → P2 → E55"Artwork"</th>
   </tr>
   <tr>
     <td>Description</td>
     <td>Description</td>
     <td>This field is used to indicate a description of documented artwork</td>
-    <td>->P67i->E73[9]->rdf:value->rdf:Literal  
-    ->P67i->E73[9]->P72->E56</td>
+    <td> → P67i → E73[9] → rdf:value → rdf:Literal  
+    → P67i → E73[9] → P72 → E56</td>
   </tr>
   <tr>
     <td>Description</td>
     <td>Description Type</td>
     <td>This field is used to indicate the type of description given of the documented work.</td>
-    <td>->P67i->E73[9]->P2->E55</td>
+    <td> → P67i → E73[9] → P2 → E55</td>
   </tr>
   <tr>
     <td>Description</td>
     <td>Description Author</td>
     <td>This field is used to indicate the author of the description fiven of the documented work.</td>
-    <td>->P67i->E73[9]->P94i->E65[10]->p14->E39</td>
+    <td> → P67i → E73[9] → P94i → E65[10] → p14 → E39</td>
   </tr>
   <tr>
     <td>Description</td>
     <td>Description Date - Earliest</td>
     <td>This field is used to indicate the ealiest date for the creation of the description of the documented work.</td>
-    <td>->P67i->E73[9]->P94i->E65[10]->P4->E52[11]->P82a->xsd:dateTime</td>
+    <td> → P67i → E73[9] → P94i → E65[10] → P4 → E52[11] → P82a → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Description</td>
     <td>Description Date - Latest</td>
     <td>This field is used to indicate the latest date for the creation of the description of the documented work.</td>
-    <td>->P67i->E73[9]->P94i->E65[10]->p4->E52[11]->P82b->xsd:dateTime</td>
+    <td> → P67i → E73[9] → P94i → E65[10] → p4 → E52[11] → P82b → xsd:dateTime</td>
   </tr>
 </table>
 
@@ -277,25 +277,25 @@ Artwork may require documentation not just as a whole, but with regards to its p
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Artwork"</th>
+    <th>E22 → P2 → E55"Artwork"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Parts</td>
     <td>This field is used to indicate parts of the documented artwork.</td>
-    <td>->P46->E22</td>
+    <td> → P46 → E22</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Part Types</td>
     <td>This field is used to indicate part types for the documented artwork.</td>
-    <td>->P46->E22->P2->E55</td>
+    <td> → P46 → E22 → P2 → E55</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Part Count</td>
     <td>This field is use to indicate part counts for the documented part types.</td>
-    <td>->P57->rdf:literal</td>
+    <td> → P57 → rdf:literal</td>
   </tr>
 </table>
 
@@ -311,49 +311,49 @@ Of essential import in identifying and tracking artwork is information pertainin
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Artwork"</th>
+    <th>E22 → P2 → E55"Artwork"</th>
   </tr>
   <tr>
     <td>Production</td>
     <td>Production Location</td>
     <td>This field is used to indicate the place of the creation of the documented artwork.</td>
-    <td>->P108i->E12[12]->P4->E53</td>
+    <td> → P108i → E12[12] → P4 → E53</td>
   </tr>
   <tr>
     <td>Production</td>
     <td>Production Date - Earliest</td>
     <td>This field is used to indicate the earliest date for the creation of the documented artwork.</td>
-    <td>->P108i->E12[12]->p4->E52[13]->P82a->xsd:dateTime</td>
+    <td> → P108i → E12[12] → p4 → E52[13] → P82a → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Production</td>
     <td>Production Date - Latest</td>
     <td>This field is used to indicate the latest date for the creation of the documented artwork.</td>
-    <td>->P108i->E12[12]->p4->E52[13]->P82b->xsd:dateTime</td>
+    <td> → P108i → E12[12] → p4 → E52[13] → P82b → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Destruction</td>
     <td>Destruction Location</td>
     <td>This field is used to indicate the place of the destruction of the documented artwork.</td>
-    <td>->P13i->E6[14]->P7->E53</td>
+    <td> → P13i → E6[14] → P7 → E53</td>
   </tr>
   <tr>
     <td>Destruction</td>
     <td>Destruction Date - Earliest</td>
     <td>This field is used to indicate the earliest date for the destruction of the documented artwork.</td>
-    <td>->P13i->E6[14]->p4->E52[15]->P82a->xsd:dateTime</td>
+    <td> → P13i → E6[14] → p4 → E52[15] → P82a → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Destruction</td>
     <td>Destruction Date - Latest</td>
     <td>This field is used to indicate the latest date for the destruction of the documented artwork.</td>
-    <td>->P13i->E6[14]->p4->E52[15]->P82b->xsd:dateTime</td>
+    <td> → P13i → E6[14] → p4 → E52[15] → P82b → xsd:dateTime</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Period</td>
     <td>This field is used to indicate the historical period in which the creation of the documented artwork occured.</td>
-    <td>->P108i->E12[16]->P10->E4</td>
+    <td> → P108i → E12[16] → P10 → E4</td>
   </tr>
 </table>
 
@@ -371,43 +371,43 @@ The connection between artwork and actors provides another important set of desc
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Artwork"</th>
+    <th>E22 → P2 → E55"Artwork"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Creator</td>
     <td>This field is used to indicate the artist or creator of the documented artwork.</td>
-    <td>->P108i->E12[16]->P14->E39</td>
+    <td> → P108i → E12[16] → P14 → E39</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Creator Role</td>
     <td>This field is used to indicate the role played by the artist or creator in the creation of the documented artwork.</td>
-    <td>->P108i->E12[16]->P14->P14.1->E55</td>
+    <td> → P108i → E12[16] → P14 → P14.1 → E55</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Current Owner</td>
     <td>This field is used to indicate the present owner of the documented artwork.</td>
-    <td>->P52->E39</td>
+    <td> → P52 → E39</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Current Holder</td>
     <td>This field is used to indicate the current holder of the documented artwork.</td>
-    <td>->P49->E39</td>
+    <td> → P49 → E39</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Material</td>
     <td>This field is used to indicate the material of which the document artwork consists.</td>
-    <td>->P45->E57</td>
+    <td> → P45 → E57</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Technique</td>
     <td>This field is used to indicate the technique used in the production of the documented artwork.</td>
-    <td>->P108i->E12[16]->P32->E55</td>
+    <td> → P108i → E12[16] → P32 → E55</td>
   </tr>
 </table>
 
@@ -425,44 +425,44 @@ The analysis and understanding of an artwork depends also on our knowledge of it
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Artwork"</th>
+    <th>E22 → P2 → E55"Artwork"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Material</td>
     <td>This field is used to indicate the material of which the documented instance of built work consists.</td>
-    <td>->P45->E57</td>
+    <td> → P45 → E57</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Technique</td>
     <td>This field is used to indicate the technique used in the construction of the documented instance of built work.</td>
-    <td>->P108i->E12->P32->E55
-->P108i->E12->P2->E55"Construction"</td>
+    <td> → P108i → E12 → P32 → E55
+ → P108i → E12 → P2 → E55"Construction"</td>
   </tr>
   <tr>
     <td>Dimension</td>
     <td>Dimension Type</td>
     <td>This field is used to indicate the type of measurement that the dimension of the documented instance of built work is.</td>
-    <td>->P39i->E16->P40->E54->P2->E55</td>
+    <td> → P39i → E16 → P40 → E54 → P2 → E55</td>
   </tr>
   <tr>
     <td>Dimension</td>
     <td>Dimension Value</td>
     <td>This field is used to indicate the value of the measurement of the documented instance of built work.</td>
-    <td>->P39i->E16->P40->E54->P90->xsd:decimal</td>
+    <td> → P39i → E16 → P40 → E54 → P90 → xsd:decimal</td>
   </tr>
   <tr>
     <td>Dimension</td>
     <td>Dimension Unit</td>
     <td>This field is used to indicate the unit used to express the value of the measurement of the documented instance of built work.</td>
-    <td>->P39i->E16->P40->E54->P91->E58</td>
+    <td> → P39i → E16 → P40 → E54 → P91 → E58</td>
   </tr>
   <tr>
     <td>Dimension</td>
     <td>Dimension Taker</td>
     <td>This field is used to indicate the actor who undertook the measurement of the documented instance of built work.</td>
-    <td>->P39i->E16->P40->E54->P14->E39</td>
+    <td> → P39i → E16 → P40 → E54 → P14 → E39</td>
   </tr>
 </table>
 
@@ -478,13 +478,13 @@ This information category at present is lightly populated, but provides the mean
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Artwork"</th>
+    <th>E22 → P2 → E55"Artwork"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Subject</td>
     <td>This field is used to indicate the subject of representation of the documented artwork. It is meant to capture general subject areas, not particular individual items represented.</td>
-    <td>->P62->E1</td>
+    <td> → P62 → E1</td>
   </tr>
 </table>
 
@@ -500,68 +500,68 @@ This information category brings together typical events in which an artwork may
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Artwork"</th>
+    <th>E22 → P2 → E55"Artwork"</th>
   </tr>
   <tr>
     <td>Provenance</td>
     <td>Past Ownership Period Statement - Earliest</td>
     <td>This field is used to indicate the earliest date for an ownership period of the documented artwork.</td>
-    <td>->P24i->E8[19]->P4->E52[20]->P82a->xsd:dateTime</td>
+    <td> → P24i → E8[19] → P4 → E52[20] → P82a → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Provenance</td>
     <td>Past Ownership Period Statement - Latest</td>
     <td>This field is used to indicate the latest date for an ownership period of the documented artwork.</td>
-    <td>->P24i->E8[19]->P4->E52[20]->P82b->xsd:dateTime</td>
+    <td> → P24i → E8[19] → P4 → E52[20] → P82b → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Provenance</td>
     <td>Past Ownership Period Statement - Owner</td>
     <td>This field is used to indicate the actor holding ownership over the documented artwork during an ownership period.</td>
-    <td>->P24i->E8[19]->P22->E39</td>
+    <td> → P24i → E8[19] → P22 → E39</td>
   </tr>
   <tr>
     <td>Provenance</td>
     <td>Past Ownership Description</td>
     <td>This field used to provide a free text description related to an ownership period for the documented artwork.</td>
-    <td>->P24i->E8[19]->P70i->E31->rdf:value->rdf:Literal</td>
+    <td> → P24i → E8[19] → P70i → E31 → rdf:value → rdf:Literal</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservation Event - Earliest</td>
     <td>This field is used to indicate the earliest date for a conservation event performed on the documented artwork.</td>
-    <td>->P31i->E11[20]->P4->E52[21]->P82a->xsd:dateTime</td>
+    <td> → P31i → E11[20] → P4 → E52[21] → P82a → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservation Event - Latest</td>
     <td>This field is used to indicate the latest date for a conservation event performed on the documented artwork.</td>
-    <td>->P31i->E11[20]->P4->E52[21]->P82b->xsd:dateTime</td>
+    <td> → P31i → E11[20] → P4 → E52[21] → P82b → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservation Event - Type</td>
     <td>This field is used to indicate the type of conservation event performed on the documented artwork.</td>
-    <td>->P31i->E11[20]->E55</td>
+    <td> → P31i → E11[20] → E55</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservation Event - technique</td>
     <td>This field is used to indicate the technique used in the conservation event performed on the documented artwork.</td>
-    <td>->P31i->E11[21]->P32->E55</td>
+    <td> → P31i → E11[21] → P32 → E55</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservator</td>
     <td>This field is used to indicate the actor the carried out the conservation event performed on the documented artwork.</td>
-    <td>->P31i->E11[21]->P14->E21</td>
+    <td> → P31i → E11[21] → P14 → E21</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservation Event Description</td>
     <td>This field used to provide a free text description related to the conservation event performed on the documented artwork.</td>
-    <td>->P31i->E11[21]->P70i->E31[22]
-->P31i->E11[21]->P70i->E31[22]->P2->E55"Description"</td>
+    <td> → P31i → E11[21] → P70i → E31[22]
+ → P31i → E11[21] → P70i → E31[22] → P2 → E55"Description"</td>
   </tr>
 </table>
 
@@ -576,30 +576,30 @@ The documentation of location aids in tracking individual artworks as well as in
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Artwork"</th>
+    <th>E22 → P2 → E55"Artwork"</th>
   </tr>
   <tr>
     <td>Location</td>
     <td>Present Location - Institution</td>
     <td>This field is used to document the institution at which the documented artwork is presently located.</td>
-    <td>p53->E53[24]->P74i->E74[25]
-p53->E53[24]->P74i->E74[25]->p2->E55["Institution"]
-p53->E53[24]->P2->E55"Institutional Location"</td>
+    <td>p53 → E53[24] → P74i → E74[25]
+p53 → E53[24] → P74i → E74[25] → p2 → E55["Institution"]
+p53 → E53[24] → P2 → E55"Institutional Location"</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Present Location - Institution Address</td>
     <td>This field is used to document the address of the institution at which the documented artwork is presently located.</td>
-    <td>p53->E53[24]->P1->E41[25]
-p53->E53[24]->P1->E41[25]->P2->E55"Address"
-p53->E53[24]->P2->E55"Institutional Location"</td>
+    <td>p53 → E53[24] → P1 → E41[25]
+p53 → E53[24] → P1 → E41[25] → P2 → E55"Address"
+p53 → E53[24] → P2 → E55"Institutional Location"</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Present location - coordinates</td>
     <td>This field is used to indicate the coordinates for the institution at which the documented is presently located.</td>
-    <td>p53->E53[24]->P168->geo:wktLiteral
-p53->E53[24]->P2->E55"Institutional Location"</td>
+    <td>p53 → E53[24] → P168 → geo:wktLiteral
+p53 → E53[24] → P2 → E55"Institutional Location"</td>
   </tr>
 </table>
 
@@ -614,25 +614,25 @@ The potential use and re-use of an artwork and its derivatives requires respect 
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Artwork"</th>
+    <th>E22 → P2 → E55"Artwork"</th>
   </tr>
   <tr>
     <td>Rights</td>
     <td>Right Holder</td>
     <td>This field is used to indicate the right holder for the documented artwork.</td>
-    <td>p104->E30[25]->P105->E39</td>
+    <td>p104 → E30[25] → P105 → E39</td>
   </tr>
   <tr>
     <td>Rights</td>
     <td>Right Type</td>
     <td>This field is used to indicate the type of right which the right holder holds over the documented artwork.</td>
-    <td>p104->E30[25]->P2->E55</td>
+    <td>p104 → E30[25] → P2 → E55</td>
   </tr>
   <tr>
     <td>Rights</td>
     <td>Right Description</td>
     <td>This field is used to provide a free text description of the right which the right holder holds over the documented artwork.</td>
-    <td>p104->E30[25]->P67i->E73</td>
+    <td>p104 → E30[25] → P67i → E73</td>
   </tr>
 </table>
 
@@ -647,21 +647,21 @@ This information category unites referential information about the documented ar
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22->P2->E55"Artwork"</th>
+    <th>E22 → P2 → E55"Artwork"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented artwork.</td>
-    <td>->P67i->E73[26]->rdf:value->rdf:Literal
-->P67i->E73[26]->P2->E55"Citation"
-->P67i->E73[26]->P67->E73 [from Bibliography Entity Type]</td>
+    <td> → P67i → E73[26] → rdf:value → rdf:Literal
+ → P67i → E73[26] → P2 → E55"Citation"
+ → P67i → E73[26] → P67 → E73 [from Bibliography Entity Type]</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Image</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented artwork.</td>
-    <td>->P138i->E36/D9</td>
+    <td> → P138i → E36/D9</td>
   </tr>
 </table>
 

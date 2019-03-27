@@ -149,88 +149,88 @@ The attribution of names and types to things, including institutions, is a basic
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E74 Group p2->E55"Institution"</th>
+    <th>E74 Group p2 → E55"Institution"</th>
   </tr>
   <tr>
     <td>Identifier Attribution</td>
     <td>Identifier</td>
     <td>This field is used to indicate an identifier attributed to the documented institution.</td>
-    <td>->P1->E42[1]</td>
+    <td> → P1 → E42[1]</td>
   </tr>
   <tr>
     <td>Identifier Attribution</td>
     <td>Identifier Type</td>
     <td>This field is used to indicate the type of an identifier attributed to the documented institution.</td>
-    <td>->P1->E42[1]->P2->E55["Identifier Type"]</td>
+    <td> → P1 → E42[1] → P2 → E55["Identifier Type"]</td>
   </tr>
   <tr>
     <td>Identifier Attribution</td>
     <td>Identifier Provider</td>
     <td>This field is used to indicate the provider of the identifier attributed to the documented institution.</td>
-    <td>->P1->E42[1]->P37i->E15->P14->E39</td>
+    <td> → P1 → E42[1] → P37i → E15 → P14 → E39</td>
   </tr>
   <tr>
     <td>Identifier Attribution</td>
     <td>Identifier Source</td>
     <td>This field is used to indicate the source based on which the identifier was attributed to the object.</td>
-    <td>->P1->E42[1]->P37i->E15->p16->E73</td>
+    <td> → P1 → E42[1] → P37i → E15 → p16 → E73</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Name</td>
     <td>This field is used to indicate the main name attributed to the documented institution. No part break down of name is here implied. The full name of an institution is expected here where available.</td>
-    <td>->P1->E41[2]
-->P1->E41[2]->P2->E55['preferred terms']</td>
+    <td> → P1 → E41[2]
+ → P1 → E41[2] → P2 → E55['preferred terms']</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Name Language</td>
     <td>This field is used to indicate the language of the name attributed to the documented entity.</td>
-    <td>->P1->E41[2]->p72->E56</td>
+    <td> → P1 → E41[2] → p72 → E56</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Institution Type</td>
     <td>This field is used to indicate a general type assigned to the documented institution.</td>
-    <td>->P2->E55
-->P2->E55->p2->E55"Institution Type"</td>
+    <td> → P2 → E55
+ → P2 → E55 → p2 → E55"Institution Type"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Legal Status</td>
     <td>This field is used to indicate the legal status of the documented institution.</td>
-    <td>->P2->E55
-->P2->E55->p2->E55"Legal Status"</td>
+    <td> → P2 → E55
+ → P2 → E55 → p2 → E55"Legal Status"</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name</td>
     <td>This field is used to indicate additional names under which the documented institution is known. This can be linked to the additional name type and earliest and latest date of use of that name.</td>
-    <td>->P1->E41[5]</td>
+    <td> → P1 → E41[5]</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Type</td>
     <td>This field is used to indicate the type of alternate name that is attributed to the documented institution.</td>
-    <td>->P1->E41[5]->P2->E55</td>
+    <td> → P1 → E41[5] → P2 → E55</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Language</td>
     <td>This field is used to indicate the language of the alternate name attributed to the documented institution.</td>
-    <td>->P1->E41[5]->p72->E56</td>
+    <td> → P1 → E41[5] → p72 → E56</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Earliest</td>
     <td>This field is used to indicate the earliest known date for use of this name for the documented institution.</td>
-    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82a->xsd:dateTimeTime</td>
+    <td> → P1 → E41[5] → R64i → F52[4]>p4 → E52[6] → P82a → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Latest</td>
     <td>This field is used to indicate the latest known date for use of this name for the documented institution.</td>
-    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82b->xsd:dateTimeTime</td>
+    <td> → P1 → E41[5] → R64i → F52[4]>p4 → E52[6] → P82b → xsd:dateTimeTime</td>
   </tr>
 </table>
 
@@ -248,49 +248,49 @@ Of essential importance in identifying and tracking institutions is to know when
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E74 Group p2->E55"Institution"</th>
+    <th>E74 Group p2 → E55"Institution"</th>
   </tr>
   <tr>
     <td>Formation</td>
     <td>Place of Formation</td>
     <td>This field is used to indicate the place of formation of the documented institution.</td>
-    <td>->P95i->E66[7]->P7->E53</td>
+    <td> → P95i → E66[7] → P7 → E53</td>
   </tr>
   <tr>
     <td>Formation</td>
     <td>Formation Date - Earliest</td>
     <td>This field is used to indicate the earliest known date for the formation of the documented institution.</td>
-    <td>->P95i->E66[7]->P4->E52[8]->P82a->xsd:dateTimeTime</td>
+    <td> → P95i → E66[7] → P4 → E52[8] → P82a → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Formation</td>
     <td>Formation Date - Latest</td>
     <td>This field is used to indicate the latest known date for the formation of the documented institution.</td>
-    <td>->P95i->E66[7]->P4->E52[8]->P82b->xsd:dateTimeTime</td>
+    <td> → P95i → E66[7] → P4 → E52[8] → P82b → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Formation</td>
     <td>Formed from</td>
     <td>This field is used to associate a group or institution which pre-existed the document institution and from which it was formed.</td>
-    <td>->P95i->E66[7]->p151->E74</td>
+    <td> → P95i → E66[7] → p151 → E74</td>
   </tr>
   <tr>
     <td>Dissolution</td>
     <td>Place of Dissolution</td>
     <td>This field is used to indicate the place of dissolution of the documented institution.</td>
-    <td>->P99i->E68[9]->P7->E53</td>
+    <td> → P99i → E68[9] → P7 → E53</td>
   </tr>
   <tr>
     <td>Dissolution</td>
     <td>Dissolution Date - Earliest</td>
     <td>This field is used to indicate the earliest known date for the dissolution of the documented institution.</td>
-    <td>->P99i->E68[9]->P4->E52[10]->P82a->xsd:dateTimeTime</td>
+    <td> → P99i → E68[9] → P4 → E52[10] → P82a → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Dissolution</td>
     <td>Dissolution Date - Latest</td>
     <td>This field is used to indicate the latest known date for the dissolution of the documented institution.</td>
-    <td>->P99i->E68[9]->P4->E52[10]->P82b->xsd:dateTimeTime</td>
+    <td> → P99i → E68[9] → P4 → E52[10] → P82b → xsd:dateTimeTime</td>
   </tr>
 </table>
 
@@ -308,19 +308,19 @@ Institutions often exist in complex internal structuration with both relations o
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E74 Group p2->E55"Institution"</th>
+    <th>E74 Group p2 → E55"Institution"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Institutional Part of</td>
     <td>This field is used to indicate the membership of the documented institution in a larger institutional formation. The referenced entity should be an institution.</td>
-    <td>->P107i->E74</td>
+    <td> → P107i → E74</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Has Institutional Part</td>
     <td>This field is used to indicate institutional members of the documented institution. The referenced entity should be an institution.</td>
-    <td>->P107->E74</td>
+    <td> → P107 → E74</td>
   </tr>
 </table>
 
@@ -338,58 +338,58 @@ A useful area of documentation and potential disambiguation around an institutio
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E74 Group p2->E55"Institution"</th>
+    <th>E74 Group p2 → E55"Institution"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>National Affiliation</td>
     <td>This field is used to indicate the association of the documented institution to a nation, usually indicating its legal association.</td>
-    <td>->P107i->E74[12]
-->P107i->E74[12]->E55["National Group"]</td>
+    <td> → P107i → E74[12]
+ → P107i → E74[12] → E55["National Group"]</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Founding Member</td>
     <td>This field is used to indicate founding members of the documented institution.</td>
-    <td>->P95i->E66[11]->P14->E39[13]</td>
+    <td> → P95i → E66[11] → P14 → E39[13]</td>
   </tr>
   <tr>
     <td>Employees/Members</td>
     <td>Employee/Member</td>
     <td>This field is used to indicate an employee/member of the documented institution.</td>
-    <td>->P02->PC144[14]->P01->E85[15]->P143->E21</td>
+    <td> → P02 → PC144[14] → P01 → E85[15] → P143 → E21</td>
   </tr>
   <tr>
     <td>Employees/Members</td>
     <td>Employee/Member Role</td>
     <td>This field is used to indicate the type of role the employee/member played in relation to the institution.</td>
-    <td>->P02->PC144[14]->P14.1->E55["Position"]</td>
+    <td> → P02 → PC144[14] → P14.1 → E55["Position"]</td>
   </tr>
   <tr>
     <td>Employees/Members</td>
     <td>Employee/Member Start Date - Earliest</td>
     <td>This field is used to indicate the earliest known date of becoming an employee/member of the documentation institution by the individual in question.</td>
-    <td>->P02->PC144[14]->p01->E85[15]->P4->E52[16]->P82a->xsd:dateTimeTime</td>
+    <td> → P02 → PC144[14] → p01 → E85[15] → P4 → E52[16] → P82a → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Employees/Members</td>
     <td>Employee/Member Start Date - Latest</td>
     <td>This field is used to indicate the latest known date of becoming an employee/member of the documentation institution by the individual in question.</td>
-    <td>->P02->PC144[14]->P01->E85[15]->P4->E52[16]->P82b->xsd:dateTimeTime</td>
+    <td> → P02 → PC144[14] → P01 → E85[15] → P4 → E52[16] → P82b → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Employees/Members</td>
     <td>Employee/Member End Date - Earliest</td>
     <td>This field is used to indicate the earliest known date of ceasing to be an employee/member of the documentation institution by the individual in question.</td>
-    <td>->P146i->E86[17]->P145->E21
-->P146i->E86[17]->p4->E52[18]->P82a->xsd:dateTimeTime</td>
+    <td> → P146i → E86[17] → P145 → E21
+ → P146i → E86[17] → p4 → E52[18] → P82a → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Employees/Members</td>
     <td>Employee/Member End Date - Latest</td>
     <td>This field is used to indicate the latest known date of ceasing to be an employee/member of the documentation institution by the individual in question.</td>
-    <td>->P146i->E86[17]->P145->E21
-->P146i->E86[17]->p4->E52[19]->P82b->xsd:dateTimeTime</td>
+    <td> → P146i → E86[17] → P145 → E21
+ → P146i → E86[17] → p4 → E52[19] → P82b → xsd:dateTimeTime</td>
   </tr>
 </table>
 
@@ -405,32 +405,32 @@ This category brings together documentary evidence with regards to various typic
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E74 Group p2->E55"Institution"</th>
+    <th>E74 Group p2 → E55"Institution"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Scope of Activity</td>
     <td>This field is used to indicate the general types of activity that an institution holds as its competency</td>
-    <td>->P14i->F51->R59->E55["Field of Activity"]</td>
+    <td> → P14i → F51 → R59 → E55["Field of Activity"]</td>
   </tr>
   <tr>
     <td>Well Known Events</td>
     <td>Event</td>
     <td>This field is used to indicate well known events in which the documented institution participated.</td>
-    <td>->P02->PC144[14]->P01->E7[211] {use event reference model}</td>
+    <td> → P02 → PC144[14] → P01 → E7[211] {use event reference model}</td>
   </tr>
   <tr>
     <td>Well Known Events</td>
     <td>Role</td>
     <td>This field is used to indicate the role that the documented institution played in a particular event.</td>
-    <td>->P02->PC144[14]->P01->E7[211]
-->P02->PC144[14]->P14.1->E55["Position"]</td>
+    <td> → P02 → PC144[14] → P01 → E7[211]
+ → P02 → PC144[14] → P14.1 → E55["Position"]</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Publications</td>
     <td>This field is used to indicate well known publications that this institution is an author of.</td>
-    <td>->p14i->E65->p94->E73</td>
+    <td> → p14i → E65 → p94 → E73</td>
   </tr>
 </table>
 
@@ -446,31 +446,31 @@ The documentation of location aids in understanding where an institution is seat
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E74 Group p2->E55"Institution"</th>
+    <th>E74 Group p2 → E55"Institution"</th>
   </tr>
   <tr>
     <td>Location</td>
     <td>Institution Address</td>
     <td>This field is used to document the address of the institution at which the documented institution is presently located.</td>
-    <td>p74->E53[20]->P1->E41[21]</td>
+    <td>p74 → E53[20] → P1 → E41[21]</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Institution Address Type</td>
     <td>This field is used to document the instance of the type of an institution address at which the documented institution is presently located</td>
-    <td>p74->E53[20]->P1->E41[21]->P2->E55</td>
+    <td>p74 → E53[20] → P1 → E41[21] → P2 → E55</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Institution Coordinates</td>
     <td>This field is used to indicate the coordinates for the institution at which the documented is presently located.</td>
-    <td>p74->E53[20]->P168->geo:wktLiteral</td>
+    <td>p74 → E53[20] → P168 → geo:wktLiteral</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Institution Location Type</td>
     <td>This field is used to indicate the type of the location that is documented with regards to the address. Institutions may have many different locations. This descriptor enables the differentiation of the institution's different locales.</td>
-    <td>p74->E53[20]->P2->E55</td>
+    <td>p74 → E53[20] → P2 → E55</td>
   </tr>
 </table>
 
@@ -486,29 +486,29 @@ This information category unites referential information about the documented in
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E74 Group p2->E55"Institution"</th>
+    <th>E74 Group p2 → E55"Institution"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Image</td>
     <td>This field is used to indicate a digital image which is representative of the documented institution.</td>
-    <td>>p138i->E36/D9</td>
+    <td>>p138i → E36/D9</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented institution.</td>
-    <td>->P129i->E73[22]->rdf:value->rdf:Literal
-->P129i->E73[22]->P2->E55"Citation"
-->P129i->E73[22]->P67->E73 [from Bibliography Entity Type]</td>
+    <td> → P129i → E73[22] → rdf:value → rdf:Literal
+ → P129i → E73[22] → P2 → E55"Citation"
+ → P129i → E73[22] → P67 → E73 [from Bibliography Entity Type]</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Description</td>
     <td>This field is used to store short descriptive texts about the documented institution.</td>
-    <td>->P129i->E73[23]->rdf:value->rdf:Literal
-->P129i->E73[23]->P2->E55"Description"
-->P129i->E73[23]->P72->E56</td>
+    <td> → P129i → E73[23] → rdf:value → rdf:Literal
+ → P129i → E73[23] → P2 → E55"Description"
+ → P129i → E73[23] → P72 → E56</td>
   </tr>
 </table>
 

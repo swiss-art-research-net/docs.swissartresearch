@@ -151,75 +151,75 @@ The attribution of names and types to persons is a basic human activity. A chief
     <td>Identifier Attribution</td>
     <td>Identifier</td>
     <td>This field is used to indicate an identifier attributed to the documented person.</td>
-    <td>->P1->E42[1]</td>
+    <td> → P1 → E42[1]</td>
   </tr>
   <tr>
     <td>Identifier Attribution</td>
     <td>Identifier Type</td>
     <td>This field is used to indicate the type of an identifier attributed to the documented person.</td>
-    <td>->P1->E42[1]->P2->E55["Identifier Type"]</td>
+    <td> → P1 → E42[1] → P2 → E55["Identifier Type"]</td>
   </tr>
   <tr>
     <td>Identifier Attribution</td>
     <td>Identifier Provider</td>
     <td>This field is used to indicate the provider of the identifier attributed to the documented person</td>
-    <td>->P1->E42[1]->P37i->E15->P14->E39</td>
+    <td> → P1 → E42[1] → P37i → E15 → P14 → E39</td>
   </tr>
   <tr>
     <td>Identifier Attribution</td>
     <td>Identifier Source</td>
     <td>This field is used to indicate the source based on which the identifer was attributed to the object.</td>
-    <td>->P1->E42[1]->P37i->E15->p16->E73</td>
+    <td> → P1 → E42[1] → P37i → E15 → p16 → E73</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Name</td>
     <td>This field is used to indicate the main name attributed to the documented person. No part break down of name is here implied. The full name of an individual is expected here where available.</td>
-    <td>->P1->E41[2]
-->P1->E41[2]->P2->E55['Full Name']</td>
+    <td> → P1 → E41[2]
+ → P1 → E41[2] → P2 → E55['Full Name']</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Name Language</td>
     <td>This field is used to indicate the language of the name attributed to the documented entity.</td>
-    <td>->P1->E41[2]->p72->E56</td>
+    <td> → P1 → E41[2] → p72 → E56</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Honorific</td>
     <td>This field is used to indicate titles or honorifics attributed to the documented person.</td>
-    <td>->P1->E41[3]
-->P1->E41[3]->P2->E55['Title']</td>
+    <td> → P1 → E41[3]
+ → P1 → E41[3] → P2 → E55['Title']</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name</td>
     <td>This field is used to indicate additional names under which the documented person is known. This can be linked to the additional name type and earliest and latest date of use of that name.</td>
-    <td>->P1->E41[5]</td>
+    <td> → P1 → E41[5]</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Type</td>
     <td>This field is used to indicate the type of alternate name that is attributed to the documented person.</td>
-    <td>->P1->E41[5]->P2->E55</td>
+    <td> → P1 → E41[5] → P2 → E55</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Earliest</td>
     <td>This field is used to indicate the earliest known date for use of this name for the documented person.</td>
-    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82a->xsd:dateTime</td>
+    <td> → P1 → E41[5] → R64i → F52[4]>p4 → E52[6] → P82a → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Latest</td>
     <td>This field is used to indicate the latest known date for use of this name for the documented person.</td>
-    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82b->xsd:dateTime</td>
+    <td> → P1 → E41[5] → R64i → F52[4]>p4 → E52[6] → P82b → xsd:dateTime</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Gender</td>
     <td>This field is used to indicate the gender of the documented person.</td>
-    <td>->P2->E55 [e.g. URIs for controlled vocabulary]</td>
+    <td> → P2 → E55 [e.g. URIs for controlled vocabulary]</td>
   </tr>
 </table>
 
@@ -242,37 +242,37 @@ Of essential importance in identifying and tracking individuals is also their bi
     <td>Birth</td>
     <td>Birth Place</td>
     <td>This field is used to indicate the place of birth of the documented person.</td>
-    <td>->P98i->E67[7]->P7->E53</td>
+    <td> → P98i → E67[7] → P7 → E53</td>
   </tr>
   <tr>
     <td>Birth</td>
     <td>Birth Date - Earliest</td>
     <td>This field is used to indicate the earliest known date for the birth of the documented person.</td>
-    <td>->P98i->E67[7]->P4->E52[8]->P82a->xsd:dateTime</td>
+    <td> → P98i → E67[7] → P4 → E52[8] → P82a → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Birth</td>
     <td>Birth Date - Latest</td>
     <td>This field is used to indicate the latest known date for the birth of the documented person.</td>
-    <td>->P98i->E67[7]->P4->E52[8]->P82b->xsd:dateTime</td>
+    <td> → P98i → E67[7] → P4 → E52[8] → P82b → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Death</td>
     <td>Death Place</td>
     <td>This field is used to indicate the place of death of the documented person.</td>
-    <td>->P100i->E69[9]->P7->E53</td>
+    <td> → P100i → E69[9] → P7 → E53</td>
   </tr>
   <tr>
     <td>Death</td>
     <td>Death Date - Earliest</td>
     <td>This field is used to indicate the earliest known date for the death of the documented person.</td>
-    <td>->P100i->E69[9]->->P4->E52[10]->P82a->xsd:dateTime</td>
+    <td> → P100i → E69[9] → P4 → E52[10] → P82a → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Death</td>
     <td>Death Date - Latest</td>
     <td>This field is used to indicate the latest known date for the death of the documented person.</td>
-    <td>->P100i->E69[9]->P4->E52[10]->P82b->xsd:dateTime</td>
+    <td> → P100i → E69[9] → P4 → E52[10] → P82b → xsd:dateTime</td>
   </tr>
 </table>
 
@@ -295,57 +295,57 @@ A large area of documentation and potential disambiguation around the person rel
     <td>n/a</td>
     <td>Father</td>
     <td>This field is used to indicate the biological father of the documented person.</td>
-    <td>->P98i->E67[11]->P97->E21</td>
+    <td> → P98i → E67[11] → P97 → E21</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Mother</td>
     <td>This field is used to indicate the biological mother of the documented person.</td>
-    <td>->P98i->E67[11]->P96->E21</td>
+    <td> → P98i → E67[11] → P96 → E21</td>
   </tr>
   <tr>
     <td>Family Relations</td>
     <td>Relative</td>
     <td>This field is used to indicate another person with whom the documented person has a family relation.</td>
-    <td>->SRP3_in_family_relation->E21</td>
+    <td> → SRP3_in_family_relation → E21</td>
   </tr>
   <tr>
     <td>Family Relations</td>
     <td>Relation Type</td>
     <td>This field is used to indicate the type of familial relation holding between the the other person and the documented person.</td>
-    <td>->SRP3_in_family_relation->SRP3.1_had_family_relation_type->E55"Family Relation Type"</td>
+    <td> → SRP3_in_family_relation → SRP3.1_had_family_relation_type → E55"Family Relation Type"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>National Affiliation</td>
     <td>This field is used to indicate the membership of the documented person in a nationality group. The larger group is meant as an actual existing national body of actors with their own identity.</td>
-    <td>->P107i->E74[12]
-->P107i->E74[12]->E55["National Group"]</td>
+    <td> → P107i → E74[12]
+ → P107i → E74[12] → E55["National Group"]</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Cultural Affiliation</td>
     <td>This field is used to indicate the membership of the documented person in a cultural group. The larger group is meant as an actual existing cultural body of actors with their own identity.</td>
-    <td>->P107i->E74[13]
-->P107i->E74[13[->E55["Cultural Group"]</td>
+    <td> → P107i → E74[13]
+ → P107i → E74[13[ → E55["Cultural Group"]</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Institutional Affiliation</td>
     <td>This field is used to indicate the membership of the documented person in an institution. The referenced entity should be an institution.</td>
-    <td>->P107i->E74->P2->E55["Institution"]</td>
+    <td> → P107i → E74 → P2 → E55["Institution"]</td>
   </tr>
   <tr>
     <td>Associates</td>
     <td>Associate</td>
     <td>This field is used to indicate an associate of the documented person.</td>
-    <td>->P11i->E5->P11i->E21</td>
+    <td> → P11i → E5 → P11i → E21</td>
   </tr>
   <tr>
     <td>Associates</td>
     <td>Associate Type</td>
     <td>This field is used to indicate the type of association that the documented person had with his/her associate.</td>
-    <td>->P11i->E5->P2->E55</td>
+    <td> → P11i → E5 → P2 → E55</td>
   </tr>
 </table>
 
@@ -366,7 +366,7 @@ This information category at present is lightly populated, but refers to a disti
     <td>n/a</td>
     <td>Languages</td>
     <td>This field is used to indicate language(s) known by the documented person.</td>
-    <td>->SRP1_used_language->E56</td>
+    <td> → SRP1_used_language → E56</td>
   </tr>
 </table>
 
@@ -387,32 +387,32 @@ This category brings together the various actions in which the documented person
     <td>n/a</td>
     <td>Floruit</td>
     <td>This field is used to indicate the period of greatest activity/flourishing of the documented individual.</td>
-    <td>->P14i->F51[14]->P4->E52->P82->xsd:dateTime
-->P14i->F51[14]->P2->E55["Floruit"]</td>
+    <td> → P14i → F51[14] → P4 → E52 → P82 → xsd:dateTime
+ → P14i → F51[14] → P2 → E55["Floruit"]</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Occupation/General Role</td>
     <td>This field is used to indicate occupations/general roles that the documented person played in their life. This documentation is at the level of a general characteristic and is not the documentation of particular periods in which occupations/roles were undertaken.</td>
-    <td>->SRP2_had_occupation->E55</td>
+    <td> → SRP2_had_occupation → E55</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Related Works</td>
     <td>This field is used to indicate related works that the documented person was primarily responsible for as creator.</td>
-    <td>P14i->E12->P108->E22</td>
+    <td>P14i → E12 → P108 → E22</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Field of Activity</td>
     <td>This field is used to indicate different activities which the documented person pursued during their lifetime. Each individual field of activity should be documented separately so that it can be tracked individually.</td>
-    <td>->P14i->F51->R59->E55</td>
+    <td> → P14i → F51 → R59 → E55</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Well Known Events</td>
     <td>This field is used to indicate well known events in which the documented person participated/acted as witness.</td>
-    <td>->P11i->E5</td>
+    <td> → P11i → E5</td>
   </tr>
 </table>
 
@@ -433,22 +433,22 @@ This information category unites referential information about the documented pe
     <td>n/a</td>
     <td>Image</td>
     <td>This field is used to indicate a digital image which is representative of the documented person.</td>
-    <td>>P138i->E36/D9</td>
+    <td>>P138i → E36/D9</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented person.</td>
-    <td>->P67i->E73[16]->rdf:value->rdf:Literal
-->P67i->E73[16]->P2->E55"Citation"</td>
+    <td> → P67i → E73[16] → rdf:value → rdf:Literal
+ → P67i → E73[16] → P2 → E55"Citation"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Biography</td>
     <td>This field is used to store short bibliographic texts about the documented person.</td>
-    <td>->P67i->E73[15]->rdf:value->rdf:Literal
-->P67i->E73[15]->P2->E55"Biography"
->P67i->E73[15]->->P72->E56</td>
+    <td> → P67i → E73[15] → rdf:value → rdf:Literal
+ → P67i → E73[15] → P2 → E55"Biography"
+>P67i → E73[15] → P72 → E56</td>
   </tr>
 </table>
 
