@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.2">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.0">
     
     
       
@@ -57,7 +57,7 @@
 
     
     
-      <script src="../../assets/javascripts/modernizr.1f0bcf2b.js"></script>
+      <script src="../../assets/javascripts/modernizr.01ccdecf.js"></script>
     
     <script src="../../js/lightgallery.min.js"></script>
 
@@ -239,8 +239,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../person/" title="Artist" class="md-nav__link">
-      Artist
+    <a href="../person/" title="Person" class="md-nav__link">
+      Person
     </a>
   </li>
 
@@ -794,8 +794,10 @@
   </tr>
 </table>
 
-<p>An overview of all the groups of the entity described here is available in the image below. Click to enlarge it.</p>
-<p><div class="lightgallery"><a href="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f912c2d2-a00e-4664-8887-d3faf226d2f6.png"><img alt="!" class="thumbnail" src="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f912c2d2-a00e-4664-8887-d3faf226d2f6.png" /></a></div></p>
+<!--An overview of all the groups of the entity described here is available in the image below. Click to enlarge it.
+
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f912c2d2-a00e-4664-8887-d3faf226d2f6.png){.thumbnail} -->
+
 <h3 id="names-and-classifications">Names and Classifications<a class="headerlink" href="#names-and-classifications" title="Permanent link">&para;</a></h3>
 <p>The attribution of names and types to artwork, as with other entities, is a basic human activity. A chief factor in disambiguating artworks lies in understanding the various names and identifiers that have been given to them at different moments in their individual histories. Likewise, additional classifiers of the artwork, such as how it is has been classified as an object as such, give important distinguishing characteristics.</p>
 <table>
@@ -852,13 +854,13 @@
     <td>Alternate Title</td>
     <td>Alternate Title Use Period - Earliest</td>
     <td>This field is used to indicate the earliest known date for use of this name for the documented artwork.</td>
-    <td>->P1->E41[4]->R64i->F52[5]->p4->E52[6]->P82a->XSD:Date</td>
+    <td>->P1->E41[4]->R64i->F52[5]->p4->E52[6]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Alternate Title</td>
     <td>Alternate Title Use Period - Latest</td>
     <td>This field is used to indicate the latest known date for use of this name for the documented artwork.</td>
-    <td>->P1->E41[4]->R64i->F52[5]->p4->E52[6]->P82b->XSD:Date</td>
+    <td>->P1->E41[4]->R64i->F52[5]->p4->E52[6]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -890,7 +892,8 @@
     <td>Description</td>
     <td>Description</td>
     <td>This field is used to indicate a description of documented artwork</td>
-    <td>->P67i->E73[9]->has:value->Literal</td>
+    <td>->P67i->E73[9]->rdf:value->rdf:Literal  
+    ->P67i->E73[9]->P72->E56</td>
   </tr>
   <tr>
     <td>Description</td>
@@ -908,13 +911,13 @@
     <td>Description</td>
     <td>Description Date - Earliest</td>
     <td>This field is used to indicate the ealiest date for the creation of the description of the documented work.</td>
-    <td>->P67i->E73[9]->P94i->E65[10]->P4->E52[11]->P82a->XSD:Date</td>
+    <td>->P67i->E73[9]->P94i->E65[10]->P4->E52[11]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Description</td>
     <td>Description Date - Latest</td>
     <td>This field is used to indicate the latest date for the creation of the description of the documented work.</td>
-    <td>->P67i->E73[9]->P94i->E65[10]->p4->E52[11]->P82b->XSD:Date</td>
+    <td>->P67i->E73[9]->P94i->E65[10]->p4->E52[11]->P82b->xsd:dateTime</td>
   </tr>
 </table>
 
@@ -945,7 +948,7 @@
     <td>n/a</td>
     <td>Part Count</td>
     <td>This field is use to indicate part counts for the documented part types.</td>
-    <td>->P57->rdf:literal^^Integer</td>
+    <td>->P57->rdf:literal</td>
   </tr>
 </table>
 
@@ -969,13 +972,13 @@
     <td>Production</td>
     <td>Production Date - Earliest</td>
     <td>This field is used to indicate the earliest date for the creation of the documented artwork.</td>
-    <td>->P108i->E12[12]->p4->E52[13]->P82a->XSD:Date</td>
+    <td>->P108i->E12[12]->p4->E52[13]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Production</td>
     <td>Production Date - Latest</td>
     <td>This field is used to indicate the latest date for the creation of the documented artwork.</td>
-    <td>->P108i->E12[12]->p4->E52[13]->P82b->XSD:Date</td>
+    <td>->P108i->E12[12]->p4->E52[13]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Destruction</td>
@@ -987,13 +990,13 @@
     <td>Destruction</td>
     <td>Destruction Date - Earliest</td>
     <td>This field is used to indicate the earliest date for the destruction of the documented artwork.</td>
-    <td>->P13i->E6[14]->p4->E52[15]->P82a->XSD:Date</td>
+    <td>->P13i->E6[14]->p4->E52[15]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Destruction</td>
     <td>Destruction Date - Latest</td>
     <td>This field is used to indicate the latest date for the destruction of the documented artwork.</td>
-    <td>->P13i->E6[14]->p4->E52[15]->P82b->XSD:Date</td>
+    <td>->P13i->E6[14]->p4->E52[15]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -1086,7 +1089,7 @@
     <td>Dimension</td>
     <td>Dimension Value</td>
     <td>This field is used to indicate the value of the measurement of the documented instance of built work.</td>
-    <td>->P39i->E16->P40->E54->P90->XSD^^Integer</td>
+    <td>->P39i->E16->P40->E54->P90->xsd:decimal</td>
   </tr>
   <tr>
     <td>Dimension</td>
@@ -1134,13 +1137,13 @@
     <td>Provenance</td>
     <td>Past Ownership Period Statement - Earliest</td>
     <td>This field is used to indicate the earliest date for an ownership period of the documented artwork.</td>
-    <td>->P24i->E8[19]->P4->E52[20]->P82a->XSD:Date</td>
+    <td>->P24i->E8[19]->P4->E52[20]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Provenance</td>
     <td>Past Ownership Period Statement - Latest</td>
     <td>This field is used to indicate the latest date for an ownership period of the documented artwork.</td>
-    <td>->P24i->E8[19]->P4->E52[20]->P82b->XSD:Date</td>
+    <td>->P24i->E8[19]->P4->E52[20]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Provenance</td>
@@ -1152,19 +1155,19 @@
     <td>Provenance</td>
     <td>Past Ownership Description</td>
     <td>This field used to provide a free text description related to an ownership period for the documented artwork.</td>
-    <td>->P24i->E8[19]->P70i->E31->rdf:value->BLOB</td>
+    <td>->P24i->E8[19]->P70i->E31->rdf:value->rdf:Literal</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservation Event - Earliest</td>
     <td>This field is used to indicate the earliest date for a conservation event performed on the documented artwork.</td>
-    <td>->P31i->E11[20]->P4->E52[21]->P82a->XSD:Date</td>
+    <td>->P31i->E11[20]->P4->E52[21]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservation Event - Latest</td>
     <td>This field is used to indicate the latest date for a conservation event performed on the documented artwork.</td>
-    <td>->P31i->E11[20]->P4->E52[21]->P82b->XSD:Date</td>
+    <td>->P31i->E11[20]->P4->E52[21]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Conservation</td>
@@ -1272,7 +1275,7 @@ p53->E53[24]->P2->E55"Institutional Location"</td>
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented artwork.</td>
-    <td>->P67i->E73[26]->hasvalue->LITERAL
+    <td>->P67i->E73[26]->rdf:value->rdf:Literal
 ->P67i->E73[26]->P2->E55"Citation"
 ->P67i->E73[26]->P67->E73 [from Bibliography Entity Type]</td>
   </tr>
@@ -1305,7 +1308,7 @@ p53->E53[24]->P2->E55"Institutional Location"</td>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../person/" title="Artist" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../person/" title="Person" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1314,7 +1317,7 @@ p53->E53[24]->P2->E55"Institutional Location"</td>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Artist
+                Person
               </span>
             </div>
           </a>
@@ -1364,7 +1367,7 @@ p53->E53[24]->P2->E55"Institutional Location"</td>
     </div>
     
     
-      <script src="../../assets/javascripts/application.d9aa80ab.js"></script>
+      <script src="../../assets/javascripts/application.2ba8dec4.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       

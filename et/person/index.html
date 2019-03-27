@@ -34,11 +34,11 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.2">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.0">
     
     
       
-        <title>Artist - SARI Documentation</title>
+        <title>Person - SARI Documentation</title>
       
     
     
@@ -57,7 +57,7 @@
 
     
     
-      <script src="../../assets/javascripts/modernizr.1f0bcf2b.js"></script>
+      <script src="../../assets/javascripts/modernizr.01ccdecf.js"></script>
     
     <script src="../../js/lightgallery.min.js"></script>
 
@@ -123,7 +123,7 @@
               </a>
             </span>
               <span class="md-header-nav__topic">
-                Artist
+                Person
               </span>
             
           
@@ -248,11 +248,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Artist
+        Person
       </label>
     
-    <a href="./" title="Artist" class="md-nav__link md-nav__link--active">
-      Artist
+    <a href="./" title="Person" class="md-nav__link md-nav__link--active">
+      Person
     </a>
     
       
@@ -802,13 +802,13 @@
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Earliest</td>
     <td>This field is used to indicate the earliest known date for use of this name for the documented person.</td>
-    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82a->XSD:Date</td>
+    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Latest</td>
     <td>This field is used to indicate the latest known date for use of this name for the documented person.</td>
-    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82b->XSD:Date</td>
+    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -838,13 +838,13 @@
     <td>Birth</td>
     <td>Birth Date - Earliest</td>
     <td>This field is used to indicate the earliest known date for the birth of the documented person.</td>
-    <td>->P98i->E67[7]->P4->E52[8]->P82a->XSD:Date</td>
+    <td>->P98i->E67[7]->P4->E52[8]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Birth</td>
     <td>Birth Date - Latest</td>
     <td>This field is used to indicate the latest known date for the birth of the documented person.</td>
-    <td>->P98i->E67[7]->P4->E52[8]->P82b->XSD:Date</td>
+    <td>->P98i->E67[7]->P4->E52[8]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Death</td>
@@ -856,13 +856,13 @@
     <td>Death</td>
     <td>Death Date - Earliest</td>
     <td>This field is used to indicate the earliest known date for the death of the documented person.</td>
-    <td>->P100i->E69[9]->->P4->E52[10]->P82a->XSD:Date</td>
+    <td>->P100i->E69[9]->->P4->E52[10]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Death</td>
     <td>Death Date - Latest</td>
     <td>This field is used to indicate the latest known date for the death of the documented person.</td>
-    <td>->P100i->E69[9]->P4->E52[10]->P82b->XSD:Date</td>
+    <td>->P100i->E69[9]->P4->E52[10]->P82b->xsd:dateTime</td>
   </tr>
 </table>
 
@@ -964,7 +964,7 @@
     <td>n/a</td>
     <td>Floruit</td>
     <td>This field is used to indicate the period of greatest activity/flourishing of the documented individual.</td>
-    <td>->P14i->F51[14]->P4->E52->P82->XSD:Date
+    <td>->P14i->F51[14]->P4->E52->P82->xsd:dateTime
 ->P14i->F51[14]->P2->E55["Floruit"]</td>
   </tr>
   <tr>
@@ -1012,15 +1012,16 @@
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented person.</td>
-    <td>->P67i->E73[16]->hasvalue->LITERAL
+    <td>->P67i->E73[16]->rdf:value->rdf:Literal
 ->P67i->E73[16]->P2->E55"Citation"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Biography</td>
     <td>This field is used to store short bibliographic texts about the documented person.</td>
-    <td>->P67i->E73[15]->hasvalue->LITERAL
-->P67i->E73[15]->P2->E55"Biography"</td>
+    <td>->P67i->E73[15]->rdf:value->rdf:Literal
+->P67i->E73[15]->P2->E55"Biography"
+>P67i->E73[15]->->P72->E56</td>
   </tr>
 </table>
 
@@ -1104,7 +1105,7 @@
     </div>
     
     
-      <script src="../../assets/javascripts/application.d9aa80ab.js"></script>
+      <script src="../../assets/javascripts/application.2ba8dec4.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
