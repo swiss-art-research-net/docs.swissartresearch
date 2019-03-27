@@ -464,7 +464,7 @@ The documentation of location aids in understanding where an institution is seat
     <td>Location</td>
     <td>Institution Coordinates</td>
     <td>This field is used to indicate the coordinates for the institution at which the documented is presently located.</td>
-    <td>p74->E53[20]->P168->geo:wkt</td>
+    <td>p74->E53[20]->P168->geo:wktLiteral</td>
   </tr>
   <tr>
     <td>Location</td>

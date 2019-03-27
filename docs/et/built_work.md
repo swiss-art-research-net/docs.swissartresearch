@@ -636,7 +636,7 @@ p53->E53[22]->P1->E41>p2->E55"Address"</td>
     <td>Location</td>
     <td>Location - coordinates</td>
     <td>This field is used to indicate the coordinates at which the documented instance of built work is presently located.</td>
-    <td>p53->E53[22]->P168->geo:wkt</td>
+    <td>p53->E53[22]->P168->geo:wktLiteral</td>
   </tr>
   <tr>
     <td>Location</td>

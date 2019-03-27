@@ -598,7 +598,7 @@ p53->E53[24]->P2->E55"Institutional Location"</td>
     <td>Location</td>
     <td>Present location - coordinates</td>
     <td>This field is used to indicate the coordinates for the institution at which the documented is presently located.</td>
-    <td>p53->E53[24]->P168->geo:wkt
+    <td>p53->E53[24]->P168->geo:wktLiteral
 p53->E53[24]->P2->E55"Institutional Location"</td>
   </tr>
 </table>

@@ -219,7 +219,8 @@ Events are the subjects of innumerable descriptions that provide a wide range of
     <td>Description</td>
     <td>Description</td>
     <td>This field is used to indicate a description of the documented instance of event.</td>
-    <td>->129i->E73[9]->rdf:value->rdf:Literal</td>
+    <td>->129i->E73[9]->rdf:value->rdf:Literal  
+    ->129i->E73[9]->P72->E56</td>
   </tr>
   <tr>
     <td>Description</td>
@@ -267,13 +268,13 @@ Events are a typical case of the kind of entity whose accurate documentation may
     <td>n/a</td>
     <td>Part of</td>
     <td>This field is used to indicate that the broader period that the documented event falls within.</td>
-    <td>->P10->E5</td>
+    <td>->P10i->E5</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Has Part</td>
     <td>This field is used to indicate individually documented sub events which form part of the documented event.</td>
-    <td>->p10i->E5</td>
+    <td>->p10->E5</td>
   </tr>
 </table>
 
@@ -440,8 +441,9 @@ Events, as planned social occasions and interactions, usually take place with a 
     <td>n/a</td>
     <td>Subject Description</td>
     <td>This field is a free text field for the description of the subject of an event, when the data has not been sorted into categorized lists.</td>
-    <td>->P129i->E73->rdf:value->rdf:Literal
-->P129i->E73->P2->E55"Subject Description"</td>
+    <td>->P129i->E73->rdf:value->rdf:Literal  
+->P129i->E73->P2->E55"Subject Description"  
+->P129i->E73->P72-> E56</td>
   </tr>
 </table>
 
@@ -475,7 +477,7 @@ The documentation of location aids in tracking the location of occurrence of ind
     <td>Location</td>
     <td>Place - coordinates</td>
     <td>This field is used to indicate the coordinates of the geographic place to which the occurrence of the documented instance of event is localized..</td>
-    <td>->p7->E53[22]->P168->geo:wkt</td>
+    <td>->p7->E53[22]->P168->geo:wktLiteral</td>
   </tr>
 </table>
 
