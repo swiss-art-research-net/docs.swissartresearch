@@ -143,7 +143,7 @@ The attribution of names and types to built work, as with other entities, is a b
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22 → P2 → E55"Built Work"</th>
+    <th>E22 → P2 → E55 "Built Work"</th>
   </tr>
   <tr>
     <td>ID Attribution</td>
@@ -167,7 +167,7 @@ The attribution of names and types to built work, as with other entities, is a b
     <td>Identifier Attribution</td>
     <td>Identifier Source</td>
     <td>This field is used to indicate the source based on which the identifier was attributed to the object.</td>
-    <td> → P1 → E42[1] → P37i → E15 → p16 → E73</td>
+    <td> → P1 → E42[1] → P37i → E15 → P16 → E73</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -180,7 +180,7 @@ The attribution of names and types to built work, as with other entities, is a b
     <td></td>
     <td>Name Language</td>
     <td>This field is used to indicate the language of the name attributed to the documented entity.</td>
-    <td> → P1 → E41[2] → p72 → E56</td>
+    <td> → P1 → E41[2] → P72 → E56</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -205,19 +205,19 @@ The attribution of names and types to built work, as with other entities, is a b
     <td>Alternate Name</td>
     <td>Alternate Name Language</td>
     <td>This field is used to indicate the language of the alternate name attributed to the documented built work.</td>
-    <td> → P1 → E41[4] → p72 → E56</td>
+    <td> → P1 → E41[4] → P72 → E56</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Earliest</td>
     <td>This field is used to indicate the earliest known date for use of an alternate name for the documented instance of built work.</td>
-    <td> → P1 → E41[4] → R64i → F52[5]>p4 → E52[6] → P82a → xsd:dateTimeTime</td>
+    <td> → P1 → E41[4] → R64i → F52[5] → P4 → E52[6] → P82a → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Latest</td>
     <td>This field is used to indicate the latest known date for use of an alternate name for the documented instance of built work.</td>
-    <td> → P1 → E41[4] → R64i → F52[5]>p4 → E52[6] → P82b → xsd:dateTimeTime</td>
+    <td> → P1 → E41[4] → R64i → F52[5] → P4 → E52[6] → P82b → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -229,14 +229,14 @@ The attribution of names and types to built work, as with other entities, is a b
     <td>n/a</td>
     <td>Style</td>
     <td>This field is used to associate the documented instance of built work to a style which it can be classified with or for which it is exemplary.</td>
-    <td> → p2 → E55[6]  
- → P2 → E55[6] → P2 → E55"Style"</td>
+    <td> → P2 → E55[6]  
+ → P2 → E55[6] → P2 → E55 "Style"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Style Attributor</td>
     <td>This field is used to associate the documented instance of built work to a style which it can be classified with or for which it is exemplary.</td>
-    <td> → P2 → E55[6} → P141i → E17 [77] → p14 → E39
+    <td> → P2 → E55[6} → P141i → E17 [77] → P14 → E39
  → P140i → E17[77]</td>
   </tr>
 </table>
@@ -255,14 +255,14 @@ Built works are the subjects of innumerable descriptions that provide a wide ran
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22 → P2 → E55"Built Work"</th>
+    <th>E22 → P2 → E55 "Built Work"</th>
   </tr>
   <tr>
     <td>Description</td>
     <td>Description</td>
     <td>This field is used to indicate a description of the documented instance of built work.</td>
     <td> → P129i → E73[9] → rdf:value → rdf:literal   
- → P129i → E73[9] → p2 → E55"Description"  
+ → P129i → E73[9] → P2 → E55 "Description"  
  → P129i → E73[9] → P72 → E56</td>
   </tr>
   <tr>
@@ -275,7 +275,7 @@ Built works are the subjects of innumerable descriptions that provide a wide ran
     <td>Description</td>
     <td>Description Author</td>
     <td>This field is used to indicate the author of the description given of the documented instance of built work.</td>
-    <td> → P129i → E73[9] → P94i → E65-p14 → E39</td>
+    <td> → P129i → E73[9] → P94i → E65 → p14 → E39</td>
   </tr>
   <tr>
     <td>Description</td>
@@ -287,7 +287,7 @@ Built works are the subjects of innumerable descriptions that provide a wide ran
     <td>Description</td>
     <td>Description Date - Latest</td>
     <td>This field is used to indicate the latest date for the creation of the description of the documented instance of built work.</td>
-    <td> → P129i → E73[9] → P94i → E65-p4 → E52 → P82b → xsd:dateTimeTime</td>
+    <td> → P129i → E73[9] → P94i → E65 → p4 → E52 → P82b → xsd:dateTimeTime</td>
   </tr>
 </table>
 
@@ -305,7 +305,7 @@ Built works may require documentation not just as a whole, but with regards to t
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22 → P2 → E55"Built Work"</th>
+    <th>E22 → P2 → E55 "Built Work"</th>
   </tr>
   <tr>
     <td>n/a</td>
@@ -329,40 +329,40 @@ Of essential importance in identifying and tracking built works is information p
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22 → P2 → E55"Built Work"</th>
+    <th>E22 → P2 → E55 "Built Work"</th>
   </tr>
   <tr>
     <td>Production</td>
     <td>Construction Date - Earliest</td>
     <td>This field is used to indicate the earliest date for the construction of the documented instance of built work.</td>
-    <td> → P108i → E12[10] → p4 → E52[111] → P82a → xsd:dateTimeTime  
- → P108i → E12[10] → P2 → E55"Construction"</td>
+    <td> → P108i → E12[10] → P4 → E52[111] → P82a → xsd:dateTimeTime  
+ → P108i → E12[10] → P2 → E55 "Construction"</td>
   </tr>
   <tr>
     <td>Production</td>
     <td>Construction Date - Latest</td>
     <td>This field is used to indicate the latest date for the construction of the documented instance of built work.</td>
-    <td> → P108i → E12[10] → p4 → E52[111] → P82b → xsd:dateTimeTime  
- → P108i → E12[10] → P2 → E55"Construction"</td>
+    <td> → P108i → E12[10] → P4 → E52[111] → P82b → xsd:dateTimeTime  
+ → P108i → E12[10] → P2 → E55 "Construction"</td>
   </tr>
   <tr>
     <td>Production</td>
     <td>Production Place</td>
     <td>This field is used to indicate the place of the construction of the documented instance of built work.</td>
     <td> → P108i → E12[10] → P7 → E53  
- → P108i → E12[10] → P2 → E55"Construction"</td>
+ → P108i → E12[10] → P2 → E55 "Construction"</td>
   </tr>
   <tr>
     <td>Destruction</td>
     <td>Destruction Date - Earliest</td>
     <td>This field is used to indicate the earliest date for the destruction of the documented instance of built work.</td>
-    <td> → P13i → E6[11] → p4 → E52[112] → P82a → xsd:dateTimeTime</td>
+    <td> → P13i → E6[11] → P4 → E52[112] → P82a → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Destruction</td>
     <td>Destruction Date - Latest</td>
     <td>This field is used to indicate the latest date for the destruction of the documented instance of built work.</td>
-    <td> → P13i → E6[11] → p4 → E52[112] → P82b → xsd:dateTimeTime</td>
+    <td> → P13i → E6[11] → P4 → E52[112] → P82b → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Destruction</td>
@@ -381,7 +381,7 @@ Of essential importance in identifying and tracking built works is information p
     <td>Construction period</td>
     <td>This field is used to indicate the historical period in which the construction of the documented instance of built work occured.</td>
     <td> → P108i → E12[10] → P10 → E4  
- → P108i → E12[10] → P2 → E55"Construction"</td>
+ → P108i → E12[10] → P2 → E55 "Construction"</td>
   </tr>
 </table>
 
@@ -399,21 +399,21 @@ The connection between a built work and actors provides another important set of
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22 → P2 → E55"Built Work"</th>
+    <th>E22 → P2 → E55 "Built Work"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Creator</td>
     <td>This field is used to indicate the architect and/or other actors involved in the construction of the documented instance of built work.</td>
     <td> → P108i → E12[10] → P01 → PC14 → P02 → E21  
- → P108i → E12[10] → P2 → E55"Construction"</td>
+ → P108i → E12[10] → P2 → E55 "Construction"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Creator Role</td>
     <td>This field is used to indicate the role played by the architect and/or other actors involved in the conctruction of the documented instance of built work.</td>
     <td> → P108i → E12[10] → P01 → PC14 → P14.1 → E55  
- → P108i → E12[10] → P2 → E55"Construction"</td>
+ → P108i → E12[10] → P2 → E55 "Construction"</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -437,21 +437,21 @@ The analysis and understanding of a built work depends also on our knowledge of 
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22 → P2 → E55"Built Work"</th>
+    <th>E22 → P2 → E55 "Built Work"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Creator</td>
     <td>This field is used to indicate the architect and/or other actors involved in the construction of the documented instance of built work.</td>
     <td> → P108i → E12[10] → P01 → PC14 → P02 → E21  
- → P108i → E12[10] → P2 → E55"Construction"</td>
+ → P108i → E12[10] → P2 → E55 "Construction"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Creator Role</td>
     <td>This field is used to indicate the role played by the architect and/or other actors involved in the conctruction of the documented instance of built work.</td>
     <td> → P108i → E12[10] → P01 → PC14 → P14.1 → E55   
- → P108i → E12[10] → P2 → E55"Construction"</td>
+ → P108i → E12[10] → P2 → E55 "Construction"</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -470,7 +470,7 @@ The analysis and understanding of a built work depends also on our knowledge of 
     <td>Technique</td>
     <td>This field is used to indicate the technique used in the construction of the documented instance of built work.</td>
     <td> → P108i → E12[10] → P32 → E55   
- → P108i → E12[10] → P2 → E55"Construction"</td>
+ → P108i → E12[10] → P2 → E55 "Construction"</td>
   </tr>
   <tr>
     <td>Dimension</td>
@@ -510,7 +510,7 @@ This information category brings together typical events in which a built work m
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22 → P2 → E55"Built Work"</th>
+    <th>E22 → P2 → E55 "Built Work"</th>
   </tr>
   <tr>
     <td>Function</td>
@@ -528,7 +528,7 @@ This information category brings together typical events in which a built work m
     <td>Function</td>
     <td>Use Period - Type</td>
     <td>This field is used to indicate the kind of period of use of the built work.</td>
-    <td> → P12i → E5[14] → P2 → E55"Use Period Type"</td>
+    <td> → P12i → E5[14] → P2 → E55 "Use Period Type"</td>
   </tr>
   <tr>
     <td>Provenance</td>
@@ -607,7 +607,7 @@ This information category brings together typical events in which a built work m
     <td>Conservation Event Description</td>
     <td>This field used to provide a free text description related to the conservation event performed on the documented instance of built work.</td>
     <td> → P31i → E11[19] → P70i → E31[21]  
- → P31i → E11[19] → P70i → E31[21] → P2 → E55"Description"</td>
+ → P31i → E11[19] → P70i → E31[21] → P2 → E55 "Description"</td>
   </tr>
 </table>
 
@@ -623,26 +623,26 @@ The documentation of location aids in tracking the present location of individua
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22 → P2 → E55"Built Work"</th>
+    <th>E22 → P2 → E55 "Built Work"</th>
   </tr>
   <tr>
     <td>Location</td>
     <td>Location - Institution Address</td>
     <td>This field is used to document the address at which the documented instance of built work is located.</td>
-    <td>p53 → E53[22] → P1 → E41  
-p53 → E53[22] → P1 → E41>p2 → E55"Address"</td>
+     → P53 → E53[22] → P1 → E41  
+p53 → E53[22] → P1 → E41 → P2 → E55 "Address"</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Location - coordinates</td>
     <td>This field is used to indicate the coordinates at which the documented instance of built work is presently located.</td>
-    <td>p53 → E53[22] → P168 → geo:wktLiteral</td>
+     → P53 → E53[22] → P168 → geo:wktLiteral</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Location - Cadastral Reference</td>
     <td></td>
-    <td>p53 → E53[22] → P70i → E31 → P1 → E42</td>
+     → P53 → E53[22] → P70i → E31 → P1 → E42</td>
   </tr>
 </table>
 
@@ -658,31 +658,31 @@ Characteristic of information gathered relative to built works are various kinds
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22 → P2 → E55"Built Work"</th>
+    <th>E22 → P2 → E55 "Built Work"</th>
   </tr>
   <tr>
     <td>Designation Status</td>
     <td>Designation Status Number</td>
     <td>This field is used to indicate the identifier assigned to the designation status attributed to the documented instance of built work.</td>
-    <td>p41i → E17[23] → P141>E42</td>
+     → P41i → E17[23] → P141>E42</td>
   </tr>
   <tr>
     <td>Designation Status</td>
     <td>Designation Status Attributor</td>
     <td>This field is used to indicate the attributor of the designtation status of the documented instance of built work.</td>
-    <td>p41i → E17[23] → P14 → E39</td>
+     → P41i → E17[23] → P14 → E39</td>
   </tr>
   <tr>
     <td>Designation Status</td>
     <td>Designation Status Type</td>
     <td>This field is used to indicate the type of designation status which applies to the documented instance of built work.</td>
-    <td>p41i → E17[23] → P42 → E55"Designation Status"</td>
+     → P41i → E17[23] → P42 → E55 "Designation Status"</td>
   </tr>
   <tr>
     <td>Designation Status</td>
     <td>Designation Status Description</td>
     <td>This field is used to provide a free text description of the designation status which holds over the documented instance of built work.</td>
-    <td>p41i → E17[23] → P129i → E73 → rdf:value → rdf:Literal</td>
+     → P41i → E17[23] → P129i → E73 → rdf:value → rdf:Literal</td>
   </tr>
 </table>
 
@@ -698,14 +698,14 @@ This information category unites referential information about the documented bu
     <th>Element Field Collection</th>
     <th>Element name</th>
     <th>Element Description</th>
-    <th>E22 → P2 → E55"Built Work"</th>
+    <th>E22 → P2 → E55 "Built Work"</th>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented instance of built work.</td>
     <td> → P129i → E73 → rdf:value → rdf:literal
- → P129i → E73 → P2 → E55"Citation"
+ → P129i → E73 → P2 → E55 "Citation"
  → P129i → E73 → P67 → E73 [from Bibliography Entity Type]</td>
   </tr>
   <tr>

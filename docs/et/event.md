@@ -140,7 +140,7 @@ The attribution of names and types to events, as with other entities, is a basic
     <td>Identifier Attribution</td>
     <td>Identifier Source</td>
     <td>This field is used to indicate the source based on which the identifer was attributed to the object.</td>
-    <td> → P1 → E42[1] → P37i → E15 → p16 → E73</td>
+    <td> → P1 → E42[1] → P37i → E15 → P16 → E73</td>
   </tr>
   <tr>
     <td>Name</td>
@@ -152,7 +152,7 @@ The attribution of names and types to events, as with other entities, is a basic
     <td>Name</td>
     <td>Name Language</td>
     <td>This field is used to indicate the language of the name attributed to the documented entity.</td>
-    <td> → P1 → E41[2] → p72 → E56</td>
+    <td> → P1 → E41[2] → P72 → E56</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -177,13 +177,13 @@ The attribution of names and types to events, as with other entities, is a basic
     <td>Alternative Name</td>
     <td>Alternate Name Use Period - Earliest</td>
     <td>This field is used to indicate the earliest known date for use of an alternate name for the documented instance of event.</td>
-    <td> → P1 → E41[4] → R64i → F52[5]>p4 → E52[6] → P82a → xsd:dateTime</td>
+    <td> → P1 → E41[4] → R64i → F52[5] → P4 → E52[6] → P82a → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Alternative Name</td>
     <td>Alternate Name Use Period - Latest</td>
     <td>This field is used to indicate the latest known date for use of an alternate name for the documented instance of event.</td>
-    <td> → P1 → E41[4] → R64i → F52[5]>p4 → E52[6] → P82b → xsd:dateTime</td>
+    <td> → P1 → E41[4] → R64i → F52[5] → P4 → E52[6] → P82b → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Alternative Name</td>
@@ -195,7 +195,7 @@ The attribution of names and types to events, as with other entities, is a basic
     <td>n/a</td>
     <td>Type</td>
     <td>This field is used to indicate the type of event that occurred.</td>
-    <td> → p2 → E55</td>
+    <td> → P2 → E55</td>
   </tr>
 </table>
 
@@ -232,7 +232,7 @@ Events are the subjects of innumerable descriptions that provide a wide range of
     <td>Description</td>
     <td>Description Author</td>
     <td>This field is used to indicate the author of the description given of the documented instance of event.</td>
-    <td> → P129i → E73[9] → P94i → E65-p14 → E39</td>
+    <td> → P129i → E73[9] → P94i → E65 → p14 → E39</td>
   </tr>
   <tr>
     <td>Description</td>
@@ -244,7 +244,7 @@ Events are the subjects of innumerable descriptions that provide a wide range of
     <td>Description</td>
     <td>Description Date - Latest</td>
     <td>This field is used to indicate the latest date for the creation of the description of the documented instance of event.</td>
-    <td> → P129i → E73[9] → P94i → E65-p4 → E52 → P82b → xsd:dateTime</td>
+    <td> → P129i → E73[9] → P94i → E65 → p4 → E52 → P82b → xsd:dateTime</td>
   </tr>
 </table>
 
@@ -274,7 +274,7 @@ Events are a typical case of the kind of entity whose accurate documentation may
     <td>n/a</td>
     <td>Has Part</td>
     <td>This field is used to indicate individually documented sub events which form part of the documented event.</td>
-    <td> → p10 → E5</td>
+    <td> → P10 → E5</td>
   </tr>
 </table>
 
@@ -296,67 +296,67 @@ The existence of an event must be determined by documentary or physical evidence
     <td>Start</td>
     <td>Motivating Event</td>
     <td>This field is used to relate an event to a preceding event which was undertaken in preparation of the documented event.</td>
-    <td> → p20i → E5</td>
+    <td> → P20i → E5</td>
   </tr>
   <tr>
     <td>Start</td>
     <td>Earliest Possible Start Date</td>
     <td>This field is used to indicate the earliest possibe start date for the event.</td>
-    <td>p4 → E52 → P82a → xsd:dateTime</td>
+     → P4 → E52 → P82a → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Start</td>
     <td>Latest Possible Start Date</td>
     <td>This field is used to indicate the latest possible date for the event.</td>
-    <td>p4 → E52 → P81a → xsd:dateTime</td>
+     → P4 → E52 → P81a → xsd:dateTime</td>
   </tr>
   <tr>
     <td>End</td>
     <td>Earliest Possible End Date</td>
     <td>This field is used to indicate the earliest possible date for the end of a documented instance of event.</td>
-    <td>p4 → E52 → P81b → xsd:dateTime</td>
+     → P4 → E52 → P81b → xsd:dateTime</td>
   </tr>
   <tr>
     <td>End</td>
     <td>Latest Possible End Date</td>
     <td>This field is used to indicate the latest date for the destruction of the documented instance of event.</td>
-    <td>p4 → E52 → P82b → xsd:dateTime</td>
+     → P4 → E52 → P82b → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Duration</td>
     <td>Maximal Duration - Value</td>
     <td>This field is used to indicate the time value of the maximal known duration of the event.</td>
-    <td>p4 → E52 → p84 → E54 → p90 → xsd:dateTime</td>
+     → P4 → E52 → P84 → E54 → P90 → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Duration</td>
     <td>Maximal Duration - Unit</td>
     <td>This field is used to indicate the unit of the time value of the maximal known duration of the event.</td>
-    <td>p4 → E52 → p84 → E54 → p91 → E58</td>
+     → P4 → E52 → P84 → E54 → P91 → E58</td>
   </tr>
   <tr>
     <td>Duration</td>
     <td>Minimal Duration - Value</td>
     <td>This field is used to indicate the time value of the minimal known duration of the event.</td>
-    <td>p4 → E52 → p83 → E54 → p90 → xsd:dateTime</td>
+     → P4 → E52 → P83 → E54 → P90 → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Duration</td>
     <td>Minimal Duration - Unit</td>
     <td>This field is used to indicate the unit of the time value of the minimal known duration of the event.</td>
-    <td>p4 → E52 → p83 → E54 → p91 → E58</td>
+     → P4 → E52 → P83 → E54 → P91 → E58</td>
   </tr>
   <tr>
     <td>Description</td>
     <td>Time Description</td>
     <td>This field is used to provide the possibility of a free text description of the time span of the documented event itself.</td>
-    <td> → p4 → E52 → P129i → E73[9] → rdf:value → rdf:Literal</td>
+    <td> → P4 → E52 → P129i → E73[9] → rdf:value → rdf:Literal</td>
   </tr>
   <tr>
     <td>Description</td>
     <td>Time Description Author</td>
     <td>This field is used to provide the author the free text description of the time span of the documented event itself.</td>
-    <td> → p4 → E52 → P129i → E73[9] → P94i → E65-p14 → E39</td>
+    <td> → P4 → E52 → P129i → E73[9] → P94i → E65 → p14 → E39</td>
   </tr>
 </table>
 
@@ -387,7 +387,7 @@ The use of documenting events in historical study comes especially in tracing th
     <td>n/a</td>
     <td>Actor Role</td>
     <td>This field is used to indicate the role played by the actors involved in the documented instance of event.</td>
-    <td> → P14 → p14.1 → E55</td>
+    <td> → P14 → P14.1 → E55</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -405,13 +405,13 @@ The use of documenting events in historical study comes especially in tracing th
     <td>n/a</td>
     <td>Documents Created</td>
     <td>This field is used to indicate documents that were generated as the result of an event.</td>
-    <td> → p17 → E65 → p94 → E73</td>
+    <td> → P17 → E65 → P94 → E73</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Event Plans Employed</td>
     <td>This field is use to associate any documented documents which describe the intended plan for execution of the event, as used in the event for coordinating its execution.</td>
-    <td> → p33 → E29</td>
+    <td> → P33 → E29</td>
   </tr>
 </table>
 
@@ -435,14 +435,14 @@ Events, as planned social occasions and interactions, usually take place with a 
     <td>n/a</td>
     <td>Subject List</td>
     <td>This field is used to describe the subject matter(s) with which the event was intended to deal, at a categorical level.</td>
-    <td> → p17 → E55</td>
+    <td> → P17 → E55</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Subject Description</td>
     <td>This field is a free text field for the description of the subject of an event, when the data has not been sorted into categorized lists.</td>
     <td> → P129i → E73 → rdf:value → rdf:Literal  
- → P129i → E73 → P2 → E55"Subject Description"  
+ → P129i → E73 → P2 → E55 "Subject Description"  
  → P129i → E73 → P72 → E56</td>
   </tr>
 </table>
@@ -465,19 +465,19 @@ The documentation of location aids in tracking the location of occurrence of ind
     <td>Location</td>
     <td>Place Name</td>
     <td>This field is used to document the geographic place to which the occurrence of the documented instance of event can be localized.</td>
-    <td> → p7 → E53[22] → P1 → E41</td>
+    <td> → P7 → E53[22] → P1 → E41</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Place Type</td>
     <td>This field is used to document the type of the geographic place to which the occurrence of the document of event has been localized.</td>
-    <td> → p7 → E53[22] → P2 → E55</td>
+    <td> → P7 → E53[22] → P2 → E55</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Place - coordinates</td>
     <td>This field is used to indicate the coordinates of the geographic place to which the occurrence of the documented instance of event is localized..</td>
-    <td> → p7 → E53[22] → P168 → geo:wktLiteral</td>
+    <td> → P7 → E53[22] → P168 → geo:wktLiteral</td>
   </tr>
 </table>
 
@@ -493,14 +493,14 @@ This information category unites referential information about the documented ev
     <td>Element Field Collection</td>
     <td>Element name</td>
     <td>Element Description</td>
-    <td>E22 → P2 → E55"event"</td>
+    <td>E22 → P2 → E55 "event"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented instance of event.</td>
     <td> → P129i → E73 → rdf:value → rdf:Literal
- → P129i → E73 → P2 → E55"Citation"
+ → P129i → E73 → P2 → E55 "Citation"
  → P129i → E73 → P67 → E73 [from Bibliography Entity Type]</td>
   </tr>
   <tr>

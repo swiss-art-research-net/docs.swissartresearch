@@ -169,7 +169,7 @@ The attribution of names and types to persons is a basic human activity. A chief
     <td>Identifier Attribution</td>
     <td>Identifier Source</td>
     <td>This field is used to indicate the source based on which the identifer was attributed to the object.</td>
-    <td> → P1 → E42[1] → P37i → E15 → p16 → E73</td>
+    <td> → P1 → E42[1] → P37i → E15 → P16 → E73</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -182,7 +182,7 @@ The attribution of names and types to persons is a basic human activity. A chief
     <td>n/a</td>
     <td>Name Language</td>
     <td>This field is used to indicate the language of the name attributed to the documented entity.</td>
-    <td> → P1 → E41[2] → p72 → E56</td>
+    <td> → P1 → E41[2] → P72 → E56</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -207,13 +207,13 @@ The attribution of names and types to persons is a basic human activity. A chief
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Earliest</td>
     <td>This field is used to indicate the earliest known date for use of this name for the documented person.</td>
-    <td> → P1 → E41[5] → R64i → F52[4]>p4 → E52[6] → P82a → xsd:dateTime</td>
+    <td> → P1 → E41[5] → R64i → F52[4] → P4 → E52[6] → P82a → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Latest</td>
     <td>This field is used to indicate the latest known date for use of this name for the documented person.</td>
-    <td> → P1 → E41[5] → R64i → F52[4]>p4 → E52[6] → P82b → xsd:dateTime</td>
+    <td> → P1 → E41[5] → R64i → F52[4] → P4 → E52[6] → P82b → xsd:dateTime</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -313,7 +313,7 @@ A large area of documentation and potential disambiguation around the person rel
     <td>Family Relations</td>
     <td>Relation Type</td>
     <td>This field is used to indicate the type of familial relation holding between the the other person and the documented person.</td>
-    <td> → SRP3_in_family_relation → SRP3.1_had_family_relation_type → E55"Family Relation Type"</td>
+    <td> → SRP3_in_family_relation → SRP3.1_had_family_relation_type → E55 "Family Relation Type"</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -433,22 +433,22 @@ This information category unites referential information about the documented pe
     <td>n/a</td>
     <td>Image</td>
     <td>This field is used to indicate a digital image which is representative of the documented person.</td>
-    <td>>P138i → E36/D9</td>
+    <td> → P138i → E36/D9</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented person.</td>
     <td> → P67i → E73[16] → rdf:value → rdf:Literal
- → P67i → E73[16] → P2 → E55"Citation"</td>
+ → P67i → E73[16] → P2 → E55 "Citation"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Biography</td>
     <td>This field is used to store short bibliographic texts about the documented person.</td>
     <td> → P67i → E73[15] → rdf:value → rdf:Literal
- → P67i → E73[15] → P2 → E55"Biography"
->P67i → E73[15] → P72 → E56</td>
+ → P67i → E73[15] → P2 → E55 "Biography"
+→ P67i → E73[15] → P72 → E56</td>
   </tr>
 </table>
 
