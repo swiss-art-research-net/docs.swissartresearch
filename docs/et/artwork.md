@@ -128,9 +128,12 @@ The fields used to describe an artwork can be functionally grouped according to 
   </tr>
 </table>
 
-<!--An overview of all the groups of the entity described here is available in the image below. Click to enlarge it.
+<!--
+An overview of all the groups of the entity described here is available in the image below. Click to enlarge it.
 
-![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f912c2d2-a00e-4664-8887-d3faf226d2f6.png){.thumbnail} - → 
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f912c2d2-a00e-4664-8887-d3faf226d2f6.png){.thumbnail} 
+
+--→ 
 
 
 ### Names and Classifications
@@ -437,7 +440,7 @@ The analysis and understanding of an artwork depends also on our knowledge of it
     <td>n/a</td>
     <td>Technique</td>
     <td>This field is used to indicate the technique used in the construction of the documented instance of built work.</td>
-    <td> → P108i → E12 → P32 → E55
+    <td> → P108i → E12 → P32 → E55 •   
  → P108i → E12 → P2 → E55 "Construction"</td>
   </tr>
   <tr>
@@ -560,7 +563,7 @@ This information category brings together typical events in which an artwork may
     <td>Conservation</td>
     <td>Conservation Event Description</td>
     <td>This field used to provide a free text description related to the conservation event performed on the documented artwork.</td>
-    <td> → P31i → E11[21] → P70i → E31[22]
+    <td> → P31i → E11[21] → P70i → E31[22] •   
  → P31i → E11[21] → P70i → E31[22] → P2 → E55 "Description"</td>
   </tr>
 </table>
@@ -582,23 +585,23 @@ The documentation of location aids in tracking individual artworks as well as in
     <td>Location</td>
     <td>Present Location - Institution</td>
     <td>This field is used to document the institution at which the documented artwork is presently located.</td>
-     → P53 → E53[24] → P74i → E74[25]
-p53 → E53[24] → P74i → E74[25] → P2 → E55["Institution"]
+    <td> → P53 → E53[24] → P74i → E74[25] •  
+p53 → E53[24] → P74i → E74[25] → P2 → E55["Institution"] •  
 p53 → E53[24] → P2 → E55 "Institutional Location"</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Present Location - Institution Address</td>
     <td>This field is used to document the address of the institution at which the documented artwork is presently located.</td>
-     → P53 → E53[24] → P1 → E41[25]
-p53 → E53[24] → P1 → E41[25] → P2 → E55 "Address"
+    <td> → P53 → E53[24] → P1 → E41[25] •  
+p53 → E53[24] → P1 → E41[25] → P2 → E55 "Address" •  
 p53 → E53[24] → P2 → E55 "Institutional Location"</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Present location - coordinates</td>
     <td>This field is used to indicate the coordinates for the institution at which the documented is presently located.</td>
-     → P53 → E53[24] → P168 → geo:wktLiteral
+    <td> → P53 → E53[24] → P168 → geo:wktLiteral •  
 p53 → E53[24] → P2 → E55 "Institutional Location"</td>
   </tr>
 </table>
@@ -620,19 +623,19 @@ The potential use and re-use of an artwork and its derivatives requires respect 
     <td>Rights</td>
     <td>Right Holder</td>
     <td>This field is used to indicate the right holder for the documented artwork.</td>
-     → P104 → E30[25] → P105 → E39</td>
+   <td> → P104 → E30[25] → P105 → E39</td>
   </tr>
   <tr>
     <td>Rights</td>
     <td>Right Type</td>
     <td>This field is used to indicate the type of right which the right holder holds over the documented artwork.</td>
-     → P104 → E30[25] → P2 → E55</td>
+    <td> → P104 → E30[25] → P2 → E55</td>
   </tr>
   <tr>
     <td>Rights</td>
     <td>Right Description</td>
     <td>This field is used to provide a free text description of the right which the right holder holds over the documented artwork.</td>
-     → P104 → E30[25] → P67i → E73</td>
+    <td> → P104 → E30[25] → P67i → E73</td>
   </tr>
 </table>
 
@@ -654,7 +657,7 @@ This information category unites referential information about the documented ar
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented artwork.</td>
     <td> → P67i → E73[26] → rdf:value → rdf:Literal
- → P67i → E73[26] → P2 → E55 "Citation"
+ → P67i → E73[26] → P2 → E55 "Citation" •   
  → P67i → E73[26] → P67 → E73 [from Bibliography Entity Type]</td>
   </tr>
   <tr>
