@@ -157,7 +157,7 @@ The attribution of names and types to artwork, as with other entities, is a basi
     <td>ID Attribution</td>
     <td>Identifier Type</td>
     <td>This field is used to indicate the type of an identifier attributed to the documented person.</td>
-    <td> → P1 → E42[1] → P2 → E55["Identifier Type"]</td>
+    <td> → P1 → E42[1] → P2 → E55 "Identifier Type"</td>
   </tr>
   <tr>
     <td>ID Attribution</td>
@@ -237,7 +237,7 @@ Artworks are the subjects of innumerable descriptions that provide a wide range 
     <td>Description</td>
     <td>Description</td>
     <td>This field is used to indicate a description of documented artwork</td>
-    <td> → P67i → E73[9] → rdf:value → rdf:Literal  
+    <td> → P67i → E73[9] → rdf:value → rdf:Literal   •   
     → P67i → E73[9] → P72 → E56</td>
   </tr>
   <tr>
