@@ -770,7 +770,7 @@
     <td>n/a</td>
     <td>Name</td>
     <td>This field is used to indicate the main name attributed to the documented person. No part break down of name is here implied. The full name of an individual is expected here where available.</td>
-    <td> → P1 → E41[2]
+    <td> → P1 → E41[2] •   
  → P1 → E41[2] → P2 → E55['Full Name']</td>
   </tr>
   <tr>
@@ -783,7 +783,7 @@
     <td>n/a</td>
     <td>Honorific</td>
     <td>This field is used to indicate titles or honorifics attributed to the documented person.</td>
-    <td> → P1 → E41[3]
+    <td> → P1 → E41[3] •   
  → P1 → E41[3] → P2 → E55['Title']</td>
   </tr>
   <tr>
@@ -904,14 +904,14 @@
     <td>n/a</td>
     <td>National Affiliation</td>
     <td>This field is used to indicate the membership of the documented person in a nationality group. The larger group is meant as an actual existing national body of actors with their own identity.</td>
-    <td> → P107i → E74[12]
+    <td> → P107i → E74[12] •   
  → P107i → E74[12] → E55["National Group"]</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Cultural Affiliation</td>
     <td>This field is used to indicate the membership of the documented person in a cultural group. The larger group is meant as an actual existing cultural body of actors with their own identity.</td>
-    <td> → P107i → E74[13]
+    <td> → P107i → E74[13] •   
  → P107i → E74[13[ → E55["Cultural Group"]</td>
   </tr>
   <tr>
@@ -964,7 +964,7 @@
     <td>n/a</td>
     <td>Floruit</td>
     <td>This field is used to indicate the period of greatest activity/flourishing of the documented individual.</td>
-    <td> → P14i → F51[14] → P4 → E52 → P82 → xsd:dateTime
+    <td> → P14i → F51[14] → P4 → E52 → P82 → xsd:dateTime •   
  → P14i → F51[14] → P2 → E55["Floruit"]</td>
   </tr>
   <tr>
@@ -1012,15 +1012,15 @@
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented person.</td>
-    <td> → P67i → E73[16] → rdf:value → rdf:Literal
+    <td> → P67i → E73[16] → rdf:value → rdf:Literal •   
  → P67i → E73[16] → P2 → E55 "Citation"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Biography</td>
     <td>This field is used to store short bibliographic texts about the documented person.</td>
-    <td> → P67i → E73[15] → rdf:value → rdf:Literal
- → P67i → E73[15] → P2 → E55 "Biography"
+    <td> → P67i → E73[15] → rdf:value → rdf:Literal  •   
+ → P67i → E73[15] → P2 → E55 "Biography" •   
 → P67i → E73[15] → P72 → E56</td>
   </tr>
 </table>
