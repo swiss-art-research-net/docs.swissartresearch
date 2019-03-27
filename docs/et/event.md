@@ -158,7 +158,7 @@ The attribution of names and types to events, as with other entities, is a basic
     <td>n/a</td>
     <td>Type</td>
     <td>This field is used to indicate the formal type of event a documented instance of event is classified as.</td>
-    <td> → P2 → E55[3]
+    <td> → P2 → E55[3] •   
  → P2 → E55[3] → P71 → E32</td>
   </tr>
   <tr>
@@ -219,7 +219,7 @@ Events are the subjects of innumerable descriptions that provide a wide range of
     <td>Description</td>
     <td>Description</td>
     <td>This field is used to indicate a description of the documented instance of event.</td>
-    <td> → 129i → E73[9] → rdf:value → rdf:Literal  
+    <td> → 129i → E73[9] → rdf:value → rdf:Literal •   
     → 129i → E73[9] → P72 → E56</td>
   </tr>
   <tr>
@@ -301,50 +301,50 @@ The existence of an event must be determined by documentary or physical evidence
   <tr>
     <td>Start</td>
     <td>Earliest Possible Start Date</td>
-    <td>This field is used to indicate the earliest possibe start date for the event.</td>
-     → P4 → E52 → P82a → xsd:dateTime</td>
+    <td>This field is used to indicate the earliest possible start date for the event.</td>
+  <td> → P4 → E52 → P82a → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Start</td>
     <td>Latest Possible Start Date</td>
     <td>This field is used to indicate the latest possible date for the event.</td>
-     → P4 → E52 → P81a → xsd:dateTime</td>
+    <td> → P4 → E52 → P81a → xsd:dateTime</td>
   </tr>
   <tr>
     <td>End</td>
     <td>Earliest Possible End Date</td>
     <td>This field is used to indicate the earliest possible date for the end of a documented instance of event.</td>
-     → P4 → E52 → P81b → xsd:dateTime</td>
+     <td> → P4 → E52 → P81b → xsd:dateTime </td>
   </tr>
   <tr>
     <td>End</td>
     <td>Latest Possible End Date</td>
     <td>This field is used to indicate the latest date for the destruction of the documented instance of event.</td>
-     → P4 → E52 → P82b → xsd:dateTime</td>
+    <td> → P4 → E52 → P82b → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Duration</td>
     <td>Maximal Duration - Value</td>
     <td>This field is used to indicate the time value of the maximal known duration of the event.</td>
-     → P4 → E52 → P84 → E54 → P90 → xsd:dateTime</td>
+     <td> → P4 → E52 → P84 → E54 → P90 → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Duration</td>
     <td>Maximal Duration - Unit</td>
     <td>This field is used to indicate the unit of the time value of the maximal known duration of the event.</td>
-     → P4 → E52 → P84 → E54 → P91 → E58</td>
+     <td> → P4 → E52 → P84 → E54 → P91 → E58</td>
   </tr>
   <tr>
     <td>Duration</td>
     <td>Minimal Duration - Value</td>
     <td>This field is used to indicate the time value of the minimal known duration of the event.</td>
-     → P4 → E52 → P83 → E54 → P90 → xsd:dateTime</td>
+     <td> → P4 → E52 → P83 → E54 → P90 → xsd:dateTime</td>
   </tr>
   <tr>
     <td>Duration</td>
     <td>Minimal Duration - Unit</td>
     <td>This field is used to indicate the unit of the time value of the minimal known duration of the event.</td>
-     → P4 → E52 → P83 → E54 → P91 → E58</td>
+     <td> → P4 → E52 → P83 → E54 → P91 → E58</td>
   </tr>
   <tr>
     <td>Description</td>
@@ -441,8 +441,8 @@ Events, as planned social occasions and interactions, usually take place with a 
     <td>n/a</td>
     <td>Subject Description</td>
     <td>This field is a free text field for the description of the subject of an event, when the data has not been sorted into categorized lists.</td>
-    <td> → P129i → E73 → rdf:value → rdf:Literal  
- → P129i → E73 → P2 → E55 "Subject Description"  
+    <td> → P129i → E73 → rdf:value → rdf:Literal •   
+ → P129i → E73 → P2 → E55 "Subject Description" •   
  → P129i → E73 → P72 → E56</td>
   </tr>
 </table>
@@ -499,8 +499,8 @@ This information category unites referential information about the documented ev
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented instance of event.</td>
-    <td> → P129i → E73 → rdf:value → rdf:Literal
- → P129i → E73 → P2 → E55 "Citation"
+    <td> → P129i → E73 → rdf:value → rdf:Literal •   
+ → P129i → E73 → P2 → E55 "Citation" •   
  → P129i → E73 → P67 → E73 [from Bibliography Entity Type]</td>
   </tr>
   <tr>

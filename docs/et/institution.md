@@ -179,7 +179,7 @@ The attribution of names and types to things, including institutions, is a basic
     <td>n/a</td>
     <td>Name</td>
     <td>This field is used to indicate the main name attributed to the documented institution. No part break down of name is here implied. The full name of an institution is expected here where available.</td>
-    <td> → P1 → E41[2]
+    <td> → P1 → E41[2] •   
  → P1 → E41[2] → P2 → E55['preferred terms']</td>
   </tr>
   <tr>
@@ -192,14 +192,14 @@ The attribution of names and types to things, including institutions, is a basic
     <td>n/a</td>
     <td>Institution Type</td>
     <td>This field is used to indicate a general type assigned to the documented institution.</td>
-    <td> → P2 → E55
+    <td> → P2 → E55 •   
  → P2 → E55 → P2 → E55 "Institution Type"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Legal Status</td>
     <td>This field is used to indicate the legal status of the documented institution.</td>
-    <td> → P2 → E55
+    <td> → P2 → E55 •   
  → P2 → E55 → P2 → E55 "Legal Status"</td>
   </tr>
   <tr>
@@ -344,7 +344,7 @@ A useful area of documentation and potential disambiguation around an institutio
     <td>n/a</td>
     <td>National Affiliation</td>
     <td>This field is used to indicate the association of the documented institution to a nation, usually indicating its legal association.</td>
-    <td> → P107i → E74[12]
+    <td> → P107i → E74[12] •   
  → P107i → E74[12] → E55["National Group"]</td>
   </tr>
   <tr>
@@ -381,14 +381,14 @@ A useful area of documentation and potential disambiguation around an institutio
     <td>Employees/Members</td>
     <td>Employee/Member End Date - Earliest</td>
     <td>This field is used to indicate the earliest known date of ceasing to be an employee/member of the documentation institution by the individual in question.</td>
-    <td> → P146i → E86[17] → P145 → E21
+    <td> → P146i → E86[17] → P145 → E21 •   
  → P146i → E86[17] → P4 → E52[18] → P82a → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Employees/Members</td>
     <td>Employee/Member End Date - Latest</td>
     <td>This field is used to indicate the latest known date of ceasing to be an employee/member of the documentation institution by the individual in question.</td>
-    <td> → P146i → E86[17] → P145 → E21
+    <td> → P146i → E86[17] → P145 → E21 •   
  → P146i → E86[17] → P4 → E52[19] → P82b → xsd:dateTimeTime</td>
   </tr>
 </table>
@@ -423,7 +423,7 @@ This category brings together documentary evidence with regards to various typic
     <td>Well Known Events</td>
     <td>Role</td>
     <td>This field is used to indicate the role that the documented institution played in a particular event.</td>
-    <td> → P02 → PC144[14] → P01 → E7[211]
+    <td> → P02 → PC144[14] → P01 → E7[211] •   
  → P02 → PC144[14] → P14.1 → E55["Position"]</td>
   </tr>
   <tr>
@@ -452,25 +452,25 @@ The documentation of location aids in understanding where an institution is seat
     <td>Location</td>
     <td>Institution Address</td>
     <td>This field is used to document the address of the institution at which the documented institution is presently located.</td>
-     → P74 → E53[20] → P1 → E41[21]</td>
+   <td> → P74 → E53[20] → P1 → E41[21]</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Institution Address Type</td>
     <td>This field is used to document the instance of the type of an institution address at which the documented institution is presently located</td>
-     → P74 → E53[20] → P1 → E41[21] → P2 → E55</td>
+    <td> → P74 → E53[20] → P1 → E41[21] → P2 → E55</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Institution Coordinates</td>
     <td>This field is used to indicate the coordinates for the institution at which the documented is presently located.</td>
-     → P74 → E53[20] → P168 → geo:wktLiteral</td>
+    <td> → P74 → E53[20] → P168 → geo:wktLiteral</td>
   </tr>
   <tr>
     <td>Location</td>
     <td>Institution Location Type</td>
     <td>This field is used to indicate the type of the location that is documented with regards to the address. Institutions may have many different locations. This descriptor enables the differentiation of the institution's different locales.</td>
-     → P74 → E53[20] → P2 → E55</td>
+    <td> → P74 → E53[20] → P2 → E55</td>
   </tr>
 </table>
 
@@ -498,16 +498,16 @@ This information category unites referential information about the documented in
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented institution.</td>
-    <td> → P129i → E73[22] → rdf:value → rdf:Literal
- → P129i → E73[22] → P2 → E55 "Citation"
+    <td> → P129i → E73[22] → rdf:value → rdf:Literal •   
+ → P129i → E73[22] → P2 → E55 "Citation" •   
  → P129i → E73[22] → P67 → E73 [from Bibliography Entity Type]</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Description</td>
     <td>This field is used to store short descriptive texts about the documented institution.</td>
-    <td> → P129i → E73[23] → rdf:value → rdf:Literal
- → P129i → E73[23] → P2 → E55 "Description"
+    <td> → P129i → E73[23] → rdf:value → rdf:Literal •   
+ → P129i → E73[23] → P2 → E55 "Description" •   
  → P129i → E73[23] → P72 → E56</td>
   </tr>
 </table>
