@@ -14,7 +14,7 @@ nav:
     - Project Home: index.md
     - Entity Reference Model:
       - Instruction: instruction.md
-      - Artist : et/person.md
+      - Person : et/person.md
       - Artwork: et/artwork.md
       - Institution: et/institution.md
       - Built Work: et/built_work.md

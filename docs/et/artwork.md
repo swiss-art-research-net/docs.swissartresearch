@@ -128,9 +128,9 @@ The fields used to describe an artwork can be functionally grouped according to 
   </tr>
 </table>
 
-An overview of all the groups of the entity described here is available in the image below. Click to enlarge it.
+<!--An overview of all the groups of the entity described here is available in the image below. Click to enlarge it.
 
-![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f912c2d2-a00e-4664-8887-d3faf226d2f6.png){.thumbnail}
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f912c2d2-a00e-4664-8887-d3faf226d2f6.png){.thumbnail} -->
 
 
 ### Names and Classifications
@@ -191,13 +191,13 @@ The attribution of names and types to artwork, as with other entities, is a basi
     <td>Alternate Title</td>
     <td>Alternate Title Use Period - Earliest</td>
     <td>This field is used to indicate the earliest known date for use of this name for the documented artwork.</td>
-    <td>->P1->E41[4]->R64i->F52[5]->p4->E52[6]->P82a->XSD:Date</td>
+    <td>->P1->E41[4]->R64i->F52[5]->p4->E52[6]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Alternate Title</td>
     <td>Alternate Title Use Period - Latest</td>
     <td>This field is used to indicate the latest known date for use of this name for the documented artwork.</td>
-    <td>->P1->E41[4]->R64i->F52[5]->p4->E52[6]->P82b->XSD:Date</td>
+    <td>->P1->E41[4]->R64i->F52[5]->p4->E52[6]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -234,7 +234,8 @@ Artworks are the subjects of innumerable descriptions that provide a wide range 
     <td>Description</td>
     <td>Description</td>
     <td>This field is used to indicate a description of documented artwork</td>
-    <td>->P67i->E73[9]->has:value->Literal</td>
+    <td>->P67i->E73[9]->rdf:value->rdf:Literal  
+    ->P67i->E73[9]->P72->E56</td>
   </tr>
   <tr>
     <td>Description</td>
@@ -252,13 +253,13 @@ Artworks are the subjects of innumerable descriptions that provide a wide range 
     <td>Description</td>
     <td>Description Date - Earliest</td>
     <td>This field is used to indicate the ealiest date for the creation of the description of the documented work.</td>
-    <td>->P67i->E73[9]->P94i->E65[10]->P4->E52[11]->P82a->XSD:Date</td>
+    <td>->P67i->E73[9]->P94i->E65[10]->P4->E52[11]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Description</td>
     <td>Description Date - Latest</td>
     <td>This field is used to indicate the latest date for the creation of the description of the documented work.</td>
-    <td>->P67i->E73[9]->P94i->E65[10]->p4->E52[11]->P82b->XSD:Date</td>
+    <td>->P67i->E73[9]->P94i->E65[10]->p4->E52[11]->P82b->xsd:dateTime</td>
   </tr>
 </table>
 
@@ -294,7 +295,7 @@ Artwork may require documentation not just as a whole, but with regards to its p
     <td>n/a</td>
     <td>Part Count</td>
     <td>This field is use to indicate part counts for the documented part types.</td>
-    <td>->P57->rdf:literal^^Integer</td>
+    <td>->P57->rdf:literal</td>
   </tr>
 </table>
 
@@ -322,13 +323,13 @@ Of essential import in identifying and tracking artwork is information pertainin
     <td>Production</td>
     <td>Production Date - Earliest</td>
     <td>This field is used to indicate the earliest date for the creation of the documented artwork.</td>
-    <td>->P108i->E12[12]->p4->E52[13]->P82a->XSD:Date</td>
+    <td>->P108i->E12[12]->p4->E52[13]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Production</td>
     <td>Production Date - Latest</td>
     <td>This field is used to indicate the latest date for the creation of the documented artwork.</td>
-    <td>->P108i->E12[12]->p4->E52[13]->P82b->XSD:Date</td>
+    <td>->P108i->E12[12]->p4->E52[13]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Destruction</td>
@@ -340,13 +341,13 @@ Of essential import in identifying and tracking artwork is information pertainin
     <td>Destruction</td>
     <td>Destruction Date - Earliest</td>
     <td>This field is used to indicate the earliest date for the destruction of the documented artwork.</td>
-    <td>->P13i->E6[14]->p4->E52[15]->P82a->XSD:Date</td>
+    <td>->P13i->E6[14]->p4->E52[15]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Destruction</td>
     <td>Destruction Date - Latest</td>
     <td>This field is used to indicate the latest date for the destruction of the documented artwork.</td>
-    <td>->P13i->E6[14]->p4->E52[15]->P82b->XSD:Date</td>
+    <td>->P13i->E6[14]->p4->E52[15]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -449,7 +450,7 @@ The analysis and understanding of an artwork depends also on our knowledge of it
     <td>Dimension</td>
     <td>Dimension Value</td>
     <td>This field is used to indicate the value of the measurement of the documented instance of built work.</td>
-    <td>->P39i->E16->P40->E54->P90->XSD^^Integer</td>
+    <td>->P39i->E16->P40->E54->P90->xsd:decimal</td>
   </tr>
   <tr>
     <td>Dimension</td>
@@ -505,13 +506,13 @@ This information category brings together typical events in which an artwork may
     <td>Provenance</td>
     <td>Past Ownership Period Statement - Earliest</td>
     <td>This field is used to indicate the earliest date for an ownership period of the documented artwork.</td>
-    <td>->P24i->E8[19]->P4->E52[20]->P82a->XSD:Date</td>
+    <td>->P24i->E8[19]->P4->E52[20]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Provenance</td>
     <td>Past Ownership Period Statement - Latest</td>
     <td>This field is used to indicate the latest date for an ownership period of the documented artwork.</td>
-    <td>->P24i->E8[19]->P4->E52[20]->P82b->XSD:Date</td>
+    <td>->P24i->E8[19]->P4->E52[20]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Provenance</td>
@@ -523,19 +524,19 @@ This information category brings together typical events in which an artwork may
     <td>Provenance</td>
     <td>Past Ownership Description</td>
     <td>This field used to provide a free text description related to an ownership period for the documented artwork.</td>
-    <td>->P24i->E8[19]->P70i->E31->rdf:value->BLOB</td>
+    <td>->P24i->E8[19]->P70i->E31->rdf:value->rdf:Literal</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservation Event - Earliest</td>
     <td>This field is used to indicate the earliest date for a conservation event performed on the documented artwork.</td>
-    <td>->P31i->E11[20]->P4->E52[21]->P82a->XSD:Date</td>
+    <td>->P31i->E11[20]->P4->E52[21]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Conservation</td>
     <td>Conservation Event - Latest</td>
     <td>This field is used to indicate the latest date for a conservation event performed on the documented artwork.</td>
-    <td>->P31i->E11[20]->P4->E52[21]->P82b->XSD:Date</td>
+    <td>->P31i->E11[20]->P4->E52[21]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Conservation</td>
@@ -652,7 +653,7 @@ This information category unites referential information about the documented ar
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented artwork.</td>
-    <td>->P67i->E73[26]->hasvalue->LITERAL
+    <td>->P67i->E73[26]->rdf:value->rdf:Literal
 ->P67i->E73[26]->P2->E55"Citation"
 ->P67i->E73[26]->P67->E73 [from Bibliography Entity Type]</td>
   </tr>

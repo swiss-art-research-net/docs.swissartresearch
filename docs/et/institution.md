@@ -224,13 +224,13 @@ The attribution of names and types to things, including institutions, is a basic
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Earliest</td>
     <td>This field is used to indicate the earliest known date for use of this name for the documented institution.</td>
-    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82a->xsd:dateTime</td>
+    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82a->xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Latest</td>
     <td>This field is used to indicate the latest known date for use of this name for the documented institution.</td>
-    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82b->xsd:dateTime</td>
+    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82b->xsd:dateTimeTime</td>
   </tr>
 </table>
 
@@ -260,13 +260,13 @@ Of essential importance in identifying and tracking institutions is to know when
     <td>Formation</td>
     <td>Formation Date - Earliest</td>
     <td>This field is used to indicate the earliest known date for the formation of the documented institution.</td>
-    <td>->P95i->E66[7]->P4->E52[8]->P82a->xsd:dateTime</td>
+    <td>->P95i->E66[7]->P4->E52[8]->P82a->xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Formation</td>
     <td>Formation Date - Latest</td>
     <td>This field is used to indicate the latest known date for the formation of the documented institution.</td>
-    <td>->P95i->E66[7]->P4->E52[8]->P82b->xsd:dateTime</td>
+    <td>->P95i->E66[7]->P4->E52[8]->P82b->xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Formation</td>
@@ -284,13 +284,13 @@ Of essential importance in identifying and tracking institutions is to know when
     <td>Dissolution</td>
     <td>Dissolution Date - Earliest</td>
     <td>This field is used to indicate the earliest known date for the dissolution of the documented institution.</td>
-    <td>->P99i->E68[9]->P4->E52[10]->P82a->xsd:dateTime</td>
+    <td>->P99i->E68[9]->P4->E52[10]->P82a->xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Dissolution</td>
     <td>Dissolution Date - Latest</td>
     <td>This field is used to indicate the latest known date for the dissolution of the documented institution.</td>
-    <td>->P99i->E68[9]->P4->E52[10]->P82b->xsd:dateTime</td>
+    <td>->P99i->E68[9]->P4->E52[10]->P82b->xsd:dateTimeTime</td>
   </tr>
 </table>
 
@@ -369,27 +369,27 @@ A useful area of documentation and potential disambiguation around an institutio
     <td>Employees/Members</td>
     <td>Employee/Member Start Date - Earliest</td>
     <td>This field is used to indicate the earliest known date of becoming an employee/member of the documentation institution by the individual in question.</td>
-    <td>->P02->PC144[14]->p01->E85[15]->P4->E52[16]->P82a->xsd:dateTime</td>
+    <td>->P02->PC144[14]->p01->E85[15]->P4->E52[16]->P82a->xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Employees/Members</td>
     <td>Employee/Member Start Date - Latest</td>
     <td>This field is used to indicate the latest known date of becoming an employee/member of the documentation institution by the individual in question.</td>
-    <td>->P02->PC144[14]->P01->E85[15]->P4->E52[16]->P82b->xsd:dateTime</td>
+    <td>->P02->PC144[14]->P01->E85[15]->P4->E52[16]->P82b->xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Employees/Members</td>
     <td>Employee/Member End Date - Earliest</td>
     <td>This field is used to indicate the earliest known date of ceasing to be an employee/member of the documentation institution by the individual in question.</td>
     <td>->P146i->E86[17]->P145->E21
-->P146i->E86[17]->p4->E52[18]->P82a->xsd:dateTime</td>
+->P146i->E86[17]->p4->E52[18]->P82a->xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Employees/Members</td>
     <td>Employee/Member End Date - Latest</td>
     <td>This field is used to indicate the latest known date of ceasing to be an employee/member of the documentation institution by the individual in question.</td>
     <td>->P146i->E86[17]->P145->E21
-->P146i->E86[17]->p4->E52[19]->P82b->xsd:dateTime</td>
+->P146i->E86[17]->p4->E52[19]->P82b->xsd:dateTimeTime</td>
   </tr>
 </table>
 
@@ -498,7 +498,7 @@ This information category unites referential information about the documented in
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented institution.</td>
-    <td>->P129i->E73[22]->hasvalue->LITERAL
+    <td>->P129i->E73[22]->rdf:value->rdf:Literal
 ->P129i->E73[22]->P2->E55"Citation"
 ->P129i->E73[22]->P67->E73 [from Bibliography Entity Type]</td>
   </tr>
@@ -506,8 +506,9 @@ This information category unites referential information about the documented in
     <td>n/a</td>
     <td>Description</td>
     <td>This field is used to store short descriptive texts about the documented institution.</td>
-    <td>->P129i->E73[23]->hasvalue->LITERAL
-->P129i->E73[23]->P2->E55"Description"</td>
+    <td>->P129i->E73[23]->rdf:value->rdf:Literal
+->P129i->E73[23]->P2->E55"Description"
+->P129i->E73[23]->P72->E56</td>
   </tr>
 </table>
 

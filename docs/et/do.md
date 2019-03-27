@@ -108,7 +108,7 @@ The attribution of identifiers, names and types to digital object, as with other
     <td>n/a</td>
     <td>Format</td>
     <td>This field is used to indicate the file format that has been used in the encoding of the digital object.</td>
-    <td>->p2->E55[1]
+    <td>->p2->E55[1]  
 ->p2->E55[1]->p2->E55"Format Type"</td>
   </tr>
   <tr>
@@ -130,7 +130,7 @@ The attribution of identifiers, names and types to digital object, as with other
     <td>n/a</td>
     <td>Checksum</td>
     <td>This field is use to indicate a checksum for the digital object in order to be able to verify its authenticity.</td>
-    <td>->P1->E42
+    <td>->P1->E42  
 ->P1->E42->p2->E55"Checksum"</td>
   </tr>
 </table>
@@ -188,7 +188,7 @@ Of essential import in identifying and tracking a digital object is its creation
     <td>Creation</td>
     <td>Creation Date - Early</td>
     <td>This field is used to indicate the earliest date for the creation of the documented digital object.</td>
-    <td>->p94i->D7[3]->p4->E52[4]->P81a->xsd:dateTime
+    <td>->L11i->D7[3]->p4->E52[4]->P81a->xsd:dateTimeTime  
 ->L11i->D7[3]->p2->E55"Creation"</td>
   </tr>
   <tr>
@@ -196,7 +196,7 @@ Of essential import in identifying and tracking a digital object is its creation
     <td>Creation</td>
     <td>Creation Date - Late</td>
     <td>This field is used to indicate the latest date for the creation of the documented digital object.</td>
-    <td>->p94i->D7[3]->p4->E52[4]->P81b->xsd:dateTime
+    <td>->L11i->D7[3]->p4->E52[4]->P81b->xsd:dateTimeTime  
 ->L11i->D7[3]->p2->E55"Creation"</td>
   </tr>
   <tr>
@@ -204,7 +204,7 @@ Of essential import in identifying and tracking a digital object is its creation
     <td>Modification</td>
     <td>Modification Date - Early</td>
     <td>This field is used to indicate the earliest date for the modification of the documented digital object.</td>
-    <td>->L11i->D7[4]->p4->E52[4]->P81a->xsd:dateTime
+    <td>->L11i->D7[4]->p4->E52[4]->P81a->xsd:dateTimeTime  
 ->L11i->D7[4]->p2->E55"Modification"</td>
   </tr>
   <tr>
@@ -212,7 +212,7 @@ Of essential import in identifying and tracking a digital object is its creation
     <td>Modification</td>
     <td>Modification Date - Late</td>
     <td>This field is used to indicate the latest date for the modification of the documented digital object.</td>
-    <td>->L11i->D7[4]->p4->E52[4]->P81b->xsd:dateTime
+    <td>->L11i->D7[4]->p4->E52[4]->P81b->xsd:dateTimeTime  
 ->L11i->D7[4]->p2->E55"Modification"</td>
   </tr>
 </table>
@@ -237,7 +237,16 @@ The connection between digital object and actors provides another important set 
     <td>n/a</td>
     <td>Creator</td>
     <td>This field is used to indicate the creator of the documented digital object.</td>
-    <td>->L11i->D7[3]->p14->E39</td>
+    <td>->L11i->D7[3]->p14->E39  
+->L11i->D7[3]->P2->E55"Creation"</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>n/a</td>
+    <td>Last Modifier</td>
+    <td>This field is used to indicate the last modifer of the documented digital object.</td>
+    <td>->L11i->D7[4]->p14->E39  
+->L11i->D7[4]->P2->E55"Modification"</td>
   </tr>
 </table>
 
@@ -269,7 +278,7 @@ The analysis and understanding of a digital object depends also on our knowledge
     <td>Dimension</td>
     <td>Dimension Value</td>
     <td>This field is used to indicate the value of the dimension provided for the documented digital object.</td>
-    <td>->P43->E54[2]->P90->XSD^^Integer</td>
+    <td>->P43->E54[2]->P90->xsd:decimal</td>
   </tr>
   <tr>
     <td>SI</td>
@@ -333,7 +342,7 @@ The potential use and re-use of a digital object and its derivatives requires re
     <td>Rights</td>
     <td>right holder</td>
     <td>This field is used to indicate the right holder for the documented digital object.</td>
-    <td>p104->E30[25]->P105->E39</td>
+    <td>p104->E30[25]->P75i->E39</td>
   </tr>
   <tr>
     <td>SI</td>
@@ -347,7 +356,8 @@ The potential use and re-use of a digital object and its derivatives requires re
     <td>Rights</td>
     <td>right description</td>
     <td>This field is used to provide a free text description of the right which the right holder holds over the documented digital object.</td>
-    <td>p104->E30[25]->P129i->E73</td>
+    <td>->p104->E30[25]->P129i->E73[666]->rdfs:rdf:value->rdf:Literal.  
+->p104->E30[25]->P129i->E73[666]->p72->E56</td>
   </tr>
 </table>
 

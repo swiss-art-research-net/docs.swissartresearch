@@ -207,13 +207,13 @@ The attribution of names and types to persons is a basic human activity. A chief
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Earliest</td>
     <td>This field is used to indicate the earliest known date for use of this name for the documented person.</td>
-    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82a->XSD:Date</td>
+    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Alternate Name</td>
     <td>Alternate Name Use Period - Latest</td>
     <td>This field is used to indicate the latest known date for use of this name for the documented person.</td>
-    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82b->XSD:Date</td>
+    <td>->P1->E41[5]->R64i->F52[4]>p4->E52[6]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -248,13 +248,13 @@ Of essential importance in identifying and tracking individuals is also their bi
     <td>Birth</td>
     <td>Birth Date - Earliest</td>
     <td>This field is used to indicate the earliest known date for the birth of the documented person.</td>
-    <td>->P98i->E67[7]->P4->E52[8]->P82a->XSD:Date</td>
+    <td>->P98i->E67[7]->P4->E52[8]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Birth</td>
     <td>Birth Date - Latest</td>
     <td>This field is used to indicate the latest known date for the birth of the documented person.</td>
-    <td>->P98i->E67[7]->P4->E52[8]->P82b->XSD:Date</td>
+    <td>->P98i->E67[7]->P4->E52[8]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Death</td>
@@ -266,13 +266,13 @@ Of essential importance in identifying and tracking individuals is also their bi
     <td>Death</td>
     <td>Death Date - Earliest</td>
     <td>This field is used to indicate the earliest known date for the death of the documented person.</td>
-    <td>->P100i->E69[9]->->P4->E52[10]->P82a->XSD:Date</td>
+    <td>->P100i->E69[9]->->P4->E52[10]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
     <td>Death</td>
     <td>Death Date - Latest</td>
     <td>This field is used to indicate the latest known date for the death of the documented person.</td>
-    <td>->P100i->E69[9]->P4->E52[10]->P82b->XSD:Date</td>
+    <td>->P100i->E69[9]->P4->E52[10]->P82b->xsd:dateTime</td>
   </tr>
 </table>
 
@@ -387,7 +387,7 @@ This category brings together the various actions in which the documented person
     <td>n/a</td>
     <td>Floruit</td>
     <td>This field is used to indicate the period of greatest activity/flourishing of the documented individual.</td>
-    <td>->P14i->F51[14]->P4->E52->P82->XSD:Date
+    <td>->P14i->F51[14]->P4->E52->P82->xsd:dateTime
 ->P14i->F51[14]->P2->E55["Floruit"]</td>
   </tr>
   <tr>
@@ -439,15 +439,16 @@ This information category unites referential information about the documented pe
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented person.</td>
-    <td>->P67i->E73[16]->hasvalue->LITERAL
+    <td>->P67i->E73[16]->rdf:value->rdf:Literal
 ->P67i->E73[16]->P2->E55"Citation"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Biography</td>
     <td>This field is used to store short bibliographic texts about the documented person.</td>
-    <td>->P67i->E73[15]->hasvalue->LITERAL
-->P67i->E73[15]->P2->E55"Biography"</td>
+    <td>->P67i->E73[15]->rdf:value->rdf:Literal
+->P67i->E73[15]->P2->E55"Biography"
+>P67i->E73[15]->->P72->E56</td>
   </tr>
 </table>
 
