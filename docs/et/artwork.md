@@ -128,13 +128,6 @@ The fields used to describe an artwork can be functionally grouped according to 
   </tr>
 </table>
 
-<!--
-An overview of all the groups of the entity described here is available in the image below. Click to enlarge it.
-
-![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f912c2d2-a00e-4664-8887-d3faf226d2f6.png){.thumbnail} 
-
---→ 
-
 
 ### Names and Classifications
 
