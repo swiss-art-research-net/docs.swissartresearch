@@ -4,7 +4,7 @@
 
 **Version**: 1.0
 
-The event reference data model provides a list of standard fields that are typically present in the general description of an event, taken in the sense of planned public or social occasions, organized towards some purpose. Examples of events would be workshops, meetings, conferences, congresses and so on. The aim of this reference model is to cover basic descriptors that are typically employed in the documentation of an event. This reference model aims to remain at a general level description, providing a consolidated, high level reference data model of most commonly reused descriptors for an event as such and to provide for these in turn a set of standard semantic mappings to the CIDOC CRM. Moreover, each field is marked with regards to its potential functionality with regards to instance matching between overlapping datasets. This level of modelling is seen as a necessary basic reference point on which to build more complex documentation. This reference data model aims to serve a number of functions including: 
+The event reference data model provides a list of standard fields that are typically present in the general description of an event, taken in the sense of planned public or social occasions, organized towards some purpose. Examples of events would be workshops, meetings, conferences, congresses and so on. The aim of this reference model is to cover basic descriptors that are typically employed in the documentation of an event. This reference model aims to remain at a general level description, providing a consolidated, high-level reference data model of most commonly reused descriptors for an event as such and to provide for these, in turn, a set of standard semantic mappings to the CIDOC CRM. Moreover, each field is marked with regards to its potential functionality with regards to instance matching between overlapping datasets. This level of modelling is seen as a necessary basic reference point on which to build more complex documentation. This reference data model aims to serve a number of functions including: 
 
 1. to support the creation of semantic data entry forms that will create ‘born semantic’ data streams
 
@@ -17,7 +17,7 @@ The event reference data model provides a list of standard fields that are typic
 ## 
 Sources
 
-Documented schema for structuring events data, in the sense of planned occasions, documented historically are not generally available or in use, despite the fact that such data is regularly collected in bespoke systems. In order to have reference schema from which to build the model, we looked at work on the more general question of periods and documentation of time along with the schema.org schema for events:
+The documented schema for structuring events data, in the sense of planned occasions, documented historically are not generally available or in use, despite the fact that such data is regularly collected in bespoke systems. In order to have reference schema from which to build the model, we looked at work on the more general question of periods and documentation of time along with the schema.org schema for events:
 
 <table>
   <tr>
@@ -109,7 +109,7 @@ The fields used to describe an event can be functionally grouped according to hi
 
 ### Names and Classifications
 
-The attribution of names and types to events, as with other entities, is a basic human activity. A chief factor in disambiguating events lies in understanding the various names and identifiers that have been given to them at different moments in their individual histories. Historical events often receive different names according to the groups naming it, as well as receiving different kinds of names according to contexts (such as abbreviations and so on). Likewise, additional classifiers of the event, such as how it is has been formally categorized, give important distinguishing characteristics.
+The attribution of names and types to events, as with other entities, is a basic human activity. A chief factor in disambiguating events lies in understanding the various names and identifiers that have been given to them at different moments in their individual histories. Historical events often receive different names according to the groups naming it, as well as receiving different kinds of names according to contexts (such as abbreviations and so on). Likewise, additional classifiers of the event, such as how it has been formally categorized, give important distinguishing characteristics.
 
 <table>
   <tr>
@@ -206,7 +206,7 @@ The model provides means for tracking identifiers, present and past name use, na
 
 ### Description
 
-Events are the subjects of innumerable descriptions that provide a wide range of information with regards to what took place during the event and how, as well as providing interpretations of its significance and import. Such descriptions are of use in a scholarly understanding of an event just in case we are able to track the provenance of such elocutions in a systematic fashion. Such an aim drives the need for the tracking of description information as a separate category. The descriptors necessary to this task are documented in the table below.
+Events are the subjects of innumerable descriptions that provide a wide range of information with regards to what took place during the event and how, as well as providing interpretations of its significance and import. Such descriptions are of use in a scholarly understanding of an event just in case we are able to track the provenance of such elocutions in a systematic fashion. Such an aim drives the need for the tracking of description information as a separate category. The descriptors necessary for this task are documented in the table below.
 
 <table>
   <tr>
@@ -368,7 +368,7 @@ The above structure allows for the documentation of the begin and end of an even
 
 ### Participation
 
-The use of documenting events in historical study comes especially in tracing the interaction of actors, ideas and things in time and the evolution of the connections that are created between them. Events are nexuses in which actors, ideas and things participate. They can also be the junction for the creation of new ideas. The descriptors gathered here focus on the typical participants to events in the sense of planned social occasions, especially in a formal context. Therefore they focus on agents and their roles, documents and document production, as well as the use of particular implements (e.g. famous pens) in the carrying out of events.
+The use of documenting events in historical studies comes especially in tracing the interaction of actors, ideas and things in time and the evolution of the connections that are created between them. Events are nexuses in which actors, ideas and things participate. They can also be the junction for the creation of new ideas. The descriptors gathered here focus on the typical participants to events in the sense of planned social occasions, especially in a formal context. Therefore they focus on agents and their roles, documents and document production, as well as the use of particular implements (e.g. famous pens) in the carrying out of events.
 
 <table>
   <tr>
@@ -422,7 +422,7 @@ These descriptors should allow the tracing of the participation of different peo
 
 ### Intention
 
-Events, as planned social occasions and interactions, usually take place with a particular intention in mind. In the case of formal events, such intentions are usually formalized as lists of topics. The description of the reasons motivating an event are important in its analysis. In this information category we gather together descriptors for documenting this data.
+Events, as planned social occasions and interactions, usually take place with a particular intention in mind. In the case of formal events, such intentions are usually formalized as lists of topics. The description of the reasons motivating an event are essential in its analysis. In this information category, we gather together descriptors for documenting this data.
 
 <table>
   <tr>
@@ -513,5 +513,3 @@ This information category unites referential information about the documented ev
 <br>
 
 ![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/0806c035-1961-4ef4-9d93-8382b5e1eeac.png)
-
-

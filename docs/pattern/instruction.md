@@ -1,6 +1,6 @@
 # Instruction
 
-The Ontological Modelling Patterns presents a series of generalisable patterns that can be used to model information with CIDOC-CRM in RDF. The section it is divided into five subsections (Figure 1), presenting each a diverse domain covered by CIDOC-CRM:
+The Ontological Modelling Patterns presents a series of generalisable patterns that can be used to model information with CIDOC-CRM in RDF. The section is divided into five subsections (Figure 1), presenting each a different domain covered by CIDOC-CRM:
 
 - General
 - Temporal
@@ -24,4 +24,3 @@ The diverse subsection should not be seen as watertight container, but only as v
 ![](../images/crm_sections.png){: width=500}</center>
 
 <br>
-

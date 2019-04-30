@@ -27,7 +27,7 @@ Abstract
 --------
 
 This document, automatically generated from [the official access point](http://w3id.org/sari), presents an extension of CIDOC-CRM develop within the
-Swiss Art Research Infrastracture (SARI) project to support propositions
+Swiss Art Research Infrastructure (SARI) project to support propositions
 about persons and their social relations.
 
 **Namespace:** The namespace for SARI terms is [http://w3id.org/sari](http://w3id.org/sari)
@@ -53,7 +53,7 @@ Introduction
 
 This document presents an extension of CIDOC-CRM. It is developed within
 the Reference Entity Model project of the Swiss Art Reseach
-Infrastracture and targeted to sustain propositions about persons and
+Infrastructure and targeted to sustain propositions about persons and
 their social relations which do not have yet a correspondence within the
 CRM.
 
@@ -71,8 +71,8 @@ Classes
 
 The class SRPC3 materializes the SRP3 relation as a class. It does so to
 enable an n-ary construct used to indicate the nature of the
-relationship that holds between the instance of E21 person designated as
-its domain and the instance of E21 Person designated as its range. ie:
+the relationship that holds between the instance of E21 person designated as
+its domain and the instance of E21 Person designated as its range. i.e.:
 if E55 instantiated as Father then the semantic interpretation of this
 is E21(a) 'has father' E21(b), the relation is not symmetric.
 
@@ -109,5 +109,4 @@ periods in which occupations/roles were undertaken.
 Domain: [SRPC3 in social relation](#SRPC3_in_social_relation)  
 Range: E55 Type  
 
-The property documents the type of family relation exists between two
-individuals.
+The property documents the type of family relationship exists between two individuals.

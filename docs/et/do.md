@@ -4,7 +4,7 @@
 
 **Version**: 1.0
 
-The digital object reference data model provides a list of standard fields that are typically present in the general description of a digital object in a cultural heritage data system. Digital object is meant in the sense of a digitally encoded information objects represented as bit sequences that have been encoded with a particular format and can be digitally decoded and represented to an end user of a digital information system. Digital objects are often stored as reference or documentation objects relative to cultural heritage items such as textual descriptions stored as PDFs, documentary images, 3D representations and so on. Digital Objects can also form cultural heritage objects in their own right, though this model does not aim to represent this potential aspect of the digital object. Because of the choice to model the digital object in its role as secondary documentary resource, the reference data model has been kept as light as possible. This reference model intends to remain at a general level description, providing a consolidated, high level reference data model of most commonly reused descriptors for a digital object and to provide for these in turn a set of standard semantic mappings to the CIDOC CRM. Moreover, each field is marked with regards to its potential functionality with regards to instance matching between overlapping datasets. This reference data model aims to serve a number of functions including: 
+The digital object reference data model provides a list of standard fields that are typically present in the general description of a digital object in a cultural heritage data system. A digital object is meant in the sense of a digitally encoded information object represented as bit sequences that have been encoded with a particular format and can be digitally decoded and represented to an end user of a digital information system. Digital objects are often stored as reference or documentation objects relative to cultural heritage items such as textual descriptions stored as PDFs, documentary images, 3D representations and so on. Digital Objects can also form cultural heritage objects in their own right, though this model does not aim to represent this potential aspect of the digital object. Because of the choice to model, the digital object in its role as a secondary documentary resource, the reference data model has been kept as light as possible. This reference model intends to remain at a general level description, providing a consolidated, high-level reference data model of most commonly reused descriptors for a digital object and to provide for these, in turn, a set of standard semantic mappings to the CIDOC CRM. Moreover, each field is marked with regards to its potential functionality with regards to instance matching between overlapping datasets. This reference data model aims to serve a number of functions including: 
 
 1. to support the creation of semantic data entry forms that will create ‘born semantic’ data streams
 
@@ -17,7 +17,7 @@ The digital object reference data model provides a list of standard fields that 
 ## 
 Sources
 
-The minimal metadata set for digital object was abstracted from typical use scenarios in CMS systems related to cultural heritage.
+The minimal metadata set for a digital object was abstracted from typical use scenarios in CMS systems related to cultural heritage.
 
 ## Model Sections Description
 
@@ -79,7 +79,7 @@ The fields used to describe a digital object can be functionally grouped accordi
 
 ### Names and Classifications
 
-The attribution of identifiers, names and types to digital object, as with other entities, is a basic human activity. It is crucial to document these aspects in order to be able to store and retrieve the correct digital object. 
+The attribution of identifiers, names and types to a digital object, as with other entities, is a basic human activity. It is crucial to document these aspects in order to be able to store and retrieve the correct digital object. 
 
 <table>
   <tr>
@@ -173,7 +173,7 @@ Digital objects can be further subdivided into particular digital objects or can
 
 ### Existence
 
-Of essential import in identifying and tracking a digital object is its creation and modification information. The model presented allows the tracking of the machine event which originally created the digital object as well as subsequent machine events of a modifying character of which it was the output. The destruction of the digital object is not modelled as being irrelevant to the use scope of integrated CH reference documentation.
+Of essential import in identifying and tracking a digital object are its creation and modification information. The model presented allows the tracking of the machine event which originally created the digital object as well as subsequent machine events of a modifying character of which it was the output. The destruction of the digital object is not modelled as being irrelevant to the use scope of integrated CH reference documentation.
 
 <table>
   <tr>
@@ -222,7 +222,7 @@ Of essential import in identifying and tracking a digital object is its creation
 
 ### Actor Relations
 
-The connection between digital object and actors provides another important set of descriptors for identifying and tracing a digital object. In this minimal model, the creator is represented.
+The connection between a digital object and actors provides another important set of descriptors for identifying and tracing a digital object. In this minimal model, the creator is represented.
 
 <table>
   <tr>
@@ -256,7 +256,7 @@ The connection between digital object and actors provides another important set 
 
 ### Substance
 
-The analysis and understanding of a digital object depends also on our knowledge of its measurable characteristics. These are represented through dimensional information that can be collected regarding the object. The model is open as to which dimensions should be recorded.
+The analysis and understanding of a digital object also depend on our knowledge of its measurable characteristics. These are represented through dimensional information that can be collected regarding the object. The model is open as to which dimensions should be recorded.
 
 <table>
   <tr>
@@ -296,7 +296,7 @@ The analysis and understanding of a digital object depends also on our knowledge
 
 ### Representation
 
-This information category  allows the documentation, where possible, of the content of the digital object itself as well as a classification of the types of entity, by categorical subject, that the digital object is referenced to..
+This information category allows the documentation, where possible, of the content of the digital object itself as well as a classification of the types of entity, by categorical subject, that the digital object is referenced to.
 
 <table>
   <tr>
@@ -327,7 +327,7 @@ This information category  allows the documentation, where possible, of the cont
 
 ### Rights
 
-The potential use and re-use of a digital object and its derivatives requires respect of existing rights claims. This information category gathers together the relevant descriptors for tracking this information.
+The potential use and re-use of a digital object and its derivatives require respect for existing rights claims. This information category gathers together the relevant descriptors for tracking this information.
 
 <table>
   <tr>
@@ -367,7 +367,7 @@ The potential use and re-use of a digital object and its derivatives requires re
 
 ### Location
 
-The documentation of location with regards to a digital object at the level of documentation can be simplified to the storage of an identifier for a retrieval location on a digital storage medium or can refer to a digital storage medium itself. In the context of managing reference information this is sufficient. .
+The documentation of location with regards to a digital object at the level of documentation can be simplified to the storage of an identifier for a retrieval location on a digital storage medium or can refer to a digital storage medium itself. In the context of managing reference information this is sufficient. 
 
 <table>
   <tr>

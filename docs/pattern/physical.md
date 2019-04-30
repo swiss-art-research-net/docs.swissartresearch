@@ -11,14 +11,14 @@ All the prefix used within the document can be found on [http://prefix.cc/](http
 
 ## Watermarks and Signatures
 
-We model Watermarks and Signatures as E26 Physical Features (identifiable sign which are integrally part of the object) because a physical feature it is not defined by specific borders and it cannot be detach to the object which carries it.
-Both Watermarks and Signatures are typical features of an object, specifically considered within CRM Man-Made Feature, because their identity is not natural but man given. 
+We model Watermarks and Signatures as E26 Physical Features (identifiable signs which are integrally part of the object) because a physical feature it is not defined by specific borders and it cannot be detached to the object which carries it.
+Both Watermarks and Signatures are typical features of an object, specifically considered within CRM Man-Made Feature, because their identity is not natural but human-given. 
 
 Following the above, we can state the fact that an object as a man-made feature as 
 
 **E22 Man-Made Object → P56 bears feature → E25 Man-made Feature**{.modelling}
 
-However, for the example to be complete we should make explicit that the object has two features, a signature and a watermark, each of them has a type, and carries a linguistic object. Formally, both they are made explicit as:
+However, for the example to be complete, we should make explicit that the object has two features, a signature and a watermark, each of them has a type and carries a linguistic object. Formally, both they are made explicit as:
 
 **E25 Man-made Feature → P128 carries → E33 Linguistic Object**{.modelling}   
 **E25 Man-made Feature → P2 has type → E55 Type**{.modelling}  

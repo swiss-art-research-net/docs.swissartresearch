@@ -4,7 +4,7 @@
 
 **Version**: 1.0
 
-The built work reference data model provides a list of standard fields that are generally present in the general description of a built work in a national built heritage data register. Built work is taken here in the sense of a - typically - immovable building, or significant individual part thereof, made for some human use-function such as habitation. The fuller documentation of a built work would establish the relation of the physical work to the series of intellectual and social processes related to the production of such works, such as architectural plans, meetings, construction episodes, detailed use and modification history, specific topological relations and so on. This reference model does not intend to cover such specificities but to remain at a more general level, providing a consolidated, high level reference data model of most commonly used descriptors for a built work and to provide for these in turn a set of standard semantic mappings to the CIDOC CRM. This level of modelling is seen as a necessary basic reference point on which to build more complex documentation. This reference data model aims to serve a number of functions including: 
+The built work reference data model provides a list of standard fields that are generally present in the general description of a built work in a national built heritage data register. Built work is taken here in the sense of a - typically - immovable building, or significant individual part thereof, made for some human use-function such as habitation. The fuller documentation of a built work would establish the relation of the physical work to the series of intellectual and social processes related to the production of such works, such as architectural plans, meetings, construction episodes, detailed use and modification history, specific topological relations and so on. This reference model does not intend to cover such specificities but to remain at a more general level, providing a consolidated, high-level reference data model of most commonly used descriptors for a built work and to provide for these, in turn, a set of standard semantic mappings to the CIDOC CRM. This level of modelling is seen as a necessary basic reference point on which to build more complex documentation. This reference data model aims to serve a number of functions including: 
 
 1. to support the creation of semantic data entry forms that will create ‘born semantic’ data streams
 
@@ -136,7 +136,7 @@ The fields used to describe a built work can be functionally grouped according t
 
 ### Names and Classifications
 
-The attribution of names and types to built work, as with other entities, is a basic human activity. A chief factor in disambiguating built works lies in understanding the various names and identifiers that have been given to them at different moments in their individual histories. Likewise, additional classifiers of the built work, such as how it is has been formally classified, give important distinguishing characteristics.
+The attribution of names and types to built work, as with other entities, is a basic human activity. A chief factor in disambiguating built works lies in understanding the various names and identifiers that have been given to them at different moments in their individual histories. Likewise, additional classifiers of the built work, such as how it has been formally classified, give important distinguishing characteristics.
 
 <table>
   <tr>
@@ -322,7 +322,7 @@ Built works may require documentation not just as a whole, but with regards to t
 
 ### Existence
 
-Of essential importance in identifying and tracking built works is information pertaining to their existence, particularly regarding their construction and destruction dates. For this reason we have clustered descriptors relevant to such information in a common ‘existence’ category. These are described in the table below.
+Of essential importance in identifying and tracking built works is information pertaining to their existence, particularly regarding their construction and destruction dates. For this reason, we have clustered descriptors relevant to such information in a common ‘existence’ category. These are described in the table below.
 
 <table>
   <tr>
@@ -424,13 +424,13 @@ The connection between a built work and actors provides another important set of
 </table>
 
 
-These descriptors allow the connection of a built work to its creator and  present owner.
+These descriptors allow the connection of a built work to its creator and present owner.
 
 ![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/59c8557c-2a48-4353-8118-98655d27bdf4.png)
 
 ### Substance
 
-The analysis and understanding of a built work depends also on our knowledge of its materiality and physical characteristics. The category of substance brings together descriptors which are relevant to this form of analysis. Particularly, it groups information having to do with the composition and measurable aspects of the built work as object. Information regarding the decomposition of the built work into parts is found in the parthood category.
+The analysis and understanding of a built work depends also on our knowledge of its materiality and physical characteristics. The category of substance brings together descriptors which are relevant to this form of analysis. Particularly, it groups information having to do with the composition and measurable aspects of the built work as an object. Information regarding the decomposition of the built work into parts is found in the parthood category.
 
 <table>
   <tr>
@@ -718,4 +718,3 @@ This information category unites referential information about the documented bu
 
 
 ![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/b2e4e51b-6935-4c62-b002-dfa0c61111d3.png)
-

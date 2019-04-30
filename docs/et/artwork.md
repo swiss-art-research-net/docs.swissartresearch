@@ -6,7 +6,7 @@
 
 ## Introduction
 
-The artwork reference data model provides a list of standard fields that are typically present in the general description of an artwork in a cultural heritage data system. Artwork is taken here in the sense of a movable, physical work of some sort such as would be typically inventoried by a museum. Specific documentation of elements of an artwork depend highly upon the kind of artwork it is. This reference model does not intend to cover such specificities but to remain at a general level description, providing a consolidated, high level reference data model of most commonly reused descriptors for an artwork and to provide for these in turn a set of standard semantic mappings to the CIDOC CRM. Moreover, each field is marked with regards to its potential functionality with regards to instance matching between overlapping datasets. This reference data model aims to serve a number of functions including: 
+The artwork reference data model provides a list of standard fields that are typically present in the general description of an artwork in a cultural heritage data system. The artwork is taken here in the sense of a movable, physical work of some sort such as would be typically inventoried by a museum. Specific documentation of elements of an artwork depends highly upon the kind of artwork it is. This reference model does not intend to cover such specificities but to remain at a general level description, providing a consolidated, high-level reference data model of most commonly reused descriptors for an artwork and to provide for these, in turn, a set of standard semantic mappings to the CIDOC CRM. Moreover, each field is marked with regards to its potential functionality with regards to instance matching between overlapping datasets. This reference data model aims to serve a number of functions including: 
 
 1. to support the creation of semantic data entry forms that will create ‘born semantic’ data streams
 
@@ -131,7 +131,7 @@ The fields used to describe an artwork can be functionally grouped according to 
 
 ### Names and Classifications
 
-The attribution of names and types to artwork, as with other entities, is a basic human activity. A chief factor in disambiguating artworks lies in understanding the various names and identifiers that have been given to them at different moments in their individual histories. Likewise, additional classifiers of the artwork, such as how it is has been classified as an object as such, give important distinguishing characteristics.
+The attribution of names and types to artwork, as with other entities, is a basic human activity. A chief factor in disambiguating artworks lies in understanding the various names and identifiers that have been given to them at different moments in their individual histories. Likewise, additional classifiers of the artwork, such as how it has been classified as an object as such, give important distinguishing characteristics.
 
 <table>
   <tr>
@@ -211,7 +211,7 @@ The attribution of names and types to artwork, as with other entities, is a basi
 </table>
 
 
-The model provides means for tracking identifiers, present and past name use, titles and well known artwork classifiers.
+The model provides means for tracking identifiers, present and past name use, titles and well-known artwork classifiers.
 
 ![!names and classification](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/315fb819-c32c-4d13-92dd-74dfed959a06.png)
 
@@ -300,7 +300,7 @@ Artwork may require documentation not just as a whole, but with regards to its p
 
 ### Existence
 
-Of essential import in identifying and tracking artwork is information pertaining to its existence in time, particularly information regarding its  creation and destruction. For this reason we have clustered descriptors relevant to such information in a common ‘existence’ category. These are described in the table below.
+Of essential import in identifying and tracking artwork is information pertaining to its existence in time, particularly information regarding its creation and destruction. For this reason, we have clustered descriptors relevant to such information in a common ‘existence’ category. These are described in the table below.
 
 <table>
   <tr>
@@ -467,7 +467,7 @@ The analysis and understanding of an artwork depends also on our knowledge of it
 
 ### Representation
 
-This information category at present is lightly populated, but provides the means to gather information relevant to the documentation of what has been documented as represented in an artwork.
+This information category at present is lightly populated but provides the means to gather information relevant to the documentation of what has been documented as represented in an artwork.
 
 <table>
   <tr>
@@ -603,7 +603,7 @@ p53 → E53[24] → P2 → E55 "Institutional Location"</td>
 
 ### Rights
 
-The potential use and re-use of an artwork and its derivatives requires respect of existing rights claims. This information category gathers together the relevant descriptors for tracking this information.
+The potential use and re-use of an artwork and its derivatives requires respect for existing rights claims. This information category gathers together the relevant descriptors for tracking this information.
 
 <table>
   <tr>
@@ -663,4 +663,3 @@ This information category unites referential information about the documented ar
 
 
 ![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/35ffccdb-95f1-47df-8e99-15f63bd6bdda.png)
-

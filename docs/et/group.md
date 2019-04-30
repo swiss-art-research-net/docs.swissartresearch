@@ -4,7 +4,7 @@
 
 **Version**: 1.0
 
-The group reference data model provides a list of standard descriptors (fields) that are typically present in the description of a group or institution in cultural heritage data systems. The intention of this reference model is to provide a consolidated, high-level formal structure comprising the most commonly reused descriptors for a group and, further, to provide for these a set of semantic mapping to the CIDOC CRM. Moreover, each field is marked in respect to its potential functionality with regards to instance matching between overlapping datasets. This reference data model aims to serve a number of functions including: 
+The group reference data model provides a list of standard descriptors (fields) that are typically present in the description of a group or institution in cultural heritage data systems. The intention of this reference model is to provide a consolidated, high-level formal structure comprising the most commonly reused descriptors for a group and, further, to provide for these a set of semantic mapping to the CIDOC CRM. Moreover, each field is marked with respect to its potential functionality with regards to instance matching between overlapping datasets. This reference data model aims to serve a number of functions including: 
 
 1. to support the creation of semantic data entry forms that will create ‘born semantic’ data streams
 
@@ -241,7 +241,7 @@ The model provides means for tracking identifiers, present and past name use, ty
 
 ### Existence
 
-Of essential importance in identifying and tracking groups is to know when they came into existence and if they have gone out of existence. For this reason we have clustered descriptors relevant to such information into a common ‘existence’ category. These are described in the table below.
+Of essential importance in identifying and tracking groups is to know when they came into existence and if they have gone out of existence. For this reason, we have clustered descriptors relevant to such information into a common ‘existence’ category. These are described in the table below.
 
 <table>
   <tr>
@@ -325,7 +325,7 @@ Groups often exist in complex internal structuration with both relations of subs
 </table>
 
 
-The intention of these part whole relations is to be used between instances of groups and their parts, larger or smaller. In particular, we have in mind the relationships of proper belonging, where a department belongs to a faculty which in turn belongs to a university. For describing the more general relations of parthood, like the groups belonging to a nation, or more particular relations, like those between actors and the group, please see the actor relations information category.
+The intention of these part-whole relations is to be used between instances of groups and their parts, larger or smaller. In particular, we have in mind the relationships of proper belonging, where a department belongs to a faculty which in turn belongs to a university. For describing the more general relations of parthood, like the groups belonging to a nation, or more particular relations, like those between actors and the group, please see the actor relations information category.
 
 ![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f6ba5183-acf5-42bd-bc95-3b8e9d4e7019.png)
 

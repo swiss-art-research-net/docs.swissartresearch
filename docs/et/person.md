@@ -6,7 +6,7 @@
 
 ## Introduction
 
-The person reference data model provides a list of standard descriptors (fields) that are typically present in the description of a person in cultural heritage data systems. The intention of this reference model is to provide a consolidated, high-level formal structure comprising the most commonly reused descriptors for a person entity and, further, to provide for these a set of semantic mapping to the CIDOC CRM. Moreover, each field is marked in respect to its potential functionality with regards to instance matching between overlapping datasets. This reference data model aims to serve a number of functions including: 
+The person reference data model provides a list of standard descriptors (fields) that are typically present in the description of a person in cultural heritage data systems. The intention of this reference model is to provide a consolidated, high-level formal structure comprising the most commonly reused descriptors for a person entity and, further, to provide for these a set of semantic mapping to the CIDOC CRM. Moreover, each field is marked with respect to its potential functionality with regards to instance matching between overlapping datasets. This reference data model aims to serve a number of functions including: 
 
 1. to support the creation of semantic data entry forms that will create ‘born semantic’ data streams
 
@@ -139,7 +139,7 @@ The fields used to describe a person can be functionally grouped according to hi
 
 ### Names and Classifications
 
-The attribution of names and types to persons is a basic human activity. A chief factor in disambiguating which person is referred to in historical texts is understanding the various names and identifiers that have been given to an individual at different moments. Likewise, additional classifiers of the individual as such, such as gender, help in the disambiguation, in an information system, of the reference to one real world individual from another.
+The attribution of names and types to persons is a basic human activity. A chief factor in disambiguating which person is referred to in historical texts is understanding the various names and identifiers that have been given to an individual at different moments. Likewise, additional classifiers of the individual as such, such as gender, help in the disambiguation, in an information system, of the reference to one real-world individual from another.
 
 <table>
   <tr>
@@ -230,7 +230,7 @@ The model provides means for tracking identifiers, present and past name use, ti
 
 ### Existence
 
-Of essential importance in identifying and tracking individuals is also their biographical information, such as their birth and death. For this reason we have clustered descriptors relevant to such information into a common ‘existence’ category. These are described in the table below.
+Of essential importance in identifying and tracking individuals is also their biographical information, such as their birth and death. For this reason, we have clustered descriptors relevant to such information into a common ‘existence’ category. These are described in the table below.
 
 <table>
   <tr>
@@ -277,13 +277,13 @@ Of essential importance in identifying and tracking individuals is also their bi
 </table>
 
 
-The above structure allows for the documentation of time and place of birth and death of an individual person. Note that while ontologically speaking mothers and fathers could be connected to birth information, with regards to information clustering we have placed this information in the social relations category.
+The above structure allows for the documentation of time and place of birth and death of an individual. Note that while ontologically speaking mothers and fathers could be connected to birth information, with regards to information clustering we have placed this information in the social relations category.
 
 ![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/32fab876-772f-405e-8a86-61af9e4b519d.png)
 
 ### Social Relations
 
-A large area of documentation and potential disambiguation around the person relates to social relations, whether they are familial, interpersonal or institutional. The social relations information category brings together descriptors for these relations into a larger group, covering relations starting from the maternal, moving to the most general membership in national and cultural blocks and assorted interpersonal connections.
+A large area of documentation and potential disambiguation around the person relates to social relations, whether they are familial, interpersonal or institutional. The social relations information category brings together descriptors for these relations into a larger group, covering relations starting from the maternal, moving to the most general membership in national and cultural blocks and different interpersonal connections.
 
 <table>
   <tr>
@@ -354,7 +354,7 @@ A large area of documentation and potential disambiguation around the person rel
 
 ### Knowledge
 
-This information category at present is lightly populated, but refers to a distinct genre of information regarding the knowledge of a documented person.
+This information category at present is lightly populated but refers to a distinct genre of information regarding the knowledge of a documented person.
 
 <table>
   <tr>
@@ -375,7 +375,7 @@ This information category at present is lightly populated, but refers to a disti
 
 ### Activities
 
-This category brings together the various actions in which the documented person has taken part during their lifetime. It is meant to cover information concerning the period of greatest activity, the kinds of activity undertaken, specific acts of creation, and participation in well known events.
+This category brings together the various actions in which the documented person has taken part during their lifetime. It is meant to cover information concerning the period of highest activity, the kinds of activity undertaken, specific acts of creation, and participation in well-known events.
 
 <table>
   <tr>
