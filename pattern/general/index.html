@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.2">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.2.0">
     
     
       
@@ -43,7 +43,7 @@
     
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application.3020aac5.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.750b69bd.css">
       
         <link rel="stylesheet" href="../../assets/stylesheets/application-palette.224b79ff.css">
       
@@ -57,7 +57,7 @@
 
     
     
-      <script src="../../assets/javascripts/modernizr.01ccdecf.js"></script>
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
     
     <script src="../../js/lightgallery.min.js"></script>
 
@@ -261,7 +261,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../et/institution/" title="Group" class="md-nav__link">
+    <a href="../../et/group/" title="Group" class="md-nav__link">
       Group
     </a>
   </li>
@@ -567,19 +567,19 @@ The modelling of a Type is a pretty straightforward one:</p>
 <p><strong class="modelling">E1 CRM Entity → P2 has type → E55 Type</strong>  </p>
 <p>The string of characters used in the type is modelled as:</p>
 <p><strong class="modelling">E1 CRM Entity → P2 has type → E55 Type → rdfs:Label → rdfs:Literal</strong>  </p>
-<p>In the example below we used a term from the <a href="http://www.getty.edu/research/tools/vocabularies/aat/">Getty Art and Architecture Thesaurus</a> to classify the object "work/7761" as a type of painting <a href="http://vocab.getty.edu/aat/300033618">paintings (visual works) in AAT</a>.</p>
+<p>In the example below, we used a term from the <a href="http://www.getty.edu/research/tools/vocabularies/aat/">Getty Art and Architecture Thesaurus</a> to classify the object "work/7761" as a type of painting <a href="http://vocab.getty.edu/aat/300033618">paintings (visual works) in AAT</a>.</p>
 <script src="https://gist.github.com/ncarboni/4b0008d1b080690b3e259c4bb41d73d5.js"></script>
 
 <p><strong>Codebox 1 . Type</strong>. Click <a href="https://gist.github.com/ncarboni/4b0008d1b080690b3e259c4bb41d73d5#file-type-ttl">here</a> to comment the modelling.</p>
 <h2 id="appellation">Appellation<a class="headerlink" href="#appellation" title="Permanent link">&para;</a></h2>
-<p>An appellation is a sign, usually in the form of a string of characters, used for referencing an entity (e.g. a person, an object, a place, en event). More appellations can refer, in the same language, to the same entity, and can also be tied to a specific time interval.</p>
+<p>An appellation is a sign, usually in the form of a string of characters, used for referencing an entity (e.g. a person, an object, a place, an event). More appellations can refer, in the same language, to the same entity, and can also be tied to a specific time interval.</p>
 <p>A simple appellation can be modelled in CRM as</p>
 <p><strong class="modelling">E1 CRM Entity → P1 is identified by → E41 Appellation</strong></p>
 <p>While the string of characters used in the appellation is modelled as:</p>
 <p><strong class="modelling">E1 CRM Entity → P1 is identified by → E41 Appellation → rdfs:Label → rdfs:Literal</strong></p>
 <p>A type, preferably from a controlled vocabulary, can be used to define the diverse appellations which we assign to an entity. </p>
 <p><strong class="modelling">E1 CRM Entity → P1 is identified by → E41 Appellation → P2 has type → E55 Type</strong></p>
-<p>In our case we chose to use the <a href="http://www.getty.edu/research/tools/vocabularies/aat/">Getty Art and Architecture Thesaurus</a> which can provide us with diverse qualifiers. An example is in the Codebox 1, where we modelled a person surname, name and full name using the URI of the thesaurus as E55 Type. While in the example we used the entity E21 Person, the same pattern can be used across all the entities expressed in CIDOC-CRM.</p>
+<p>In our case, we chose to use the <a href="http://www.getty.edu/research/tools/vocabularies/aat/">Getty Art and Architecture Thesaurus</a> which can provide us with diverse qualifiers. An example is in the Codebox 1, where we modelled a person surname, name and full name using the URI of the thesaurus as E55 Type. While in the example we used the entity E21 Person, the same pattern can be used across all the entities expressed in CIDOC-CRM.</p>
 <script src="https://gist.github.com/ncarboni/0ef99d3e520a7496f8dd357dddd000fd.js"></script>
 
 <p><strong>Codebox 2 . Appellation</strong>. Click <a href="https://gist.github.com/ncarboni/0ef99d3e520a7496f8dd357dddd000fd#file-appellation-ttl">here</a> to comment the modelling.</p>
@@ -590,33 +590,33 @@ The modelling of a Type is a pretty straightforward one:</p>
 <p>While the string of characters used in the identifier is modelled as:</p>
 <p><strong class="modelling">E1 CRM Entity → P1 is identified by → E42 Identifier → rdfs:Label → rdfs:Literal</strong></p>
 <p>As seen in the <a href="#appellation">Appellation</a> a E55 Type, preferably from a controlled vocabulary, can be used to define the diverse appellations. We will not repeat the modelling here because it would be redundant.</p>
-<p>In the example below we used the entity E21 Person, but the same pattern can be used across all the entities expressed in CIDOC-CRM.</p>
+<p>In the example below, we used the entity E21 Person, but the same pattern can be used across all the entities expressed in CIDOC-CRM.</p>
 <script src="https://gist.github.com/ncarboni/056db4166af499a2a4424b2d04e8ef1c.js"></script>
 
 <p><strong>Codebox 3 . Identifier</strong>. Click <a href="https://gist.github.com/ncarboni/056db4166af499a2a4424b2d04e8ef1c#file-identifier-ttl">here</a> to comment the modelling.</p>
 <h2 id="roles">Roles<a class="headerlink" href="#roles" title="Permanent link">&para;</a></h2>
-<p>The type of agency within an activity is an ontologically complicated matter and its representations within the RDF version of CIDOC-CRM has been a long object of debate in the past. The problem lies on the fact that CIDOC-CRM use the ".1" property to qualify the type of agency in a relationship (see Figure 1 below). While this approach would flawlessly work in a property graph, or in other Knowledge Representation Systems, it does not translate entirely well in RDF (<em>for more information see the debate on reification</em>).</p>
+<p>The type of agency within an activity is an ontologically complicated matter, and its representations within the RDF version of CIDOC-CRM has been a long object of debate in the past. The problem lies with the fact that CIDOC-CRM uses the ".1" property to qualify the type of agency in a relationship (see Figure 1 below). While this approach would flawlessly work in a property graph, or in other Knowledge Representation Systems, it does not translate entirely well in RDF (<em>for more information see the debate on reification</em>).</p>
 <p><center><img alt="Property Graph" src="../../images/property_graph.png" width="500" /></p>
 <p><strong>Figure 1. Property Graph</strong>. 
 </center></p>
-<p>In order to resolve the issue the RDF version of CIDOC-CRM uses an <a href="https://www.w3.org/TR/swbp-n-aryRelations/">n-ary relationship</a>, therefore, representing the relationship as a class rather than a property, and then assign to this class an E55 Type. It is easier than it seems. Figure 2 below show a graphical representation of what we mean</p>
+<p>In order to resolve the issue, the RDF version of CIDOC-CRM uses an <a href="https://www.w3.org/TR/swbp-n-aryRelations/">n-ary relationship</a>, therefore, representing the relationship as a class rather than a property, and then assign to this class an E55 Type. It is easier than it seems. Figure 2 below shows a graphical representation of what we mean</p>
 <p><center>
 <img alt="n-ary" src="../../images/n-ary.png" />
 <strong>Figure 2. N-Ary relationship</strong>.</center></p>
-<p>This make easier to clarify the the type of agency within an activity. 
-In order to demonstrate the modelling we will use one of example of ".1" property, "P14.1 carried out", but their modelling is substantially the same (it changes of course the type of properties that can be used).</p>
+<p>This makes easier to clarify the type of agency within an activity. 
+In order to demonstrate the modelling we will use one example of ".1" property, "P14.1 carried out", but their modelling is substantially the same (it changes, of course, the type of properties that can be used).</p>
 <p><strong class="modelling">PC14 Carried Out By → P02 has range → E21 Person</strong><br />
 <strong class="modelling">PC14 Carried Out By → P01 has domain → E7 Activity</strong> <br />
 <strong class="modelling">PC14 Carried Out By → P14.1 in the role of → E55 Type</strong>   </p>
-<p>We heavily used this construct to define the curation activities, as in the codebox below</p>
+<p>We heavily used this construct to define the curation activities, as in the codebox below.</p>
 <script src="https://gist.github.com/ncarboni/c07196571bda976249a44042d3c49007.js"></script>
 
 <p><strong>Codebox 4. Roles in an activity</strong>. Click <a href="https://gist.github.com/ncarboni/c07196571bda976249a44042d3c49007#file-roles-ttl">here</a> to comment the modelling.</p>
-<p>As it can be seen in the Codebox above, we used the PC property which are not expressed in the RDF version of CIDOC-CRM, but they require an extension called "CRM-PC" available in the <a href="http://www.cidoc-crm.org/versions-of-the-cidoc-crm">resource page of the official website</a>.</p>
+<p>As it can be seen in the Codebox above, we used the PC properties which are not expressed in the RDF version of CIDOC-CRM, but they require an extension called "CRM-PC" available in the <a href="http://www.cidoc-crm.org/versions-of-the-cidoc-crm">resource page of the official website</a>.</p>
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
-<p>Notes are one of the most widespread and essential part of a KOS. Their modelling could be very easy, with a simple:</p>
+<p>Notes are one of the most widespread and essential parts of a KOS. Their modelling could be straightforward, with a simple:</p>
 <p><strong class="modelling">E1 CRM Entity → P3 has note → rdfs:literal</strong></p>
-<p>However, sometimes it is important to make explicit the type of note we are referring too. In order to do so, we would have again to use the <a href="https://www.w3.org/TR/swbp-n-aryRelations/">n-ary relationship</a> construct (<em>see <a href="#roles">roles</a> above</em>) with the CRM-PC extension. In this case the modelling would be </p>
+<p>However, sometimes it is essential to make explicit the type of note we are referring too. In order to do so, we would have again to use the <a href="https://www.w3.org/TR/swbp-n-aryRelations/">n-ary relationship</a> construct (<em>see <a href="#roles">roles</a> above</em>) with the CRM-PC extension. In this case, the modelling would be </p>
 <p><strong class="modelling">PC3_has_note → crm:P3.1_has_type → E55 Type</strong><br />
 <strong class="modelling">PC3_has_note → crm:P03_has_range_literal → rdfs:Literal</strong>   </p>
 <p>We used this construct to qualify diverse notes which had to be interpreted differently by the machine, therefore the example below here is a bit cryptic, but still quite explicative.</p>
@@ -702,7 +702,7 @@ In order to demonstrate the modelling we will use one of example of ".1" propert
     </div>
     
     
-      <script src="../../assets/javascripts/application.267712eb.js"></script>
+      <script src="../../assets/javascripts/application.39abc4af.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
