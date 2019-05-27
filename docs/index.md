@@ -27,7 +27,7 @@ The Reference Data Model are produced together with FORTH-ICS and describe these
 + Place
 + [Digital Document](et/do.md)
 + [Events](et/event.md)
-+ Bibliographic Entity
++ [Bibliographic Entity](et/bibliographic_item.md)
 + Archival Unit
 
 Each of the Models listed above present an initial introduction of the sources and the methodology used for grounding the model. Following this introduction, each descriptor is defined, and its modelling in both textual and graphical form is provided to the reader.

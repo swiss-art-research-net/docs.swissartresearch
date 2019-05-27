@@ -209,7 +209,7 @@ The attribution of names and types to bibliographic item, as with other entities
 
 The model provides means for tracking identifiers and titles, as well as linguistic classification of the item.
 
-![!][names and classification](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/eab554ea-8b6f-4e30-a9df-1343750dafe3.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/eab554ea-8b6f-4e30-a9df-1343750dafe3.png)
 
 ### Description
 
@@ -266,7 +266,7 @@ Bibliographic items, will often have an ‘abstract’ describing them as well a
 These descriptors should be deployed together in order to provide full context to ‘text blobs’ by means of authorship, type of description as well as the time of articulation.
 
 
-![!][description](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/c70ea493-3c24-4f65-b550-e22a061d820c.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/c70ea493-3c24-4f65-b550-e22a061d820c.png)
 
 ### Parthood
 
@@ -291,7 +291,7 @@ With regards to parthood a simple pattern is modelled here. A bibliographic item
 </table>
 
 
-![!][parthood](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/0adf04a1-22f3-45ff-a9c7-9899ff0b39a6.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/0adf04a1-22f3-45ff-a9c7-9899ff0b39a6.png)
 
 ### Existence
 
@@ -331,7 +331,7 @@ The publication period of a bibliographic item helps establish its particular id
 
 Note that while ontologically speaking the agency of the creator could be documented as part of this information unit, we have instead clustered this data in the Actors Relations category.
 
-![!][existence](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/901f87dd-c5c7-4a7d-ab51-f7cfab1be059.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/901f87dd-c5c7-4a7d-ab51-f7cfab1be059.png)
 
 ### Actor Relations
 
@@ -370,7 +370,7 @@ In this modelling we identify the publisher but also the authors and other contr
 </table>
 
 
-![!][actor relations](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/033a1e23-05a1-4271-b778-3caadec6bc3d.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/033a1e23-05a1-4271-b778-3caadec6bc3d.png)
 
 ### Substance
 
@@ -395,7 +395,7 @@ The standard information available with regards to the substance of a bibliograp
 </table>
 
 
-![!][substance](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/d11ac12f-b313-4a7d-bf5c-3b56bc0d0ccb.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/d11ac12f-b313-4a7d-bf5c-3b56bc0d0ccb.png)
 
 ### Aboutness
 
@@ -433,7 +433,7 @@ The use of the bibliographic item to the researcher lies in its role as an infor
 </table>
 
 
-![!][aboutness](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/eb9a7c48-cd04-48b6-ab1a-1a9d72b2440b.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/eb9a7c48-cd04-48b6-ab1a-1a9d72b2440b.png)
 
 ### Item Information
 
@@ -499,5 +499,5 @@ The documentation of physical holdings allows the optional tracking of individua
 </table>
 
 
-![!][item information](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f0df58b7-fccb-421e-b40d-353e098af4c7.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f0df58b7-fccb-421e-b40d-353e098af4c7.png)
 
