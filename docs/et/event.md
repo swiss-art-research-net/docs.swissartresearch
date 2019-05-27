@@ -14,8 +14,7 @@ The event reference data model provides a list of standard fields that are typic
 
 4. to be adopted by institutions acting as aggregation hubs in order to create consistent re-expressions of extant reference information in a common CIDOC-CRM based expression.
 
-## 
-Sources
+## Sources
 
 The documented schema for structuring events data, in the sense of planned occasions, documented historically are not generally available or in use, despite the fact that such data is regularly collected in bespoke systems. In order to have reference schema from which to build the model, we looked at work on the more general question of periods and documentation of time along with the schema.org schema for events:
 

@@ -20,6 +20,7 @@ nav:
       - Built Work: et/built_work.md
       - Event: et/event.md
       - Digital Object: et/do.md
+      - Bibliographic item: et/bibliographic_item.md
     - Modelling Examples:
       - Instruction: pattern/instruction.md
       - Shared: pattern/general.md

@@ -14,8 +14,7 @@ The digital object reference data model provides a list of standard fields that 
 
 4. to be adopted by institutions acting as aggregation hubs in order to create consistent re-expressions of extant reference information in a common CIDOC-CRM based expression.
 
-## 
-Sources
+## Sources
 
 The minimal metadata set for a digital object was abstracted from typical use scenarios in CMS systems related to cultural heritage.
 
