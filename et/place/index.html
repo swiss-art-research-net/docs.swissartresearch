@@ -1,0 +1,507 @@
+<!doctype html><html lang="en" class="no-js"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="description" content="SARI Documentation"><meta name="lang:clipboard.copy" content="Copy to clipboard"><meta name="lang:clipboard.copied" content="Copied to clipboard"><meta name="lang:search.language" content="en"><meta name="lang:search.pipeline.stopwords" content="True"><meta name="lang:search.pipeline.trimmer" content="True"><meta name="lang:search.result.none" content="No matching documents"><meta name="lang:search.result.one" content="1 matching document"><meta name="lang:search.result.other" content="# matching documents"><meta name="lang:search.tokenizer" content="[\s\-]+"><link rel="shortcut icon" href="../../images/favicon.ico"><meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.3.1"><title>Place Reference Data Model - SARI Documentation</title>
+    <link rel="stylesheet" href="../../assets/stylesheets/application.4031d38b.css"><link rel="stylesheet" href="../../assets/stylesheets/application-palette.224b79ff.css"><meta name="theme-color" content="">
+    <link rel="stylesheet" href="../../css/lightgallery.min.css">
+
+    <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    <script src="../../js/lightgallery.min.js"></script>
+<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700|IBM+Plex+Mono&display=swap"><style>body,input{font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"IBM Plex Mono","Courier New",Courier,monospace}</style><link rel="stylesheet" href="../../assets/fonts/material-icons.css"><link rel="stylesheet" href="../../stylesheets/extra.css"><link rel="stylesheet" href="../../stylesheets/lightbox.css"></head><body dir="ltr" data-md-color-primary="white" data-md-color-accent=""><svg class="md-svg"><defs></defs></svg> <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off"> <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off"> <label class="md-overlay" data-md-component="overlay" for="__drawer"></label><a href="#place-reference-data-model" tabindex="1" class="md-skip">Skip to content </a><header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://www.swissartresearch.net" title="Swiss Art Research Infrastracture Homepage" class="md-header-nav__button md-logo">
+          
+            <img src="../../images/logo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                <a href="../.." title="SARI Documentation">
+                SARI Documentation
+              </a>
+            </span>
+              <span class="md-header-nav__topic">
+                Place Reference Data Model
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            <div class="md-search" data-md-component="search" role="dialog"><label class="md-search__overlay" for="__search"></label><div class="md-search__inner" role="search"><form class="md-search__form" name="search"><input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active"> <label class="md-icon md-search__icon" for="__search"></label> <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">&#xE5CD;</button></form><div class="md-search__output"><div class="md-search__scrollwrap" data-md-scrollfix><div class="md-search-result" data-md-component="result"><div class="md-search-result__meta">Type to start searching</div><ol class="md-search-result__list"></ol></div></div></div></div></div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header><div class="md-container"><main class="md-main"><div class="md-main__inner md-grid" data-md-component="container"><div class="md-sidebar md-sidebar--primary" data-md-component="navigation"><div class="md-sidebar__scrollwrap"><div class="md-sidebar__inner"><nav class="md-nav md-nav--primary" data-md-level="0"><label class="md-nav__title md-nav__title--site" for="__drawer"><a href="../.." title="SARI Documentation" class="md-nav__button md-logo"><img src="../../images/logo.png" width="48" height="48"></a>SARI Documentation</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../.." title="Project Home" class="md-nav__link">Project Home</a></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2"><label class="md-nav__link" for="nav-2">Entity Reference Model</label><nav class="md-nav" data-md-component="collapsible" data-md-level="1"><label class="md-nav__title" for="nav-2">Entity Reference Model</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../instruction/" title="Instruction" class="md-nav__link">Instruction</a></li><li class="md-nav__item"><a href="../person/" title="Person" class="md-nav__link">Person</a></li><li class="md-nav__item"><a href="../artwork/" title="Artwork" class="md-nav__link">Artwork</a></li><li class="md-nav__item"><a href="../group/" title="Group" class="md-nav__link">Group</a></li><li class="md-nav__item"><a href="../built_work/" title="Built Work" class="md-nav__link">Built Work</a></li><li class="md-nav__item"><a href="../event/" title="Event" class="md-nav__link">Event</a></li><li class="md-nav__item"><a href="../do/" title="Digital Object" class="md-nav__link">Digital Object</a></li><li class="md-nav__item"><a href="../bibliographic_item/" title="Bibliographic item" class="md-nav__link">Bibliographic item</a></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3"><label class="md-nav__link" for="nav-3">Modelling Examples</label><nav class="md-nav" data-md-component="collapsible" data-md-level="1"><label class="md-nav__title" for="nav-3">Modelling Examples</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../pattern/instruction/" title="Instruction" class="md-nav__link">Instruction</a></li><li class="md-nav__item"><a href="../../pattern/general/" title="Shared" class="md-nav__link">Shared</a></li><li class="md-nav__item"><a href="../../pattern/temporal/" title="Temporal" class="md-nav__link">Temporal</a></li><li class="md-nav__item"><a href="../../pattern/physical/" title="Physical" class="md-nav__link">Physical</a></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4"><label class="md-nav__link" for="nav-4">Ontology Extension</label><nav class="md-nav" data-md-component="collapsible" data-md-level="1"><label class="md-nav__title" for="nav-4">Ontology Extension</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../schema/" title="Extension" class="md-nav__link">Extension</a></li></ul></nav></li></ul></nav></div></div></div><div class="md-sidebar md-sidebar--secondary" data-md-component="toc"><div class="md-sidebar__scrollwrap"><div class="md-sidebar__inner"><nav class="md-nav md-nav--secondary"><label class="md-nav__title" for="__toc">Table of contents</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="#model-sections-description" title="Model Sections Description" class="md-nav__link">Model Sections Description</a><nav class="md-nav"><ul class="md-nav__list"><li class="md-nav__item"><a href="#names-and-classifications" title="Names and Classifications" class="md-nav__link">Names and Classifications</a></li><li class="md-nav__item"><a href="#description" title="Description" class="md-nav__link">Description</a></li><li class="md-nav__item"><a href="#parthood" title="Parthood" class="md-nav__link">Parthood</a></li><li class="md-nav__item"><a href="#substance" title="Substance" class="md-nav__link">Substance</a></li><li class="md-nav__item"><a href="#documentation" title="Documentation" class="md-nav__link">Documentation</a></li></ul></nav></li></ul></nav></div></div></div><div class="md-content"><article class="md-content__inner md-typeset"><h1 id="place-reference-data-model">Place Reference Data Model<a class="headerlink" href="#place-reference-data-model" title="Permanent link">&para;</a></h1>
+<p><strong>Author</strong>: George Bruseker, Nicola Carboni</p>
+<p><strong>Version</strong>: 1.0</p>
+<p>The place reference data model provides a list of standard fields that are often found present in the general description of a place. Place here is interpreted as a geometric extent used for locating entities relative to a reference space. The scope of entities that this reference model aims to cover are places as typically documented in gazetteers. Examples of places would be Edmonton (the inhabited city), Alberta (the administrative district), Canada (the country). The aim of this reference model is to cover basic descriptors that are typically employed in the documentation of a place, usually by a gazetteer. This reference model aims to remain at a general level description, providing a consolidated, high-level reference data model of most commonly reused descriptors for a place as such and to provide for these, in turn, a set of standard semantic mappings to the CIDOC CRM. Moreover, each field is marked with regards to its potential functionality with regards to instance matching between overlapping datasets. This level of modelling is seen as a necessary basic reference point on which to build more complex documentation. This reference data model aims to serve a number of functions including: </p>
+<ol>
+<li>
+<p>to support the creation of semantic data entry forms that will create ‘born semantic’ data streams</p>
+</li>
+<li>
+<p>to serve as a reference guide in designing eventually compatible data structures for feeding into larger aggregations of Cultural Heritage data</p>
+</li>
+<li>
+<p>to guide mapping processes of extant data sources with common mapping patterns</p>
+</li>
+<li>
+<p>to be adopted by institutions acting as aggregation hubs in order to create consistent re-expressions of extant reference information in a common CIDOC-CRM based expression.</p>
+</li>
+</ol>
+<h2 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>Sources</p>
+<p>There are many good and well known schema for structuring place data. As a reference for this modelling work, we made use of the TGN, Geonames and Schema.org. The latter two especially are highly reused resources in the historical and cultural heritage field and provide an initial view of the basic complexities to be faced.</p>
+<table>
+  <tr>
+    <th>Acronym</th>
+    <th>Source Name</th>
+    <th>Official Access Point</th>
+    <th>Schema Documentation</th>
+    <th>Maintained by</td>
+  </tr>
+  <tr>
+    <td>Geonames</td>
+    <td></td>
+    <td>https://www.geonames.org/</td>
+    <td>http://download.geonames.org/export/dump/readme.txt</td>
+    <td>GeoNames Team</td>
+  </tr>
+  <tr>
+    <td>Getty Thesaurus of Geographic Names</td>
+    <td></td>
+    <td>http://www.getty.edu/research/tools/vocabularies/tgn/</td>
+    <td>http://www.getty.edu/research/tools/vocabularies/tgn/tgn_xml_dd.pdf</td>
+    <td>Getty</td>
+  </tr>
+  <tr>
+    <td>Schema.org</td>
+    <td>Schema.org</td>
+    <td>http://schema.org</td>
+    <td></td>
+    <td>Schema.org</td>
+  </tr>
+</table>
+
+<h2 id="model-sections-description">Model Sections Description<a class="headerlink" href="#model-sections-description" title="Permanent link">&para;</a></h2>
+<p>The fields used to describe a place can be functionally grouped according to higher level units in order to allow for an easier approach to the entry and navigation of the data by information category. The information categories identified have been enumerated in the following table.</p>
+<table>
+  <tr>
+    <th>#</th>
+    <th>Name</th>
+    <th>Function</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Names and Classifications</td>
+    <td>This category gathers together descriptors used for assigning names and types to a place, both at present and historically. </td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Description</td>
+    <td>This category is used to gather together information regarding significant descriptions given of a place by known authors/sources.</td>
+  </tr>
+  <tr>
+    <td>3 </td>
+    <td>Parthood</td>
+    <td>This category is used to bring together information relevant to the mereo-topological relations between a place and its parts.</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Substance</td>
+    <td>This category gathers together information regarding geospatial documentation of the extent of a place.</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Documentation</td>
+    <td>This category gathers together different descriptors that provide reference information with regards to a place.</td>
+  </tr>
+</table>
+
+<h3 id="names-and-classifications">Names and Classifications<a class="headerlink" href="#names-and-classifications" title="Permanent link">&para;</a></h3>
+<p>The attribution of names and types to  a place, as with other entities, is a basic human activity. A chief factor in disambiguating places lies in understanding the various names and identifiers that have been given to them at different moments in their individual histories. Historical places often receive different names according to the groups naming it, as well as receiving different kinds of names according to contexts and during different historical moments. Likewise, additional classifiers of a place, such as how it is has been formally classified, give important distinguishing characteristics. Because the type of a place is a socially related factor, dependent on how the place is appropriated/used in human interaction, the type of a place may change over time. In the model we add the possibility for describing this shift.</p>
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Element Field Collection</th>
+    <th>Element name</th>
+    <th>Element Description</th>
+    <th>E53 Place</th>
+  </tr>
+  <tr>
+    <td>IDC</td>
+    <td>ID Attribution</td>
+    <td>Identifier</td>
+    <td>This field is used to indicate an identifier attributed to the documented place.</td>
+    <td>->P1->E42[1]</td>
+  </tr>
+  <tr>
+    <td>IDC</td>
+    <td>ID Attribution</td>
+    <td>Identifier Type</td>
+    <td>This field is used to indicate the type of an identifier attributed to the documented place.</td>
+    <td>->P1->E42[1]->P2->E55["Identifier Type"]</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>ID Attribution</td>
+    <td>Identifier Provider</td>
+    <td>This field is used to indicate the institution providing the documented place it's ID.</td>
+    <td>->P1->E42[1]->P37i->E15[2]->P14->E39</td>
+  </tr>
+  <tr>
+    <td>IDC</td>
+    <td>ID Attribution</td>
+    <td>Identifier Source</td>
+    <td>This field is used to indicate the source based on which the identifier was attributed to the object.</td>
+    <td>->P1->E42[1]->P37i->E15[2]->p16->E73</td>
+  </tr>
+  <tr>
+    <td>IDC</td>
+    <td>n/a</td>
+    <td>Name</td>
+    <td>This field is used to indicate the main name attributed to the documented instance of place.</td>
+    <td>->P1->E41[3]
+->P1->E41[3]->P2->E55['preferred terms']</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>n/a</td>
+    <td>Name Language</td>
+    <td>This field is used to indicate the language of the name given to the place.</td>
+    <td>->p1->E41[3]->p72->E56</td>
+  </tr>
+  <tr>
+    <td>IDC</td>
+    <td>n/a</td>
+    <td>Place Type</td>
+    <td>This field is used to indicate the formal type of place a documented instance of place is classified as.</td>
+    <td>->P2->E55[4]
+->P2->E55[4]->P71->E32</td>
+  </tr>
+  <tr>
+    <td>SI</td>
+    <td>n/a</td>
+    <td>Place Type Qualifying Description</td>
+    <td>This field is used to provide a description of the place type in free text.</td>
+    <td>->p41i->E17[5]->p42->E55[4]
+->p41i->E17[5]->P129i->E73[6]->hasvalue->XSD:String
+->p41i->E17[5]->P129i->E73[6]->p72->E56</td>
+  </tr>
+  <tr>
+    <td>SI</td>
+    <td>n/a</td>
+    <td>Place Type - Start Date</td>
+    <td>This field is used to indicate at what date a place type was specified to hold for a place.</td>
+    <td>->p41i->E17[5]->p4->E52[7]->P82a->xsd:dateTime</td>
+  </tr>
+  <tr>
+    <td>SI</td>
+    <td>n/a</td>
+    <td>Place Type - End Date</td>
+    <td>This field is used to indicate at what date a place type was specified to cease to hold for a place.</td>
+    <td>->p41i->E17[155]->p4->E52[7]->P82b->xsd:dateTime</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>Alternate Title</td>
+    <td>Alternative Name</td>
+    <td>This field is used to indicate additional names under which the documented instance of place is known. This can be linked to the additional name type and earliest and latest date of use of that name.</td>
+    <td>->P1->E41[8]</td>
+  </tr>
+  <tr>
+    <td>SI</td>
+    <td>Alternate Title</td>
+    <td>Alternative Name Language</td>
+    <td>This field is used to indicate the language of the additional name given to the place.</td>
+    <td>->p1->E41[8]->p72->E56</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>Alternate Title</td>
+    <td>Alternate Name Type</td>
+    <td>This field is used to indicate the type of alternate name that is attributed to the documented instance of place.</td>
+    <td>v b</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>Alternate Title</td>
+    <td>Alternate Name Use Period - Earliest</td>
+    <td>This field is used to indicate the earliest known date for use of an alternate name for the documented instance of place.</td>
+    <td>->P1->E41[8]->R64i->F52[9]>p4->E52[10]->P82a->xsd:dateTime</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>Alternate Title</td>
+    <td>Alternate Name Use Period - Latest</td>
+    <td>This field is used to indicate the latest known date for use of an alternate name for the documented instance of place.</td>
+    <td>->P1->E41[8]->R64i->F52[9]>p4->E52[10]->P82b->xsd:dateTime</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>n/a</td>
+    <td>Alternative Name - Used by</td>
+    <td>This field is used to indicate the actor by whom the alternate name attributed to the instance of place is/was used.</td>
+    <td>->R63i->F52[9]->P14->E39</td>
+  </tr>
+  <tr>
+    <td>SI</td>
+    <td>n/a</td>
+    <td>Alternative Name - Attributed by</td>
+    <td>This field is used to indicate the organization attributing the instance of name use to the place.</td>
+    <td>->p141i->E13[11]->p14->E39
+
+->p141i->E13[11]->p141->F52[9]</td>
+  </tr>
+  <tr>
+    <td>SI</td>
+    <td>n/a</td>
+    <td>Alternative Name - Source</td>
+    <td>This field is used to indicate the source on which the organization attributing the instance of name use based their attribution.</td>
+    <td>->p141i->E13[11]->p16->E73[12]
+->p141i->E13[11]->p16->E73[12]->p2->E55</td>
+  </tr>
+</table>
+
+<p><div class="lightgallery"><a href="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/5385e8cd-e1f7-45d3-95c9-278be659cf69.png"><img alt="!" src="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/5385e8cd-e1f7-45d3-95c9-278be659cf69.png" /></a></div></p>
+<h3 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h3>
+<p>Places are the subjects of innumerable descriptions that provide a wide range of information with regards to the meaning and use of a place. Such descriptions are of use in a scholarly understanding of a place just in case we are able to track the provenance of such elocutions in a systematic fashion. Such an aim drives the need for the tracking of description information as a separate category. The descriptors necessary to this task are documented in the table below.</p>
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Element Field Collection</th>
+    <th>Element name</th>
+    <th>Element Description</th>
+    <th>E53 Place</th>
+  </tr>
+  <tr>
+    <td>SI</td>
+    <td>Description</td>
+    <td>Description</td>
+    <td>This field is used to indicate a description of the documented instance of place.</td>
+    <td>->P129i->E73/E33[13]->has:value->Literal</td>
+  </tr>
+  <tr>
+    <td>SI</td>
+    <td>Description</td>
+    <td>Description Language</td>
+    <td>This field is used to indicate the language of the description of the documented instance of place.</td>
+    <td>->p129i->E73/E33[13]->p72->E56</td>
+  </tr>
+  <tr>
+    <td>SI</td>
+    <td>Description</td>
+    <td>Description Type</td>
+    <td>This field is used to indicate the type of description given of the documented instance of place.</td>
+    <td>->P129i->E73/E33[13]->P2->E55</td>
+  </tr>
+  <tr>
+    <td>SI</td>
+    <td>Description</td>
+    <td>Description Author</td>
+    <td>This field is used to indicate the author of the description given of the documented instance of place.</td>
+    <td>->P129i->E73/E33[13]->P94i->E65[14]>-p14->E39</td>
+  </tr>
+  <tr>
+    <td>SI</td>
+    <td>Description</td>
+    <td>Description Date - Earliest</td>
+    <td>This field is used to indicate the ealiest date for the creation of the description of the documented instance of place.</td>
+    <td>->P129i->E73/E33[13]->P94i->E65[14]->P4->E52[15]->P82a->xsd:dateTime</td>
+  </tr>
+  <tr>
+    <td>SI</td>
+    <td>Description</td>
+    <td>Description Date - Latest</td>
+    <td>This field is used to indicate the latest date for the creation of the description of the documented instance of place.</td>
+    <td>->P129i->E73/E33[13]->P94i->E65[14]-p4->E52[15]->P82b->xsd:dateTime</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Description</td>
+    <td>Description - Source</td>
+    <td>This field is used to document the source of the description of the documented instance of place.</td>
+    <td>->P129i->E73/E33[13]->P94i->E65[14]->p16->E73</td>
+  </tr>
+</table>
+
+<p>These descriptors should be deployed together in order to provide full context to ‘text blobs’ by means of authorship, type of description as well as the time of articulation.</p>
+<p><div class="lightgallery"><a href="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/afffdd31-b84f-4972-9b98-e6b6e0022ce6.png"><img alt="!" src="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/afffdd31-b84f-4972-9b98-e6b6e0022ce6.png" /></a></div></p>
+<h3 id="parthood">Parthood<a class="headerlink" href="#parthood" title="Permanent link">&para;</a></h3>
+<p>The mereo-topological breakdown of places is crucial to understanding the relative relations between places. This information category gathers together the basic descriptors typically deployed to this end. In the study and documentation of place, this is a highly researched topic with extremely fine grained analysis available. In this base model, we represent the relation of one place falling within another. This representation allows both for documentation of contemporaneous containment relations but also the expression of a place falling within another place or containing one at a particular historical time.</p>
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Element Field Collection</th>
+    <th>Element name</th>
+    <th>Element Description</th>
+    <th>E53 Place</th>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>Current Parthood</td>
+    <td>Part of</td>
+    <td>This field is used to indicate that the broader geographic place that the documented place falls within.</td>
+    <td>->P89->E53</td>
+  </tr>
+  <tr>
+    <td>IDC</td>
+    <td>Current Parthood</td>
+    <td>Has Part</td>
+    <td>This field is used to indicate individually documented sub places which form part of the documented place.</td>
+    <td>->p89i->E53</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>Historical Parthood</td>
+    <td>Historically Part of Place</td>
+    <td>This field is used to indicate the broader geographic place that the documented place falls within.</td>
+    <td>->P161i->E4[16]->p166i->E93[E22]->p10i->E4->p161->E53</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>Historical Parthood</td>
+    <td>Name at Time of Parthood of Place</td>
+    <td>This field is used to indicate the name of the place at the time of being part of another historical place.</td>
+    <td>->P161i->E4[16]->p166i->E93[20]->-p10i->F52->R64->E41[25]
+->P161i->E4[16]->p166i->E93[20]->-p10i->F52->P140->E53[root]
+->P161i->E4[16]->p166i->E93[20]->-p10i->F52->R64->E41[25]-P1i->E93[20]</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>Historical Parthood</td>
+    <td>Type at Time of Parthood of Place</td>
+    <td>This field is used to indicate the type of the place at the time of being part of another historical place.</td>
+    <td>->P161i->E4[16]->p166i->E93[20]->-p10i->E17->P42->E55
+->P161i->E4[16]->p166i->E93[20]->-p10i->E17->P41->E53[root]
+->P161i->E4[16]->p166i->E93[20]->-p10i->E17->P42->E55->P2i->E55</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>Historical Parthood</td>
+    <td>Historically part of Place - Earliest Date Time</td>
+    <td>This field is used to indicate the earliest point during which this instance of place fell within the place that it was historically a part of.</td>
+    <td>->P161i->E4[16]->p166i->E93[20]->P160->E52[17]->P82a->xsd:dateTime</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>Historical Parthood</td>
+    <td>Historically part of Place - Latest Date Time</td>
+    <td>This field is used to indicate the latest point during which this instance of place fell within the place that it was historically a part of.</td>
+    <td>->P161i->E4[16]->P166i->E93[20]->P160->E52[17]->P82b->xsd:dateTime</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>Historical Parthood</td>
+    <td>Historically Has Part</td>
+    <td>This field is used to indicate that the broader geographic place that the documented place falls within.</td>
+    <td>->P161i->E4[17]->p10->E4->p161->E53</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>Historical Parthood</td>
+    <td>Name at Time of Containing Historical Place</td>
+    <td>This field is used to indicate the name of the place at the time of containing another historical place.</td>
+    <td>->P161i->E4[17]->p1->E41</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>Historical Parthood</td>
+    <td>Type at Time of Containing Historical Place</td>
+    <td>This field is used to indicate the type of the place at the time of containing another historical place.</td>
+    <td>->p161i->E4[17]->p2->E55</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>Historical Parthood</td>
+    <td>Historically Has Part - Earliest Date Time</td>
+    <td>This field is used to indicate the earliest point during which this instance of place fell within the place that it was historically a part of.</td>
+    <td>->P161i->E4[17]->P160->E52[18]->P82a->xsd:dateTime</td>
+  </tr>
+  <tr>
+    <td>EP</td>
+    <td>Historical Parthood</td>
+    <td>Historically Has Part - Latest Date Time</td>
+    <td>This field is used to indicate the latest point during which this instance of place fell within the place that it was historically a part of.</td>
+    <td>->P161i->E4[17]->P160->E52[18]->P82b->xsd:dateTime</td>
+  </tr>
+  <tr>
+    <td>SI</td>
+    <td>Historical Parthood</td>
+    <td>Historical Coordinates</td>
+    <td>This field is used to indicate the historical coordinates of the geographic place to which the occurrence of the documented instance of place is localized..</td>
+    <td>->P161i->E4[16]->p166i->E93[E22]->p10i->E4->p161->E53->P168->geo:wkt</td>
+  </tr>
+</table>
+
+<p><div class="lightgallery"><a href="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/d3f6952f-d547-4484-903b-aacd0c95ca56.png"><img alt="!" src="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/d3f6952f-d547-4484-903b-aacd0c95ca56.png" /></a></div></p>
+<h3 id="substance">Substance<a class="headerlink" href="#substance" title="Permanent link">&para;</a></h3>
+<p>Crucial in the documentation of place is the capturing of geometric estimations of its precise coordinates. These coordinates together with the place entity as a whole form the basis for spatial analysis not only of places themselves but also other entities documented using the SARI reference models. </p>
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Element Field Collection</th>
+    <th>Element name</th>
+    <th>Element Description</th>
+    <th>E53 Place</th>
+  </tr>
+  <tr>
+    <td>IDC</td>
+    <td>n/a</td>
+    <td>Coordinates</td>
+    <td>This field is used to indicate the coordinates of the geographic place to which the occurrence of the documented instance of place is localized..</td>
+    <td>->P168->geo:wkt</td>
+  </tr>
+</table>
+
+<p><div class="lightgallery"><a href="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f61bd942-7f19-4ac5-88e7-25b4dcf4e0f1.png"><img alt="!" src="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f61bd942-7f19-4ac5-88e7-25b4dcf4e0f1.png" /></a></div></p>
+<h3 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">&para;</a></h3>
+<p>This information category unites referential information about the documented event, providing contextual data about it.</p>
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Element Field Collection</th>
+    <th>Element name</th>
+    <th>Element Description</th>
+    <th>E53 Place</th>
+  </tr>
+  <tr>
+    <td>SI</td>
+    <td>n/a</td>
+    <td>Citation</td>
+    <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented instance of place.</td>
+    <td>->P129i->E73[19]->hasvalue->LITERAL
+->P129i->E73[19]->P2->E55"Citation"
+->P129i->E73[19]->P67->E73 [from Bibliography Entity Type]</td>
+  </tr>
+  <tr>
+    <td>SI</td>
+    <td>n/a</td>
+    <td>Image</td>
+    <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented archival item.</td>
+    <td>->P138i->E36/D9</td>
+  </tr>
+</table>
+
+<p><div class="lightgallery"><a href="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f282f9dc-7da7-4522-9588-ea6a4e79e57a.png"><img alt="!" src="https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/f282f9dc-7da7-4522-9588-ea6a4e79e57a.png" /></a></div></p></article></div></div></main><footer class="md-footer"><div class="md-footer-meta md-typeset"><div class="md-footer-meta__inner md-grid"><div class="md-footer-copyright">powered by <a href="https://www.mkdocs.org">MkDocs</a> and <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a></div><div class="md-footer-social"><link rel="stylesheet" href="../../assets/fonts/font-awesome.css"> <a href="" class="md-footer-social__link fa fa-globe"></a>  <a href="https://swissartresearch.net" class="md-footer-social__link fa fa-"></a> </div></div></div></footer></div>
+    <script src="../../assets/javascripts/application.b260a35d.js"></script><script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script><script src="../../js/lightbox-plus-jquery.min.js"></script>
+    <script>
+    var elements = document.getElementsByClassName("lightgallery");
+    for(var i=0; i<elements.length; i++) {
+       lightGallery(elements[i]);
+    }
+    </script>
+</body></html>
