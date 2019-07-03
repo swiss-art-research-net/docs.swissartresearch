@@ -21,6 +21,7 @@ nav:
       - Event: et/event.md
       - Digital Object: et/do.md
       - Bibliographic item: et/bibliographic_item.md
+      - Place: et/place.md
     - Modelling Examples:
       - Instruction: pattern/instruction.md
       - Shared: pattern/general.md
