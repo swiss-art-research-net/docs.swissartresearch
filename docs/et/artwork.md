@@ -313,7 +313,7 @@ Of essential import in identifying and tracking artwork is information pertainin
     <td>Production</td>
     <td>Production Location</td>
     <td>This field is used to indicate the place of the creation of the documented artwork.</td>
-    <td> → P108i → E12[12] → P53 → E53</td>
+    <td> → P108i → E12[12] → P7 → E53</td>
   </tr>
   <tr>
     <td>Production</td>
