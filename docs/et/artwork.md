@@ -628,7 +628,10 @@ The potential use and re-use of an artwork and its derivatives requires respect 
     <td>Rights</td>
     <td>Right Description</td>
     <td>This field is used to provide a free text description of the right which the right holder holds over the documented artwork.</td>
-    <td> → P104 → E30[25] → P67i → E73</td>
+    <td> → P104 → E30[25] → P67i → E73  
+	→ P104 → E30[25] → P67i → E73 → P2 → E55
+	→ P104 → E30[25] → P67i → E73 → P72 → E56
+    </td>
   </tr>
 </table>
 

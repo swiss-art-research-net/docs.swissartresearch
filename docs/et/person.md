@@ -339,7 +339,7 @@ A large area of documentation and potential disambiguation around the person rel
     <td>Associates</td>
     <td>Associate</td>
     <td>This field is used to indicate an associate of the documented person.</td>
-    <td> → P11i → E5 → P11i → E21</td>
+    <td> → P11i → E5 → P11 → E21</td>
   </tr>
   <tr>
     <td>Associates</td>
