@@ -304,16 +304,16 @@ A large area of documentation and potential disambiguation around the person rel
     <td> → P98i → E67[11] → P96 → E21</td>
   </tr>
   <tr>
-    <td>Family Relations</td>
-    <td>Relative</td>
-    <td>This field is used to indicate another person with whom the documented person has a family relation.</td>
-    <td> → SRP3_in_family_relation → E21</td>
+    <td>Social Relations</td>
+    <td>Relation</td>
+    <td>This field is used to indicate another person with whom the documented person has a social relation.</td>
+    <td> → P01 has domain → SRPC3_in_social_relation → P02 has range → E21</td>
   </tr>
   <tr>
-    <td>Family Relations</td>
+    <td>Social Relations</td>
     <td>Relation Type</td>
-    <td>This field is used to indicate the type of familial relation holding between the the other person and the documented person.</td>
-    <td> → SRP3_in_family_relation → SRP3.1_had_family_relation_type → E55 "Family Relation Type"</td>
+    <td>This field is used to indicate the type of social relation holding between the other person and the documented person.</td>
+    <td> → P01 has domain → SRPC3_in_social_relation → SRP3.1_relation_type → E55 "Social Relation Type"</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -338,16 +338,10 @@ A large area of documentation and potential disambiguation around the person rel
   <tr>
     <td>Associates</td>
     <td>Associate</td>
-    <td>This field is used to indicate an associate of the documented person.</td>
+    <td>This field is used to indicate that the documented person participated in the same event as another one, but it does not imply an existing association between the two.</td>
     <td> → P11i → E5 → P11 → E21</td>
   </tr>
-  <tr>
-    <td>Associates</td>
-    <td>Associate Type</td>
-    <td>This field is used to indicate the type of association that the documented person had with his/her associate.</td>
-    <td> → P11i → E5 → P2 → E55</td>
-  </tr>
-</table>
+  </table>
 
 
 ![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/c44488f1-8a53-4713-b2e5-b18b51cdf6cb.png)
