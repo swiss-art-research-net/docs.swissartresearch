@@ -384,6 +384,12 @@ This category brings together the various actions in which the documented person
     <td> → P14i → F51[14] → P4 → E52 → P82 → xsd:dateTime •   
  → P14i → F51[14] → P2 → E55["Floruit"]</td>
   </tr>
+    </tr>  <tr>
+    <td>n/a</td>
+    <td>Floruit Place</td>
+    <td>This field is used to indicate the place of the period of greatest activity/flourishing of the documented individual.</td>
+    <td> → P14i → F51[14] → P7 → E53 </td>
+  </tr>
   <tr>
     <td>n/a</td>
     <td>Occupation/General Role</td>
