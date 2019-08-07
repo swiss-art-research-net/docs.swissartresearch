@@ -407,8 +407,28 @@ This category brings together the various actions in which the documented person
     <td>n/a</td>
     <td>Field of Activity</td>
     <td>This field is used to indicate different activities which the documented person pursued during their lifetime. Each individual field of activity should be documented separately so that it can be tracked individually.</td>
-    <td> → P14i → F51 → R59 → E55</td>
+    <td> → P14i → F51[333] → R59 → E55</td>
   </tr>
+ <tr>
+    <td>n/a</td>
+    <td>Period of Activity - Earliest</td>
+    <td>This field is used to indicate the earliest known date of a period of an activity which the documented person pursued during their lifetime. </td>
+    <td> → P14i → F51[333] → P4 → E52[6] → P82a → xsd:dateTime</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>Period of Activity - Latest</td>
+    <td>This field is used to indicate the latest known date of a period of an activity which the documented person pursued during their lifetime. </td>
+    <td> → P14i → F51[333] → P4 → E52[6] → P82b → xsd:dateTime</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>Educational Training</td>
+    <td>This field is used to indicate the subject of the education of the documented person</td>
+    <td> P14i → F51[444] → P2 → E55 "Education"  •  
+    → P14i → F51[444] → R59 → E55</td>
+  </tr>
+
   <tr>
     <td>n/a</td>
     <td>Well Known Events</td>
