@@ -291,7 +291,8 @@ A large area of documentation and potential disambiguation around the person rel
     <th>Element name</th>
     <th>Element Description</th>
     <th>CRM Entity: E21 Person</th>
-  </tr>  <tr>
+  </tr>  
+  <tr>
     <td>n/a</td>
     <td>Father</td>
     <td>This field is used to indicate the biological father of the documented person.</td>
@@ -333,7 +334,39 @@ A large area of documentation and potential disambiguation around the person rel
     <td>n/a</td>
     <td>Institutional Affiliation</td>
     <td>This field is used to indicate the membership of the documented person in an institution. The referenced entity should be an institution.</td>
-    <td> → P107i → E74 → P2 → E55["Institution"]</td>
+    <td> → P143 → E85[155] → P01 → PC144 → P02 → E74[777] → P2 → E55["Institution"] </td>
+  </tr>
+    <tr>
+    <td>n/a</td>
+    <td>Institutional Affiliation - Role </td>
+    <td>This field is used to indicate the type of role of the documented person in an institution. </td>
+    <td> → P143 → E85[155] → P01 → PC144 → P144.1 → E55["Position"] </td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>Institutional Affiliation Start Date - Earliest</td>
+    <td>This field is used to indicate the earliest known date of becoming an member of an institution by the documented individual.</td>
+    <td> → P143 → E85[155] → P4 → E52[166] → P82a → xsd:dateTimeTime </td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>Institutional Affiliation Start Date - Latest</td>
+    <td>This field is used to indicate the latest known date of becoming an member of an institution by the documented individual.</td>
+    <td> → P143 → E85[155] → P4 → E52[166] → P82b → xsd:dateTimeTime</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>Institutional Affiliation End Date - Earliest</td>
+    <td>This field is used to indicate the earliest known date of ceasing to be an member of an institution by the documented individual.</td>
+    <td>  → P145 → E86[177] → P146 → E74[777] •  
+ P145 → E86[177] → P4 → E52[18] → P82a → xsd:dateTimeTime</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>Institutional Affiliation End Date - Latest</td>
+    <td>This field is used to indicate the latest known date of ceasing to be an member of an institution by the documented individual.</td>
+    <td>  → P145 → E86[177] → P146 → E74[777] •    
+ → P145 → E86[177] → P4 → E52[19] → P82b → xsd:dateTimeTime</td>
   </tr>
   <tr>
     <td>Associates</td>
