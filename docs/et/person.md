@@ -176,7 +176,7 @@ The attribution of names and types to persons is a basic human activity. A chief
     <td>Name</td>
     <td>This field is used to indicate the main name attributed to the documented person. No part break down of name is here implied. The full name of an individual is expected here where available.</td>
     <td> → P1 → E41[2] •   
- → P1 → E41[2] → P2 → E55['Full Name']</td>
+ → P1 → E41[2] → P2 → E55['Preferred Name']</td>
   </tr>
   <tr>
     <td>n/a</td>
