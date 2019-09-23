@@ -314,7 +314,7 @@ A large area of documentation and potential disambiguation around the person rel
     <td>Social Relations</td>
     <td>Relation Type</td>
     <td>This field is used to indicate the type of social relation holding between the other person and the documented person.</td>
-    <td> → P01 has domain → SRPC3_in_social_relation → SRP3.1_relation_type → E55 "Social Relation Type"</td>
+    <td> → P01 has domain → SRPC3_in_social_relation → SRP3_relation_type → E55 "Social Relation Type"</td>
   </tr>
   <tr>
     <td>n/a</td>
@@ -410,14 +410,22 @@ This category brings together the various actions in which the documented person
     <th>Element name</th>
     <th>Element Description</th>
     <th>CRM Entity: E21 Person</th>
-  </tr>  <tr>
+  </tr>  
+  <tr>
     <td>n/a</td>
-    <td>Floruit</td>
-    <td>This field is used to indicate the period of greatest activity/flourishing of the documented individual.</td>
-    <td> → P14i → F51[14] → P4 → E52 → P82 → xsd:dateTime •     
+    <td>Floruit - Earliest date</td>
+    <td>This field is used to indicate the starting date of the documented period of great activity/flourishing of the referenced individual.</td>
+    <td> → P14i → F51[14] → P4 → E52 → P82a → xsd:dateTime •     
  → P14i → F51[14] → P2 → E55["Floruit"]</td>
   </tr>
-    </tr>  <tr>
+  <tr>
+    <td>n/a</td>
+    <td>Floruit - Latest date</td>
+    <td>This field is used to indicate the starting date of the documented period of great activity/flourishing of the referenced individual.</td>
+    <td> → P14i → F51[14] → P4 → E52 → P82b → xsd:dateTime •     
+ → P14i → F51[14] → P2 → E55["Floruit"]</td>
+  </tr>
+   <tr>
     <td>n/a</td>
     <td>Floruit Place</td>
     <td>This field is used to indicate the place of the period of greatest activity/flourishing of the documented individual.</td>
