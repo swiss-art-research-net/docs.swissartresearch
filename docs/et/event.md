@@ -145,7 +145,8 @@ The attribution of names and types to events, as with other entities, is a basic
     <td>Name</td>
     <td>Name</td>
     <td>This field is used to indicate the main name attributed to the documented instance of event.</td>
-    <td> → P1 → E41[2]</td>
+    <td> → P1 → E41[2]   
+    → P1 → E41[2] → P2 → E55['Preferred Name']</td>
   </tr>
   <tr>
     <td>Name</td>

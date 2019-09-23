@@ -100,7 +100,8 @@ The attribution of identifiers, names and types to a digital object, as with oth
     <td>n/a</td>
     <td>Title</td>
     <td>This field is used to indicate the main name attributed to the documented digital object.</td>
-    <td> → P1 → E41</td>
+    <td> → P1 → E41   
+     → P1 → E41 → P2 → E55['Preferred Title']</td>
   </tr>
   <tr>
     <td>SI</td>

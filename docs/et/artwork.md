@@ -162,7 +162,8 @@ The attribution of names and types to artwork, as with other entities, is a basi
     <td>n/a</td>
     <td>Title</td>
     <td>This field is used to indicate the main name attributed to the documented artwork.</td>
-    <td> → P1 → E41</td>
+    <td> → P1 → E41   
+   → P1 → E41 → P2 → E55['Preferred Title']</td>
   </tr>
   <tr>
     <td>n/a</td>

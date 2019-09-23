@@ -174,7 +174,7 @@ The attribution of names and types to built work, as with other entities, is a b
     <td>Name</td>
     <td>This field is used to indicate the main name attributed to the documented instance of built work.</td>
     <td> → P1 → E41[2]   •   
- → P1 → E41[2] → P2 → E55['preferred terms']</td>
+ → P1 → E41[2] → P2 → E55['Preferred Name']</td>
   </tr>
   <tr>
     <td></td>

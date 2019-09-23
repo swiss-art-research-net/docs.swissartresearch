@@ -137,7 +137,7 @@ The attribution of names and types to  a place, as with other entities, is a bas
     <td>Name</td>
     <td>This field is used to indicate the main name attributed to the documented instance of place.</td>
     <td>->P1->E41[3]
-->P1->E41[3]->P2->E55['preferred terms']</td>
+->P1->E41[3]->P2->E55['Preferred Name']</td>
   </tr>
   <tr>
     <td>EP</td>
