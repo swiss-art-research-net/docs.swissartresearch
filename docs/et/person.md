@@ -432,6 +432,12 @@ This category brings together the various actions in which the documented person
     <td> → P14i → F51[14] → P7 → E53 •     
  → P14i → F51[14] → P2 → E55["Floruit"]</td>
   </tr>
+     <tr>
+    <td>n/a</td>
+    <td>Floruit Subject</td>
+    <td>This field is used to indicate the subject of the period of greatest activity/flourishing of the documented individual.</td>
+    <td> → P14i → F51[14] → R59 → E55 ["Field of Activity"]</td>
+  </tr>
   <tr>
     <td>n/a</td>
     <td>Occupation/General Role</td>
