@@ -711,7 +711,7 @@ This information category unites referential information about the documented bu
   <tr>
     <td>n/a</td>
     <td>Image</td>
-    <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented instance of built work.</td>
+    <td>This field document image that reference the described artwork.</td>
     <td> → P138i → E36/D9</td>
   </tr>
 </table>
