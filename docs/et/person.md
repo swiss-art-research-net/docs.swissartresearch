@@ -506,14 +506,14 @@ This information category unites referential information about the documented pe
   <tr>
     <td>n/a</td>
     <td>Citation</td>
-    <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented person.</td>
+    <td>This field is used to indicate citations that stand as reference documentation for the documented person.</td>
     <td> → P67i → E73[16] → rdf:value → rdf:Literal •   
  → P67i → E73[16] → P2 → E55 "Citation"</td>
   </tr>
   <tr>
     <td>n/a</td>
     <td>Biography</td>
-    <td>This field is used to store short bibliographic texts about the documented person.</td>
+    <td>This field is used to store short biographical texts about the documented person.</td>
     <td> → P67i → E73[15] → rdf:value → rdf:Literal  •   
  → P67i → E73[15] → P2 → E55 "Biography" •   
 → P67i → E73[15] → P72 → E56</td>
