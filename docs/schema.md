@@ -61,7 +61,7 @@ Graphical Overview {#graphicaloverview}
 ------------------
 
 
-![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/e2b2c4ac-0bc8-4856-ae4e-0b9c52318539.png)
+![!](https://workspace.digitale-diathek.net/confluence/rest/gliffy/1.0/embeddedDiagrams/11e5ed90-a39f-4f23-87b3-0edb38759f6b.png)
 
 
 Classes
