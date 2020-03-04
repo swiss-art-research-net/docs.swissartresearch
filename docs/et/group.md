@@ -344,7 +344,7 @@ A useful area of documentation and potential disambiguation around a group conce
     <td>n/a</td>
     <td>National Affiliation</td>
     <td>This field is used to indicate the association of the documented group to a nation, usually indicating its legal association.</td>
-    <td> → P107i → E74[12] •    
+    <td> → P107i → E74[12]     
  → P107i → E74[12] → E55["National Group"]</td>
   </tr>
   <tr>
