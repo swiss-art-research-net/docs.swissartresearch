@@ -50,6 +50,8 @@ markdown_extensions:
   - markdown.extensions.attr_list
   - pymdownx.superfences
   - pymdownx.details
+#  - ocxmd:
+#     context: '"@context": "http://schema.org"'
   - toc:
       permalink: true
   - codehilite:

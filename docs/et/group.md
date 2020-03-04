@@ -414,6 +414,27 @@ This category brings together documentary evidence with regards to various typic
     <td> → P14i → F51 → R59 → E55["Field of Activity"]</td>
   </tr>
   <tr>
+    <td>n/a</td>
+    <td>Activity/Floruit - Earliest date</td>
+    <td>This field is used to indicate the starting date of the documented period of great activity/flourishing of the referenced group.</td>
+    <td> → P14i → F51[14] → P4 → E52 → P82a → xsd:dateTime •     
+ → P14i → F51[14] → P2 → E55["Floruit"]</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>Activity/Floruit - Latest date</td>
+    <td>This field is used to indicate the starting date of the documented period of great activity/flourishing of the referenced group.</td>
+    <td> → P14i → F51[14] → P4 → E52 → P82b → xsd:dateTime •     
+ → P14i → F51[14] → P2 → E55["Floruit"]</td>
+  </tr>
+   <tr>
+    <td>n/a</td>
+    <td>Activity/Floruit Place</td>
+    <td>This field is used to indicate the place of the period of greatest activity/flourishing of the documented group.</td>
+    <td> → P14i → F51[14] → P7 → E53 •     
+ → P14i → F51[14] → P2 → E55["Floruit"]</td>
+  </tr>
+  <tr>
     <td>Well Known Events</td>
     <td>Event</td>
     <td>This field is used to indicate well known events in which the documented group participated.</td>
