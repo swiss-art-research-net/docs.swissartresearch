@@ -17,11 +17,10 @@ install:
     - cd lightgallery-markdown
     - python setup.py install
     - cd ..
-    - git clone https://github.com/philbarker/ocxmd.git
-    - cd ocxmd
-    - pytest test.py
-    - python setup.py install
-    - cd ..
+#    - git clone https://github.com/philbarker/ocxmd.git
+#    - cd ocxmd
+#    - python setup.py install
+#    - cd ..
     
 script:
   - git clean -f -d -x

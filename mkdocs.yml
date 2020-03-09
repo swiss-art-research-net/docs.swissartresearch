@@ -50,13 +50,13 @@ markdown_extensions:
   - markdown.extensions.attr_list
   - pymdownx.superfences
   - pymdownx.details
-  - ocxmd:
-     context: '"@context": "http://schema.org"'
   - toc:
       permalink: true
   - codehilite:
       linenums: true
   - meta
+#  - ocxmd:
+#     context: '"@context": "http://schema.org"'
   - footnotes
   - admonition
   - pymdownx.superfences:
@@ -64,8 +64,6 @@ markdown_extensions:
           - name: mermaid
             class: mermaid
             format: !!python/name:pymdownx.superfences.fence_div_format
-
-  
 
 extra_css:
 #  - https://unpkg.com/mermaid@7.1.2/dist/mermaid.css

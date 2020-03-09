@@ -1,13 +1,3 @@
----
-"@context": "http://schema.org"
-"@id": "#homepage"
-"@type":
-    - CreativeWork
-author:
-    "@type": Person
-    name: Nicola Carboni
----
-
 # About
 
 This website record and collect the documentation produced within the **S**wiss **A**rt **R**esearch **I**nfrastructure project- **SARI**. The project uses a semantic web infrastructure to record and expose reference resources useful for Digital Art History & Digital Humanities projects. 
@@ -30,7 +20,7 @@ Each available template is a collection of descriptors for a specific entity, an
 
 The Reference Data Model are produced together with FORTH-ICS and describe these entities: 
 
-+ [Persons](et/person.md)
++ [Persons](et/persons.md)
 + [Artworks](et/artwork.md)
 + [Group](et/group.md)
 + [Built Work](et/built_work.md)
