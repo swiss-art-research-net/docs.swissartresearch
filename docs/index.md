@@ -1,3 +1,12 @@
+"@context": "http://schema.org"
+"@id": "#homepage"
+"@type":
+    - CreativeWork
+author:
+    "@type": Person
+    name: Nicola Carboni
+--
+
 # About
 
 This website record and collect the documentation produced within the **S**wiss **A**rt **R**esearch **I**nfrastructure project- **SARI**. The project uses a semantic web infrastructure to record and expose reference resources useful for Digital Art History & Digital Humanities projects. 
@@ -10,7 +19,7 @@ Achieving these objectives meant overcoming common challenges and also creating 
 
 #### Ontological Modelling Patterns
 
-The modelling patterns are nothing else than a series of generalisable formulas for the modelling of entities used within SARI and their properties. The patterns provided here do always come from a real use-case scenario and are made explicit both using a Turtle (*.ttl) file and a graphical output.
+The modelling patterns are nothing else than a series of generalisable formulas for the modelling of entities used within SARI and their properties. The patterns provided here do always come from a real use-case scenario and are made explicit both using a Turtle (.ttl) file and a graphical output.
 
 #### Reference Data Models
 
@@ -24,7 +33,7 @@ The Reference Data Model are produced together with FORTH-ICS and describe these
 + [Artworks](et/artwork.md)
 + [Group](et/group.md)
 + [Built Work](et/built_work.md)
-+ Place
++ [Place](et/place.md)
 + [Digital Document](et/do.md)
 + [Events](et/event.md)
 + [Bibliographic Entity](et/bibliographic_item.md)
