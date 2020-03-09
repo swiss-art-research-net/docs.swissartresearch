@@ -1,3 +1,4 @@
+---
 "@context": "http://schema.org"
 "@id": "#homepage"
 "@type":
@@ -5,7 +6,7 @@
 author:
     "@type": Person
     name: Nicola Carboni
---
+---
 
 # About
 
