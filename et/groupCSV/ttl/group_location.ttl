@@ -2,7 +2,7 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://www.srdm.org/actor/E74> a crm:E74_Group ;
+<https://example.org/actor/E74> a crm:E74_Group ;
     crm:P74_has_current_or_former_residence <https://example.org/place/fie_183_1> .
 
 <https://example.org/name/fie_183_2> a crm:E41_Appellation ;

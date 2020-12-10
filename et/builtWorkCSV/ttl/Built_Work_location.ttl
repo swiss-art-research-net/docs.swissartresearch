@@ -2,11 +2,9 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://www.srdm.org/physical_object/E22> a crm:E22_Human-Made_Object ;
-    crm:P2_has_type <http://www.srdm.org/type/builtwork> ;
+<https://example.org/physical_object/E22> a crm:E22_Human-Made_Object ;
+    crm:P2_has_type <https://example.org/type/builtwork> ;
     crm:P53_has_former_or_current_location <https://example.org/place/fie_177_1> .
-
-<http://www.srdm.org/type/builtwork> a crm:E55_type .
 
 <https://example.org/name/fie_177_2> a crm:E41_Appellation ;
     crm:P2_has_type <https://example.org/type/fie_177_3> .
@@ -14,6 +12,8 @@
 <https://example.org/place/fie_177_1> a crm:E53_Place ;
     crm:P168_place_is_defined_by ""^^geo:wkt ;
     crm:P1_is_identified_by <https://example.org/name/fie_177_2> .
+
+<https://example.org/type/builtwork> a crm:E55_type .
 
 <https://example.org/type/fie_177_3> a crm:E55_Type ;
     rdfs:label "Address" .

@@ -3,7 +3,7 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.srdm.org/place/E53> a crm:E53_Place ;
+<https://example.org/place/E53> a crm:E53_Place ;
     crm:P161i_is_spatial_projection_of <https://example.org/event/fie_42_1> ;
     crm:P89_falls_within <https://example.org/place/fie_36_1> ;
     crm:P89i_contains <https://example.org/place/fie_35_1> .

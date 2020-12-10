@@ -3,7 +3,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.srdm.org/conceptual_object/D1> a crmdig:D1_Digital_Object ;
+<https://example.org/conceptual_object/D1> a crmdig:D1_Digital_Object ;
     crmdig:L11i_was_output_of <https://example.org/event/fie_66_1>,
         <https://example.org/event/fie_68_1> .
 

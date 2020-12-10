@@ -1,6 +1,6 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 
-<http://www.srdm.org/event/E7> a crm:E7_Activity ;
+<https://example.org/event/E7> a crm:E7_Activity ;
     crm:P129i_is_subject_of <https://example.org/conceptual_object/fie_188_1> .
 
 <https://example.org/actor/fie_191_2> a crm:E39_Actor .

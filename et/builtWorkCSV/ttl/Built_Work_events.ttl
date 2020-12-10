@@ -1,14 +1,12 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.srdm.org/physical_object/E22> a crm:E22_Human-Made_Object ;
+<https://example.org/physical_object/E22> a crm:E22_Human-Made_Object ;
     crm:P12i_was_present_at <https://example.org/event/fie_104_1> ;
     crm:P24i_changed_ownership_through <https://example.org/event/fie_113_1>,
         <https://example.org/event/fie_116_1> ;
-    crm:P2_has_type <http://www.srdm.org/type/builtwork> ;
+    crm:P2_has_type <https://example.org/type/builtwork> ;
     crm:P31i_was_modified_by <https://example.org/event/fie_107_1> .
-
-<http://www.srdm.org/type/builtwork> a crm:E55_type .
 
 <https://example.org/actor/fie_111_1> a crm:E21_Person .
 
@@ -52,6 +50,8 @@
 <https://example.org/time_span/fie_116_2> a crm:E52_Time-Span ;
     crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
     crm:P82a_end_of_the_end ""^^xsd:dateTime .
+
+<https://example.org/type/builtwork> a crm:E55_type .
 
 <https://example.org/type/fie_104_2> a crm:E55_Type .
 

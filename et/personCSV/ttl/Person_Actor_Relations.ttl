@@ -3,7 +3,7 @@
 @prefix sari: <http://w3id.org/sari#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.srdm.org/actor/E21> a crm:E21_Person ;
+<https://example.org/actor/E21> a crm:E21_Person ;
     crm:P01_has_domain <https://example.org/social/fie_156_1> ;
     crm:P107i_is_current_or_former_member_of <https://example.org/actor/fie_145_1>,
         <https://example.org/actor/fie_146_1> ;

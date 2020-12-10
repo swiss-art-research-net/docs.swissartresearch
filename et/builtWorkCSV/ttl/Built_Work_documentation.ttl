@@ -2,13 +2,11 @@
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://www.srdm.org/physical_object/E22> a crm:E22_Human-Made_Object ;
+<https://example.org/physical_object/E22> a crm:E22_Human-Made_Object ;
     crm:P129i_is_subject_of <https://example.org/conceptual_object/fie_196_1> ;
     crm:P138i_has_representation <https://example.org/conceptual_object/fie_195_1> ;
-    crm:P2_has_type <http://www.srdm.org/type/builtwork> ;
+    crm:P2_has_type <https://example.org/type/builtwork> ;
     crmdig:L54_is_same-as <https://example.org/entity/fie_204_1> .
-
-<http://www.srdm.org/type/builtwork> a crm:E55_type .
 
 <https://example.org/conceptual_object/fie_195_1> a crm:E36_Visual_Item,
         crmdig:D9_Data_Object .
@@ -21,6 +19,8 @@
 <https://example.org/conceptual_object/fie_197_1> a crm:E33_Linguistic_Object .
 
 <https://example.org/entity/fie_204_1> a crm:E1_CRM_Entity .
+
+<https://example.org/type/builtwork> a crm:E55_type .
 
 <https://example.org/type/fie_196_1> a crm:E55_Type ;
     rdfs:label "Citation" .

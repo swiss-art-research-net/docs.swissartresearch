@@ -1,11 +1,9 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://www.srdm.org/physical_object/E22> a crm:E22_Human-Made_Object ;
-    crm:P2_has_type <http://www.srdm.org/type/builtwork> ;
+<https://example.org/physical_object/E22> a crm:E22_Human-Made_Object ;
+    crm:P2_has_type <https://example.org/type/builtwork> ;
     crm:P41i_was_classified_by <https://example.org/event/fie_167_1> .
-
-<http://www.srdm.org/type/builtwork> a crm:E55_type .
 
 <https://example.org/actor/fie_168_1> a crm:E39_Actor .
 
@@ -18,6 +16,8 @@
     crm:P42_assigned <https://example.org/type/fie_169_1> .
 
 <https://example.org/name/fie_167_2> a crm:E42_Identifier .
+
+<https://example.org/type/builtwork> a crm:E55_type .
 
 <https://example.org/type/fie_169_1> a crm:E55_Type ;
     rdfs:label "content" .

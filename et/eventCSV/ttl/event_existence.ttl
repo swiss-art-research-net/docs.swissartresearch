@@ -1,7 +1,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.srdm.org/event/E7> a crm:E7_Activity ;
+<https://example.org/event/E7> a crm:E7_Activity ;
     crm:P20i_was_purpose_of <https://example.org/time_span/fie_57_1> ;
     crm:P4_has_time-span <https://example.org/time_span/fie_48_1> .
 

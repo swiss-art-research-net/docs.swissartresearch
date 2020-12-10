@@ -2,7 +2,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.srdm.org/actor/E74> a crm:E74_Group ;
+<https://example.org/actor/E74> a crm:E74_Group ;
     crm:P01i_is_domain_of <https://example.org/property/fie_148_1> ;
     crm:P107i_is_current_or_former_member_of <https://example.org/actor/fie_145_1> ;
     crm:P146i_lost_member_by <https://example.org/event/fie_152_1> ;

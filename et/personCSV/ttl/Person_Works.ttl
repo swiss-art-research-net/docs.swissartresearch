@@ -1,6 +1,6 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 
-<http://www.srdm.org/actor/E21> a crm:E21_Person ;
+<https://example.org/actor/E21> a crm:E21_Person ;
     crm:P14i_performed <https://example.org/event/fie_166_1> .
 
 <https://example.org/event/fie_166_1> a crm:E12_Production ;

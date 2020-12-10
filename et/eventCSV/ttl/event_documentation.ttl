@@ -2,7 +2,7 @@
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://www.srdm.org/event/E7> a crm:E7_Activity ;
+<https://example.org/event/E7> a crm:E7_Activity ;
     crm:P129i_is_subject_of <https://example.org/conceptual_object/fie_196_1> ;
     crm:P138i_has_representation <https://example.org/conceptual_object/fie_195_1> ;
     crmdig:L54_is_same-as <https://example.org/entity/fie_204_1> .

@@ -1,7 +1,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.srdm.org/actor/E21> a crm:E21_Person ;
+<https://example.org/actor/E21> a crm:E21_Person ;
     crm:P100i_died_in <https://example.org/event/fie_76_1> ;
     crm:P98i_was_born <https://example.org/event/fie_73_1> .
 

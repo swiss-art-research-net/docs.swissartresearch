@@ -1,7 +1,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 
-<http://www.srdm.org/event/E7> a crm:E7_Activity ;
+<https://example.org/event/E7> a crm:E7_Activity ;
     crm:P7_took_place_at <https://example.org/place/fie_174_1> .
 
 <https://example.org/name/fie_174_2> a crm:E41_Appellation .
