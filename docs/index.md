@@ -30,7 +30,7 @@ The Reference Data Model are produced together with FORTH-ICS and describe these
 + [Bibliographic Entity](et/bibliographic_item.md)
 
 Each of the Models listed above present an initial introduction of the sources and the methodology used for grounding the model. Following this introduction, each descriptor is defined, and its modelling in provided in textual, graphical form and RDF turtle representation.
-Graphical representation use the library [CRITERIA](https://github.com/chin-rcip/CRITERIA) developed by the Copyright (c) 2020 Canadian Heritage Information Network, Canadian Heritage, Government of Canada - Réseau Canadien d'information sur le patrimoine, Patrimoine canadien, Gouvernement du Canada .
+Graphical representation use the python app [CRITERIA](https://github.com/chin-rcip/CRITERIA), developed by the Copyright (c) 2020 Canadian Heritage Information Network, Canadian Heritage, Government of Canada - Réseau Canadien d'information sur le patrimoine, Patrimoine canadien, Gouvernement du Canada.
 
 #### Ontology Extension
 
