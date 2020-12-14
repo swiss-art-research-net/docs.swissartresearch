@@ -29,9 +29,8 @@ The Reference Data Model are produced together with FORTH-ICS and describe these
 + [Events](et/event.md)
 + [Bibliographic Entity](et/bibliographic_item.md)
 
-Each of the Models listed above present an initial introduction of the sources and the methodology used for grounding the model. Following this introduction, each descriptor is defined, and its modelling in both textual and graphical form is provided to the reader.
-
-Not all the Reference Data Models are immediately available. The availability is subject to internal scrutiny; only when a model is considered stable and vetted by a community of expert will be published here.
+Each of the Models listed above present an initial introduction of the sources and the methodology used for grounding the model. Following this introduction, each descriptor is defined, and its modelling in provided in textual, graphical form and RDF turtle representation.
+Graphical representation use the library [CRITERIA](https://github.com/chin-rcip/CRITERIA) developed by the Copyright (c) 2020 Canadian Heritage Information Network, Canadian Heritage, Government of Canada - Réseau Canadien d'information sur le patrimoine, Patrimoine canadien, Gouvernement du Canada .
 
 #### Ontology Extension
 
