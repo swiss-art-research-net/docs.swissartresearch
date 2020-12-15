@@ -18,7 +18,7 @@ With the term Reference Data Models we denote a re-usable template of common des
 
 Each available template is a collection of descriptors for a specific entity, and each descriptor is mapped to the CIDOC-CRM ontology. The aim is manifold: to provide reference implementations to be used by institutions and projects not familiar with CIDOC-CRM, to create usable guidelines to generate input interfaces for born-CRM semantic data and to guide mapping processes from extant sources into the CRM conformant reference model using tools such as 3M. 
 
-The Reference Data Model are produced together with FORTH-ICS and describe these entities: 
+The Semantic Reference Data Models are produced by the [Swiss Art Research Infrastructure (SARI)](https://swissartresearch.net) in collaboration with [George Bruseker](https://twitter.com/GBruseker) and [Nicola Carboni](https://twitter.com/wlpbloyd) and describe the following entities: 
 
 + [Persons](et/persons.md)
 + [Artworks](et/artwork.md)
@@ -30,7 +30,7 @@ The Reference Data Model are produced together with FORTH-ICS and describe these
 + [Bibliographic Entity](et/bibliographic_item.md)
 
 Each of the Models listed above present an initial introduction of the sources and the methodology used for grounding the model. Following this introduction, each descriptor is defined, and its modelling in provided in textual, graphical form and RDF turtle representation.
-Graphical representation use the python app [CRITERIA](https://github.com/chin-rcip/CRITERIA), developed by the Copyright (c) 2020 Canadian Heritage Information Network, Canadian Heritage, Government of Canada - Réseau Canadien d'information sur le patrimoine, Patrimoine canadien, Gouvernement du Canada.
+Graphical representation use the python app [CRITERIA](https://github.com/chin-rcip/CRITERIA), developed by the (c) 2020 Canadian Heritage Information Network, Canadian Heritage, Government of Canada - Réseau Canadien d'information sur le patrimoine, Patrimoine canadien, Gouvernement du Canada.
 
 #### Ontology Extension
 
