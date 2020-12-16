@@ -98,15 +98,15 @@ This information category provides the means to gather information to the repres
 
 This category brings together descriptors that aid in the documentation of right holders and rights relative to an image.
 
-{{ read_csv('docs/et/builtWorkCSV/img_rights.csv') }}
+{{ read_csv('docs/et/imgCSV/img_rights.csv') }}
 
-![!](builtWorkCSV/ttl/mmd/png/img_rights.png)
+![!](imgCSV/ttl/mmd/png/img_rights.png)
 
 
 ??? example "Turtle Encoding"
 
     ```turtle
-    --8<-- "docs/et/builtWorkCSV/ttl/img_rights.ttl"
+    --8<-- "docs/et/imgCSV/ttl/img_rights.ttl"
     ```
 
 
@@ -114,15 +114,15 @@ This category brings together descriptors that aid in the documentation of right
 
 The documentation of images allows the optional tracking of individual images held by institutions and where they are held, in order to aid scholars in retrieving copies of it.
 
-{{ read_csv('docs/et/builtWorkCSV/img_item.csv') }}
+{{ read_csv('docs/et/imgCSV/img_item.csv') }}
 
-![!](builtWorkCSV/ttl/mmd/png/img_item.png)
+![!](imgCSV/ttl/mmd/png/img_item.png)
 
 
 ??? example "Turtle Encoding"
 
     ```turtle
-    --8<-- "docs/et/builtWorkCSV/ttl/img_item.ttl"
+    --8<-- "docs/et/imgCSV/ttl/img_item.ttl"
     ```
 
 
