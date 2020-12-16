@@ -19,218 +19,111 @@ The Image model is meant to support the semantic representation of photographic 
 
 ### Names and Classifications
 
-
+The attribution of names and types to an image, as with other entities, is a basic human activity. A chief factor in disambiguating images lies in understanding the various names and identifiers that have been given to them at different moments in their individual histories. Likewise, additional classifiers of the image, such as how it has been formally classified, give important distinguishing characteristics.
 
 {{ read_csv('docs/et/imgCSV/img_name.csv') }}
 
-The model provides means for tracking identifiers, present and past name use, names and well known typological attributions of the built work.
+The model provides means for tracking identifiers, present and past name use, names and well known typological attributions of the image.
 
 ![!](imgCSV/ttl/mmd/png/img_name.png)
-
 
 
 ??? example "Turtle Encoding"
 
     ```turtle
-    --8<-- "docs/et/builtWorkCSV/ttl/img_name.ttl"
+    --8<-- "docs/et/imgCSV/ttl/img_name.ttl"
     ```
 
 
 ### Description
 
-Built works are the subjects of innumerable descriptions that provide a wide range of information with regards to the aesthetic and historical importance of the work, *inter alia*. Such descriptions are of use in a scholarly understanding of a built work just in case we are able to track the provenance of such elocutions in a systematic fashion. Such an aim drives the need for the tracking of description information as a separate category. The descriptors necessary to this task are documented in the table below.
+Images are the subjects of innumerable descriptions that provide a wide range of information with regards to the aesthetic and historical importance of the work, *inter alia*. Such descriptions are of use in a scholarly understanding of an image only if we are able to track the provenance of such elocutions in a systematic fashion. Such an aim drives the need for the tracking of description information as a separate category. The descriptors necessary to this task are documented in the table below.
 
-{{ read_csv('docs/et/builtWorkCSV/Built_Work_description.csv') }}
+{{ read_csv('docs/et/imgCSV/img_desc.csv') }}
 
 
 These descriptors should be deployed together in order to provide full context to ‘text blobs’ by means of authorship, type of description as well as the time of articulation.
 
 
-![!](builtWorkCSV/ttl/mmd/png/Built_Work_description.png)
-
-
-
-??? example "Turtle Encoding"
-
-    ```turtle
-    --8<-- "docs/et/builtWorkCSV/ttl/Built_Work_description.ttl"
-    ```
-
-
-### Parthood
-
-Built works may require documentation not just as a whole, but with regards to their parts. This information category gathers together the basic descriptors typically deployed to this end. The parthood relations of built works are both highly important information in understanding of this type of work and also highly complex to document. In this base model, we represent simply the relation of belonging of one Built Work to another. An extended model would take account of mereological and topological relations in a much richer way. At the basic reference level, however, this level of detail is not necessary.
-
-
- 
-{{ read_csv('docs/et/builtWorkCSV/Built_Work_parthood.csv') }}
-
-
-![!](builtWorkCSV/ttl/mmd/png/Built_Work_parthood.png)
-
+![!](imgCSV/ttl/mmd/png/img_desc.png)
 
 
 ??? example "Turtle Encoding"
 
     ```turtle
-    --8<-- "docs/et/builtWorkCSV/ttl/Built_Work_parthood.ttl"
+    --8<-- "docs/et/imgCSV/ttl/img_desc.ttl"
     ```
+
 
 
 ### Existence
 
-Of essential importance in identifying and tracking built works is information pertaining to their existence, particularly regarding their construction and destruction dates. For this reason, we have clustered descriptors relevant to such information in a common ‘existence’ category. These are described in the table below.
+Of essential importance in identifying and tracking images is information pertaining to their existence, particularly regarding their construction and destruction dates. For this reason, we have clustered descriptors relevant to such information in a common ‘existence’ category. These are described in the table below.
 
  
-{{ read_csv('docs/et/builtWorkCSV/Built_Work_existence.csv') }}
+{{ read_csv('docs/et/imgCSV/img_existence.csv') }}
 
 
-The above structure allows for the documentation of time of construction and destruction of a built work as a whole. Note that while ontologically speaking the agency of the architect and builder in the events of construction could be documented as part of this information unit, we have instead clustered this data in the actors Relations category.
-
-![!](builtWorkCSV/ttl/mmd/png/Built_Work_existence.png)
-
+![!](imgCSV/ttl/mmd/png/img_existence.png)
 
 
 ??? example "Turtle Encoding"
 
     ```turtle
-    --8<-- "docs/et/builtWorkCSV/ttl/Built_Work_existence.ttl"
+    --8<-- "docs/et/imgCSV/ttl/img_existence.ttl"
     ```
 
-### Actor Relations
-
-The connection between a built work and actors provides another important set of descriptors for identifying and tracing it. Particularly, basic interest clusters around the individuals involved in the creation of the built work and those who own the built work presently. The actor relations information gathers these together.
-
-{{ read_csv('docs/et/builtWorkCSV/Built_Work_actor_relations.csv') }}
-
-These descriptors allow the connection of a built work to its creator and present owner.
-
-![!](builtWorkCSV/ttl/mmd/png/Built_Work_actor_relations.png)
-
-
-
-??? example "Turtle Encoding"
-
-    ```turtle
-    --8<-- "docs/et/builtWorkCSV/ttl/Built_Work_actor_relations.ttl"
-    ```
-
-
-### Substance
-
-The analysis and understanding of a built work depends also on our knowledge of its materiality and physical characteristics. The category of substance brings together descriptors which are relevant to this form of analysis. Particularly, it groups information having to do with the composition and measurable aspects of the built work as an object. Information regarding the decomposition of the built work into parts is found in the parthood category.
-
-
-{{ read_csv('docs/et/builtWorkCSV/Built_Work_substance.csv') }}
-
-![!](builtWorkCSV/ttl/mmd/png/Built_Work_substance.png)
-
-
-??? example "Turtle Encoding"
-
-    ```turtle
-    --8<-- "docs/et/builtWorkCSV/ttl/Built_Work_substance.ttl"
-    ```
 
 
 ### Aboutness
 
-This information category provides the means to gather information to the representational level of a built work.
+This information category provides the means to gather information to the representational level of an image.
 
 
-{{ read_csv('docs/et/builtWorkCSV/Built_Work_aboutness.csv') }}
-
-![!](builtWorkCSV/ttl/mmd/png/Built_Work_aboutness.png)
+{{ read_csv('docs/et/imgCSV/img_about.csv') }}
 
 
-??? example "Turtle Encoding"
-
-    ```turtle
-    --8<-- "docs/et/builtWorkCSV/ttl/Built_Work_aboutness.ttl"
-    ```
-
-
-
-### Events
-
-This information category brings together typical events in which a built work may have been involved through the course of its history. It is meant to cover information concerning the most salient events documented with regards to built works. At present this enables the documentation of functional use periods, ownership periods and conservation events. 
-
-{{ read_csv('docs/et/builtWorkCSV/Built_Work_events.csv') }}
-
-![!](builtWorkCSV/ttl/mmd/png/Built_Work_events.png)
+![!](imgCSV/ttl/mmd/png/img_about.png)
 
 
 ??? example "Turtle Encoding"
 
     ```turtle
-    --8<-- "docs/et/builtWorkCSV/ttl/Built_Work_events.ttl"
+    --8<-- "docs/et/imgCSV/ttl/img_about.ttl"
     ```
 
 
-
-### Location
-
-The documentation of location aids in tracking the present location of individual built works as well their dispersion geographically. This information category gathers together relevant descriptors for this task.
-
-{{ read_csv('docs/et/builtWorkCSV/Built_Work_location.csv') }}
-
-![!](builtWorkCSV/ttl/mmd/png/Built_Work_location.png)
-
-
-??? example "Turtle Encoding"
-
-    ```turtle
-    --8<-- "docs/et/builtWorkCSV/ttl/Built_Work_location.ttl"
-    ```
-
-
-
-
-### Designation Status
-
-Characteristic of information gathered relative to built works are various kinds of official designations types that are given to these objects by various agencies. Assignment of such designations is related to various protocols in the assigning institutions and are often accompanied by regulations on the kind of activity that can be undertaken relative to the built work in question. Such designations also provide means of identifying a built work across records. This information category gathers together descriptors relative to this information.
-
-{{ read_csv('docs/et/builtWorkCSV/Built_Work_designation_status.csv') }}
-
-![!](builtWorkCSV/ttl/mmd/png/Built_Work_designation_status.png)
-
-
-??? example "Turtle Encoding"
-
-    ```turtle
-    --8<-- "docs/et/builtWorkCSV/ttl/Built_Work_designation_status.ttl"
-    ```
 
 ### Rights
 
-This category brings together descriptors that aid in the documentation of right holders and rights relative to a built work.
+This category brings together descriptors that aid in the documentation of right holders and rights relative to an image.
 
-{{ read_csv('docs/et/builtWorkCSV/Built_Work_rights.csv') }}
+{{ read_csv('docs/et/builtWorkCSV/img_rights.csv') }}
 
-![!](builtWorkCSV/ttl/mmd/png/Built_Work_rights.png)
-
-
-??? example "Turtle Encoding"
-
-    ```turtle
-    --8<-- "docs/et/builtWorkCSV/ttl/Built_Work_rights.ttl"
-    ```
-
-
-
-### Documentation
-
-This information category unites referential information about the documented built work, providing contextual data about it.
-
-{{ read_csv('docs/et/builtWorkCSV/Built_Work_documentation.csv') }}
-
-![!](builtWorkCSV/ttl/mmd/png/Built_Work_documentation.png)
+![!](builtWorkCSV/ttl/mmd/png/img_rights.png)
 
 
 ??? example "Turtle Encoding"
 
     ```turtle
-    --8<-- "docs/et/builtWorkCSV/ttl/Built_Work_documentation.ttl"
+    --8<-- "docs/et/builtWorkCSV/ttl/img_rights.ttl"
     ```
+
+
+### Item Information
+
+The documentation of images allows the optional tracking of individual images held by institutions and where they are held, in order to aid scholars in retrieving copies of it.
+
+{{ read_csv('docs/et/builtWorkCSV/img_item.csv') }}
+
+![!](builtWorkCSV/ttl/mmd/png/img_item.png)
+
+
+??? example "Turtle Encoding"
+
+    ```turtle
+    --8<-- "docs/et/builtWorkCSV/ttl/img_item.ttl"
+    ```
+
 
 
