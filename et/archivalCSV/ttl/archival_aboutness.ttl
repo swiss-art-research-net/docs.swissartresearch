@@ -1,20 +1,13 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix sari: <http://w3id.org/sari#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
 
-<https://example.org/physical_object/E78> a crm:E78_Collection ;
-    crm:P128_carries <https://example.org/conceptual_object/fie_273_1> ;
-    crm:PP128_carries <https://example.org/conceptual_object/fie_273_1> .
-
-<https://example.org/actor/fie_283_1> a crm:E39_Actor .
-
-<https://example.org/period/fie_285_1> a crm:E4_Period .
-
-<https://example.org/place/fie_284_1> a crm:E53_Place .
-
-<https://example.org/type/fie_286_1> a crm:E55_Type .
-
-<https://example.org/conceptual_object/fie_273_1> a crm:E33_Linguistic_Object ;
-    crm:P129_is_about <https://example.org/actor/fie_283_1>,
-        <https://example.org/period/fie_285_1>,
-        <https://example.org/place/fie_284_1>,
-        <https://example.org/type/fie_286_1> .
-
+Swiss Art Research Infrastructure
+Swiss Art Research Infrastructure
+Swiss Art Research Infrastructure
+Swiss Art Research Infrastructure

@@ -1,28 +1,16 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix sari: <http://w3id.org/sari#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
 
-<https://example.org/physical_object/E78> a crm:E78_Collection ;
-    crm:P129i_is_subject_of <https://example.org/conceptual_object/fie_188_1> .
-
-<https://example.org/actor/fie_191_2> a crm:E39_Actor .
-
-<https://example.org/conceptual_object/fie_188_1> a crm:E33_Linguistic_Object ;
-    crm:P190_has_symbolic_content "content" ;
-    crm:P2_has_type <https://example.org/type/fie_190_1> ;
-    crm:P72_has_language <https://example.org/type/fie_189_1> ;
-    crm:P94i_was_created_by <https://example.org/event/fie_191_1> .
-
-<https://example.org/conceptual_object/fie_194_1> a crm:E73_Information_Object .
-
-<https://example.org/event/fie_191_1> a crm:E65_Creation ;
-    crm:P14_carried_out_by <https://example.org/actor/fie_191_2> ;
-    crm:P4_has_time-span <https://example.org/time_span/fie_192_1> ;
-    crm:P63_used_specific_object <https://example.org/conceptual_object/fie_194_1> .
-
-<https://example.org/time_span/fie_192_1> a crm:E52_Time-span ;
-    crm:P81a_begin_of_the_begin "content" ;
-    crm:P81b_end_of_the_end "content" .
-
-<https://example.org/type/fie_189_1> a crm:E56_Language .
-
-<https://example.org/type/fie_190_1> a crm:E55_Type .
-
+Swiss Art Research Infrastructure
+Swiss Art Research Infrastructure
+Swiss Art Research Infrastructure
+Swiss Art Research Infrastructure
+Swiss Art Research Infrastructure
+Swiss Art Research Infrastructure
+Swiss Art Research Infrastructure

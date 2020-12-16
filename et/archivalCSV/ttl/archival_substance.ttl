@@ -1,20 +1,13 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix sari: <http://w3id.org/sari#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
 
-<https://example.org/physical_object/E78> a crm:E78_Collection ;
-    crm:P39i_was_measured_by <https://example.org/event/fie_86_1> .
-
-<https://example.org/actor/fie_89_1> a crm:E39_Actor .
-
-<https://example.org/dimension/fie_86_2> a crm:E54_Dimension ;
-    crm:P2_has_type <https://example.org/type/fie_86_3> ;
-    crm:P90_has_value "content" ;
-    crm:P91_has_unit <https://example.org/type/fie_88_1> .
-
-<https://example.org/event/fie_86_1> a crm:E16_Measurement ;
-    crm:P14_carried_out_by <https://example.org/actor/fie_89_1> ;
-    crm:P40_observed_dimension <https://example.org/dimension/fie_86_2> .
-
-<https://example.org/type/fie_86_3> a crm:E55_Type .
-
-<https://example.org/type/fie_88_1> a crm:E58_Measurement_unit .
-
+Swiss Art Research Infrastructure
+Swiss Art Research Infrastructure
+Swiss Art Research Infrastructure
+Swiss Art Research Infrastructure

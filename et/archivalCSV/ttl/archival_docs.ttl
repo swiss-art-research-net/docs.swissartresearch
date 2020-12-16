@@ -1,24 +1,13 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
-@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix sari: <http://w3id.org/sari#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
 
-<https://example.org/physical_object/E78> a crm:E78_Collection ;
-    crm:P129i_is_subject_of <https://example.org/conceptual_object/fie_196_1>,
-        <https://example.org/conceptual_object/fie_295_1> ;
-    crm:P138i_has_representation <https://example.org/conceptual_object/fie_195_1> .
-
-<https://example.org/conceptual_object/fie_195_1> a crm:E36_Visual_Item,
-        crmdig:D9_Data_Object .
-
-<https://example.org/conceptual_object/fie_196_1> a crm:E33_Linguistic_Object ;
-    crm:P106i_forms_part_of <https://example.org/conceptual_object/fie_197_1> ;
-    crm:P190_has_symbolic_content "content" ;
-    crm:P2_has_type <https://example.org/type/fie_196_1> .
-
-<https://example.org/conceptual_object/fie_197_1> a crm:E33_Linguistic_Object .
-
-<https://example.org/conceptual_object/fie_295_1> a crmdig:D1_Digital_Object .
-
-<https://example.org/type/fie_196_1> a crm:E55_Type ;
-    rdfs:label "Citation" .
-
+Swiss Art Research Infrastructure
+Swiss Art Research Infrastructure
+Swiss Art Research Infrastructure
+Swiss Art Research Infrastructure
