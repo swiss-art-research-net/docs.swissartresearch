@@ -48,7 +48,7 @@ script:
 - cd ../carrierCSV
 - bash carrier.sh
 - cd ../imgCSV
-- bsh img.sh
+- bash img.sh
 - cd ../../../
 
 after_script:
