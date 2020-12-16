@@ -1,19 +1,39 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
-@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
-@prefix sari: <http://w3id.org/sari#> .
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
 
-Swiss Art Research Infrastructure
-Swiss Art Research Infrastructure
-Swiss Art Research Infrastructure
-Swiss Art Research Infrastructure
-Swiss Art Research Infrastructure
-Swiss Art Research Infrastructure
-Swiss Art Research Infrastructure
-Swiss Art Research Infrastructure
-Swiss Art Research Infrastructure
-Swiss Art Research Infrastructure
+<https://example.org/physical_object/E22> a crm:E22_Human-Made_Object ;
+    crm:P108i_was_produced_by <https://example.org/event/fie_58_1> ;
+    crm:P13i_was_destroyed_by <https://example.org/event/fie_62_1> .
+
+<https://example.org/event/fie_58_1> a crm:E12_Production ;
+    crm:P10_falls_within <https://example.org/event/fie_61_1> ;
+    crm:P16_used_specific_object <https://example.org/physical_object/fie_262_1> ;
+    crm:P2_has_type <https://example.org/physical_object/fie_299_1> ;
+    crm:P4_has_time-span <https://example.org/time_span/fie_58_2> ;
+    crm:P7_took_place_at <https://example.org/place/fie_60_1> .
+
+<https://example.org/event/fie_61_1> a crm:E4_Period .
+
+<https://example.org/event/fie_62_1> a crm:E6_Destruction ;
+    crm:P10_falls_within <https://example.org/event/fie_65_1> ;
+    crm:P4_has_time-span <https://example.org/time_span/fie_62_2> ;
+    crm:P7_took_place_at <https://example.org/place/fie_64_1> .
+
+<https://example.org/event/fie_65_1> a crm:E4_Period .
+
+<https://example.org/physical_object/fie_262_1> a crm:E18_Physical_Thing .
+
+<https://example.org/physical_object/fie_299_1> a crm:E55_Type .
+
+<https://example.org/place/fie_60_1> a crm:E53_Place .
+
+<https://example.org/place/fie_64_1> a crm:E53_Place .
+
+<https://example.org/time_span/fie_58_2> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+
+<https://example.org/time_span/fie_62_2> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+

@@ -1323,8 +1323,8 @@
 <th align="left">identifier</th>
 <th align="left">Name</th>
 <th align="left">Description</th>
-<th align="right">Relative Weight</th>
 <th align="left">CRM Path</th>
+<th align="left">used by</th>
 </tr>
 </thead>
 <tbody>
@@ -1332,22 +1332,26 @@
 <td align="left">bibliographic entity_94_number_of_pages</td>
 <td align="left">Number of Pages</td>
 <td align="left">This field is used to indicate the number of pages in a volume using free text.</td>
-<td align="right">1</td>
 <td align="left">&rarr; P43 &rarr; E54[94_1] &rarr; P129i &rarr; E73[94_2] &rarr; P190 &rarr; rdfs:Literal<br><br> &rarr; P43 &rarr; E54[94_1] &rarr; P2 &rarr; E55[94_3]"Page Numbers"</td>
+<td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 </tbody>
 </table>
 <p><div class="lightgallery"><a data-sub-html="" href="../biblioCSV/ttl/mmd/png/biblio_substance.png"><img alt="" src="../biblioCSV/ttl/mmd/png/biblio_substance.png" /></a></div></p>
 <details class="example"><summary>Turtle Encoding</summary><div class="highlight"><pre><span></span><code><span class="k">@prefix</span><span class="w"> </span><span class="nn">crm:</span><span class="w"> </span><span class="nv">&lt;http://www.cidoc-crm.org/cidoc-crm/&gt;</span><span class="w"> </span><span class="p">.</span>
-<span class="k">@prefix</span><span class="w"> </span><span class="nn">rdfs:</span><span class="w"> </span><span class="nv">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span><span class="w"> </span><span class="p">.</span>
-<span class="k">@prefix</span><span class="w"> </span><span class="nn">rdf:</span><span class="w"> </span><span class="nv">&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</span><span class="w"> </span><span class="p">.</span>
-<span class="k">@prefix</span><span class="w"> </span><span class="nn">xsd:</span><span class="w"> </span><span class="nv">&lt;http://www.w3.org/2001/XMLSchema#&gt;</span><span class="w"> </span><span class="p">.</span>
 <span class="k">@prefix</span><span class="w"> </span><span class="nn">frbroo:</span><span class="w"> </span><span class="nv">&lt;http://iflastandards.info/ns/fr/frbr/frbroo/&gt;</span><span class="w"> </span><span class="p">.</span>
-<span class="k">@prefix</span><span class="w"> </span><span class="nn">crmdig:</span><span class="w"> </span><span class="nv">&lt;http://www.ics.forth.gr/isl/CRMdig/&gt;</span><span class="w"> </span><span class="p">.</span>
-<span class="k">@prefix</span><span class="w"> </span><span class="nn">sari:</span><span class="w"> </span><span class="nv">&lt;http://w3id.org/sari#&gt;</span><span class="w"> </span><span class="p">.</span>
-<span class="k">@prefix</span><span class="w"> </span><span class="nn">geo:</span><span class="w"> </span><span class="nv">&lt;http://www.opengis.net/ont/geosparql#&gt;</span><span class="w"> </span><span class="p">.</span>
 
-<span class="err">Swiss</span> <span class="err">Art</span> <span class="err">Research</span> <span class="err">Infrastructure</span>
+<span class="nv">&lt;https://example.org/conceptual_object/F24&gt;</span> <span class="kt">a</span> <span class="nn">frbroo</span><span class="p">:</span><span class="nt">F24_Publication_Expression</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P43_has_dimension</span> <span class="nv">&lt;https://example.org/dimension/fie_94_1&gt;</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/conceptual_object/fie_94_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E73_Information_Object</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P190_has_symbolic_content</span> <span class="s">&quot;content&quot;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://example.org/type/fie_94_3&gt;</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/dimension/fie_94_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E54_Dimension</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P129i_is_subject_of</span> <span class="nv">&lt;https://example.org/conceptual_object/fie_94_2&gt;</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/type/fie_94_3&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
 </code></pre></div>
 </details>
 <h3 id="aboutness">Aboutness<a class="headerlink" href="#aboutness" title="Permanent link">&para;</a></h3>

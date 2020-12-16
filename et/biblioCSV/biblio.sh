@@ -30,6 +30,7 @@ python ../airscraper/airscraper/airscraper/airscraper.py https://airtable.com/sh
 python ../airscraper/airscraper/airscraper/airscraper.py https://airtable.com/shrQI42azhgdPehgU > biblio_item.csv ;
 python ../airscraper/airscraper/airscraper/airscraper.py https://airtable.com/shrPnM3lhBGsv2sAW > biblio_description.csv ;
 python ../airscraper/airscraper/airscraper/airscraper.py https://airtable.com/shrIGrpYAgIW07Ilr > biblio_documentation.csv ;
+
 echo "finished download"
 ./csvcut.sh
 cd ttl/
