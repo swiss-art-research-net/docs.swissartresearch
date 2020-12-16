@@ -1,4 +1,4 @@
-identifier,Model Specific Name,Description,CRM Path,used by
+identifier,Name,Description,CRM Path,used by
 event_56_time_description,Time Description Author,This field is used to record a free text describing the time span of the documented temporal entity.,--> P4 --> E52[48_1] --> P129i --> E33[56_1],Swiss Art Research Infrastructure
 event_57_preceding_event,Preceding Event,This field is used to record an event preceding the documented event which was undertaken in preparation for it.,--> P20i --> E5[57_1],Swiss Art Research Infrastructure
 event_48_earliest_possible_start_date,Earliest Possible Start Date,This field is used to record the earliest possible start date for the documented temporal entity.,--> P4 --> E52[48_1] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure

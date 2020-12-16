@@ -1,4 +1,4 @@
-identifier,Model Specific Name,Model Specific Description,CRM Path,used by
+identifier,Name,Description,CRM Path,used by
 artwork_58_production_date_-_earliest,Production Date - Earliest,This field is used to indicate the earliest date for the creation of the documented artwork.,--> P108i --> E12[58_1] --> P4 --> E52[58_2] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure
 artwork_59_production_date_-_latest,Production Date - Latest,This field is used to indicate the latest date for the creation of the documented artwork.,--> P108i --> E12[58_1] --> P4 --> E52[58_2] --> P82b --> xsd:dateTime,Swiss Art Research Infrastructure
 artwork_60_production_location,Production Location,This field is used to indicate the place of the creation of the documented artwork.,--> P108i --> E12[58_1] --> P7 --> E53[60_1],Swiss Art Research Infrastructure

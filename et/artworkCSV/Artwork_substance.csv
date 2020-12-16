@@ -1,4 +1,4 @@
-identifier,Model Specific Name,Model Specific Description,CRM Path,used by
+identifier,Name,Description,CRM Path,used by
 artwork_90_material,Material,This field is used to indicate the material of which the documented instance of artwork consists.,--> P45 --> E57[90_1],Swiss Art Research Infrastructure
 artwork_91_technique,Technique,This field is used to indicate the technique used in the construction of the documented instance of artwork.,--> P108i --> E12[58_1] --> P32 --> E55[91_1],Swiss Art Research Infrastructure
 artwork_86_dimension_type,Dimension Type,This field is used to indicate the type of measurement that the dimension of the documented instance of artwork is.,--> P39i --> E16[86_1] --> P40 --> E54[86_2] --> P2 --> E55[86_3],Swiss Art Research Infrastructure

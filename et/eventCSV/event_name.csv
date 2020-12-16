@@ -1,4 +1,4 @@
-identifier,Model Specific Name,Description,CRM Path,used by
+identifier,Name,Description,CRM Path,used by
 event_15_alternative_name_-_attributed_by,Alternative Name - Used by,This field is used to record the organization or individual attributing the alternative name to the documented object.,--> P1 --> E33_E41[10_1] --> P141i --> E13[15_1] --> P14 --> E39[15_2],Swiss Art Research Infrastructure
 event_1_identifier,Identifier,This field is used to record an identifier attributed to the documented entity.,--> P1 --> E42[1_1] --> P190 --> rdfs:Literal,Swiss Art Research Infrastructure
 event_2_identifier_type,Identifier Type,This field is used to record the type of the identifier attributed to the documented entity.,--> P1 --> E42[1_1] --> P2 --> E55[2_1],Swiss Art Research Infrastructure

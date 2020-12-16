@@ -1,4 +1,4 @@
-identifier,Model Specific Name,Description,CRM Path,used by
+identifier,Name,Description,CRM Path,used by
 builtwork_105_use_period_-_start,Use Period - Start,This field is used to record the start of a kind of period of use for the built work.,--> P12i --> E5[104_1] --> P4 --> E52[105_1] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure
 builtwork_106_use_period_-_end,Use Period - End,This field is used to record the end of a period of use for the documented object.,--> P12i --> E5[104_1] --> P4 --> E52[105_1] --> P82b --> xsd:dateTime,Swiss Art Research Infrastructure
 builtwork_104_use_period_-_type,Use Period - Type,This field is used to record the kind of period of use of the documented object.,"--> P12i --> E5[104_1] --> P2 --> E55 ""Use Period Type""[104_2]",Swiss Art Research Infrastructure

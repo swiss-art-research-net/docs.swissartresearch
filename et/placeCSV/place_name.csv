@@ -1,4 +1,4 @@
-identifier,Model Specific Name,Description,CRM Path,used by
+identifier,Name,Description,CRM Path,used by
 place_1_identifier,Identifier,This field is used to record an identifier attributed to the documented entity.,--> P1 --> E42[1_1] --> P190 --> rdfs:Literal,Swiss Art Research Infrastructure
 place_2_identifier_type,Identifier Type,This field is used to record the type of the identifier attributed to the documented entity.,--> P1 --> E42[1_1] --> P2 --> E55[2_1],Swiss Art Research Infrastructure
 place_3_identifier_provider,Identifier Provider,"This field is used to record the institution, group or individual responsible for providing the documented entity's identifier.",--> P1 --> E42[1_1] --> P37i --> E15[3_1] --> P14 --> E39[3_2],Swiss Art Research Infrastructure

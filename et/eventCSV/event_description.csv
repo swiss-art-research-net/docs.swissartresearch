@@ -1,4 +1,4 @@
-identifier,Model Specific Name,Description,CRM Path,used by
+identifier,Name,Description,CRM Path,used by
 event_188_description,Description,This field is used to record a description in free text of the documented object.,--> P129i --> E33[188_1] --> P190 --> rdfs:Literal,Swiss Art Research Infrastructure
 event_190_description_type,Description Type,This field is used to record the type of description given of the documented object.,--> P129i --> E33[188_1] --> P2 --> E55[190_1],Swiss Art Research Infrastructure
 event_191_description_author,Description Author,This field is used to record the author of the description given of the documented object.,--> P129i --> E33[188_1] --> P94i --> E65[191_1]>-P14 --> E39[191_2],Swiss Art Research Infrastructure

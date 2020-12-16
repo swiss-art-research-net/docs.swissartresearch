@@ -1,0 +1,4 @@
+identifier,Name,CRM Path,Description,used by
+archival unit_171_right_holder,Right Holder,--> P104 --> E30[171_1] --> P105 --> E39[171_2],This field is used to record the right holder for the documented legal object.,Swiss Art Research Infrastructure
+archival unit_172_right_type,Right Type,--> P104 --> E30[171_1] --> P2 --> E55[172_1],This field is used to record the type of right which the right holder holds over the documented legal object.,Swiss Art Research Infrastructure
+archival unit_173_right_description,Right Description,--> P104 --> E30[171_1] --> P129i --> E73[173_1],This field is used to record a description in free text of the right which the right holder holds over the documented legal object.,Swiss Art Research Infrastructure

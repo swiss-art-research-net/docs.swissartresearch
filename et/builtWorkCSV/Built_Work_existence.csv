@@ -1,4 +1,4 @@
-identifier,Model Specific Name,Description,CRM Path,used by
+identifier,Name,Description,CRM Path,used by
 builtwork_58_production_date_-_earliest,Construction Date - Earliest,This field is used to record the earliest possible date for the production of the documented physical object.,--> P108i --> E12[58_1] --> P4 --> E52[58_2] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure
 builtwork_59_production_date_-_latest,Construction Date - Latest,This field is used to record the latest possible date for the production of the documented physical object.,--> P108i --> E12[58_1] --> P4 --> E52[58_2] --> P82b --> xsd:dateTime,Swiss Art Research Infrastructure
 builtwork_60_production_location,Construction Location,This field is used to record the place of the production of the documented physical object.,--> P108i --> E12[58_1] --> P7 --> E53[60_1],Swiss Art Research Infrastructure

@@ -1,2 +1,7 @@
-identifier,Model Specific Name,Model Specific Description,CRM Path,used by
-person_166_related_works,Related Works,This field is used to record works that the documented person was primarily responsible for as creator.,--> P14i --> E12[166_1] --> P108 --> E22[166_2],Swiss Art Research Infrastructure
+﻿Name,identifier,Model Specific Name,Model Specific Description,CRM Path,used by,Total_Turtle
+[MOD.1] Person_fie_166_Related Works,person_166_related_works,Related Works,This field is used to record works that the documented person was primarily responsible for as creator.,--> P14i --> E12[166_1] --> P108 --> E22[166_2],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
+crm:P14i_performed
+<https://example.org/event/fie_166_1> .
+<https://example.org/event/fie_166_1> a 
+crm:E12_Production;
+crm:P108_has_produced <https://example.org/physical_object/fie_166_2> .<https://example.org/physical_object/fie_166_2> a crm:E22_Human-Made_Object ."

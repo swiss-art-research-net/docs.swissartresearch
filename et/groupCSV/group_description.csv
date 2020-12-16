@@ -1,4 +1,4 @@
-identifier,Model Specific Name,Description,CRM Path,used by
+identifier,Name,Description,CRM Path,used by
 group_188_description,Description,This field is used to record a description in free text of the documented object.,--> P129i --> E33[188_1] --> P190 --> rdfs:Literal,Swiss Art Research Infrastructure
 group_189_description_language,Description Language,This field is used to record the language of the description of the documented object.,--> P129i --> E33[188_1] --> P72 --> E56[189_1],Swiss Art Research Infrastructure
 group_190_description_type,Description Type,This field is used to record the type of description given of the documented object.,--> P129i --> E33[188_1] --> P2 --> E55[190_1],Swiss Art Research Infrastructure

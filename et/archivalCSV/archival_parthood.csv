@@ -1,0 +1,5 @@
+identifier,Name,CRM Path,Description,used by
+archival unit_25_has_part,Has Part,--> P46 --> E22[25_1],This field is used to record individually documented parts of the documented physical thing.,Swiss Art Research Infrastructure
+archival unit_26_has_part_type,Has Part Type,--> P46 --> E22[25_1] --> P2 --> E55[26_1],This field is used to record part types for the documented physical thing.,Swiss Art Research Infrastructure
+archival unit_27_part_count,Part Count,--> P57 --> rdfs:Literal,This field is use to record a part count for the documented physical thing.,Swiss Art Research Infrastructure
+archival unit_287_part_of_archival_unit,Part of Archival Unit,--> P46i --> E78[287_1],This field is used to link the documented archival unit to another instance of archival unit of which it forms a part.,Swiss Art Research Infrastructure

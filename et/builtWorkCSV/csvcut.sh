@@ -10,6 +10,8 @@ cp mmd.sh ttl/
 cp rename_png.sh ttl/
 
 for file in *.csv ; do
+	sed 's/Model Specific Description/Description/g' "$file" > temp && mv temp "$file" ;
+	sed 's/Model Specific Name/Name/g' "$file" > temp && mv temp "$file" ;
 	csvcut -c 2-7 "$file" > temp && mv temp "$file" ;
     bname=$(basename "$file" .csv)
     saveName="${saveDir}/${bname}.csv"

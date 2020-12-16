@@ -1,4 +1,4 @@
-identifier,Model Specific Name,Description,CRM Path,used by
+identifier,Name,Description,CRM Path,used by
 place_35_has_part,Has Part,This field is used to record individually documented places which form part of the documented place.,--> P89i --> E53[35_1],Swiss Art Research Infrastructure
 place_36_is_part_of,Is Part of,This field is used to record that the broader place to which the documented place belongs as part.,--> P89 --> E53[36_1],Swiss Art Research Infrastructure
 place_42_historically_is_part_of_place,Historically was Part of Place,This field is used to record an instance of place that the documented place historically was part of.,--> P161i --> E4[42_1] --> P166i --> E93[42_2] --> P10 --> E4[42_3] --> P161 --> E53[42_4] --> P168 --> geo:wkt ,Swiss Art Research Infrastructure
