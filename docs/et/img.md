@@ -7,11 +7,6 @@
 The Image model is meant to support the semantic representation of photographic and other visual media data. Visual media have the particular characteristic of seriality. The generation of an image is the creation of an intellectual content which thereafter can have multiple manifestations across different potential carriers both analogue and digital. As such the documentation of visual media requires semantic modelling which supports the documentation of both the individual carriers (photographic prints, photographic negatives, slides, catalogued photo material, born digital images etc.) and the image itself as the consistent object carried in various ways across these different media. The image model is meant to support the documentation of the latter. Similar to the concept of ‘work’ in FRBR and FRBRoo, the image is primary intellectual object created and then manifested in different media over time. The image model enables the representation of this intellectual content as such and linking it, in turn, to its potential carriers: physical information carriers and digital resources.
 
 
-## Sources
-
-
-
-## Model Sections Description
 
 
 
