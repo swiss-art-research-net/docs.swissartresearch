@@ -43,7 +43,14 @@ script:
 - bash person.sh
 - cd ../placeCSV
 - bash place.sh
+- cd ../archivalCSV
+- bash archival.sh
+- cd ../carrierCSV
+- bash carrier.sh
+- cd ../imgCSV
+- bsh img.sh
 - cd ../../../
+
 after_script:
 - git config user.name "Nicola Carboni"
 - git config user.email "nicola@carboni.me"
