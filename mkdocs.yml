@@ -35,12 +35,13 @@ nav:
       - Bibliographic item: et/bibliographic_item.md
       - Place: et/place.md
       - Archival Unit: et/archival.md
-      - Image: et/img.md
-      - Information Carrier: et/carrier.md
       - Photograph:
         - Representation: et/img.md
         - Information Carrier: et/carrier.md
         - Digital Object: et/do.md
+      - Image: et/img.md
+      - Information Carrier: et/carrier.md
+
           
 
   - Modelling Examples:
