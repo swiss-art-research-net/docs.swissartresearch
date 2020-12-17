@@ -23,7 +23,7 @@ cp -R ../scripts/src/ src/
 
 python ../airscraper/airscraper/airscraper/airscraper.py https://airtable.com/shrNXdw7WZJf77xO6 > archival_names.csv ;
 python ../airscraper/airscraper/airscraper/airscraper.py https://airtable.com/shrBZTbMD2dJJ7Chi > archival_rights.csv ;
-python ../airscraper/airscraper/airscraper/airscraper.py https://airtable.com/shrd22DtCX0GG34Jg > arhival_location.csv ;
+python ../airscraper/airscraper/airscraper/airscraper.py https://airtable.com/shrd22DtCX0GG34Jg > archival_location.csv ;
 python ../airscraper/airscraper/airscraper/airscraper.py https://airtable.com/shrlSnotc4ugNYIjj > archival_desc.csv ;
 python ../airscraper/airscraper/airscraper/airscraper.py https://airtable.com/shrA5yMyUjWkgnajD > archival_docs.csv ;
 python ../airscraper/airscraper/airscraper/airscraper.py https://airtable.com/shrw2FJaaT8jrK8M1 > archival_parthood.csv ;
