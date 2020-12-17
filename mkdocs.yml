@@ -34,9 +34,11 @@ nav:
       - Digital Object: et/do.md
       - Bibliographic item: et/bibliographic_item.md
       - Place: et/place.md
-      - Image: et/img.md
-#      - Archival Unit: et/archival.md     
-#      - Information Carrier: et/carrier.md
+      - Archival Unit: et/archival.md
+      - Photographs:
+        - Representation: et/img.md
+        - Information Carrier: et/carrier.md
+          
 
   - Modelling Examples:
       - Instruction: pattern/instruction.md
