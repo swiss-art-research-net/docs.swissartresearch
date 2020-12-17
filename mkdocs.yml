@@ -35,7 +35,7 @@ nav:
       - Bibliographic item: et/bibliographic_item.md
       - Place: et/place.md
       - Archival Unit: et/archival.md
-      - Photographs:
+      - Photograph:
         - Representation: et/img.md
         - Information Carrier: et/carrier.md
           
