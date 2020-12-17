@@ -1,4 +1,4 @@
-# Physical Information Carrier Reference Data Model
+# Archival Unit Reference Data Model
 
 **Author**: George Bruseker, Denitsa Nenova  
 
