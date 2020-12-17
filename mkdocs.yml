@@ -38,6 +38,7 @@ nav:
       - Photograph:
         - Representation: et/img.md
         - Information Carrier: et/carrier.md
+        - Digital Object: et/do.md
           
 
   - Modelling Examples:
