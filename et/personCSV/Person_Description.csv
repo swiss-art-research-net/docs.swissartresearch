@@ -1,59 +1,8 @@
-﻿Name,identifier,Model Specific Name,Model Specific Description,CRM Path,used by,Total_Turtle
-[MOD.1] Person_fie_188_Description,person_188_description,Description,This field is used to record a description in free text of the documented person.,--> P129i --> E33[188_1] --> P190 --> rdfs:Literal,Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P129i_is_subject_of
-<https://example.org/conceptual_object/fie_188_1> .
-<https://example.org/conceptual_object/fie_188_1> a 
-crm:E33_Linguistic_Object;
-crm:P190_has_symbolic_content ""content"" ."
-[MOD.1] Person_fie_189_Description Language,person_189_description_language,Description Language,This field is used to record the language of the description of the documented person.,--> P129i --> E33[188_1] --> P72 --> E56[189_1],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P129i_is_subject_of
-<https://example.org/conceptual_object/fie_188_1> .
-<https://example.org/conceptual_object/fie_188_1> a 
-crm:E33_Linguistic_Object;
-crm:P72_has_language <https://example.org/type/fie_189_1> .
-<https://example.org/type/fie_189_1> a crm:E56_Language ."
-[MOD.1] Person_fie_190_Description Type,person_190_description_type,Description Type,This field is used to record the type of description given of the documented person.,--> P129i --> E33[188_1] --> P2 --> E55[190_1],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P129i_is_subject_of
-<https://example.org/conceptual_object/fie_188_1> .
-<https://example.org/conceptual_object/fie_188_1> a 
-crm:E33_Linguistic_Object;
-crm:P2_has_type <https://example.org/type/fie_190_1> .
-<https://example.org/type/fie_190_1> a crm:E55_Type ."
-[MOD.1] Person_fie_191_Description Author,person_191_description_author,Description Author,This field is used to record the author of the description given of the documented person.,--> P129i --> E33[188_1] --> P94i --> E65[191_1]>-P14 --> E39[191_2],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P129i_is_subject_of
-<https://example.org/conceptual_object/fie_188_1> .
-<https://example.org/conceptual_object/fie_188_1> a 
-crm:E33_Linguistic_Object;
-crm:P94i_was_created_by <https://example.org/event/fie_191_1> .
-<https://example.org/event/fie_191_1> a crm:E65_Creation ;
-crm:P14_carried_out_by <https://example.org/actor/fie_191_2> .
-<https://example.org/actor/fie_191_2> a crm:E39_Actor."
-[MOD.1] Person_fie_192_Description Date - Earliest,person_192_description_date_-_earliest,Description Date - Earliest,This field is used to record the earliest possible date for the creation of the description of the documented person.,--> P129i --> E33[188_1] --> P94i --> E65[191_1] --> P4 --> E52[191_2] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P129i_is_subject_of
-<https://example.org/conceptual_object/fie_188_1> .
-<https://example.org/conceptual_object/fie_188_1> a 
-crm:E33_Linguistic_Object;
-crm:P94i_was_created_by <https://example.org/event/fie_191_1> .
-<https://example.org/event/fie_191_1> a crm:E65_Creation ;
-crm:P4_has_time-span <https://example.org/time_span/fie_192_1> .
-<https://example.org/time_span/fie_192_1> a crm:E52_Time-span;
-crm:P81a_begin_of_the_begin ""content"" ."
-[MOD.1] Person_fie_193_Description Date - Latest,person_193_description_date_-_latest,Description Date - Latest,This field is used to record the latest possible date for the creation of the description of the documented person.,--> P129i --> E33[188_1] --> P94i --> E65[191_1] --> P4 --> E52[191_2] --> P82b —> xsd:dateTime,Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P129i_is_subject_of
-<https://example.org/conceptual_object/fie_188_1> .
-<https://example.org/conceptual_object/fie_188_1> a 
-crm:E33_Linguistic_Object;
-crm:P94i_was_created_by <https://example.org/event/fie_191_1> .
-<https://example.org/event/fie_191_1> a crm:E65_Creation ;
-crm:P4_has_time-span <https://example.org/time_span/fie_192_1> .
-<https://example.org/time_span/fie_192_1> a crm:E52_Time-span;
-crm:P81b_end_of_the_end ""content"" ."
-[MOD.1] Person_fie_194_Description - Source,person_194_description_-_source,Description - Source,This field is used to record the source of the description of the documented person.,--> P129i --> E33[188_1] --> P94i --> E65[191_1] --> P16 --> E73[194_1],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P129i_is_subject_of
-<https://example.org/conceptual_object/fie_188_1> .
-<https://example.org/conceptual_object/fie_188_1> a 
-crm:E33_Linguistic_Object;
-crm:P94i_was_created_by <https://example.org/event/fie_191_1> .
-<https://example.org/event/fie_191_1> a crm:E65_Creation ;
-crm:P63_used_specific_object <https://example.org/conceptual_object/fie_194_1> .
-<https://example.org/conceptual_object/fie_194_1> a crm:E73_Information_Object ."
+identifier,Name,Description,CRM Path,used by
+person_188_description,Description,This field is used to record a description in free text of the documented person.,--> P129i --> E33[188_1] --> P190 --> rdfs:Literal,Swiss Art Research Infrastructure
+person_189_description_language,Description Language,This field is used to record the language of the description of the documented person.,--> P129i --> E33[188_1] --> P72 --> E56[189_1],Swiss Art Research Infrastructure
+person_190_description_type,Description Type,This field is used to record the type of description given of the documented person.,--> P129i --> E33[188_1] --> P2 --> E55[190_1],Swiss Art Research Infrastructure
+person_191_description_author,Description Author,This field is used to record the author of the description given of the documented person.,--> P129i --> E33[188_1] --> P94i --> E65[191_1]>-P14 --> E39[191_2],Swiss Art Research Infrastructure
+person_192_description_date_-_earliest,Description Date - Earliest,This field is used to record the earliest possible date for the creation of the description of the documented person.,--> P129i --> E33[188_1] --> P94i --> E65[191_1] --> P4 --> E52[191_2] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure
+person_193_description_date_-_latest,Description Date - Latest,This field is used to record the latest possible date for the creation of the description of the documented person.,--> P129i --> E33[188_1] --> P94i --> E65[191_1] --> P4 --> E52[191_2] --> P82b —> xsd:dateTime,Swiss Art Research Infrastructure
+person_194_description_-_source,Description - Source,This field is used to record the source of the description of the documented person.,--> P129i --> E33[188_1] --> P94i --> E65[191_1] --> P16 --> E73[194_1],Swiss Art Research Infrastructure

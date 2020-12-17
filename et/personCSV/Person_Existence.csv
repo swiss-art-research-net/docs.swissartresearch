@@ -1,45 +1,7 @@
-﻿Name,identifier,Model Specific Name,Model Specific Description,CRM Path,used by,Total_Turtle
-[MOD.1] Person_fie_73_Birth Date - Earliest,person_73_birth_date_-_earliest,Birth Date - Earliest,This field is used to record the earliest possible date for the birth of the documented person.,--> P98i --> E67[73_1] --> P4 --> E52[73_2] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P98i_was_born
-<https://example.org/event/fie_73_1> .
-<https://example.org/event/fie_73_1> a 
-crm:E67_Birth;
-crm:P4_has_time-span <https://example.org/time_span/fie_73_2> .
-<https://example.org/time_span/fie_73_2> a crm:E52_Time-Span;
-crm:P82a_begin_of_the_begin """"^^xsd:dateTime ."
-[MOD.1] Person_fie_74_Birth Date - Latest,person_74_birth_date_-_latest,Birth Date - Latest,This field is used to indicate the latest known date for the birth of the documented person.,--> P98i --> E67[73_1] --> P4 --> E52[73_2] --> P82b --> xsd:dateTime,Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P98i_was_born
-<https://example.org/event/fie_73_1> .
-<https://example.org/event/fie_73_1> a 
-crm:E67_Birth;
-crm:P4_has_time-span <https://example.org/time_span/fie_73_2> .
-<https://example.org/time_span/fie_73_2> a crm:E52_Time-Span;
-crm:P82b_end_of_the_end """"^^xsd:dateTime ."
-[MOD.1] Person_fie_75_Birth Location,person_75_birth_location,Birth Location,This field is used to indicate the place of birth of the documented person.,--> P98i --> E67[73_1] --> P7 --> E53[75_1],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P98i_was_born
-<https://example.org/event/fie_73_1> .
-<https://example.org/event/fie_73_1> a 
-crm:E67_Birth;
-crm:P7_took_place_at <https://example.org/place/fie_75_1> . <https://example.org/place/fie_75_1> a crm:E53_Place ."
-[MOD.1] Person_fie_76_Death Date - Earliest,person_76_death_date_-_earliest,Death Date - Earliest,This field is used to indicate the earliest known date for the death of the documented person.,--> P100i --> E69[76_1] --> P4 --> E52[76_2] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P100i_died_in
-<https://example.org/event/fie_76_1> .
-<https://example.org/event/fie_76_1> a 
-crm:E69_Death;
-crm:P4_has_time-span <https://example.org/time_span/fie_76_2> .
-<https://example.org/time_span/fie_76_2> a crm:E52_Time-Span;
-crm:P82a_begin_of_the_begin """"^^xsd:dateTime ."
-[MOD.1] Person_fie_77_Death Date - Latest,person_77_death_date_-_latest,Death Date - Latest,This field is used to indicate the latest known date for the death of the documented person.,--> P100i --> E69[76_1] --> P4 --> E52[76_2] --> P82b --> xsd:dateTime,Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P100i_died_in
-<https://example.org/event/fie_76_1> .
-<https://example.org/event/fie_76_1> a 
-crm:E69_Death;
-crm:P4_has_time-span <https://example.org/time_span/fie_76_2> .
-<https://example.org/time_span/fie_76_2> a crm:E52_Time-Span;
-crm:P82b_end_of_the_end """"^^xsd:dateTime ."
-[MOD.1] Person_fie_78_Death Location,person_78_death_location,Death Location,This field is used to indicate the place of death of the documented person.,--> P100i --> E69[76_1] --> P7 --> E53[78_1],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P100i_died_in
-<https://example.org/event/fie_76_1> .
-<https://example.org/event/fie_76_1> a 
-crm:E69_Death;
-crm:P7_took_place_at <https://example.org/place/fie_78_1> . <https://example.org/place/fie_78_1> a crm:E53_Place ."
+identifier,Name,Description,CRM Path,used by
+person_73_birth_date_-_earliest,Birth Date - Earliest,This field is used to record the earliest possible date for the birth of the documented person.,--> P98i --> E67[73_1] --> P4 --> E52[73_2] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure
+person_74_birth_date_-_latest,Birth Date - Latest,This field is used to indicate the latest known date for the birth of the documented person.,--> P98i --> E67[73_1] --> P4 --> E52[73_2] --> P82b --> xsd:dateTime,Swiss Art Research Infrastructure
+person_75_birth_location,Birth Location,This field is used to indicate the place of birth of the documented person.,--> P98i --> E67[73_1] --> P7 --> E53[75_1],Swiss Art Research Infrastructure
+person_76_death_date_-_earliest,Death Date - Earliest,This field is used to indicate the earliest known date for the death of the documented person.,--> P100i --> E69[76_1] --> P4 --> E52[76_2] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure
+person_77_death_date_-_latest,Death Date - Latest,This field is used to indicate the latest known date for the death of the documented person.,--> P100i --> E69[76_1] --> P4 --> E52[76_2] --> P82b --> xsd:dateTime,Swiss Art Research Infrastructure
+person_78_death_location,Death Location,This field is used to indicate the place of death of the documented person.,--> P100i --> E69[76_1] --> P7 --> E53[78_1],Swiss Art Research Infrastructure

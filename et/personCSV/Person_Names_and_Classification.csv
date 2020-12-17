@@ -1,96 +1,17 @@
-﻿Name,identifier,Model Specific Name,Model Specific Description,CRM Path,used by,Total_Turtle
-[MOD.1] Person_fie_1_Identifier,person_1_identifier,Identifier,This field is used to indicate an identifier attributed to the documented person.,--> P1 --> E42[1_1] --> P190 --> rdfs:Literal,Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P1_is_identified_by <https://example.org/name/fie_1_1> .
-<https://example.org/name/fie_1_1> a crm:E42_Identifier;
-crm:P190_has_symbolic_content ""content"" ."
-[MOD.1] Person_fie_2_Identifier Type,person_2_identifier_type,Identifier Type,This field is used to  the type of the identifier attributed to the documented person.,--> P1 --> E42[1_1] --> P2 --> E55[2_1],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P1_is_identified_by <https://example.org/name/fie_1_1> .
-<https://example.org/name/fie_1_1> a crm:E42_Identifier ;
-crm:P2_has_type <https://example.org/type/fie_2_1> .
-<https://example.org/type/fie_2_1> a crm:E55_Type ."
-[MOD.1] Person_fie_3_Identifier Provider,person_3_identifier_provider,Identifier Provider,This field is used to indicate the provider of the identifier attributed to the documented person. ,--> P1 --> E42[1_1] --> P37i --> E15[3_1] --> P14 --> E39[3_2],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P1_is_identified_by <https://example.org/name/fie_1_1> .
-<https://example.org/name/fie_1_1> a crm:E42_Identifier ;
-crm:P37i_was_assigned_by <https://example.org/event/fie_3_1> .
-<https://example.org/event/fie_3_1> a crm:E15_Identifier_Assignment;
-crm:P14_carried_out_by <https://example.org/actor/fie_3_2> .
-<https://example.org/actor/fie_3_2> a crm:E39_Actor ."
-[MOD.1] Person_fie_4_Identifier Source,person_4_identifier_source,Identifier Source,This field is used to indicate the source based on which the identifer was attributed to the person.,--> P1 --> E42[1_1] --> P37i --> E15[3_1] --> P16 --> E73[4_1],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P1_is_identified_by <https://example.org/name/fie_1_1> .
-<https://example.org/name/fie_1_1> a crm:E42_Identifier ;
-crm:P37i_was_assigned_by <https://example.org/event/fie_3_1> .
-<https://example.org/event/fie_3_1> a crm:E15_Identifier_Assignment;
-crm:P16_used_specific_object <https://example.org/conceptual_object/fie_4_1> .
-<https://example.org/conceptual_object/fie_4_1> a crm:E73_Information_Object ."
-[MOD.1] Person_fie_5_Name,person_5_name,Name,This field is used to record the main name attributed to the documented person.,--> P1 --> E33_E41[5_1] --> P190 --> rdfs:Literal<br><br> --> P1 --> E33_E41[5_1] --> P2 --> E55[5_2]{'preferred terms'},Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P1_is_identified_by <https://example.org/name/fie_5_1> .
-<https://example.org/name/fie_5_1> a crm:E33_E41_Linguistic_Appellation;
-crm:P190_has_symbolic_content ""content"" ;
-crm:P2_has_type <http://vocab.getty.edu/aat/300404670> .
-<http://vocab.getty.edu/aat/300404670> a crm:E55_Type;
-rdfs:label ""preferred terms"" ."
-[MOD.1] Person_fie_6_Name Language,person_6_name_language,Name Language,This field is used to indicate the language of the name attributed to the documented person.,--> P1 --> E33_E41[5_1] --> P72 --> E56[6_1],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P1_is_identified_by <https://example.org/name/fie_5_1> .
-<https://example.org/name/fie_5_1> a crm:E33_E41_Linguistic_Appellation;
-crm:P72_has_language <https://example.org/name/fie_6_1> .
-<https://example.org/name/fie_6_1> a crm:E56_Language ."
-[MOD.1] Person_fie_7_Name Part,person_7_name_part,Name Part,This field is used to indicate a type of a specific part of the name attributed to the documented person.,--> P1 --> E33_E41[5_1] --> P106 --> E41[7_1] --> rdfs:label --> rdfs:Literal,Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P1_is_identified_by <https://example.org/name/fie_5_1> .
-<https://example.org/name/fie_5_1> a crm:E33_E41_Linguistic_Appellation;
-crm:P106_is_composed_of <https://example.org/name/fie_7_1> .
-<https://example.org/name/fie_7_1> a crm:E33_E41_Linguistic_Appellation ;
-rdfs:label ""content"" ."
-[MOD.1] Person_fie_8_Name Part Type,person_8_name_part_type,Name Part Type,This field is used to record the type of the specific part of the name attributed to the documented person.,--> P1 --> E33_E41[5_1] --> P106 --> E33_E41[7_1] --> P2 --> E55[8_1],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P1_is_identified_by <https://example.org/name/fie_5_1> .
-<https://example.org/name/fie_5_1> a crm:E33_E41_Linguistic_Appellation;
-crm:P106_is_composed_of <https://example.org/name/fie_7_1> .
-<https://example.org/name/fie_7_1> a crm:E33_E41_Linguistic_Appellation ;
-crm:P2_has_type <https://example.org/type/fie_8_1> .
-<https://example.org/type/fie_8_1> a crm:E55_Type ."
-[MOD.1] Person_fie_17_Type,person_17_type,Gender,This field is used to record the gender ascribed of the documented person.,--> P2 --> E55[17_1],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P2_has_type <https://example.org/type/fie_17_1> .
-<https://example.org/type/fie_17_1> a crm:E55_Type ."
-[MOD.1] Person_fie_10_Alternative Name,person_10_alternative_name,Alternative Name,This field is used to indicate additional names under which the documented person is known. This can be linked to the additional name type and earliest and latest date of use of that name.,--> P1 --> E33_E41[10_1]  --> P190 --> rdfs:Literal,Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P1_is_identified_by <https://example.org/name/fie_10_1> .
-<https://example.org/name/fie_10_1> a crm:E33_E41_Linguistic_Appellation;
-crm:P190_has_symbolic_content ""content"" ."
-[MOD.1] Person_fie_11_Alternative Name Type,person_11_alternative_name_type,Alternative Name Type,This field is used to indicate the type of alternative name that is attributed to the documented person.,--> P1 --> E33_E41[10_1] --> P2 --> E55[11_1],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P1_is_identified_by <https://example.org/name/fie_10_1> .
-<https://example.org/name/fie_10_1> a crm:E33_E41_Linguistic_Appellation;
-crm:P2_has_type <https://example.org/type/fie_11_1> .
-<https://example.org/type/fie_11_1> a crm:E55_Type ."
-[MOD.1] Person_fie_12_Alternative Name Language,person_12_alternative_name_language,Alternative Name Language,This field is used to record the language of the alternative name attributed to the documented person.,--> P1 --> E33_E41[10_1] --> P72 --> E56[12_1],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P1_is_identified_by <https://example.org/name/fie_10_1> .
-<https://example.org/name/fie_10_1> a crm:E33_E41_Linguistic_Appellation;
-crm:P72_has_language <https://example.org/name/fie_12_1> .
-<https://example.org/name/fie_12_1> a crm:E56_Language ."
-[MOD.1] Person_fie_13_Alternative Name Use Period - Earliest,person_13_alternative_name_use_period_-_earliest,Alternative Name Use Period - Earliest,This field is used to indicate the earliest known date for use of this name for the documented person.,--> P1 --> E33_E41[10_1] --> R64i --> F52[13_1] --> P4 --> E52[13_2] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P1_is_identified_by <https://example.org/name/fie_10_1> .
-<https://example.org/name/fie_10_1> a crm:E33_E41_Linguistic_Appellation;
-frbroo:R64i_was_name_used_by <https://example.org/event/fie_13_1> .
-<https://example.org/event/fie_13_1> a frbroo:F52_Name_Use_Activity ;
-crm:P4_has_time-span <https://example.org/time_span/fie_13_2> .
-<https://example.org/time_span/fie_13_2> a crm:E52_Time-Span;
-crm:P82a_begin_of_the_begin """"^^xsd:dateTime ."
-[MOD.1] Person_fie_14_Alternative Name Use Period - Latest,person_14_alternative_name_use_period_-_latest,Alternative Name Use Period - Latest,This field is used to indicate the latest known date for use of this name for the documented person.,--> P1 --> E33_E41[10_1] --> R64i --> F52[13_1] --> P4 --> E52[13_2] --> P82b --> xsd:dateTime,Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P1_is_identified_by <https://example.org/name/fie_10_1> .
-<https://example.org/name/fie_10_1> a crm:E33_E41_Linguistic_Appellation;
-frbroo:R64i_was_name_used_by <https://example.org/event/fie_13_1> .
-<https://example.org/event/fie_13_1> a frbroo:F52_Name_Use_Activity ;
-crm:P4_has_time-span <https://example.org/time_span/fie_13_2> .
-<https://example.org/time_span/fie_13_2> a crm:E52_Time-Span;
-crm:P82b_end_of_the_end """"^^xsd:dateTime ."
-[MOD.1] Person_fie_15_Alternative Name - Attributed by,person_15_alternative_name_-_attributed_by,Alternative Name - Attributed by,This field is used to record the organization or individual attributing the alternative name to the documented person.,--> P1 --> E33_E41[10_1] --> P141i --> E13[15_1] --> P14 --> E39[15_2],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P1_is_identified_by <https://example.org/name/fie_10_1> .
-<https://example.org/name/fie_10_1> a crm:E33_E41_Linguistic_Appellation;
-crm:P141i_was_assigned_by <https://example.org/event/fie_15_1> .
-<https://example.org/event/fie_15_1> a crm:E13_Attribute_Assignment ;
-crm:P14_carried_out_by <https://example.org/actor/fie_15_2> .
-<https://example.org/actor/fie_15_2> a crm:E39_Actor ."
-[MOD.1] Person_fie_16_Alternative Name - Source,person_16_alternative_name_-_source,Alternative Name - Source,This field is used to record the source on the basis of which the organization attributing the alternative name use based their attribution.,--> P1 --> E33_E41[10_1] --> P141i --> E13[15_1] --> P16 --> E73[16_1],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P1_is_identified_by <https://example.org/name/fie_10_1> .
-<https://example.org/name/fie_10_1> a crm:E33_E41_Linguistic_Appellation;
-crm:P141i_was_assigned_by <https://example.org/event/fie_15_1> .
-<https://example.org/event/fie_15_1> a crm:E13_Attribute_Assignment ;
-crm:P16_used_specific_object <https://example.org/conceptual_object/fie_16_1> .
-<https://example.org/conceptual_object/fie_16_1> a crm:E73_Information_Object ."
+identifier,Name,Description,CRM Path,used by
+person_1_identifier,Identifier,This field is used to indicate an identifier attributed to the documented person.,--> P1 --> E42[1_1] --> P190 --> rdfs:Literal,Swiss Art Research Infrastructure
+person_2_identifier_type,Identifier Type,This field is used to  the type of the identifier attributed to the documented person.,--> P1 --> E42[1_1] --> P2 --> E55[2_1],Swiss Art Research Infrastructure
+person_3_identifier_provider,Identifier Provider,This field is used to indicate the provider of the identifier attributed to the documented person. ,--> P1 --> E42[1_1] --> P37i --> E15[3_1] --> P14 --> E39[3_2],Swiss Art Research Infrastructure
+person_4_identifier_source,Identifier Source,This field is used to indicate the source based on which the identifer was attributed to the person.,--> P1 --> E42[1_1] --> P37i --> E15[3_1] --> P16 --> E73[4_1],Swiss Art Research Infrastructure
+person_5_name,Name,This field is used to record the main name attributed to the documented person.,--> P1 --> E33_E41[5_1] --> P190 --> rdfs:Literal<br><br> --> P1 --> E33_E41[5_1] --> P2 --> E55[5_2]{'preferred terms'},Swiss Art Research Infrastructure
+person_6_name_language,Name Language,This field is used to indicate the language of the name attributed to the documented person.,--> P1 --> E33_E41[5_1] --> P72 --> E56[6_1],Swiss Art Research Infrastructure
+person_7_name_part,Name Part,This field is used to indicate a type of a specific part of the name attributed to the documented person.,--> P1 --> E33_E41[5_1] --> P106 --> E41[7_1] --> rdfs:label --> rdfs:Literal,Swiss Art Research Infrastructure
+person_8_name_part_type,Name Part Type,This field is used to record the type of the specific part of the name attributed to the documented person.,--> P1 --> E33_E41[5_1] --> P106 --> E33_E41[7_1] --> P2 --> E55[8_1],Swiss Art Research Infrastructure
+person_17_type,Gender,This field is used to record the gender ascribed of the documented person.,--> P2 --> E55[17_1],Swiss Art Research Infrastructure
+person_10_alternative_name,Alternative Name,This field is used to indicate additional names under which the documented person is known. This can be linked to the additional name type and earliest and latest date of use of that name.,--> P1 --> E33_E41[10_1]  --> P190 --> rdfs:Literal,Swiss Art Research Infrastructure
+person_11_alternative_name_type,Alternative Name Type,This field is used to indicate the type of alternative name that is attributed to the documented person.,--> P1 --> E33_E41[10_1] --> P2 --> E55[11_1],Swiss Art Research Infrastructure
+person_12_alternative_name_language,Alternative Name Language,This field is used to record the language of the alternative name attributed to the documented person.,--> P1 --> E33_E41[10_1] --> P72 --> E56[12_1],Swiss Art Research Infrastructure
+person_13_alternative_name_use_period_-_earliest,Alternative Name Use Period - Earliest,This field is used to indicate the earliest known date for use of this name for the documented person.,--> P1 --> E33_E41[10_1] --> R64i --> F52[13_1] --> P4 --> E52[13_2] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure
+person_14_alternative_name_use_period_-_latest,Alternative Name Use Period - Latest,This field is used to indicate the latest known date for use of this name for the documented person.,--> P1 --> E33_E41[10_1] --> R64i --> F52[13_1] --> P4 --> E52[13_2] --> P82b --> xsd:dateTime,Swiss Art Research Infrastructure
+person_15_alternative_name_-_attributed_by,Alternative Name - Attributed by,This field is used to record the organization or individual attributing the alternative name to the documented person.,--> P1 --> E33_E41[10_1] --> P141i --> E13[15_1] --> P14 --> E39[15_2],Swiss Art Research Infrastructure
+person_16_alternative_name_-_source,Alternative Name - Source,This field is used to record the source on the basis of which the organization attributing the alternative name use based their attribution.,--> P1 --> E33_E41[10_1] --> P141i --> E13[15_1] --> P16 --> E73[16_1],Swiss Art Research Infrastructure

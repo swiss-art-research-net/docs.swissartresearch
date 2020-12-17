@@ -1,76 +1,9 @@
-﻿Name,identifier,Model Specific Name,Model Specific Description,CRM Path,used by,Total_Turtle
-[MOD.1] Person_fie_121_Floruit - Earliest date,person_121_floruit_-_earliest_date,Floruit - Earliest date,This field is used to record the start date of the documented period of great activity/flourishing of the documented person.,"--> P14i --> F51[121_1] --> P4 --> E52[121_2] --> P82a --> xsd:dateTime<br><br> --> P14i --> F51[121_1] --> P2 --> E55[""Floruit""][121_3]",Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P14i_performed
-<https://example.org/event/fie_121_1> .
-<https://example.org/event/fie_121_1> a 
-frbroo:F51_Pursuit;
-crm:P2_has_type
-<https://example.org/type/fie_121_2> ;
-crm:P4_has_time-span <https://example.org/time_span/fie_121_3> .
-<https://example.org/type/fie_121_2> a crm:E55_Type ;
-rdfs:label ""Floruit"" . 
-<https://example.org/time_span/fie_121_3> a crm:E52_Time-Span;
-crm:P82a_begin_of_the_begin """"^^xsd:dateTime ."
-[MOD.1] Person_fie_122_Floruit - Latest date,person_122_floruit_-_latest_date,Floruit - Latest date,This field is used to record the end date of the documented period of great activity/flourishing of the documented person.,"--> P14i --> F51[121_1] --> P4 --> E52[121_2] --> P82b --> xsd:dateTime<br><br> --> P14i --> F51[121_1] --> P2 --> E55[""Floruit""][121_3]",Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P14i_performed
-<https://example.org/event/fie_121_1> .
-<https://example.org/event/fie_121_1> a 
-frbroo:F51_Pursuit;
-crm:P2_has_type
-<https://example.org/type/fie_121_2> ;
-crm:P4_has_time-span <https://example.org/time_span/fie_121_3> .<https://example.org/type/fie_121_2> a crm:E55_Type ;
-rdfs:label ""Floruit"" . 
-<https://example.org/time_span/fie_121_3> a crm:E52_Time-Span;
-crm:P82b_end_of_the_end """"^^xsd:dateTime ."
-[MOD.1] Person_fie_123_Floruit Location,person_123_floruit_location,Floruit Location,This field is used to record the place of the period of greatest activity/flourishing of the documented person.,"--> P14i --> F51[121_1] --> P7 --> E53[123_1]<br><br> --> P14i --> F51[121_1] --> P2 --> E55[""Floruit""][121_3]",Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P14i_performed
-<https://example.org/event/fie_121_1> .
-<https://example.org/event/fie_121_1> a 
-frbroo:F51_Pursuit;
-crm:P2_has_type
-<https://example.org/type/fie_121_2> ;
-crm:P7_took_place_at <https://example.org/place/fie_123_1> .<https://example.org/type/fie_121_2> a crm:E55_Type ;
-rdfs:label ""Floruit"" . 
-<https://example.org/place/fie_123_1> a crm:E53_Place ."
-[MOD.1] Person_fie_124_Field of Activity,person_124_field_of_activity,Field of Activity,This field is used to record different activities which the documented person pursued during their existence/lifetime. Each individual field of activity should be documented separately so that it can be tracked individually.,--> P14i --> F51[124_1] --> R59 --> E55[124_2],Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P14i_performed
-<https://example.org/event/fie_124_1> .
-<https://example.org/event/fie_124_1> a 
-frbroo:F51_Pursuit;
-crm:P2_has_type
-<https://example.org/type/fie_124_2> ;
-frbroo:R59_had_typical_subject <https://example.org/type/fie_124_3> .<https://example.org/type/fie_124_2> a crm:E55_Type ;
-rdfs:label ""Field of Activity"" . 
-<https://example.org/type/fie_124_3> a crm:E55_Type ."
-[MOD.1] Person_fie_125_Period of Activity - Earliest,person_125_period_of_activity_-_earliest,Period of Activity - Earliest,This field is used to record the earliest possible date of a period of activity which the documented person pursued during their existence/lifetime.,--> P14i --> F51[124_1] --> P4 --> E52[125_1] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P14i_performed
-<https://example.org/event/fie_124_1> .
-<https://example.org/event/fie_124_1> a 
-frbroo:F51_Pursuit;
-crm:P4_has_time-span <https://example.org/time_span/fie_125_1> .<https://example.org/time_span/fie_125_1> a crm:E52_Time-Span ;
-crm:P82a_begin_of_the_begin """"^^xsd:dateTime ."
-[MOD.1] Person_fie_126_Period of Activity - Latest,person_126_period_of_activity_-_latest,Period of Activity - Latest,This field is used to record the latest possible date of a period of activity which the documented person pursued during their existence/lifetime.,--> P14i --> F51[124_1] --> P4 --> E52[125_1] --> P82b --> xsd:dateTime,Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P14i_performed
-<https://example.org/event/fie_124_1> .
-<https://example.org/event/fie_124_1> a 
-frbroo:F51_Pursuit;
-crm:P4_has_time-span <https://example.org/time_span/fie_125_1> .<https://example.org/time_span/fie_125_1> a crm:E52_Time-Span ;
-crm:P82b_end_of_the_end """"^^xsd:dateTime ."
-[MOD.1] Person_fie_127_Activity Location,person_127_activity_location,Activity Location,This field is used to record the place at which a period of activity in which the documented person had participated occurred.,"--> P14i --> F51[124_1] --> P7 --> E53[127_1]<br><br> --> P14i --> F51[124_1] --> P2 --> E55[""Field of Activity""][125_1]",Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P14i_performed
-<https://example.org/event/fie_124_1> .
-<https://example.org/event/fie_124_1> a 
-frbroo:F51_Pursuit;
-crm:P7_took_place_at
-<https://example.org/place/fie_127_1> .
-<https://example.org/place/fie_127_1> a crm:E53_Place ."
-[MOD.1] Person_fie_128_Educational Training,person_128_educational_training,Educational Training,This field is used to record the subject of the education of the documented person.,"--> P14i --> F51[128_1] --> P2 --> E55 ""Education""[128_2]<br><br> --> P14i --> F51[128_1] --> R59 --> E55[128_3]",Swiss Art Research Infrastructure,"<https://example.org/actor/E21> a crm:E21_Person ;
-crm:P14i_performed
-<https://example.org/event/fie_128_1> .
-<https://example.org/event/fie_128_1> a 
-frbroo:F51_Pursuit;
-crm:P2_has_type
-<https://example.org/type/fie_128_2> ;
-frbroo:R59_had_typical_subject <https://example.org/type/fie_128_3> .<https://example.org/type/fie_128_2> a crm:E55_Type ;
-rdfs:label ""Education"" . 
-<https://example.org/type/fie_128_3> a crm:E55_Type ."
+identifier,Name,Description,CRM Path,used by
+person_121_floruit_-_earliest_date,Floruit - Earliest date,This field is used to record the start date of the documented period of great activity/flourishing of the documented person.,"--> P14i --> F51[121_1] --> P4 --> E52[121_2] --> P82a --> xsd:dateTime<br><br> --> P14i --> F51[121_1] --> P2 --> E55[""Floruit""][121_3]",Swiss Art Research Infrastructure
+person_122_floruit_-_latest_date,Floruit - Latest date,This field is used to record the end date of the documented period of great activity/flourishing of the documented person.,"--> P14i --> F51[121_1] --> P4 --> E52[121_2] --> P82b --> xsd:dateTime<br><br> --> P14i --> F51[121_1] --> P2 --> E55[""Floruit""][121_3]",Swiss Art Research Infrastructure
+person_123_floruit_location,Floruit Location,This field is used to record the place of the period of greatest activity/flourishing of the documented person.,"--> P14i --> F51[121_1] --> P7 --> E53[123_1]<br><br> --> P14i --> F51[121_1] --> P2 --> E55[""Floruit""][121_3]",Swiss Art Research Infrastructure
+person_124_field_of_activity,Field of Activity,This field is used to record different activities which the documented person pursued during their existence/lifetime. Each individual field of activity should be documented separately so that it can be tracked individually.,--> P14i --> F51[124_1] --> R59 --> E55[124_2],Swiss Art Research Infrastructure
+person_125_period_of_activity_-_earliest,Period of Activity - Earliest,This field is used to record the earliest possible date of a period of activity which the documented person pursued during their existence/lifetime.,--> P14i --> F51[124_1] --> P4 --> E52[125_1] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure
+person_126_period_of_activity_-_latest,Period of Activity - Latest,This field is used to record the latest possible date of a period of activity which the documented person pursued during their existence/lifetime.,--> P14i --> F51[124_1] --> P4 --> E52[125_1] --> P82b --> xsd:dateTime,Swiss Art Research Infrastructure
+person_127_activity_location,Activity Location,This field is used to record the place at which a period of activity in which the documented person had participated occurred.,"--> P14i --> F51[124_1] --> P7 --> E53[127_1]<br><br> --> P14i --> F51[124_1] --> P2 --> E55[""Field of Activity""][125_1]",Swiss Art Research Infrastructure
+person_128_educational_training,Educational Training,This field is used to record the subject of the education of the documented person.,"--> P14i --> F51[128_1] --> P2 --> E55 ""Education""[128_2]<br><br> --> P14i --> F51[128_1] --> R59 --> E55[128_3]",Swiss Art Research Infrastructure
