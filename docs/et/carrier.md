@@ -96,7 +96,7 @@ The above structure allows for the documentation of time of construction and des
 
 The connection between a physical information carrier and actors provides another important set of descriptors for identifying and tracing it. Particularly, basic interest clusters around the individuals involved in the creation of the physical information carrier and those who own the physical information carrier presently. The actor relations information gathers these together.
 
-{{ read_csv('docs/et/carrierCSV/carrier_relationscsv') }}
+{{ read_csv('docs/et/carrierCSV/carrier_relations.csv') }}
 
 These descriptors allow the connection of a physical information carrier to its creator and present owner.
 
