@@ -36,7 +36,8 @@ nav:
       - Place: et/place.md
       - Archival Unit: et/archival.md
       - Photograph:
-        - Representation: et/img.md
+        - Photo: et/photo.md
+        - Image: et/img.md
         - Information Carrier: et/carrier.md
         - Digital Object: et/do.md
       - Image: et/img.md
