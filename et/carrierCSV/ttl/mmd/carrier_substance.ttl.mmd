@@ -13,18 +13,18 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-4["crm:E26_Physical_Feature"]:::Physical_Thing -->|crm:P67i_is_referred_to_by| 5["crm:E33_Linguistic_Object"]:::Conceptual_Object
-6["crm:E54_Dimension"]:::CRM_Entity -->|crm:P91_has_unit| 7["crm:E58_Measurement_unit"]:::Default
-12["crm:E16_Measurement"]:::Temporal_Entity -->|crm:P40_observed_dimension| 6["crm:E54_Dimension"]:::CRM_Entity
-15["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P39i_was_measured_by| 12["crm:E16_Measurement"]:::Temporal_Entity
-15["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:108i_was_produced_by| 9["crm:E12_Production"]:::Temporal_Entity
-15["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P45_consists_of| 16["crm:E57_Material"]:::Type
-4["crm:E26_Physical_Feature"]:::Physical_Thing -->|crm:P2_has_type| 0["crm:E55_Type"]:::Type
-15["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P56_bears_feature| 4["crm:E26_Physical_Feature"]:::Physical_Thing
-9["crm:E12_Production"]:::Temporal_Entity -->|crm:P32_used_general_technique| 21["crm:E55_Type"]:::Type
-6["crm:E54_Dimension"]:::CRM_Entity -->|crm:P90_has_value| 23[rdfs:Literal]:::Literal
-6["crm:E54_Dimension"]:::CRM_Entity -->|crm:P2_has_type| 24["crm:E55_Type"]:::Type
-15["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:PP56_bears_feature| 4["crm:E26_Physical_Feature"]:::Physical_Thing
-4["crm:E26_Physical_Feature"]:::Physical_Thing -->|crm:P67i_is_referred_to_by| 13["crm:E33_Linguistic_Object"]:::Conceptual_Object
-4["crm:E26_Physical_Feature"]:::Physical_Thing -->|crm:P138i_has_representation| 17["crmdig:D9_Data_Object<br>crm:E36_Visual_Item"]:::Multi
-12["crm:E16_Measurement"]:::Temporal_Entity -->|crm:P14_carried_out_by| 2["crm:E39_Actor"]:::Actor
+8["crm:E26_Physical_Feature"]:::Physical_Thing -->|crm:P67i_is_referred_to_by| 9["crm:E33_Linguistic_Object"]:::Conceptual_Object
+8["crm:E26_Physical_Feature"]:::Physical_Thing -->|crm:P67i_is_referred_to_by| 12["crm:E33_Linguistic_Object"]:::Conceptual_Object
+14["crm:E12_Production"]:::Temporal_Entity -->|crm:P32_used_general_technique| 6["crm:E55_Type"]:::Type
+4["crm:E16_Measurement"]:::Temporal_Entity -->|crm:P14_carried_out_by| 0["crm:E39_Actor"]:::Actor
+18["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P56_bears_feature| 8["crm:E26_Physical_Feature"]:::Physical_Thing
+18["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P45_consists_of| 20["crm:E57_Material"]:::Type
+8["crm:E26_Physical_Feature"]:::Physical_Thing -->|crm:P138i_has_representation| 2["crm:E36_Visual_Item<br>crmdig:D9_Data_Object"]:::Multi
+8["crm:E26_Physical_Feature"]:::Physical_Thing -->|crm:P2_has_type| 16["crm:E55_Type"]:::Type
+18["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:PP56_bears_feature| 8["crm:E26_Physical_Feature"]:::Physical_Thing
+18["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:108i_was_produced_by| 14["crm:E12_Production"]:::Temporal_Entity
+4["crm:E16_Measurement"]:::Temporal_Entity -->|crm:P40_observed_dimension| 26["crm:E54_Dimension"]:::CRM_Entity
+26["crm:E54_Dimension"]:::CRM_Entity -->|crm:P91_has_unit| 22["crm:E58_Measurement_unit"]:::Default
+26["crm:E54_Dimension"]:::CRM_Entity -->|crm:P90_has_value| 27[rdfs:Literal]:::Literal
+18["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P39i_was_measured_by| 4["crm:E16_Measurement"]:::Temporal_Entity
+26["crm:E54_Dimension"]:::CRM_Entity -->|crm:P2_has_type| 10["crm:E55_Type"]:::Type
