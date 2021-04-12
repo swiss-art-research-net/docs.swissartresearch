@@ -13,18 +13,18 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-0["crm:E87_Curation_Activity"]:::Temporal_Entity -->|crm:P14_carried_out_by| 1["crm:E39_Actor"]:::Actor
-3["crm:E78_Collection"]:::Physical_Thing -->|crm:P50_current_keeper| 4["crm:E39_Actor"]:::Actor
-16["crm:E12_Production"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 17["crm:PC14_carried_out_by"]:::PC_Classes
-19["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 20[xsd:dateTime]:::Literal
-17["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 7["crm:E39_Actor"]:::Actor
-21["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P4_has_time-span| 19["crm:E52_Time-Span"]:::Time-Span
-19["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 23[xsd:dateTime]:::Literal
-16["crm:E12_Production"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 9["crm:PC14_carried_out_by"]:::PC_Classes
-21["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P16_used_specific_object| 24["crm:E33_Linguistic_Object"]:::Conceptual_Object
-3["crm:E78_Collection"]:::Physical_Thing -->|crm:P108i_was_produced_by| 16["crm:E12_Production"]:::Temporal_Entity
-9["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P141i_was_assigned_by| 21["crm:E13_Attribute_Assignment"]:::Temporal_Entity
-3["crm:E78_Collection"]:::Physical_Thing -->|crm:P52_has_current_owner| 13["crm:E39_Actor"]:::Actor
-3["crm:E78_Collection"]:::Physical_Thing -->|crm:P147i_was_curated_by| 0["crm:E87_Curation_Activity"]:::Temporal_Entity
-17["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 5["crm:E55_Type"]:::Type
-21["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P14_carried_out_by| 11["crm:E39_Actor"]:::Actor
+0["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 1[xsd:dateTime]:::Literal
+2["crm:E78_Collection"]:::Physical_Thing -->|crm:P108i_was_produced_by| 3["crm:E12_Production"]:::Temporal_Entity
+8["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P4_has_time-span| 0["crm:E52_Time-Span"]:::Time-Span
+9["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 10["crm:E55_Type"]:::Type
+11["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P141i_was_assigned_by| 8["crm:E13_Attribute_Assignment"]:::Temporal_Entity
+8["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P16_used_specific_object| 12["crm:E33_Linguistic_Object"]:::Conceptual_Object
+8["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P14_carried_out_by| 13["crm:E39_Actor"]:::Actor
+14["crm:E87_Curation_Activity"]:::Temporal_Entity -->|crm:P14_carried_out_by| 15["crm:E39_Actor"]:::Actor
+9["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 4["crm:E39_Actor"]:::Actor
+3["crm:E12_Production"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 11["crm:PC14_carried_out_by"]:::PC_Classes
+2["crm:E78_Collection"]:::Physical_Thing -->|crm:P50_current_keeper| 22["crm:E39_Actor"]:::Actor
+2["crm:E78_Collection"]:::Physical_Thing -->|crm:P147i_was_curated_by| 14["crm:E87_Curation_Activity"]:::Temporal_Entity
+0["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 24[xsd:dateTime]:::Literal
+3["crm:E12_Production"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 9["crm:PC14_carried_out_by"]:::PC_Classes
+2["crm:E78_Collection"]:::Physical_Thing -->|crm:P52_has_current_owner| 16["crm:E39_Actor"]:::Actor
