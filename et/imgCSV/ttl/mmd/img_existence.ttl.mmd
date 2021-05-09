@@ -14,8 +14,8 @@ classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
 0["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 1[xsd:dateTime]:::Literal
-2["crm:E36_Visual_Item"]:::Conceptual_Object -->|crm:P94i_was_created_by| 3["crm:E65_Creation"]:::Temporal_Entity
-0["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 4[xsd:dateTime]:::Literal
-3["crm:E65_Creation"]:::Temporal_Entity -->|crm:P10_falls_within| 7["crm:E4_Period"]:::Temporal_Entity
+0["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 2[xsd:dateTime]:::Literal
+3["crm:E65_Creation"]:::Temporal_Entity -->|crm:P10_falls_within| 4["crm:E4_Period"]:::Temporal_Entity
 3["crm:E65_Creation"]:::Temporal_Entity -->|crm:P7_took_place_at| 5["crm:E53_Place"]:::Place
 3["crm:E65_Creation"]:::Temporal_Entity -->|crm:P4_has_time-span| 0["crm:E52_Time-Span"]:::Time-Span
+10["crm:E36_Visual_Item"]:::Conceptual_Object -->|crm:P94i_was_created_by| 3["crm:E65_Creation"]:::Temporal_Entity
